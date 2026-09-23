@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import asyncio,base64,csv,hashlib,json,re,socket,ipaddress,io
+import asyncio,base64,csv,hashlib,json,re,socket,ipaddress,io,requests
 from datetime import datetime,timezone,timedelta
 from pathlib import Path
 from urllib.parse import urlparse,parse_qs,unquote
@@ -45,13 +45,19 @@ def sha(x):
 
 def loadj(p,default):
     try:
-        return json.loads(p.read_text(encoding="utf-8"))
+        return json.loads(
+            p.read_text(encoding="utf-8")
+        )
     except:
         return default
 
 def savej(p,x):
     p.write_text(
-        json.dumps(x,ensure_ascii=False,indent=2),
+        json.dumps(
+            x,
+            ensure_ascii=False,
+            indent=2
+        ),
         encoding="utf-8"
     )
 
@@ -59,17 +65,23 @@ def b64d(s):
     try:
         s=str(s).strip()
         s=re.sub(r"\s+","",s)
+
         if not s:
             return ""
+
         s+="="*((4-len(s)%4)%4)
+
         return base64.urlsafe_b64decode(s).decode(
-            "utf-8","ignore"
+            "utf-8",
+            "ignore"
         )
+
     except:
         return ""
 
 def clean_name(x):
     x=str(x or "Unnamed").strip()
+
     return re.sub(
         r'[\x00-\x1f<>:"/\\|?*]',
         '_',
@@ -78,6 +90,7 @@ def clean_name(x):
 
 def unique_name(x,used):
     x=clean_name(x)
+
     if not x:
         x="Unnamed"
 
@@ -89,22 +102,57 @@ def unique_name(x,used):
         i+=1
 
     used.add(n)
+
     return n
+
+# ================= Google Drive CSV =================
+def download_drive_csv():
+    try:
+        r=requests.get(
+            DRIVE_CSV,
+            headers=HEADERS,
+            timeout=60,
+            allow_redirects=True
+        )
+
+        r.raise_for_status()
+
+        data=r.content
+
+        text=data.decode(
+            "utf-8-sig",
+            "replace"
+        )
+
+        print()
+        print("Google Drive CSV下载结果：")
+        print(f"最终URL：{r.url}")
+        print(f"HTTP状态：{r.status_code}")
+        print(
+            f"Content-Length："
+            f"{r.headers.get('Content-Length','')}"
+        )
+        print(
+            f"实际字节：{len(data):,}"
+        )
+        print(
+            f"实际行数："
+            f"{len(text.splitlines()):,}"
+        )
+        print(
+            f"前500字符：\n{text[:500]}"
+        )
+
+        return text
+
+    except Exception as e:
+        raise RuntimeError(
+            "Google Drive CSV读取失败："
+            f"{type(e).__name__}: {e}"
+        )
 
 # ================= CSV：严格按记录读取第一列 =================
 def get_urls(text):
-    """
-    CSV：
-    每一条CSV记录的第一列 = 一个来源URL。
-
-    重要：
-    1. 不按照文件扩展名判断。
-    2. 不要求必须http/https。
-    3. 使用csv.reader(StringIO())，不再使用splitlines()。
-    4. 保留所有非空第一列。
-    5. 最后按原顺序去重。
-    """
-
     rows=[]
     out=[]
     empty_rows=0
@@ -128,11 +176,8 @@ def get_urls(text):
             rows.append(row)
 
             u=str(row[0]).strip()
-
-            # 去掉UTF-8 BOM
             u=u.lstrip("\ufeff").strip()
 
-            # 去掉外围引号
             if len(u)>=2 and (
                 (u[0]=='"' and u[-1]=='"') or
                 (u[0]=="'" and u[-1]=="'")
@@ -143,7 +188,6 @@ def get_urls(text):
                 empty_rows+=1
                 continue
 
-            # 只跳过第一列明显表头
             if row_no==1 and u.lower() in (
                 "url",
                 "source",
@@ -174,7 +218,8 @@ def get_urls(text):
 
     except Exception as e:
         print(
-            f"❌ CSV解析异常：{type(e).__name__}: {e}"
+            f"❌ CSV解析异常："
+            f"{type(e).__name__}: {e}"
         )
 
     unique=list(dict.fromkeys(out))
@@ -183,23 +228,47 @@ def get_urls(text):
     print("="*70)
     print("CSV读取诊断")
     print("="*70)
-    print(f"CSV字符数：{len(text):,}")
-    print(f"CSV物理行数：{len(text.splitlines()):,}")
-    print(f"CSV实际记录数：{len(rows):,}")
-    print(f"空记录：{empty_rows:,}")
-    print(f"表头：{header_rows:,}")
-    print(f"第一列非空：{nonempty_first:,}")
-    print(f"第一列HTTP/HTTPS：{http_urls:,}")
-    print(f"第一列其它内容：{other_values:,}")
-    print(f"去重前URL：{len(out):,}")
-    print(f"去重后URL：{len(unique):,}")
+    print(
+        f"CSV字符数：{len(text):,}"
+    )
+    print(
+        f"CSV物理行数："
+        f"{len(text.splitlines()):,}"
+    )
+    print(
+        f"CSV实际记录数：{len(rows):,}"
+    )
+    print(
+        f"空记录：{empty_rows:,}"
+    )
+    print(
+        f"表头：{header_rows:,}"
+    )
+    print(
+        f"第一列非空：{nonempty_first:,}"
+    )
+    print(
+        f"第一列HTTP/HTTPS：{http_urls:,}"
+    )
+    print(
+        f"第一列其它内容：{other_values:,}"
+    )
+    print(
+        f"去重前URL：{len(out):,}"
+    )
+    print(
+        f"去重后URL：{len(unique):,}"
+    )
     print("="*70)
 
-    # 只在数量明显异常时打印前几行
     if len(unique)<100:
         print()
-        print("⚠️ 当前读取到的URL少于100条。")
-        print("CSV前2000字符：")
+        print(
+            "⚠️ 当前读取到的URL少于100条。"
+        )
+        print(
+            "CSV前2000字符："
+        )
         print("-"*70)
         print(text[:2000])
         print("-"*70)
@@ -219,7 +288,6 @@ def normalize_url(u):
     ):
         return u
 
-    # CSV里如果是无协议域名
     if re.match(
         r"^[\w.-]+\.[A-Za-z]{2,}([/:?#]|$)",
         u
@@ -230,11 +298,14 @@ def normalize_url(u):
 
 # ================= 内容类型 =================
 def is_m3u(text):
-    t=text.lstrip("\ufeff \r\n\t")
+    t=text.lstrip(
+        "\ufeff \r\n\t"
+    )
     head=t[:5000].upper()
 
     return (
-        "#EXTM3U" in head or
+        "#EXTM3U" in head
+        or
         "#EXTINF" in head
     )
 
@@ -267,7 +338,10 @@ def extract_node_uris(text):
         r')://[^\s<>"\'`]+'
     )
 
-    return re.findall(pat,text)
+    return re.findall(
+        pat,
+        text
+    )
 
 # ================= 节点解析 =================
 def parse_vmess(u):
@@ -278,15 +352,35 @@ def parse_vmess(u):
 
         return {
             "type":"vmess",
-            "server":x.get("add",""),
-            "port":int(x.get("port",443)),
-            "uuid":x.get("id",""),
-            "alterId":int(
-                x.get("aid",0) or 0
+            "server":x.get(
+                "add",
+                ""
             ),
-            "cipher":x.get("scy","auto"),
+            "port":int(
+                x.get(
+                    "port",
+                    443
+                )
+            ),
+            "uuid":x.get(
+                "id",
+                ""
+            ),
+            "alterId":int(
+                x.get(
+                    "aid",
+                    0
+                ) or 0
+            ),
+            "cipher":x.get(
+                "scy",
+                "auto"
+            ),
             "tls":str(
-                x.get("tls","")
+                x.get(
+                    "tls",
+                    ""
+                )
             ).lower() in (
                 "tls",
                 "1",
@@ -328,7 +422,9 @@ def parse_ss(u):
             1
         )
 
-        q=parse_qs(p.query)
+        q=parse_qs(
+            p.query
+        )
 
         return {
             "type":"ss",
@@ -351,7 +447,9 @@ def parse_uri(u):
     try:
         p=urlparse(u)
         s=p.scheme.lower()
-        q=parse_qs(p.query)
+        q=parse_qs(
+            p.query
+        )
 
         if s=="vmess":
             return parse_vmess(u)
@@ -493,7 +591,10 @@ def parse_yaml_nodes(text):
     except:
         return []
 
-    if not isinstance(x,dict):
+    if not isinstance(
+        x,
+        dict
+    ):
         return []
 
     if not isinstance(
@@ -517,7 +618,10 @@ def parse_json_nodes(text):
     except:
         return []
 
-    if not isinstance(x,dict):
+    if not isinstance(
+        x,
+        dict
+    ):
         return []
 
     if not isinstance(
@@ -536,24 +640,20 @@ def parse_json_nodes(text):
 
 def parse_nodes(text):
 
-    # 1. Clash/Mihomo YAML
     x=parse_yaml_nodes(text)
 
     if x:
         return x
 
-    # 2. JSON节点
     x=parse_json_nodes(text)
 
     if x:
         return x
 
-    # 3. 正文直接包含URI节点
     out=[]
 
     for u in extract_node_uris(text):
 
-        # 去掉URI末尾常见标点
         u=u.rstrip(
             ".,;)]}>"
         )
@@ -566,7 +666,6 @@ def parse_nodes(text):
     if out:
         return out
 
-    # 4. Base64
     d=b64d(
         text.strip()
     )
@@ -632,7 +731,10 @@ def parse_tvbox(text):
     except:
         return None
 
-    if not isinstance(x,dict):
+    if not isinstance(
+        x,
+        dict
+    ):
         return None
 
     if any(
@@ -663,7 +765,6 @@ def parse_content(text):
             "正文为空"
         )
 
-    # 1. M3U
     if is_m3u(text):
 
         x=parse_m3u(text)
@@ -683,7 +784,6 @@ def parse_content(text):
             "检测到M3U标记但没有有效节目"
         )
 
-    # 2. TVBox
     x=parse_tvbox(text)
 
     if x:
@@ -694,7 +794,6 @@ def parse_content(text):
             ""
         )
 
-    # 3. Clash/Mihomo / URI / Base64
     x=parse_nodes(text)
 
     if x:
@@ -705,7 +804,6 @@ def parse_content(text):
             ""
         )
 
-    # 4. 普通JSON
     try:
         json.loads(text)
 
@@ -719,7 +817,6 @@ def parse_content(text):
     except:
         pass
 
-    # 5. Markdown / 普通文本
     if re.search(
         r"(?i)^\s*#|```|\[[^\]]+\]\(",
         text,
@@ -792,7 +889,6 @@ async def fetch(
                     ""
                 )
 
-                # 服务器明确告诉我们没有变化
                 if r.status==304:
 
                     return {
@@ -819,9 +915,7 @@ async def fetch(
                     return {
                         "status":"failed",
                         "http":r.status,
-                        "reason":(
-                            f"HTTP {r.status}"
-                        ),
+                        "reason":f"HTTP {r.status}",
                         "etag":etag,
                         "lm":lm
                     }
@@ -843,7 +937,6 @@ async def fetch(
 
                 digest=sha(data)
 
-                # 没有304，但SHA256没变化
                 if old.get(
                     "sha256"
                 )==digest:
@@ -955,7 +1048,10 @@ def has_geo(name):
 
 def get_server(n):
     return str(
-        n.get("server","")
+        n.get(
+            "server",
+            ""
+        )
     ).strip()
 
 async def resolve_host(
@@ -1070,11 +1166,13 @@ async def enrich_geo(nodes):
 
     host_ip={}
 
-    # 只给没有地理信息的节点做DNS
     for n in nodes:
 
         if has_geo(
-            n.get("name","")
+            n.get(
+                "name",
+                ""
+            )
         ):
             continue
 
@@ -1147,7 +1245,6 @@ async def enrich_geo(nodes):
             )
         )
 
-        # 原名称已有国家/地区/国旗
         if has_geo(name):
             continue
 
@@ -1237,6 +1334,7 @@ async def rebuild(records):
             continue
 
         z=dict(n)
+
         z.pop(
             "name",
             None
@@ -1265,12 +1363,8 @@ async def rebuild(records):
     for n in nd:
 
         n["name"]=unique_name(
-            n.get(
-                "name"
-            )
-            or n.get(
-                "server"
-            ),
+            n.get("name")
+            or n.get("server"),
             used
         )
 
@@ -1446,56 +1540,16 @@ async def main_async():
     )
 
     # =========================================================
-    # 1. 每次读取Google Drive CSV
+    # 1. 完整下载Google Drive CSV
     # =========================================================
     print(
         "读取 Google Drive CSV..."
     )
 
-    sem=asyncio.Semaphore(2)
-
-    async with aiohttp.ClientSession(
-        connector=aiohttp.TCPConnector(
-            limit=2,
-            ttl_dns_cache=300
-        )
-    ) as s:
-
-        r=await fetch(
-            s,
-            DRIVE_CSV,
-            {},
-            sem
-        )
-
-    if not r.get("text"):
-
-        raise RuntimeError(
-            "Google Drive CSV读取失败："
-            +r.get(
-                "reason",
-                "unknown"
-            )
-        )
+    csv_text=download_drive_csv()
 
     # =========================================================
-    # CSV诊断
-    # =========================================================
-    csv_text=r["text"]
-
-    print()
-    print(
-        "Google Drive CSV下载结果："
-    )
-    print(
-        f"正文长度：{len(csv_text):,} 字符"
-    )
-    print(
-        f"前500字符：\n{csv_text[:500]}"
-    )
-
-    # =========================================================
-    # 逐条读取第一列
+    # 2. CSV诊断
     # =========================================================
     urls=get_urls(
         csv_text
@@ -1514,11 +1568,11 @@ async def main_async():
 
         print(
             "⚠️ 如果你确认原CSV有800+条，"
-            "那么重点看上面的“CSV实际记录数”。"
+            "请检查上面的CSV下载结果。"
         )
 
     # =========================================================
-    # 2. 并行检查全部来源
+    # 3. 并行检查全部来源
     # =========================================================
     sem=asyncio.Semaphore(
         CONCURRENCY
@@ -1555,7 +1609,7 @@ async def main_async():
         )
 
     # =========================================================
-    # 3. 更新状态
+    # 4. 更新状态
     # =========================================================
     new_state={}
     stats=[]
@@ -1776,7 +1830,7 @@ async def main_async():
         })
 
     # =========================================================
-    # 4. 保存当前来源状态
+    # 5. 保存当前来源状态
     # =========================================================
     savej(
         STATE,
@@ -1784,7 +1838,7 @@ async def main_async():
     )
 
     # =========================================================
-    # 5. 从所有缓存重新构建最终结果
+    # 6. 从所有缓存重新构建最终结果
     # =========================================================
     print()
     print(
@@ -1839,7 +1893,7 @@ async def main_async():
     )
 
     # =========================================================
-    # 6. statistics.csv
+    # 7. statistics.csv
     # =========================================================
     fields=[
         "url",
@@ -1870,7 +1924,7 @@ async def main_async():
         w.writerows(stats)
 
     # =========================================================
-    # 7. failed.csv
+    # 8. failed.csv
     # =========================================================
     with open(
         OUT/"failed.csv",
@@ -1895,7 +1949,7 @@ async def main_async():
                 w.writerow(x)
 
     # =========================================================
-    # 8. 汇总
+    # 9. 汇总
     # =========================================================
     status_count={}
 
