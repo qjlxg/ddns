@@ -1,0 +1,188 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 0.0.0.0:9090
+proxies:
+- name: REALITY | @PulseConfigs | f085c5
+  type: vless
+  server: hydra.yokkastars.com
+  port: 2443
+  uuid: 5e679ccd-1586-4d5f-b87b-48251046cad8
+  tls: true
+  servername: deepl.com
+  network: grpc
+  reality-opts:
+    public-key: h85e28MxBgNyT9d9cNeOLVtWfHq6cT_1_oxZOTajtTg
+    short-id: 92c32de179e5d908
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: rex-eb0bf76b710ce763
+- name: ZZ · VMESS · au1rxx-v2ray · 31A84C65
+  type: vmess
+  server: 158.51.123.42
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ''
+  network: raw
+- name: 🇺🇸 美国 | VLESS | 090
+  type: vless
+  server: 15.204.97.195
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  tls: true
+  servername: fuck.rkn
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  client-fingerprint: chrome
+- name: 🇺🇸US_655|905KB/s|A004-260618 01
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 1837e910-ebd6-4e64-a9ae-7c9779e4d60d
+  tls: true
+  servername: tradingview.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+  client-fingerprint: firefox
+- name: 🇫🇷FR_239|570KB/s|C002-260622 01
+  type: vless
+  server: skk.moe
+  port: 8880
+  uuid: 3fe8191f-52ae-4e38-8385-5869ab47fb70
+  tls: false
+  servername: skk.moe
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: jolly-violet-a006.10-ae8.workers.dev
+- name: REALITY | @PulseConfigs | e88edd
+  type: vless
+  server: 34.93.188.70
+  port: 443
+  uuid: 5004e3d7-a9bd-4a7c-a6d5-58aa5e1be9ed
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: 97C6O3repofpoaJzvu1d4o7amhJGA8hF_yJls7SNIgU
+    short-id: b9299afa0dcac824
+  client-fingerprint: chrome
+- name: US 🇺🇸 | @Raydikalx | 7DB48C
+  type: vmess
+  server: 82.198.246.250
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: usaapp2.jisuyun.top
+  network: tcp
+- name: https://t.me/ForceRunVPN-🇵🇱-Wroclaw-776ms-OVH SAS
+  type: vless
+  server: 54.37.136.194
+  port: 2053
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+    short-id: 50ba05992b05c1c3
+  client-fingerprint: chrome
+- name: 未知 VLESS-857 | free-nodes
+  type: vless
+  server: 185.47.254.251
+  port: 443
+  uuid: 878fb7f7-fc65-465e-a352-17c7216c6f3d
+  tls: true
+  servername: gateway.icloud.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 6-_ZidygR8PRt4gtHlGCAW-PPmjEIm7Wn7MZqJU1z1Q
+    short-id: 6c059ecfddf9b179
+  client-fingerprint: chrome
+- name: 🌐 Hong Kong | WebSocket | @anonymouskeys-29
+  type: vmess
+  server: 93ucrn4i0pffuabk.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: 93ucrn4i0pffuabk.v.3dns.vip
+  network: ws
+  ws-opts:
+    headers:
+      Host: 93ucrn4i0PffUAbk.v.3dns.vip
+    path: /ws-vmess
+proxy-groups:
+- name: 🚀 节点选择
+  type: select
+  proxies:
+  - ♻️ 自动选择
+  - 🎯 全球直连
+  - REALITY | @PulseConfigs | f085c5
+  - ZZ · VMESS · au1rxx-v2ray · 31A84C65
+  - 🇺🇸 美国 | VLESS | 090
+  - 🇺🇸US_655|905KB/s|A004-260618 01
+  - 🇫🇷FR_239|570KB/s|C002-260622 01
+  - REALITY | @PulseConfigs | e88edd
+  - US 🇺🇸 | @Raydikalx | 7DB48C
+  - https://t.me/ForceRunVPN-🇵🇱-Wroclaw-776ms-OVH SAS
+  - 未知 VLESS-857 | free-nodes
+  - 🌐 Hong Kong | WebSocket | @anonymouskeys-29
+- name: ♻️ 自动选择
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - REALITY | @PulseConfigs | f085c5
+  - ZZ · VMESS · au1rxx-v2ray · 31A84C65
+  - 🇺🇸 美国 | VLESS | 090
+  - 🇺🇸US_655|905KB/s|A004-260618 01
+  - 🇫🇷FR_239|570KB/s|C002-260622 01
+  - REALITY | @PulseConfigs | e88edd
+  - US 🇺🇸 | @Raydikalx | 7DB48C
+  - https://t.me/ForceRunVPN-🇵🇱-Wroclaw-776ms-OVH SAS
+  - 未知 VLESS-857 | free-nodes
+  - 🌐 Hong Kong | WebSocket | @anonymouskeys-29
+- name: 🎯 全球直连
+  type: select
+  proxies:
+  - DIRECT
+rule-providers:
+  adsblock:
+    type: http
+    behavior: domain
+    url: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geo/geosite/category-ads-all.yaml
+    path: ./rules/adsblock.yaml
+    interval: 86400
+  cn_domain:
+    type: http
+    behavior: domain
+    url: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geo/geosite/cn.yaml
+    path: ./rules/cn_domain.yaml
+    interval: 86400
+  cn_ip:
+    type: http
+    behavior: ipcidr
+    url: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geo/geoip/cn.yaml
+    path: ./rules/cn_ip.yaml
+    interval: 86400
+rules:
+- RULE-SET,adsblock,REJECT
+- RULE-SET,cn_domain,🎯 全球直连
+- RULE-SET,cn_ip,🎯 全球直连
+- GEOIP,CN,🎯 全球直连
+- MATCH,🚀 节点选择
