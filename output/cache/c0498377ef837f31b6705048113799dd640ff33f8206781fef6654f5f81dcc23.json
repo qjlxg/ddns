@@ -1,0 +1,78 @@
+{
+  "url": "http://178.162.241.189:8080/playlist.m3u?group=kurtch",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "4 Kurd TV",
+      "url": "http://178.162.241.189:8080/stream/4-kurd-tv/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4 Kurd TV\" tvg-logo=\"http://178.162.241.189:8080/logo/4-kurd-tv\" group-title=\"KURTCH\",4 Kurd TV"
+    },
+    {
+      "name": "Afarin Baxcha",
+      "url": "http://178.162.241.189:8080/stream/afarin-baxcha/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Afarin Baxcha\" tvg-logo=\"http://178.162.241.189:8080/logo/afarin-baxcha\" group-title=\"KURTCH\",Afarin Baxcha"
+    },
+    {
+      "name": "Afarin Kids",
+      "url": "http://178.162.241.189:8080/stream/afarin-kids/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Afarin Kids\" tvg-logo=\"http://178.162.241.189:8080/logo/afarin-kids\" group-title=\"KURTCH\",Afarin Kids"
+    },
+    {
+      "name": "Afarin Radio",
+      "url": "http://178.162.241.189:8080/stream/afarin-radio/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Afarin Radio\" tvg-logo=\"http://178.162.241.189:8080/logo/afarin-radio\" group-title=\"KURTCH\",Afarin Radio"
+    },
+    {
+      "name": "Al Yaum TV",
+      "url": "http://178.162.241.189:8080/stream/al-yaum-tv/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Al Yaum TV\" tvg-logo=\"http://178.162.241.189:8080/logo/al-yaum-tv\" group-title=\"KURTCH\",Al Yaum TV"
+    },
+    {
+      "name": "Ala TV",
+      "url": "http://178.162.241.189:8080/stream/ala-tv/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Ala TV\" tvg-logo=\"http://178.162.241.189:8080/logo/ala-tv\" group-title=\"KURTCH\",Ala TV"
+    },
+    {
+      "name": "Alternative Shorai TV",
+      "url": "http://178.162.241.189:8080/stream/alternative-shorai-tv/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Alternative Shorai TV\" tvg-logo=\"http://178.162.241.189:8080/logo/alternative-shorai-tv\" group-title=\"KURTCH\",Alternative Shorai TV"
+    },
+    {
+      "name": "Amozhgary academy",
+      "url": "http://178.162.241.189:8080/stream/amozhgary-academy/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Amozhgary academy\" tvg-logo=\"http://178.162.241.189:8080/logo/amozhgary-academy\" group-title=\"KURTCH\",Amozhgary academy"
+    },
+    {
+      "name": "Amozhgary TV",
+      "url": "http://178.162.241.189:8080/stream/amozhgary-tv/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Amozhgary TV\" tvg-logo=\"http://178.162.241.189:8080/logo/amozhgary-tv\" group-title=\"KURTCH\",Amozhgary TV"
+    },
+    {
+      "name": "Animal box",
+      "url": "http://178.162.241.189:8080/stream/animal-box/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Animal box\" tvg-logo=\"http://178.162.241.189:8080/logo/animal-box\" group-title=\"KURTCH\",Animal box"
+    },
+    {
+      "name": "Ashna Quran",
+      "url": "http://178.162.241.189:8080/stream/ashna-quran/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Ashna Quran\" tvg-logo=\"http://178.162.241.189:8080/logo/ashna-quran\" group-title=\"KURTCH\",Ashna Quran"
+    },
+    {
+      "name": "Ashti Family",
+      "url": "http://178.162.241.189:8080/stream/ashti-family/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Ashti Family\" tvg-logo=\"http://178.162.241.189:8080/logo/ashti-family\" group-title=\"KURTCH\",Ashti Family"
+    },
+    {
+      "name": "Ashti Quran",
+      "url": "http://178.162.241.189:8080/stream/ashti-quran/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Ashti Quran\" tvg-logo=\"http://178.162.241.189:8080/logo/ashti-quran\" group-title=\"KURTCH\",Ashti Quran"
+    },
+    {
+      "name": "Ava TV",
+      "url": "http://178.162.241.189:8080/stream/ava-tv/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Ava TV\" tvg-logo=\"http://178.162.241.189:8080/logo/ava-tv\" group-title=\"KURTCH\",Ava TV"
+    }
+  ],
+  "count": 14,
+  "reason": ""
+}

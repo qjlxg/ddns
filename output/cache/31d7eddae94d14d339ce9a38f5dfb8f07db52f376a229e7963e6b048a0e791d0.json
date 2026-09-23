@@ -1,0 +1,56 @@
+{
+  "url": "https://77.91.95.27:443/sub?target=clash",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "vmess",
+      "server": "77.91.95.27",
+      "port": 10000,
+      "uuid": "c099c0b1-7acf-4e6b-b5fa-0b6184df18f8",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "network": "ws",
+      "servername": "",
+      "name": "🇳🇱 NL Amsterdam"
+    },
+    {
+      "type": "vmess",
+      "server": "77.91.95.27",
+      "port": 10001,
+      "uuid": "c099c0b1-7acf-4e6b-b5fa-0b6184df18f8",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "network": "ws",
+      "servername": "",
+      "name": "🇵🇱 PL Warsaw"
+    },
+    {
+      "type": "vmess",
+      "server": "77.91.95.27",
+      "port": 10002,
+      "uuid": "c099c0b1-7acf-4e6b-b5fa-0b6184df18f8",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "network": "ws",
+      "servername": "",
+      "name": "🇫🇮 FI Helsinki"
+    },
+    {
+      "type": "vmess",
+      "server": "77.91.95.27",
+      "port": 10003,
+      "uuid": "c099c0b1-7acf-4e6b-b5fa-0b6184df18f8",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "network": "ws",
+      "servername": "",
+      "name": "🇬🇧 GB London"
+    }
+  ],
+  "count": 4,
+  "reason": ""
+}

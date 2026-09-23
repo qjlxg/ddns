@@ -1,0 +1,21 @@
+{
+  "url": "https://89.127.203.26:8443/subtitle",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "89.127.203.26",
+      "port": 443,
+      "uuid": "573ac654-a6dc-4f4b-8edb-6143122a4d8c",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "wp.pl",
+      "fp": "firefox",
+      "pbk": "iv61NO359BfytHS_0a0qHGUSj9tYucwBxLp6ekLfjVk",
+      "sid": "efe7d14cfc2c348e",
+      "name": "vless-89.127.203.26"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

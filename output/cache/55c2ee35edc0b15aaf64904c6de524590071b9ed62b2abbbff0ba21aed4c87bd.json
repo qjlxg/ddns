@@ -151,78 +151,8 @@
       "name": "Pursuit of Jade 2026 S01E30",
       "url": "https://45.91.134.37:8001/secure-stream/164",
       "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/164/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E30"
-    },
-    {
-      "name": "Pursuit of Jade 2026 S01E31",
-      "url": "https://45.91.134.37:8001/secure-stream/165",
-      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/165/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E31"
-    },
-    {
-      "name": "Pursuit of Jade 2026 S01E32",
-      "url": "https://45.91.134.37:8001/secure-stream/166",
-      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/166/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E32"
-    },
-    {
-      "name": "Pursuit of Jade 2026 S01E33",
-      "url": "https://45.91.134.37:8001/secure-stream/167",
-      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/167/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E33"
-    },
-    {
-      "name": "Pursuit of Jade 2026 S01E34",
-      "url": "https://45.91.134.37:8001/secure-stream/168",
-      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/168/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E34"
-    },
-    {
-      "name": "Pursuit of Jade 2026 S01E35",
-      "url": "https://45.91.134.37:8001/secure-stream/169",
-      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/169/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E35"
-    },
-    {
-      "name": "Pursuit of Jade 2026 S01E36",
-      "url": "https://45.91.134.37:8001/secure-stream/170",
-      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/170/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E36"
-    },
-    {
-      "name": "Pursuit of Jade 2026 S01E37",
-      "url": "https://45.91.134.37:8001/secure-stream/171",
-      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/171/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E37"
-    },
-    {
-      "name": "Pursuit of Jade 2026 S01E38",
-      "url": "https://45.91.134.37:8001/secure-stream/172",
-      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/172/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E38"
-    },
-    {
-      "name": "Pursuit of Jade 2026 S01E39",
-      "url": "https://45.91.134.37:8001/secure-stream/173",
-      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/173/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E39"
-    },
-    {
-      "name": "Pursuit of Jade 2026 S01E40",
-      "url": "https://45.91.134.37:8001/secure-stream/174",
-      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/174/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E40"
-    },
-    {
-      "name": "Carry on 2024 1080p",
-      "url": "https://45.91.134.37:8001/secure-stream/185",
-      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/185/poster_1.jpg\" group-title=\"Movies_2024\", Carry on 2024 1080p"
-    },
-    {
-      "name": "ตลุยโจยท์บทที่ 1 ถึง 3",
-      "url": "https://45.91.134.37:8001/secure-stream/195",
-      "extinf": "#EXTINF:-1 tvg-logo=\"https://master.myflix.shop/storage/covers/195/poster_1776946828.jpg\" group-title=\"ตลุยโจยท์\", ตลุยโจยท์บทที่ 1 ถึง 3"
-    },
-    {
-      "name": "คณิตครั้งที่1",
-      "url": "https://45.91.134.37:8001/secure-stream/196",
-      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/196/poster_1.jpg\" group-title=\"เลขครูตุ่ย\", คณิตครั้งที่1"
-    },
-    {
-      "name": "[Prime] Mercy (2026) 90 นาทีสั่งตาย",
-      "url": "https://45.91.134.37:8001/secure-stream/197",
-      "extinf": "#EXTINF:-1 tvg-logo=\"/storage/covers/39fb9aeeb9bd84ec9c5497fb09466aba.jpg\" group-title=\"Movies_2024\", [Prime] Mercy (2026) 90 นาทีสั่งตาย"
     }
   ],
-  "count": 44,
+  "count": 30,
   "reason": ""
 }

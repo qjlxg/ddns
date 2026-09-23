@@ -1,56 +1,262 @@
 {
   "url": "http://5.129.251.22:80/api/sites",
-  "type": "nodes",
-  "items": [
-    {
-      "type": "http",
-      "server": "timeweb.cloud",
-      "port": 443,
-      "name": "https-timeweb.cloud"
-    },
-    {
-      "type": "http",
-      "server": "ya.ru",
-      "port": 443,
-      "name": "https-ya.ru"
-    },
-    {
-      "type": "http",
-      "server": "www.ozon.ru",
-      "port": 443,
-      "name": "https-www.ozon.ru"
-    },
-    {
-      "type": "http",
-      "server": "www.rbc.ru",
-      "port": 443,
-      "name": "https-www.rbc.ru"
-    },
-    {
-      "type": "http",
-      "server": "dancecolor.ru",
-      "port": 443,
-      "name": "https-dancecolor.ru"
-    },
-    {
-      "type": "http",
-      "server": "habr.com",
-      "port": 443,
-      "name": "https-habr.com"
-    },
-    {
-      "type": "http",
-      "server": "vk.com",
-      "port": 443,
-      "name": "https-vk.com"
-    },
-    {
-      "type": "http",
-      "server": "gosuslugi.ru",
-      "port": 443,
-      "name": "https-gosuslugi.ru"
-    }
-  ],
-  "count": 8,
+  "type": "tvbox",
+  "items": {
+    "sites": [
+      {
+        "id": 1,
+        "name": "Timeweb",
+        "url": "https://timeweb.cloud",
+        "support_email": null,
+        "status": {
+          "ok": true,
+          "code": 200,
+          "ms": 93,
+          "err": null,
+          "checked_at": 1790170025,
+          "slow_at": 1790165818,
+          "ssl_days": 38,
+          "dom_exp": "2032-10-05",
+          "dom_days": 2203,
+          "diag": null,
+          "ai_note": null
+        },
+        "up7": {
+          "pct": 99.42,
+          "avg_ms": 248,
+          "n": 9119
+        }
+      },
+      {
+        "id": 2,
+        "name": "Яндекс",
+        "url": "https://ya.ru",
+        "support_email": null,
+        "status": {
+          "ok": true,
+          "code": 200,
+          "ms": 252,
+          "err": null,
+          "checked_at": 1790170025,
+          "slow_at": 1790165817,
+          "ssl_days": 97,
+          "dom_exp": "2027-07-31",
+          "dom_days": 310,
+          "diag": null,
+          "ai_note": null
+        },
+        "up7": {
+          "pct": 99.99,
+          "avg_ms": 309,
+          "n": 9119
+        }
+      },
+      {
+        "id": 3,
+        "name": "Ozon",
+        "url": "https://www.ozon.ru",
+        "support_email": null,
+        "status": {
+          "ok": false,
+          "code": null,
+          "ms": 15008,
+          "err": "",
+          "checked_at": 1790170040,
+          "diag": {
+            "dns": "OK: 185.73.193.68, 185.73.194.82",
+            "tcp443": "открыт",
+            "tcp80": "открыт",
+            "trace": "traceroute to www.ozon.ru (185.73.193.68), 10 hops max, 60 byte packets\n 1  185.39.206.1  0.508 ms\n 2  10.66.35.129  1.263 ms\n 3  *\n 4  10.255.1.58  24.744 ms\n 5  193.106.112.103  1.161 ms\n 6  *\n 7  *\n 8  *\n 9  *\n10  *\n"
+          },
+          "ai_note": "Вероятная причина: запрет доступа к сайту из-за политик безопасности или ограничений на IP-адрес сайта Ozon.ru. В первую очередь нужно проверить, нет ли блокировки конкретного IP-адреса на уровне веб-студии или контракта с Ozon.",
+          "slow_at": 1790166004,
+          "ssl_days": null,
+          "dom_exp": "2027-02-28",
+          "dom_days": 157
+        },
+        "up7": {
+          "pct": 0.07,
+          "avg_ms": 3263,
+          "n": 9119
+        }
+      },
+      {
+        "id": 4,
+        "name": "РБК",
+        "url": "https://www.rbc.ru",
+        "support_email": null,
+        "status": {
+          "ok": true,
+          "code": 200,
+          "ms": 62,
+          "err": null,
+          "checked_at": 1790170040,
+          "slow_at": 1790165908,
+          "ssl_days": 78,
+          "dom_exp": "2027-07-31",
+          "dom_days": 310,
+          "diag": null,
+          "ai_note": null
+        },
+        "up7": {
+          "pct": 99.99,
+          "avg_ms": 102,
+          "n": 9119
+        }
+      },
+      {
+        "id": 5,
+        "name": "DC",
+        "url": "https://dancecolor.ru",
+        "support_email": null,
+        "status": {
+          "ok": true,
+          "code": 200,
+          "ms": 34,
+          "err": null,
+          "checked_at": 1790170040,
+          "slow_at": 1790165908,
+          "ssl_days": 70,
+          "dom_exp": "2027-10-18",
+          "dom_days": 389,
+          "diag": null,
+          "ai_note": null
+        },
+        "up7": {
+          "pct": 99.97,
+          "avg_ms": 131,
+          "n": 9119
+        }
+      },
+      {
+        "id": 6,
+        "name": "habr.com",
+        "url": "https://habr.com",
+        "support_email": null,
+        "status": {
+          "ok": true,
+          "code": 200,
+          "ms": 136,
+          "err": null,
+          "checked_at": 1790170041,
+          "slow_at": 1790165909,
+          "ssl_days": 107,
+          "dom_exp": "2028-03-11",
+          "dom_days": 534,
+          "diag": null,
+          "ai_note": null
+        },
+        "up7": {
+          "pct": 99.92,
+          "avg_ms": 203,
+          "n": 9119
+        }
+      },
+      {
+        "id": 7,
+        "name": "vk.com",
+        "url": "https://vk.com",
+        "support_email": null,
+        "status": {
+          "ok": true,
+          "code": 200,
+          "ms": 223,
+          "err": null,
+          "checked_at": 1790170041,
+          "slow_at": 1790165910,
+          "ssl_days": 18,
+          "dom_exp": "2027-06-23",
+          "dom_days": 272,
+          "diag": null,
+          "ai_note": null
+        },
+        "up7": {
+          "pct": 99.99,
+          "avg_ms": 252,
+          "n": 9119
+        }
+      },
+      {
+        "id": 8,
+        "name": "gosuslugi.ru",
+        "url": "https://gosuslugi.ru",
+        "support_email": null,
+        "status": {
+          "ok": true,
+          "code": 200,
+          "ms": 58,
+          "err": null,
+          "checked_at": 1790170041,
+          "slow_at": 1790165984,
+          "ssl_days": 80,
+          "dom_exp": "2027-09-01",
+          "dom_days": 342,
+          "diag": null,
+          "ai_note": null
+        },
+        "up7": {
+          "pct": 99.73,
+          "avg_ms": 1038,
+          "n": 9119
+        }
+      },
+      {
+        "id": 9,
+        "name": "mail.ru",
+        "url": "https://mail.ru",
+        "support_email": null,
+        "status": {
+          "ok": true,
+          "code": 200,
+          "ms": 262,
+          "err": null,
+          "checked_at": 1790170041,
+          "slow_at": 1790165909,
+          "ssl_days": 19,
+          "dom_exp": "2027-09-30",
+          "dom_days": 371,
+          "diag": null,
+          "ai_note": null
+        },
+        "up7": {
+          "pct": 99.95,
+          "avg_ms": 246,
+          "n": 9119
+        }
+      },
+      {
+        "id": 10,
+        "name": "smolsovet.ru",
+        "url": "https://smolsovet.ru",
+        "support_email": null,
+        "status": {
+          "ok": false,
+          "code": 403,
+          "ms": 125,
+          "err": null,
+          "checked_at": 1790170041,
+          "diag": {
+            "dns": "OK: 141.8.192.25",
+            "tcp443": "открыт",
+            "tcp80": "открыт",
+            "trace": "traceroute to smolsovet.ru (141.8.192.25), 10 hops max, 60 byte packets\n 1  185.39.206.1  0.646 ms\n 2  10.66.35.129  7.021 ms\n 3  *\n 4  10.255.1.58  6.762 ms\n 5  178.18.224.36  11.599 ms\n 6  *\n 7  *\n 8  *\n 9  *\n10  *\n"
+          },
+          "ai_note": "Вероятная причина: Сервер запретил доступ из вашего IP-адреса, возможно, из-за блокировки или настроек безопасности. В первую очередь проверьте логи сервера сайта или обратитесь к его оператору для уточнения причин отказа в доступе.",
+          "slow_at": 1790165832,
+          "ssl_days": 75,
+          "dom_exp": "2027-04-22",
+          "dom_days": 210
+        },
+        "up7": {
+          "pct": 0.0,
+          "avg_ms": 177,
+          "n": 9119
+        }
+      }
+    ],
+    "model": "qwen2.5:3b",
+    "tg": false
+  },
+  "count": 1,
   "reason": ""
 }

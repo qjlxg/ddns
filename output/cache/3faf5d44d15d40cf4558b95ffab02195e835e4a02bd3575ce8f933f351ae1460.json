@@ -139,40 +139,10 @@
     },
     {
       "name": "USA BET HER West",
-      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/631835.ts",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiD",
       "extinf": "#EXTINF:0 CUID=\"6211\" tvg-name=\"USA BET HER West\" tvg-id=\"bether.us\" tvg-logo=\"https://static.realiptv.to/snapshots/631835.jpg\" group-title=\"USA ENTERTAINMENT\",USA BET HER West"
-    },
-    {
-      "name": "USA BET West",
-      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/48973.ts",
-      "extinf": "#EXTINF:0 CUID=\"6214\" tvg-name=\"USA BET West\" tvg-id=\"betwest.us\" tvg-logo=\"https://static.realiptv.to/snapshots/48973.jpg\" group-title=\"USA ENTERTAINMENT\",USA BET West"
-    },
-    {
-      "name": "USA Black Voices",
-      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/435347.ts",
-      "extinf": "#EXTINF:0 CUID=\"6221\" tvg-name=\"USA Black Voices\" tvg-logo=\"https://static.realiptv.to/snapshots/435347.jpg\" group-title=\"USA ENTERTAINMENT\",USA Black Voices"
-    },
-    {
-      "name": "USA BOUNCE TV",
-      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/21896.ts",
-      "extinf": "#EXTINF:0 CUID=\"6227\" tvg-name=\"USA BOUNCE TV\" tvg-id=\"bouncetv.us\" tvg-logo=\"https://static.realiptv.to/snapshots/21896.jpg\" group-title=\"USA ENTERTAINMENT\",USA BOUNCE TV"
-    },
-    {
-      "name": "USA Bounce XL",
-      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/612207.ts",
-      "extinf": "#EXTINF:0 CUID=\"6228\" tvg-name=\"USA Bounce XL\" tvg-logo=\"https://static.realiptv.to/snapshots/612207.jpg\" group-title=\"USA ENTERTAINMENT\",USA Bounce XL"
-    },
-    {
-      "name": "USA Bravo East (SHD)",
-      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/2655.ts",
-      "extinf": "#EXTINF:0 CUID=\"6230\" tvg-name=\"USA Bravo East (SHD)\" tvg-id=\"bravo.us\" tvg-logo=\"https://static.realiptv.to/snapshots/2655.jpg\" group-title=\"USA ENTERTAINMENT\",USA Bravo East (SHD)"
-    },
-    {
-      "name": "USA Bravo East LHD",
-      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/3709.ts",
-      "extinf": "#EXTINF:0 CUID=\"6231\" tvg-name=\"USA Bravo East LHD\" tvg-id=\"bravo.us\" tvg-logo=\"https://static.realiptv.to/snapshots/3709.jpg\" group-title=\"USA ENTERTAINMENT\",USA Bravo East LHD"
     }
   ],
-  "count": 34,
+  "count": 28,
   "reason": ""
 }

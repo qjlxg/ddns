@@ -1,0 +1,46 @@
+{
+  "url": "https://45.84.222.163:443/subscribe",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "xhttp",
+      "server": "stawll.ru",
+      "port": 443,
+      "uuid": "b640dde4-bd80-413b-893e-8bce93c116c6",
+      "security": "tls",
+      "sni": "stawll.ru",
+      "fp": "chrome",
+      "path": "/xhttp",
+      "host": "stawll.ru",
+      "name": "vless-stawll.ru"
+    },
+    {
+      "type": "tcp",
+      "server": "msk2.h1cloud.net",
+      "port": 25124,
+      "uuid": "366dc9b6-30bc-4205-9a4a-02204e906984",
+      "security": "reality",
+      "sni": "www.microsoft.com",
+      "fp": "firefox",
+      "pbk": "RI-7aAnn33HcWuhvndoM_BK8rzVIJ4RnCzP474yIoSQ",
+      "sid": "0737c3d7bc445f61",
+      "spx": "/",
+      "name": "vless-msk2.h1cloud.net"
+    },
+    {
+      "type": "tcp",
+      "server": "msk2.h1cloud.net",
+      "port": 25128,
+      "uuid": "45472ad5-25da-4044-a159-50236d13b690",
+      "security": "reality",
+      "sni": "www.microsoft.com",
+      "fp": "firefox",
+      "pbk": "2Jjfe4FGQ7OAJb2FrD-VtoZOZajI83enUpwcPe31iDI",
+      "sid": "f3923d58e79d974a",
+      "spx": "/",
+      "name": "vless-msk2.h1cloud.net"
+    }
+  ],
+  "count": 3,
+  "reason": ""
+}

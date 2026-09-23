@@ -1,0 +1,808 @@
+{
+  "url": "https://57.131.48.188:8443/playlist.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "Rai 1",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/rai1.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Rai 1"
+    },
+    {
+      "name": "Rai 2",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/rai2.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Rai 2"
+    },
+    {
+      "name": "Rai 3",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/rai3.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Rai 3"
+    },
+    {
+      "name": "Rete 4",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/rete4.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Rete 4"
+    },
+    {
+      "name": "Canale 5",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/canale5.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Canale 5"
+    },
+    {
+      "name": "Italia 1",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/italia1.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Italia 1"
+    },
+    {
+      "name": "La7",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/la7.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",La7"
+    },
+    {
+      "name": "TV 8",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/tv8.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",TV 8"
+    },
+    {
+      "name": "NOVE",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/nove.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",NOVE"
+    },
+    {
+      "name": "20 Mediaset",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/20mediaset.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",20 Mediaset"
+    },
+    {
+      "name": "Rai 4",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/rai4.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Rai 4"
+    },
+    {
+      "name": "Iris",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/iris.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Iris"
+    },
+    {
+      "name": "Rai 5",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/rai5.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Rai 5"
+    },
+    {
+      "name": "Rai Movie",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/raimovie.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Rai Movie"
+    },
+    {
+      "name": "Rai Premium",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/raipremium.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Rai Premium"
+    },
+    {
+      "name": "Cielo",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/cielo.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Cielo"
+    },
+    {
+      "name": "27 Twentyseven",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/27twentyseven.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",27 Twentyseven"
+    },
+    {
+      "name": "TV 2000",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/tv2000.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",TV 2000"
+    },
+    {
+      "name": "La7 Cinema",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/la7cinema.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",La7 Cinema"
+    },
+    {
+      "name": "La 5",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/la5.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",La 5"
+    },
+    {
+      "name": "Real Time",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/realtime.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Real Time"
+    },
+    {
+      "name": "QVC",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/qvc.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",QVC"
+    },
+    {
+      "name": "Food Network",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/foodnetwork.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Food Network"
+    },
+    {
+      "name": "Cine34",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/cine34.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Cine34"
+    },
+    {
+      "name": "Focus",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/focus.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Focus"
+    },
+    {
+      "name": "RTL 102.5",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/rtl1025.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",RTL 102.5"
+    },
+    {
+      "name": "Discovery",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/discovery.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Discovery"
+    },
+    {
+      "name": "Discovery Turbo",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/discoveryturbo.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Discovery Turbo"
+    },
+    {
+      "name": "Giallo",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/giallo.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Giallo"
+    },
+    {
+      "name": "Top Crime",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/topcrime.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Top Crime"
+    },
+    {
+      "name": "Boing",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/boing.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Boing"
+    },
+    {
+      "name": "K2",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/k2.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",K2"
+    },
+    {
+      "name": "Rai Gulp",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/raigulp.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Rai Gulp"
+    },
+    {
+      "name": "Rai Yoyo",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/raiyoyo.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Rai Yoyo"
+    },
+    {
+      "name": "Frisbee",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/frisbee.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Frisbee"
+    },
+    {
+      "name": "Cartoonito",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/cartoonito.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Cartoonito"
+    },
+    {
+      "name": "Super!",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/super.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Super!"
+    },
+    {
+      "name": "Rai News 24",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/rainews24.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Rai News 24"
+    },
+    {
+      "name": "Italia 2",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/italia2.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Italia 2"
+    },
+    {
+      "name": "Sky TG 24",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skytg24.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Sky TG 24"
+    },
+    {
+      "name": "TgCom 24",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/tgcom24.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",TgCom 24"
+    },
+    {
+      "name": "CNN International",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/cnninternational.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",CNN International"
+    },
+    {
+      "name": "DMAX",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/dmax.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",DMAX"
+    },
+    {
+      "name": "Rai Storia",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/raistoria.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Rai Storia"
+    },
+    {
+      "name": "Mediaset Extra",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/mediasetextra.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Mediaset Extra"
+    },
+    {
+      "name": "HGTV HD",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/hgtvhd.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",HGTV HD"
+    },
+    {
+      "name": "Rai Scuola",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/raiscuola.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Rai Scuola"
+    },
+    {
+      "name": "Rai Sport",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/raisport.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Rai Sport"
+    },
+    {
+      "name": "Motor Trend",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/motortrend.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Motor Trend"
+    },
+    {
+      "name": "Sportitalia",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/sportitalia.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Sportitalia"
+    },
+    {
+      "name": "Sportitalia Solo Calcio",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/sportitaliasolocalcio.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Sportitalia Solo Calcio"
+    },
+    {
+      "name": "Primavera TV",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/primaveratv.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Primavera TV"
+    },
+    {
+      "name": "SuperTennis",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/supertennis.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",SuperTennis"
+    },
+    {
+      "name": "SuperTennis Plus 1",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/supertennisplus1.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",SuperTennis Plus 1"
+    },
+    {
+      "name": "SuperTennis Plus 2",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/supertennisplus2.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",SuperTennis Plus 2"
+    },
+    {
+      "name": "SuperTennis Plus 3",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/supertennisplus3.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",SuperTennis Plus 3"
+    },
+    {
+      "name": "SuperTennis Plus 4",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/supertennisplus4.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",SuperTennis Plus 4"
+    },
+    {
+      "name": "Telenorba",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/telenorba.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Telenorba"
+    },
+    {
+      "name": "TeleBari",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/telebari.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",TeleBari"
+    },
+    {
+      "name": "TeleRegione",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/teleregione.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",TeleRegione"
+    },
+    {
+      "name": "Antenna Sud",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/antennasud.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Antenna Sud"
+    },
+    {
+      "name": "Antenna Sud Extra",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/antennasudextra.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Antenna Sud Extra"
+    },
+    {
+      "name": "AntennaSud Sport",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/antennasudsport.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",AntennaSud Sport"
+    },
+    {
+      "name": "Antenna Sud Sport 2",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/antennasudsport2.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Antenna Sud Sport 2"
+    },
+    {
+      "name": "Antenna Sud Sport 3",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/antennasudsport3.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Antenna Sud Sport 3"
+    },
+    {
+      "name": "Antenna Sud Sport 4",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/antennasudsport4.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Antenna Sud Sport 4"
+    },
+    {
+      "name": "Antenna Sud Sport 5",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/antennasudsport5.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Antenna Sud Sport 5"
+    },
+    {
+      "name": "Antenna Sud Sport 6",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/antennasudsport6.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Antenna Sud Sport 6"
+    },
+    {
+      "name": "Antenna Sud Sport 7",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/antennasudsport7.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Antenna Sud Sport 7"
+    },
+    {
+      "name": "Radio Norba TV",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/radionorbatv.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Radio Norba TV"
+    },
+    {
+      "name": "Rete8 Abruzzo",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/rete8abruzzo.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Rete8 Abruzzo"
+    },
+    {
+      "name": "Rete8 Sport Abruzzo",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/rete8sportabruzzo.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Rete8 Sport Abruzzo"
+    },
+    {
+      "name": "Telecity Lombardia",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/telecitylombardia.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Telecity Lombardia"
+    },
+    {
+      "name": "Telecity Piemonte",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/telecitypiemonte.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Telecity Piemonte"
+    },
+    {
+      "name": "Telecity Liguria",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/telecityliguria.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Telecity Liguria"
+    },
+    {
+      "name": "Radio 105",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/radio105.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Radio 105"
+    },
+    {
+      "name": "Radio R101",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/radior101.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Radio R101"
+    },
+    {
+      "name": "BOM CHANNEL",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/bomchannel.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",BOM CHANNEL"
+    },
+    {
+      "name": "Deejay TV",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/deejaytv.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Deejay TV"
+    },
+    {
+      "name": "Radio Italia Tv",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/radioitaliatv.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Radio Italia Tv"
+    },
+    {
+      "name": "Radio 24",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/radio24.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Radio 24"
+    },
+    {
+      "name": "Rai 4K",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/rai4k.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Rai 4K"
+    },
+    {
+      "name": "Rai Italia",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/raiitalia.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Rai Italia"
+    },
+    {
+      "name": "Radio kiss Kiss TV",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/radiokisskisstv.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Radio kiss Kiss TV"
+    },
+    {
+      "name": "Rai Radio 2",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/rairadio2.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Rai Radio 2"
+    },
+    {
+      "name": "Virgin Radio",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/virginradio.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Virgin Radio"
+    },
+    {
+      "name": "RADIO FRECCIA",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/radiofreccia.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",RADIO FRECCIA"
+    },
+    {
+      "name": "RDS Social TV",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/rdssocialtv.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",RDS Social TV"
+    },
+    {
+      "name": "RADIO ZETA",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/radiozeta.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",RADIO ZETA"
+    },
+    {
+      "name": "Radio Capital TV",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/radiocapitaltv.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Radio Capital TV"
+    },
+    {
+      "name": "m2o TV",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/m2otv.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",m2o TV"
+    },
+    {
+      "name": "Radio Monte Carlo",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/radiomontecarlo.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Radio Monte Carlo"
+    },
+    {
+      "name": "Radio Marte TV",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/radiomartetv.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Radio Marte TV"
+    },
+    {
+      "name": "Radio Kiss Kiss Napoli TV",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/radiokisskissnapolitv.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Radio Kiss Kiss Napoli TV"
+    },
+    {
+      "name": "Radio CRC TV",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/radiocrctv.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Canali italiani\",Radio CRC TV"
+    },
+    {
+      "name": "DAZN SPORT 1",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/daznsport1.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Serie A Enilive\",DAZN SPORT 1"
+    },
+    {
+      "name": "DAZN SPORT 2",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/daznsport2.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Serie A Enilive\",DAZN SPORT 2"
+    },
+    {
+      "name": "DAZN SPORT 3",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/daznsport3.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Serie A Enilive\",DAZN SPORT 3"
+    },
+    {
+      "name": "DAZN SPORT 4",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/daznsport4.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Serie A Enilive\",DAZN SPORT 4"
+    },
+    {
+      "name": "DAZN SPORT 5",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/daznsport5.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Serie A Enilive\",DAZN SPORT 5"
+    },
+    {
+      "name": "INTER TV",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/intertv.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Dazn Italia\",INTER TV"
+    },
+    {
+      "name": "MILAN TV",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/milantv.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Dazn Italia\",MILAN TV"
+    },
+    {
+      "name": "DAZN Eurosport 1",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/dazneurosport1.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Dazn Italia\",DAZN Eurosport 1"
+    },
+    {
+      "name": "DAZN Eurosport 2",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/dazneurosport2.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Dazn Italia\",DAZN Eurosport 2"
+    },
+    {
+      "name": "RADIO TV SERIE A",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/radiotvseriea.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Dazn Italia\",RADIO TV SERIE A"
+    },
+    {
+      "name": "Dazn Rally TV",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/daznrallytv.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Dazn Italia\",Dazn Rally TV"
+    },
+    {
+      "name": "Dazn PGA TOUR",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/daznpgatour.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Dazn Italia\",Dazn PGA TOUR"
+    },
+    {
+      "name": "Dazn Matchroom Boxing",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/daznmatchroomboxing.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Dazn Italia\",Dazn Matchroom Boxing"
+    },
+    {
+      "name": "DAZN NFL",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/daznnfl.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Dazn Italia\",DAZN NFL"
+    },
+    {
+      "name": "UNBEATEN",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/unbeaten.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Dazn Italia\",UNBEATEN"
+    },
+    {
+      "name": "SKY TG24",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skytg24.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Intrattenimento Sky\",SKY TG24"
+    },
+    {
+      "name": "SKY UNO",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skyuno.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Intrattenimento Sky\",SKY UNO"
+    },
+    {
+      "name": "SKY UNOPLUS",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skyunoplus.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Intrattenimento Sky\",SKY UNOPLUS"
+    },
+    {
+      "name": "SKY ATLANTIC",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skyatlantic.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Intrattenimento Sky\",SKY ATLANTIC"
+    },
+    {
+      "name": "SKY SERIE",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skyserie.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Intrattenimento Sky\",SKY SERIE"
+    },
+    {
+      "name": "SKY INVESTIGATION",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skyinvestigation.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Intrattenimento Sky\",SKY INVESTIGATION"
+    },
+    {
+      "name": "SKY CRIME",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skycrime.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Intrattenimento Sky\",SKY CRIME"
+    },
+    {
+      "name": "HISTORY",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/history.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Intrattenimento Sky\",HISTORY"
+    },
+    {
+      "name": "SKY DOCUMENTARIES",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skydocumentaries.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Intrattenimento Sky\",SKY DOCUMENTARIES"
+    },
+    {
+      "name": "SKY NATURE",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skynature.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Intrattenimento Sky\",SKY NATURE"
+    },
+    {
+      "name": "SKY ARTE",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skyarte.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Intrattenimento Sky\",SKY ARTE"
+    },
+    {
+      "name": "COMEDY CENTRAL",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/comedycentral.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Intrattenimento Sky\",COMEDY CENTRAL"
+    },
+    {
+      "name": "MTV",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/mtv.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Intrattenimento Sky\",MTV"
+    },
+    {
+      "name": "SKY SPORT 24",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skysport24.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Sky Sport Italia\",SKY SPORT 24"
+    },
+    {
+      "name": "SKY SPORT UNO",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skysportuno.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Sky Sport Italia\",SKY SPORT UNO"
+    },
+    {
+      "name": "SKY SPORT CALCIO",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skysportcalcio.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Sky Sport Italia\",SKY SPORT CALCIO"
+    },
+    {
+      "name": "SKY SPORT F1",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skysportf1.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Sky Sport Italia\",SKY SPORT F1"
+    },
+    {
+      "name": "SKY SPORT MOTOGP",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skysportmotogp.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Sky Sport Italia\",SKY SPORT MOTOGP"
+    },
+    {
+      "name": "SKY SPORT TENNIS",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skysporttennis.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Sky Sport Italia\",SKY SPORT TENNIS"
+    },
+    {
+      "name": "SKY SPORT ARENA",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skysportarena.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Sky Sport Italia\",SKY SPORT ARENA"
+    },
+    {
+      "name": "SKY SPORT MAX",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skysportmax.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Sky Sport Italia\",SKY SPORT MAX"
+    },
+    {
+      "name": "SKY SPORT NBA",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skysportnba.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Sky Sport Italia\",SKY SPORT NBA"
+    },
+    {
+      "name": "SKY SPORT GOLF",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skysportgolf.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Sky Sport Italia\",SKY SPORT GOLF"
+    },
+    {
+      "name": "SKY SPORT 251",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skysport251.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Sky Sport Italia\",SKY SPORT 251"
+    },
+    {
+      "name": "SKY SPORT 252",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skysport252.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Sky Sport Italia\",SKY SPORT 252"
+    },
+    {
+      "name": "SKY SPORT 253",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skysport253.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Sky Sport Italia\",SKY SPORT 253"
+    },
+    {
+      "name": "SKY SPORT 254",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skysport254.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Sky Sport Italia\",SKY SPORT 254"
+    },
+    {
+      "name": "SKY SPORT 255",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skysport255.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Sky Sport Italia\",SKY SPORT 255"
+    },
+    {
+      "name": "SKY SPORT 256",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skysport256.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Sky Sport Italia\",SKY SPORT 256"
+    },
+    {
+      "name": "SKY SPORT 257",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skysport257.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Sky Sport Italia\",SKY SPORT 257"
+    },
+    {
+      "name": "SKY SPORT 258",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skysport258.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Sky Sport Italia\",SKY SPORT 258"
+    },
+    {
+      "name": "SKY SPORT 259",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skysport259.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Sky Sport Italia\",SKY SPORT 259"
+    },
+    {
+      "name": "SKY CINEMA UNO",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skycinemauno.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Cinema Sky\",SKY CINEMA UNO"
+    },
+    {
+      "name": "SKY CINEMA DUE",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skycinemadue.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Cinema Sky\",SKY CINEMA DUE"
+    },
+    {
+      "name": "SKY CINEMA COLLECTION",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skycinemacollection.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Cinema Sky\",SKY CINEMA COLLECTION"
+    },
+    {
+      "name": "SKY CINEMA FAMILY",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skycinemafamily.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Cinema Sky\",SKY CINEMA FAMILY"
+    },
+    {
+      "name": "SKY CINEMA ACTION",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skycinemaaction.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Cinema Sky\",SKY CINEMA ACTION"
+    },
+    {
+      "name": "SKY CINEMA SUSPENSE",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skycinemasuspense.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Cinema Sky\",SKY CINEMA SUSPENSE"
+    },
+    {
+      "name": "SKY CINEMA ROMANCE",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skycinemaromance.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Cinema Sky\",SKY CINEMA ROMANCE"
+    },
+    {
+      "name": "SKY CINEMA DRAMA",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skycinemadrama.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Cinema Sky\",SKY CINEMA DRAMA"
+    },
+    {
+      "name": "SKY CINEMA COMEDY",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/skycinemacomedy.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Cinema Sky\",SKY CINEMA COMEDY"
+    },
+    {
+      "name": "CARTOON NETWORK",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/cartoonnetwork.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Ragazzi Sky\",CARTOON NETWORK"
+    },
+    {
+      "name": "BOOMERANG",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/boomerang.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Ragazzi Sky\",BOOMERANG"
+    },
+    {
+      "name": "DEAKIDS",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/deakids.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Ragazzi Sky\",DEAKIDS"
+    },
+    {
+      "name": "NICKELODEON",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/nickelodeon.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Ragazzi Sky\",NICKELODEON"
+    },
+    {
+      "name": "NICKJR",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/nickjr.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Ragazzi Sky\",NICKJR"
+    },
+    {
+      "name": "BOING",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/boing.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Ragazzi Sky\",BOING"
+    },
+    {
+      "name": "CARTOONITO",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/cartoonito.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Ragazzi Sky\",CARTOONITO"
+    },
+    {
+      "name": "FRISBEE",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/frisbee.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Ragazzi Sky\",FRISBEE"
+    },
+    {
+      "name": "SUPER!",
+      "url": "http://admin:admin@57.131.48.188:41234/hls/super.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"Ragazzi Sky\",SUPER!"
+    }
+  ],
+  "count": 160,
+  "reason": ""
+}

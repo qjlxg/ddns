@@ -1,0 +1,23 @@
+{
+  "url": "https://109.172.101.188:443/mds.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "MDS",
+      "url": "http://mds-station.com:8000/mds",
+      "extinf": "#EXTINF:-1 logo=\"http://mds-station.com/mds.jpg\",MDS"
+    },
+    {
+      "name": "MDS",
+      "url": "http://stream.mds-station.com:8000/01-mds",
+      "extinf": "#EXTINF:-1 logo=\"http://mds-station.com/mds.jpg\",MDS"
+    },
+    {
+      "name": "MDS",
+      "url": "https://mds-station.com:8443/mds",
+      "extinf": "#EXTINF:-1 logo=\"https://mds-station.com/mds.jpg\",MDS"
+    }
+  ],
+  "count": 3,
+  "reason": ""
+}

@@ -1,0 +1,7 @@
+{
+  "url": "https://144.31.74.174:443/api/auth/status",
+  "type": "json_unknown",
+  "items": [],
+  "count": 0,
+  "reason": "JSON存在，但不是可识别的TVBox或节点格式"
+}

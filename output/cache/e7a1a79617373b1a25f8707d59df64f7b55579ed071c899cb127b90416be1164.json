@@ -22,10 +22,65 @@
       "port": 443,
       "password": "6b3a43d633d7edda7e666b77e4822bb3",
       "security": "tls",
-      "sni": "3",
+      "sni": "3x-ui110825.hostkey.in",
+      "alpn": "h3,h2,http/1.1",
+      "obfs": "salamander",
+      "obfs-password": "0wnbY2zhRyDHR1yW",
       "name": "hysteria2-147.90.11.123"
+    },
+    {
+      "type": "grpc",
+      "server": "147.90.11.123",
+      "port": 8443,
+      "uuid": "a01b5080-09d6-4f24-9c04-eec12cd6496d",
+      "security": "reality",
+      "sni": "www.microsoft.com",
+      "fp": "chrome",
+      "pbk": "02Eh63d-ZtXOdWMlm2d7F1VWcQhwr6WuB6IbP6Fzq3I",
+      "sid": "18be18240a9be4dd",
+      "spx": "/",
+      "name": "vless-147.90.11.123"
+    },
+    {
+      "type": "tcp",
+      "server": "51.250.25.32",
+      "port": 443,
+      "uuid": "a01b5080-09d6-4f24-9c04-eec12cd6496d",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.microsoft.com",
+      "fp": "chrome",
+      "pbk": "02Eh63d-ZtXOdWMlm2d7F1VWcQhwr6WuB6IbP6Fzq3I",
+      "sid": "18be18240a9be4dd",
+      "spx": "/",
+      "name": "vless-51.250.25.32"
+    },
+    {
+      "type": "hysteria2",
+      "server": "51.250.25.32",
+      "port": 443,
+      "password": "6b3a43d633d7edda7e666b77e4822bb3",
+      "security": "tls",
+      "sni": "3x-ui110825.hostkey.in",
+      "alpn": "h3,h2,http/1.1",
+      "obfs": "salamander",
+      "obfs-password": "0wnbY2zhRyDHR1yW",
+      "name": "hysteria2-51.250.25.32"
+    },
+    {
+      "type": "grpc",
+      "server": "51.250.25.32",
+      "port": 8443,
+      "uuid": "a01b5080-09d6-4f24-9c04-eec12cd6496d",
+      "security": "reality",
+      "sni": "www.microsoft.com",
+      "fp": "chrome",
+      "pbk": "02Eh63d-ZtXOdWMlm2d7F1VWcQhwr6WuB6IbP6Fzq3I",
+      "sid": "18be18240a9be4dd",
+      "spx": "/",
+      "name": "vless-51.250.25.32"
     }
   ],
-  "count": 2,
+  "count": 6,
   "reason": ""
 }

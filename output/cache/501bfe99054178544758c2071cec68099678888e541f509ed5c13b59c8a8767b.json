@@ -1,0 +1,45 @@
+{
+  "url": "https://31.77.151.117:443/sub",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "ws",
+      "server": "31.77.151.117",
+      "port": 444,
+      "uuid": "757fff94-ddc7-4ff9-a0b0-a9764c2bd11a",
+      "security": "none",
+      "path": "/ws",
+      "name": "vless-31.77.151.117"
+    },
+    {
+      "type": "ws",
+      "server": "31.77.151.117",
+      "port": 443,
+      "uuid": "757fff94-ddc7-4ff9-a0b0-a9764c2bd11a",
+      "security": "tls",
+      "sni": "31.77.151.117.sslip.io",
+      "path": "/ws",
+      "name": "vless-31.77.151.117"
+    },
+    {
+      "type": "xhttp",
+      "server": "31.77.151.117",
+      "port": 8444,
+      "uuid": "757fff94-ddc7-4ff9-a0b0-a9764c2bd11a",
+      "security": "none",
+      "path": "/api/v1/sync",
+      "host": "31.77.151.117.sslip.io",
+      "name": "vless-31.77.151.117"
+    },
+    {
+      "type": "hysteria2",
+      "server": "31.77.151.117",
+      "port": 8445,
+      "password": "aQ9V1n0fITR0Dnx0",
+      "sni": "31.77.151.117.sslip.io",
+      "name": "hysteria2-31.77.151.117"
+    }
+  ],
+  "count": 4,
+  "reason": ""
+}

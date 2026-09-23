@@ -1,0 +1,61 @@
+{
+  "url": "https://178.62.226.80:443/status.json",
+  "type": "tvbox",
+  "items": {
+    "ok": true,
+    "ts": 1790170028502,
+    "sites": [
+      {
+        "url": "roboteur.co.uk",
+        "name": "roboteur.co.uk",
+        "added": "2024-01-15T10:30:00.000Z",
+        "enabled": true,
+        "lastCheck": "2026-09-23T13:27:02.022Z",
+        "lastStatus": "true",
+        "checkCount": 776930,
+        "uptime": 100,
+        "successfulChecks": 776922,
+        "lastStatusCode": 200,
+        "lastResponseTime": 245
+      },
+      {
+        "url": "saucecode.tech",
+        "name": "saucecode.tech",
+        "added": "2024-01-15T10:35:00.000Z",
+        "enabled": true,
+        "lastCheck": "2026-09-23T13:27:02.038Z",
+        "lastStatus": "true",
+        "checkCount": 776926,
+        "uptime": 100,
+        "successfulChecks": 776906,
+        "lastStatusCode": 200,
+        "lastResponseTime": 189
+      },
+      {
+        "url": "uat.roboteur.co.uk",
+        "name": "uat.roboteur.co.uk",
+        "added": "2024-01-15T10:40:00.000Z",
+        "enabled": true,
+        "lastCheck": "2026-09-23T13:27:02.018Z",
+        "lastStatus": "true",
+        "checkCount": 776939,
+        "uptime": 100,
+        "successfulChecks": 776929,
+        "lastStatusCode": 200,
+        "lastResponseTime": 5000
+      }
+    ],
+    "activeTimers": [
+      {
+        "id": "monitoring",
+        "description": "Automated Website Monitoring",
+        "timeLeft": 25540,
+        "timeLeftFormatted": "25s",
+        "progress": 0.1486666666666666,
+        "recurring": true
+      }
+    ]
+  },
+  "count": 1,
+  "reason": ""
+}

@@ -1,0 +1,13 @@
+{
+  "url": "https://51.195.103.7:443/GensokyoRadio-original.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "Gensokyo Radio | 24/7 Touhou Music Stream",
+      "url": "https://stream.gensokyoradio.net/1",
+      "extinf": "#EXTINF:-1,Gensokyo Radio | 24/7 Touhou Music Stream"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

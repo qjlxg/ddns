@@ -96,8 +96,68 @@
       "name": "ТНТ (+7)",
       "url": "http://45.84.222.142:9999/channel/0KLQndCiICgrNyk/tnt-pl7",
       "extinf": "#EXTINF:-1 tvg-id=\"tnt-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/tnt-pl7.png\" group-title=\"ТВ-каналы\",ТНТ (+7)"
+    },
+    {
+      "name": "Муз-ТВ (+7)",
+      "url": "http://45.84.222.142:9999/channel/0JzRg9C3LdCi0JIgKCs3KQ/muztv-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"muztv-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/muztv-pl7.png\" group-title=\"ТВ-каналы\",Муз-ТВ (+7)"
+    },
+    {
+      "name": "Че! (+7)",
+      "url": "http://45.84.222.142:9999/channel/0KfQtSEgKCs3KQ/che-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"che-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/che-pl7.png\" group-title=\"ТВ-каналы\",Че! (+7)"
+    },
+    {
+      "name": "Ю (+7)",
+      "url": "http://45.84.222.142:9999/channel/0K4gKCs3KQ/yu-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"yu-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/yu-pl7.png\" group-title=\"ТВ-каналы\",Ю (+7)"
+    },
+    {
+      "name": "Суббота! (+7)",
+      "url": "http://45.84.222.142:9999/channel/0KHRg9Cx0LHQvtGC0LAhICgrNyk/super-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"super-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/subbota-pl7.png\" group-title=\"ТВ-каналы\",Суббота! (+7)"
+    },
+    {
+      "name": "Мир 24",
+      "url": "http://45.84.222.142:9999/channel/0JzQuNGAIDI0/mir-24",
+      "extinf": "#EXTINF:-1 tvg-id=\"mir-24\" tvg-logo=\"https://epg.iptvx.one/picons/mir24.png\" group-title=\"ТВ-каналы\",Мир 24"
+    },
+    {
+      "name": "2x2",
+      "url": "http://45.84.222.142:9999/channel/Mngy/2na2-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"2na2-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/2na2-pl7.png\" group-title=\"ТВ-каналы\",2x2"
+    },
+    {
+      "name": "Перец",
+      "url": "http://45.84.222.142:9999/channel/0J_QtdGA0LXRhg/perec-int",
+      "extinf": "#EXTINF:-1 tvg-id=\"perec-int\" tvg-logo=\"https://epg.iptvx.one/picons/perec-int.png\" group-title=\"ТВ-каналы\",Перец"
+    },
+    {
+      "name": "ТНТ4 (+7)",
+      "url": "http://45.84.222.142:9999/channel/0KLQndCiNCAoKzcp/tnt4-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"tnt4-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/tnt4-pl7.png\" group-title=\"ТВ-каналы\",ТНТ4 (+7)"
+    },
+    {
+      "name": "Солнце RU (+7)",
+      "url": "http://45.84.222.142:9999/channel/0KHQvtC70L3RhtC1IFJVICgrNyk/solnce-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"solnce-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/solnce-pl7.png\" group-title=\"ТВ-каналы\",Солнце RU (+7)"
+    },
+    {
+      "name": "Мульт",
+      "url": "http://45.84.222.142:9999/channel/0JzRg9C70YzRgg/mult",
+      "extinf": "#EXTINF:-1 tvg-id=\"mult\" tvg-logo=\"https://epg.iptvx.one/picons/mult.png\" group-title=\"ТВ-каналы\",Мульт"
+    },
+    {
+      "name": "Tiji",
+      "url": "http://45.84.222.142:9999/channel/VGlqaQ/tiji",
+      "extinf": "#EXTINF:-1 tvg-id=\"tiji\" tvg-logo=\"https://epg.iptvx.one/picons/tiji.png\" group-title=\"ТВ-каналы\",Tiji"
+    },
+    {
+      "name": "Мама",
+      "url": "http://45.84.222.14",
+      "extinf": "#EXTINF:-1 tvg-id=\"mama\" tvg-logo=\"https://epg.iptvx.one/picons/mama.png\" group-title=\"ТВ-каналы\",Мама"
     }
   ],
-  "count": 19,
+  "count": 31,
   "reason": ""
 }

@@ -1,0 +1,60 @@
+{
+  "url": "http://77.110.110.63:80/sub/main",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "46.226.162.59",
+      "port": 443,
+      "uuid": "edfa028b-b0f7-40b3-969c-fae4dae2c2d0",
+      "security": "reality",
+      "sni": "www.sony.com",
+      "fp": "chrome",
+      "pbk": "n_cpQjR6ZLeY9bvbqAr429uQmypbp_DglWS6o1e1lx4",
+      "sid": "03c8b0a4b5bb",
+      "spx": "/",
+      "name": "vless-46.226.162.59"
+    },
+    {
+      "type": "tcp",
+      "server": "46.226.162.59",
+      "port": 443,
+      "uuid": "edfa028b-b0f7-40b3-969c-fae4dae2c2d0",
+      "security": "reality",
+      "sni": "www.sony.com",
+      "fp": "chrome",
+      "pbk": "n_cpQjR6ZLeY9bvbqAr429uQmypbp_DglWS6o1e1lx4",
+      "sid": "03c8b0a4b5bb",
+      "spx": "/",
+      "name": "vless-46.226.162.59"
+    },
+    {
+      "type": "tcp",
+      "server": "vpn6.netflow24.net",
+      "port": 443,
+      "uuid": "edfa028b-b0f7-40b3-969c-fae4dae2c2d0",
+      "security": "reality",
+      "sni": "ads.x5.ru",
+      "fp": "chrome",
+      "pbk": "hQDpUjXmDnr1xNiM9qpotcWAO3UTAZtcx7qq-LjxeTk",
+      "sid": "761254a88acb424d",
+      "spx": "/",
+      "name": "vless-vpn6.netflow24.net"
+    },
+    {
+      "type": "tcp",
+      "server": "vpn6.netflow24.net",
+      "port": 443,
+      "uuid": "edfa028b-b0f7-40b3-969c-fae4dae2c2d0",
+      "security": "reality",
+      "sni": "ads.x5.ru",
+      "fp": "chrome",
+      "pbk": "hQDpUjXmDnr1xNiM9qpotcWAO3UTAZtcx7qq-LjxeTk",
+      "sid": "761254a88acb424d",
+      "spx": "/",
+      "name": "vless-vpn6.netflow24.net"
+    }
+  ],
+  "count": 4,
+  "reason": ""
+}

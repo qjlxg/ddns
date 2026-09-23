@@ -1,0 +1,22 @@
+{
+  "url": "https://2.26.26.194:2096/sub/v2ray",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "t.me",
+      "port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "name": "vless-t.me"
+    },
+    {
+      "type": "tcp",
+      "server": "t.me",
+      "port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "name": "vless-t.me"
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}

@@ -1,0 +1,48 @@
+{
+  "url": "https://146.59.3.12:443/play.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "Red7.pl - Kanal Glowny (MP3 256kbps)",
+      "url": "http://s.red7.pl:8005/stream256",
+      "extinf": "#EXTINF:-1,Red7.pl - Kanal Glowny (MP3 256kbps)"
+    },
+    {
+      "name": "Red7.pl - Kanal Glowny (AAC 192kbps)",
+      "url": "http://s.red7.pl:8005/stream192aac",
+      "extinf": "#EXTINF:-1,Red7.pl - Kanal Glowny (AAC 192kbps)"
+    },
+    {
+      "name": "Red7.pl - Kanal Vibe (MP3 256kbps)",
+      "url": "http://s.red7.pl:8005/edm256",
+      "extinf": "#EXTINF:-1,Red7.pl - Kanal Vibe (MP3 256kbps)"
+    },
+    {
+      "name": "Red7.pl - Kanal Vibe (AAC 256kbps)",
+      "url": "http://s.red7.pl:8005/edm256aac",
+      "extinf": "#EXTINF:-1,Red7.pl - Kanal Vibe (AAC 256kbps)"
+    },
+    {
+      "name": "Red7.pl - Kanal Disco-Polo (MP3 256kbps)",
+      "url": "http://s.red7.pl:8005/disco256",
+      "extinf": "#EXTINF:-1,Red7.pl - Kanal Disco-Polo (MP3 256kbps)"
+    },
+    {
+      "name": "Red7.pl - Kanal Disco-Polo (AAC 128kbps)",
+      "url": "http://s.red7.pl:8005/disco128aac",
+      "extinf": "#EXTINF:-1,Red7.pl - Kanal Disco-Polo (AAC 128kbps)"
+    },
+    {
+      "name": "Red7.pl - Kanal Rap i Hip-Hop (MP3 256kbps)",
+      "url": "http://s.red7.pl:8005/rap256",
+      "extinf": "#EXTINF:-1,Red7.pl - Kanal Rap i Hip-Hop (MP3 256kbps)"
+    },
+    {
+      "name": "Red7.pl - Kanal Rap i Hip-Hop (AAC 128kbps)",
+      "url": "http://s.red7.pl:8005/rap128aac",
+      "extinf": "#EXTINF:-1,Red7.pl - Kanal Rap i Hip-Hop (AAC 128kbps)"
+    }
+  ],
+  "count": 8,
+  "reason": ""
+}

@@ -1,0 +1,101 @@
+{
+  "url": "https://193.111.30.60:443/./tvbox.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "47.80.80.127",
+      "port": 8010,
+      "uuid": "2504df99-54c9-4d78-806a-8d99479ae311",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "aws.amazon.com",
+      "fp": "chrome",
+      "pbk": "PzFTAOjnfF8JJneLkk7tlZj8bfROz9CXRVHTXOGwg2M",
+      "sid": "97c6d61ca2a0c7",
+      "spx": "/",
+      "headerType": "none",
+      "name": "vless-47.80.80.127"
+    },
+    {
+      "type": "http",
+      "server": "www.hongniuzy2.com",
+      "port": 443,
+      "name": "https-www.hongniuzy2.com"
+    },
+    {
+      "type": "http",
+      "server": "anltv.cn",
+      "port": 443,
+      "name": "http-anltv.cn"
+    },
+    {
+      "type": "http",
+      "server": "sdzyapi.com",
+      "port": 443,
+      "name": "http-sdzyapi.com"
+    },
+    {
+      "type": "http",
+      "server": "www.inmi.app",
+      "port": 443,
+      "name": "https-www.inmi.app"
+    },
+    {
+      "type": "http",
+      "server": "ikunzyapi.com",
+      "port": 443,
+      "name": "https-ikunzyapi.com"
+    },
+    {
+      "type": "http",
+      "server": "api.yikanapi.com",
+      "port": 443,
+      "name": "https-api.yikanapi.com"
+    },
+    {
+      "type": "http",
+      "server": "collect.wolongzyw.com",
+      "port": 443,
+      "name": "https-collect.wolongzyw.com"
+    },
+    {
+      "type": "http",
+      "server": "api.tiankongapi.com",
+      "port": 443,
+      "name": "https-api.tiankongapi.com"
+    },
+    {
+      "type": "http",
+      "server": "cj.lziapi.com",
+      "port": 443,
+      "name": "http-cj.lziapi.com"
+    },
+    {
+      "type": "http",
+      "server": "www.ffzy.tv",
+      "port": 443,
+      "name": "http-www.ffzy.tv"
+    },
+    {
+      "type": "http",
+      "server": "ys.md214.cn",
+      "port": 443,
+      "name": "https-ys.md214.cn"
+    },
+    {
+      "type": "http",
+      "server": "caiji.kczyapi.com",
+      "port": 443,
+      "name": "https-caiji.kczyapi.com"
+    },
+    {
+      "type": "http",
+      "server": "api.wujinapi.me",
+      "port": 443,
+      "name": "https-api.wujinapi.me"
+    }
+  ],
+  "count": 14,
+  "reason": ""
+}

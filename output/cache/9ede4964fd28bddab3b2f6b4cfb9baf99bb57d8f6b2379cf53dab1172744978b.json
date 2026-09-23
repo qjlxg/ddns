@@ -51,8 +51,38 @@
       "name": "CCTV9纪录",
       "url": "http://139.224.111.181:3000/673168140",
       "extinf": "#EXTINF:-1 tvg-id=\"CCTV9纪录\" tvg-name=\"CCTV9纪录\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/624/202603081600_1772956792519_H32_1080.webp\" group-title=\"央视\",CCTV9纪录"
+    },
+    {
+      "name": "CCTV10科教",
+      "url": "http://139.224.111.181:3000/624878405",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV10科教\" tvg-name=\"CCTV10科教\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/874/202204010054_1626677767922_H32_1080.webp\" group-title=\"央视\",CCTV10科教"
+    },
+    {
+      "name": "CCTV11戏曲",
+      "url": "http://139.224.111.181:3000/667987558",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV11戏曲\" tvg-name=\"CCTV11戏曲\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5500/988/610/202204010054_1626677922732_H32_1080.webp\" group-title=\"央视\",CCTV11戏曲"
+    },
+    {
+      "name": "CCTV12社会与法",
+      "url": "http://139.224.111.181:3000/673168185",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV12社会与法\" tvg-name=\"CCTV12社会与法\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/627/202204010053_1626678108629_H32_1080.webp\" group-title=\"央视\",CCTV12社会与法"
+    },
+    {
+      "name": "CCTV13新闻",
+      "url": "http://139.224.111.181:3000/608807423",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV13新闻\" tvg-name=\"CCTV13新闻\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/2202/208/864/202204010051_2202208864_H32_1080.webp\" group-title=\"央视\",CCTV13新闻"
+    },
+    {
+      "name": "CCTV14少儿",
+      "url": "http://139.224.111.181:3000/624878440",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV14少儿\" tvg-name=\"CCTV14少儿\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/875/202204010054_1626678147073_H32_1080.webp\" group-title=\"央视\",CCTV14少儿"
+    },
+    {
+      "name": "CCTV15音乐",
+      "url": "http://139.224.111.181:3",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV15音乐\" tvg-name=\"CCTV15音乐\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/628/202204010054_1626678245130_H32_1080.webp\" group-title=\"央视\",CCTV15音乐"
     }
   ],
-  "count": 10,
+  "count": 16,
   "reason": ""
 }

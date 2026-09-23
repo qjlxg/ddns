@@ -1,0 +1,56 @@
+{
+  "url": "https://2.26.96.108:9443/sub?target=clash",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "138.16.140.115",
+      "port": 443,
+      "password": "4d3c8dde-53b1-4e17-b427-0ef56419533e",
+      "security": "tls",
+      "sni": "nl2.replayvpn.site",
+      "alpn": "http/1.1",
+      "fp": "chrome",
+      "allowInsecure": "0",
+      "name": "trojan-138.16.140.115"
+    },
+    {
+      "type": "tcp",
+      "server": "31.77.144.3",
+      "port": 443,
+      "password": "4d3c8dde-53b1-4e17-b427-0ef56419533e",
+      "security": "tls",
+      "sni": "shw.replayvpn.site",
+      "alpn": "http/1.1",
+      "fp": "chrome",
+      "allowInsecure": "0",
+      "name": "trojan-31.77.144.3"
+    },
+    {
+      "type": "tcp",
+      "server": "84.21.173.127",
+      "port": 443,
+      "password": "4d3c8dde-53b1-4e17-b427-0ef56419533e",
+      "security": "tls",
+      "sni": "de.replayvpn.site",
+      "alpn": "http/1.1",
+      "fp": "chrome",
+      "allowInsecure": "0",
+      "name": "trojan-84.21.173.127"
+    },
+    {
+      "type": "tcp",
+      "server": "78.17.173.42",
+      "port": 443,
+      "password": "4d3c8dde-53b1-4e17-b427-0ef56419533e",
+      "security": "tls",
+      "sni": "plnd.replayvpn.site",
+      "alpn": "http/1.1",
+      "fp": "chrome",
+      "allowInsecure": "0",
+      "name": "trojan-78.17.173.42"
+    }
+  ],
+  "count": 4,
+  "reason": ""
+}

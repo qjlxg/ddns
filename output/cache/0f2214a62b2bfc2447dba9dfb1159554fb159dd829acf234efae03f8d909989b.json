@@ -1,0 +1,28 @@
+{
+  "url": "https://185.147.26.93:443/sub?target=clash",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "xhttp",
+      "server": "tsaplin.space",
+      "port": 2080,
+      "uuid": "dfe382ca-6181-400e-8ac0-be8419319eca",
+      "security": "reality",
+      "sni": "tsaplin.space",
+      "fp": "chrome",
+      "pbk": "COa1HMXAcZES6vUixXqViptj_dZAx2GyAAzwq4RM6QY",
+      "sid": "3a63f4ae5b0a91cc",
+      "path": "/mafia",
+      "name": "vless-tsaplin.space"
+    },
+    {
+      "type": "socks5",
+      "server": "tsaplin.space",
+      "port": 1080,
+      "name": "socks-tsaplin.space",
+      "username": "OTFhM2IzYjctMDU3OC00ZmZhLWJiMTMtMDI3ODhjZjRkOWFjOmFlOTBkMGJhLTg0OWItNDZjZi1hNGVlLTdjMzU2OWIxNWE1MQ"
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}

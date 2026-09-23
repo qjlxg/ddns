@@ -1,0 +1,73 @@
+{
+  "url": "https://2.26.86.156:2087/sub?target=clash",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "xhttp",
+      "server": "2.26.86.156",
+      "port": 2083,
+      "uuid": "e3121220-4bd5-4eca-9f78-eb230916d4ec",
+      "security": "reality",
+      "sni": "gateway.icloud.com",
+      "fp": "chrome",
+      "pbk": "bQ27vcEJ0mOK5WD5Mnb7FbH_x6FR4OnWgj4NpAessRI",
+      "sid": "efaa4e3b",
+      "path": "/xhttp-happ",
+      "name": "vless-2.26.86.156"
+    },
+    {
+      "type": "xhttp",
+      "server": "2.26.86.156",
+      "port": 2053,
+      "uuid": "e3121220-4bd5-4eca-9f78-eb230916d4ec",
+      "security": "reality",
+      "sni": "fonts.googleapis.com",
+      "fp": "chrome",
+      "pbk": "bQ27vcEJ0mOK5WD5Mnb7FbH_x6FR4OnWgj4NpAessRI",
+      "sid": "efaa4e3b",
+      "path": "/xhttp-happ",
+      "name": "vless-2.26.86.156"
+    },
+    {
+      "type": "xhttp",
+      "server": "2.26.86.156",
+      "port": 2087,
+      "uuid": "e3121220-4bd5-4eca-9f78-eb230916d4ec",
+      "security": "reality",
+      "sni": "swdist.apple.com",
+      "fp": "chrome",
+      "pbk": "bQ27vcEJ0mOK5WD5Mnb7FbH_x6FR4OnWgj4NpAessRI",
+      "sid": "efaa4e3b",
+      "path": "/xhttp-happ",
+      "name": "vless-2.26.86.156"
+    },
+    {
+      "type": "xhttp",
+      "server": "2.26.86.156",
+      "port": 2096,
+      "uuid": "e3121220-4bd5-4eca-9f78-eb230916d4ec",
+      "security": "reality",
+      "sni": "itunes.apple.com",
+      "fp": "chrome",
+      "pbk": "bQ27vcEJ0mOK5WD5Mnb7FbH_x6FR4OnWgj4NpAessRI",
+      "sid": "efaa4e3b",
+      "path": "/xhttp-happ",
+      "name": "vless-2.26.86.156"
+    },
+    {
+      "type": "xhttp",
+      "server": "2.26.86.156",
+      "port": 443,
+      "uuid": "e3121220-4bd5-4eca-9f78-eb230916d4ec",
+      "security": "reality",
+      "sni": "gateway.icloud.com",
+      "fp": "chrome",
+      "pbk": "bQ27vcEJ0mOK5WD5Mnb7FbH_x6FR4OnWgj4NpAessRI",
+      "sid": "efaa4e3b",
+      "path": "/xhttp-happ",
+      "name": "vless-2.26.86.156"
+    }
+  ],
+  "count": 5,
+  "reason": ""
+}

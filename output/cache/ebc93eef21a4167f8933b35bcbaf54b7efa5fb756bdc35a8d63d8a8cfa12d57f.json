@@ -1,0 +1,34 @@
+{
+  "url": "https://193.84.3.244:2053/sub",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "193.84.3.244",
+      "port": 2053,
+      "uuid": "ecf9d2e7-08dd-457a-a2e5-377836ba217f",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "maxelo.ru",
+      "fp": "chrome",
+      "pbk": "ZLvO9iV6chzjoPNKp-mfNpWaCm6a31DSqR3N1RplZXA",
+      "sid": "a66c19fc",
+      "name": "vless-193.84.3.244"
+    },
+    {
+      "type": "tcp",
+      "server": "2.27.127.225",
+      "port": 8443,
+      "uuid": "3acd9795-71fa-4ec9-84ab-b7b87dff772b",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "maxelo.ru",
+      "fp": "chrome",
+      "pbk": "XJbUUyygbFkOr-h7FROWSijaIyWy7pnQNdlDxBrISxY",
+      "sid": "88e82597de8a1a79",
+      "name": "vless-2.27.127.225"
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}

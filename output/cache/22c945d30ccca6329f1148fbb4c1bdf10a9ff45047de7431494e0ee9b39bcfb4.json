@@ -276,43 +276,8 @@
       "name": "CHC动作电影频道",
       "url": "http://58.19.38.162:9901/tsfile/live/1037_1.m3u8",
       "extinf": "#EXTINF:-1 group-title=\"电影\" tvg-id=\"CHC动作电影频道\" tvg-logo=\"https://live.fanmingming.com/tv/CHC动作电影.png\",CHC动作电影频道"
-    },
-    {
-      "name": "CHC家庭影院频道",
-      "url": "http://58.19.38.162:9901/tsfile/live/1036_1.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"电影\" tvg-id=\"CHC家庭影院频道\" tvg-logo=\"https://live.fanmingming.com/tv/CHC家庭影院.png\",CHC家庭影院频道"
-    },
-    {
-      "name": "CCTV怀旧剧场频道",
-      "url": "http://110.241.188.219:808/hls/56/index.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"数字电视\" tvg-id=\"CCTV怀旧剧场频道\" tvg-logo=\"http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE7.jpg\",CCTV怀旧剧场频道"
-    },
-    {
-      "name": "CCTV风云剧场频道",
-      "url": "http://110.241.188.219:808/hls/57/index.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"数字电视\" tvg-id=\"CCTV风云剧场频道\" tvg-logo=\"http://epg.51zmt.top:8000/tb1/CCTV/CCTBfengyun.png\",CCTV风云剧场频道"
-    },
-    {
-      "name": "CCTV女性时尚频道",
-      "url": "http://111.61.236.247:9081/hls/59/index.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"数字电视\" tvg-id=\"CCTV女性时尚频道\" tvg-logo=\"http://epg.51zmt.top:8000/tb1/CCTV/CCTVnvxing.png\",CCTV女性时尚频道"
-    },
-    {
-      "name": "中国天气",
-      "url": "http://hls.weathertv.cn/tslslive/qCFIfHB/hls/live_sd.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"数字电视\" tvg-id=\"中国天气\" tvg-logo=\"https://live.fanmingming.com/tv/中国天气.png\",中国天气"
-    },
-    {
-      "name": "CETV1中国教育电视台一套",
-      "url": "http://121.24.98.21:8090/hls/67/index.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"教育\" tvg-id=\"CETV1中国教育电视台一套\" tvg-logo=\"https://live.fanmingming.com/tv/CETV1.png\",CETV1中国教育电视台一套"
-    },
-    {
-      "name": "CETV4空中课堂频道",
-      "url": "http://123.183.77.174:808/hls/92/index.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"教育\" tvg-id=\"CETV4空中课堂频道\" tvg-logo=\"https://live.fanmingming.com/tv/CETV4.png\",CETV4空中课堂频道"
     }
   ],
-  "count": 62,
+  "count": 55,
   "reason": ""
 }

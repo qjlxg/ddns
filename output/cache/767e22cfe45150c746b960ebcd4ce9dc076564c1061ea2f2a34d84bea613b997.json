@@ -1,0 +1,21 @@
+{
+  "url": "https://147.78.181.238:2096/sub?target=mixed",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "95.182.90.75",
+      "port": 443,
+      "uuid": "a555a658-f414-43bd-89e6-c35730b824c4",
+      "security": "reality",
+      "sni": "github.com",
+      "fp": "chrome",
+      "pbk": "_l3TSR4wjVt8vXSqhxbzylziZDI2Gv4SCGyfynb9bAk",
+      "sid": "2f78ac7c9baf613b",
+      "host": "github.com",
+      "name": "vless-95.182.90.75"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}
