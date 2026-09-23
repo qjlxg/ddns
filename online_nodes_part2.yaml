@@ -4725,6 +4725,1030 @@ proxies:
   network: ws
   ws-opts:
     path: /
+- name: 🇺🇸 SkyBit-45_2026-09-22 19:22:58
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ''
+  network: tcp
+- name: 🇺🇸 美国 | VLESS | 459
+  type: vless
+  server: 195.26.229.131
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: hysteria2-1066924734
+  type: hysteria2
+  server: 155.248.209.237
+  port: 33333
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  sni: 'off'
+  skip-cert-verify: true
+- name: By EbraSha 🧲-5
+  type: vmess
+  server: aidrivercat.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: aidrivercat.org
+  network: ws
+  ws-opts:
+    headers:
+      Host: aidrivercat.org
+    path: /linkvws
+- name: v2go | 🇺🇸 US | VMESS | 489
+  type: vmess
+  server: aidrivercat.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: aidrivercat.org
+  network: ws
+  ws-opts:
+    headers:
+      Host: aidrivercat.org
+    path: /linkvws
+- name: SG 🇸🇬 | @Raydikalx | 8EEE09
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ''
+  network: tcp
+- name: CF中转_0923062543
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: a8c23fe7-d2bb-46ba-a14e-8847f1944642
+  tls: true
+  servername: billowing-fire-a10b.301-d6c.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: billowing-fire-a10b.301-d6c.workers.dev
+- name: 🇮🇹 | @WhiteDNS | IT1485|23.3MB/s|DNSOK|GPT⁺-IT
+  type: vless
+  server: 204.216.216.23
+  port: 10086
+  uuid: 9f0285ee-20ca-4953-bcdb-86a920652923
+  tls: false
+  servername: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
+  network: tcp
+- name: 🇫🇷FR_813|680KB/s|B007-260618 01
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
+  tls: false
+  servername: 188.114.97.6
+  network: ws
+  ws-opts:
+    path: /xiron
+    headers:
+      Host: xstack.mahanfixe.workers.dev
+- name: VLESS-786
+  type: vless
+  server: 212.193.18.183
+  port: 8446
+  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
+  tls: true
+  servername: maps.apple.com
+  network: grpc
+  reality-opts:
+    public-key: f6xhmL1XqUJ4zdkaDsh9GuEyXc0JXM2Dp5KwU8VHb0c
+    short-id: 7f8e9d0c1b2a
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: snob-grpc
+- name: filembad-295
+  type: vless
+  server: 172.67.174.37
+  port: 8880
+  uuid: b2c879ed-08a2-4a79-9c57-37c7db614e96
+  tls: false
+  servername: 172.67.174.37
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: sweet-cake-1340.474-288.workers.dev
+- name: '@DeltaKroneckerGithub-631'
+  type: vless
+  server: 138.124.60.146
+  port: 443
+  uuid: bbfd1f68-ec64-452f-8404-9e2bcf1df951
+  tls: true
+  servername: usa.oblaco.bet
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0
+  client-fingerprint: chrome
+- name: 🇨🇦 Canada | WebSocket | @anonymouskeys-52
+  type: vless
+  server: 172.64.52.6
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  servername: 172.64.52.6
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: vless-522223670
+  type: vless
+  server: 3.0.111.82
+  port: 17623
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  tls: true
+  servername: www.apple.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  client-fingerprint: safari
+- name: 🇸🇪 AetrisVPN-2
+  type: vless
+  server: 104.18.32.47
+  port: 8880
+  uuid: 142d1453-9cfe-4045-8e54-f3fb33342185
+  tls: false
+  servername: 104.18.32.47
+  network: ws
+  ws-opts:
+    path: /pyip
+    headers:
+      Host: lively-scene-744f.107-47a.workers.dev
+- name: 🇨🇦 Canada | WebSocket | @anonymouskeys-53
+  type: vless
+  server: 162.159.156.214
+  port: 8880
+  uuid: 4f74ff26-25af-41d6-9d39-be46fe8ff1a8
+  tls: false
+  servername: 162.159.156.214
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: steep-resonance-1ffb.274.workers.dev
+- name: 🇮🇹IT_1|737KB/s|C002-260622 01
+  type: vless
+  server: 116.204.164.27
+  port: 7443
+  uuid: 4c7480b2-d67b-4bb9-9f33-0700dfcbdee6
+  tls: true
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+- name: '@Shh_-New¹�%B'
+  type: vless
+  server: 95.85.224.17
+  port: 443
+  uuid: d0f0a880-0df1-48c9-bdf1-5669fb9483ce
+  tls: true
+  servername: est1313.ggisopi.su
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I
+  client-fingerprint: firefox
+- name: 🇺🇸 美国 (United States) 135 - tammader
+  type: vmess
+  server: 82.198.246.233
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: support.zoom.us.gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
+  network: tcp
+- name: VLESS-794
+  type: vless
+  server: www.baipiao.eu.org
+  port: 8880
+  uuid: 1113b881-179c-411c-b29b-53dae8faaf0a
+  tls: false
+  servername: www.baipiao.eu.org
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: raspy-sun-3de0.338.workers.dev
+- name: 🇺🇸US_408|903KB/s|A004-260618 01
+  type: hysteria2
+  server: 155.248.209.237
+  port: 33333
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  sni: hy2.123266.xyz
+- name: 🇺🇸 United States, New York | [BL]-2
+  type: vless
+  server: 172.67.195.150
+  port: 443
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  tls: true
+  servername: 5-m20.dbfb5a2a-81c7-481a-b0cc-0f51aa86cc51.kdns.fr
+  network: ws
+  ws-opts:
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+    headers:
+      Host: 5-m20.dbfb5a2a-81c7-481a-b0cc-0f51aa86cc51.kdns.fr
+- name: 🇫🇷FR_574|5.5MB/s 01
+  type: vless
+  server: www.shopify.com
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  tls: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🇫🇷FR_1527|698KB/s|C002-260622 01
+  type: vless
+  server: 172.67.190.141
+  port: 8880
+  uuid: 31f345f3-b8eb-4ca6-8b14-bb555ae2c1f9
+  tls: false
+  servername: 172.67.190.141
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: tiny-feather-4c41.227.workers.dev
+- name: EPODONIOS-72
+  type: vless
+  server: 194.150.166.227
+  port: 9443
+  uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa
+  tls: true
+  servername: storage.yandexcloud.net
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
+    short-id: ad20d2ba
+  client-fingerprint: chrome
+- name: VLESS-795
+  type: vless
+  server: 162.159.48.32
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  servername: 162.159.48.32
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇦🇺 机场推荐:dafei.de 澳大利亚 02
+  type: vless
+  server: 34.87.244.111
+  port: 443
+  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+    short-id: d725f0dd8cce210f
+  client-fingerprint: chrome
+- name: '@DeltaKroneckerGithub-636'
+  type: vless
+  server: 34.64.149.137
+  port: 443
+  uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
+    short-id: 3fd0a8ddef3ae5c6
+  client-fingerprint: chrome
+- name: https://t.me/ForceRunVPN-🏁-669ms-Unknown
+  type: vless
+  server: moldova.cdn-europe.org
+  port: 4443
+  uuid: d7c94b82-657a-4bb7-9b24-2ae566669835
+  tls: true
+  servername: moldova.cdn-europe.org
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: cYwrRCz_hKgT_JE8WywuLE3XOkAEqCTuBiUvXAaEjn8
+    short-id: 694ee64512cfcbef
+  client-fingerprint: chrome
+- name: vless-1302925736
+  type: vless
+  server: 169.40.42.90
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  tls: true
+  servername: yahoo.com
+  network: raw
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  client-fingerprint: ios
+- name: v2go | 🇬🇧 GB | VLESS | 606
+  type: vless
+  server: 46.250.240.80
+  port: 2053
+  uuid: 948df76f-505d-4608-9c76-a933ee3ccc76
+  tls: true
+  servername: www.cloudflare.com
+  network: raw
+  reality-opts:
+    public-key: CYFeysLf--_IVhxQOCd3ZxLrAVWFFOkJzvIGHOVXN3E
+    short-id: 4cc9dc65f7770115
+  client-fingerprint: firefox
+- name: SG-5
+  type: vless
+  server: 45.77.241.190
+  port: 8441
+  uuid: 35325935-2cd2-4c62-aee1-4797dde0fae3
+  tls: true
+  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
+- name: 🏳️ ShatakVPN 689179
+  type: hysteria2
+  server: 31.76.71.63
+  port: 443
+  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+  sni: cabinet.wwwinternetvideo.click
+  skip-cert-verify: true
+- name: vmess-657042639
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ''
+  network: ws
+  ws-opts: {}
+- name: 🇪🇸ES_3|521KB/s|T001-260618 01
+  type: vless
+  server: www.zsu.gov.ua
+  port: 8880
+  uuid: 30a2a9a6-6a03-4353-a7fb-63831d64f718
+  tls: false
+  servername: www.zsu.gov.ua
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: orange-lab-896e.365-80b.workers.dev
+- name: 4Jadi-3405d047cd
+  type: trojan
+  server: 188.114.97.8
+  port: 443
+  password: PFAiJ0ND-iqYF@NE
+  sni: cFOi-2fX16G3-8ry2KDxMcJ.wjESV2IlA3rXBuhpC2NsUgrAChGAWk.wOrKerS.DEv
+  udp: true
+  network: ws
+  ws-opts:
+    path: /tr/g47sXSSa9D29SmBXchyV?ed=2560
+- name: FI-6
+  type: vless
+  server: 2.26.91.98
+  port: 1443
+  uuid: fd30c61d-82bf-449c-aa9e-565d0ab64b75
+  tls: true
+  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+- name: '@DeltaKroneckerGithub-642'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 5ef4b1d5-1039-4d26-99c8-7b5d5b570819
+  tls: true
+  servername: tradingview.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+  client-fingerprint: firefox
+- name: 🇫🇷 - FR - @FreeOnlineVPN | 4a49fb
+  type: trojan
+  server: 188.114.97.6
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 🇦🇪
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  tls: false
+  servername: 84.235.244.108
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: '@VConfing-2'
+  type: vless
+  server: 159.69.103.251
+  port: 2053
+  uuid: 6cf6bb53-9785-49d5-9d39-53b4de45ff84
+  tls: true
+  servername: 91.98.44.116
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: W2V2xk0G3_neYDnTLNhaYxovp_ThMXDw68uweM12W2Y
+    short-id: 5ecb8c5a753a36fc
+  client-fingerprint: chrome
+- name: vmess-145123
+  type: vmess
+  server: 82.198.246.37
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: sea9.firewallcontract.click
+  network: tcp
+- name: US 🇺🇸 | @Raydikalx | 9B6A17
+  type: vmess
+  server: 82.198.246.37
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ''
+  network: tcp
+- name: '🇷🇺 [VL] Россия #3523 | РосТуннель t.me/rjsxrd'
+  type: vless
+  server: 185.147.27.183
+  port: 8443
+  uuid: 379998c5-2a71-4202-9c74-522e0c3c5404
+  tls: true
+  servername: user-6a917f32.noooo.win
+  network: tcp
+  flow: xtls-rprx-vision
+- name: 🌐 Chile | Reality | @anonymouskeys
+  type: vless
+  server: 34.176.98.128
+  port: 443
+  uuid: 4fe7ceb2-160c-4564-89e6-8f5fd0b05cd5
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: 3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw
+    short-id: d7676b6a468a03b3
+  client-fingerprint: safari
+- name: CZ
+  type: vless
+  server: 31.76.7.154
+  port: 7443
+  uuid: d7cad038-0c3f-4cce-8f8a-36464aaf66c0
+  tls: true
+  servername: ya.ru
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
+    short-id: d2061bb1
+  client-fingerprint: firefox
+- name: 🇪🇪 @anonymouskeys-4
+  type: vless
+  server: 138.124.183.18
+  port: 9443
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  tls: true
+  servername: edge-ee-01.hanvpn.cc
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ee01-grpc-8e47a
+- name: VLESS-807
+  type: vless
+  server: 94.183.170.147
+  port: 8443
+  uuid: 5edbcb44-8d04-4fa7-a587-bc5d60c24ca1
+  tls: true
+  servername: www.cloudflare.com
+  network: grpc
+  reality-opts:
+    public-key: s2uiu3GQA2SlZzsr86Z5Dav97eAFTPf7Nvr-zqzzRgg
+    short-id: 72ccd4a7563c2953
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: 9d30d49278
+- name: '@DeltaKroneckerGithub-644'
+  type: vless
+  server: 157.151.4.93
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: CF中转_0923061604
+  type: vless
+  server: 104.16.107.139
+  port: 8880
+  uuid: 84270e8b-567e-45c6-b2f2-56ec9a67ae1e
+  tls: false
+  servername: 104.16.107.139
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: young-leaf-a723.162-4da.workers.dev
+- name: 🇰🇷 @anonymouskeys-3
+  type: vless
+  server: 47.80.14.8
+  port: 443
+  uuid: 581cb8c3-dadb-4e10-a18b-5e79bfe7bd93
+  tls: true
+  servername: www.samsung.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: OBIHAXdhfYJ0PWsZjy3QYPRjTfMQlvjmBsTf1CT671w
+    short-id: 71110d3f7ef57760
+  client-fingerprint: firefox
+- name: US-16
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 3044b722-695b-42a6-8729-e2c65ba0ccb3
+  tls: true
+  servername: tradingview.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+  client-fingerprint: firefox
+- name: '@V2ray_Alpha🕰️ 5'
+  type: vmess
+  server: 45.80.215.8
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ''
+  network: tcp
+- name: '@DeltaKroneckerGithub-647'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 77d4bb66-82c8-4511-98e0-44edb2da8978
+  tls: true
+  servername: tradingview.com
+  network: raw
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  client-fingerprint: firefox
+- name: 🇩🇪 德国 | HYSTERIA2 | 013
+  type: hysteria2
+  server: 85.204.107.178
+  port: 8080
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  sni: hopp-romania-new.roxa.org
+  skip-cert-verify: true
+- name: '@DeltaKroneckerGithub-650'
+  type: vless
+  server: 188.114.97.8
+  port: 8443
+  uuid: 9c63fd59-f9ee-446e-97ec-0bf2de21ed7b
+  tls: true
+  servername: dRy-GLITTer-ef10.gFRYubCdrYujVRtH.WorkErS.DEV
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiVVhGU1pOZ1oxaTFUUldyVCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: dry-glitter-ef10.gfryubcdryujvrth.workers.dev
+- name: 🇺🇸 美国 (United States) 222 - tammader
+  type: vmess
+  server: 129.146.77.248
+  port: 39495
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: null
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+- name: CF中转_0923062841
+  type: vless
+  server: 104.25.3.165
+  port: 443
+  uuid: 737678dc-cc15-4643-85a4-ca9359df1aa4
+  tls: true
+  servername: patient-moon-c61f.ggfsa55.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: patient-moon-c61f.ggfsa55.workers.dev
+- name: 🇫🇷FR_1096|589KB/s|M003-260806 01
+  type: trojan
+  server: 104.21.8.63
+  port: 443
+  password: 5855d6850594830f
+  sni: AkbARIan34.j9Z65Ce2uyks.WoRKeRS.DEV
+  udp: true
+  network: ws
+  ws-opts:
+    path: /tr/w2O3K3xXNYDKIxwOIw7?ed=2560
+- name: 🇺🇸 美国 | VLESS | 043
+  type: vless
+  server: 172.64.154.8
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: NL-18
+  type: trojan
+  server: 188.42.145.180
+  port: 443
+  password: humanity
+  sni: www.volumeroot.com
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com
+- name: 🇺🇸 美国 | VMESS | 033
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ''
+  network: raw
+- name: 🇫🇷FR_747|484KB/s|F003-260618 01
+  type: vless
+  server: 104.17.21.32
+  port: 8880
+  uuid: 6e5270b6-9f28-4bc6-8a41-9c197f33f4bb
+  tls: false
+  servername: 104.17.21.32
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: autumn-dawn-fa6b.337-272.workers.dev
+- name: 🇬🇧GB_13|468KB/s|S001-260618 01
+  type: vless
+  server: 172.65.90.53
+  port: 8880
+  uuid: b0b406f8-1f30-484c-9fcf-2fdffc715473
+  tls: false
+  servername: 172.65.90.53
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: round-thunder-8e62.265-833.workers.dev
+- name: 🇮🇪_爱尔兰_404
+  type: vless
+  server: 198.55.102.68
+  port: 2083
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: CA | 172.67.179.82 | 300ms
+  type: vless
+  server: 172.67.179.82
+  port: 443
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  tls: true
+  servername: 1-m20.be434a1f-0c04-40c9-a43a-87cc7d7da502.kdns.fr
+  network: ws
+  ws-opts:
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+    headers:
+      Host: 1-m20.be434a1f-0c04-40c9-a43a-87cc7d7da502.kdns.fr
+- name: vless-1425905221
+  type: vless
+  server: 34.64.149.137
+  port: 443
+  uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
+    short-id: 3fd0a8ddef3ae5c6
+  client-fingerprint: chrome
+- name: vless-332701811
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 72109745-9dbe-42a6-93c7-8b6eeb7aaed3
+  tls: true
+  servername: tradingview.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+  client-fingerprint: firefox
+- name: '[openproxylist.com] SG 7314090'
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ''
+  network: tcp
+- name: 🇯🇵 | @WhiteDNS | JP714|1.0MB/s|DNSOK|GPT⁺-JP
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: null
+  network: tcp
+- name: CA-34
+  type: vless
+  server: 104.21.14.116
+  port: 443
+  uuid: 566c0473-382e-aabb-c62a-f5bb00000000
+  tls: true
+  servername: ez-4b5fd4.appelidmymat.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: ez-4b5fd4.appelidmymat.workers.dev
+- name: NL-19
+  type: vless
+  server: ndi.lavivas.org
+  port: 2096
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
+  tls: true
+  servername: ndi.lavivas.org
+  network: tcp
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+- name: 🇺🇸 美国 | VLESS | 531
+  type: vless
+  server: 45.63.21.52
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇱🇻 拉脱维亚 | VLESS | 001
+  type: vless
+  server: 138.124.180.137
+  port: 443
+  uuid: 5234b2b7-5e07-422c-8159-d62a676c00c6
+  tls: true
+  servername: www.apple.com
+  network: raw
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c
+    short-id: 33acba1b
+  client-fingerprint: chrome
+- name: https://t.me/ForceRunVPN-🇺🇸-Reston-34ms-Cloudflare Inc
+  type: vless
+  server: 172.64.158.146
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇵🇱179254
+  type: vless
+  server: 54.37.136.194
+  port: 2053
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+    short-id: 50ba05992b05c1c3
+  client-fingerprint: chrome
+- name: '@DeltaKroneckerGithub-660'
+  type: vless
+  server: soskeynets-meadow-af5b.woowoorrrkk.workers.dev
+  port: 443
+  uuid: a8890c1b-3622-3106-c4be-d8671be32d2b
+  tls: true
+  servername: summer-meadow-af5b.woowoorrrkk.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: summer-meadow-af5b.woowoorrrkk.workers.dev
+- name: 🇸🇬 @anonymouskeys-3
+  type: vless
+  server: 54.251.9.130
+  port: 24146
+  uuid: 9d9a048b-3aea-4b3e-b106-1106bf301feb
+  tls: true
+  servername: www.intel.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo
+    short-id: 7205d9079521832c
+  client-fingerprint: random
+- name: 🇨🇦 Canada | WebSocket | @anonymouskeys-55
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: 92a4cb10-228f-4239-8c63-c566b20a9167
+  tls: false
+  servername: 188.114.97.6
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: square-waterfall-c1de.199-82d.workers.dev
+- name: 🇨🇦 Canada | TCP | @anonymouskeys-3
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ''
+  network: tcp
+- name: Holanda
+  type: trojan
+  server: 45.87.41.18
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: CF中转_0923063832
+  type: vless
+  server: 104.21.88.129
+  port: 8880
+  uuid: dec6b197-3211-46f0-bca8-71dfca535709
+  tls: false
+  servername: 104.21.88.129
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: patient-bread-62cc.473-002.workers.dev
+- name: v2go | 🇬🇧 GB | VLESS | 575
+  type: vless
+  server: 104.21.19.69
+  port: 2053
+  uuid: 522df6b1-a110-4163-a92f-9935561b1f77
+  tls: true
+  servername: de.huge-b.com
+  network: ws
+  ws-opts:
+    path: /@Artemis_Vpn
+    headers:
+      Host: de.huge-b.com
+- name: NL-20
+  type: vless
+  server: 94.183.224.45
+  port: 443
+  uuid: d72f05b0-b182-4783-a6f2-21cecc7d841a
+  tls: true
+  servername: dzen.ru
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js
+    short-id: a1b2c3d4e5f67890
+  client-fingerprint: firefox
+- name: '5322'
+  type: vless
+  server: 47.251.108.158
+  port: 443
+  uuid: 975fc322-6e38-434b-a53c-d39fed49b9a9
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: SmgYcFIvvFXW3xh4gvGhIJuQsaZvWkAylcjB6TEddEs
+    short-id: 896f52ba2cfca903
+  client-fingerprint: firefox
+- name: hysteria2-738935847
+  type: hysteria2
+  server: hys9.wba-pn.ru
+  port: 443
+  password: wrSuBorIlf
+  sni: hys9.wba-pn.ru
+  skip-cert-verify: true
+- name: 波兰 V2CROSS.COM
+  type: vmess
+  server: zfd-hkv2.kunlun01dns.com
+  port: 16116
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ''
+  network: tcp
+- name: 🇳🇱 | @WhiteDNS | NL590|6.5MB/s|DNSOK|GPT⁺-NL
+  type: vless
+  server: 51.158.206.80
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  tls: true
+  servername: fuck.rkn
+  network: raw
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 | VLESS | 092
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 2eea435c-8c8f-45e3-8907-956a0c6b0182
+  tls: true
+  servername: tradingview.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  client-fingerprint: firefox
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -5143,6 +6167,95 @@ proxy-groups:
   - EUA
   - 🇹🇼TW_1|496KB/s|C002-260622 01
   - ZZ · VMESS · ts-sf-v2ray · 4CA01A58
+  - 🇺🇸 SkyBit-45_2026-09-22 19:22:58
+  - 🇺🇸 美国 | VLESS | 459
+  - hysteria2-1066924734
+  - By EbraSha 🧲-5
+  - v2go | 🇺🇸 US | VMESS | 489
+  - SG 🇸🇬 | @Raydikalx | 8EEE09
+  - CF中转_0923062543
+  - 🇮🇹 | @WhiteDNS | IT1485|23.3MB/s|DNSOK|GPT⁺-IT
+  - 🇫🇷FR_813|680KB/s|B007-260618 01
+  - VLESS-786
+  - filembad-295
+  - '@DeltaKroneckerGithub-631'
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-52
+  - vless-522223670
+  - 🇸🇪 AetrisVPN-2
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-53
+  - 🇮🇹IT_1|737KB/s|C002-260622 01
+  - '@Shh_-New¹�%B'
+  - 🇺🇸 美国 (United States) 135 - tammader
+  - VLESS-794
+  - 🇺🇸US_408|903KB/s|A004-260618 01
+  - 🇺🇸 United States, New York | [BL]-2
+  - 🇫🇷FR_574|5.5MB/s 01
+  - 🇫🇷FR_1527|698KB/s|C002-260622 01
+  - EPODONIOS-72
+  - VLESS-795
+  - 🇦🇺 机场推荐:dafei.de 澳大利亚 02
+  - '@DeltaKroneckerGithub-636'
+  - https://t.me/ForceRunVPN-🏁-669ms-Unknown
+  - vless-1302925736
+  - v2go | 🇬🇧 GB | VLESS | 606
+  - SG-5
+  - 🏳️ ShatakVPN 689179
+  - vmess-657042639
+  - 🇪🇸ES_3|521KB/s|T001-260618 01
+  - 4Jadi-3405d047cd
+  - FI-6
+  - '@DeltaKroneckerGithub-642'
+  - 🇫🇷 - FR - @FreeOnlineVPN | 4a49fb
+  - 🇦🇪
+  - '@VConfing-2'
+  - vmess-145123
+  - US 🇺🇸 | @Raydikalx | 9B6A17
+  - '🇷🇺 [VL] Россия #3523 | РосТуннель t.me/rjsxrd'
+  - 🌐 Chile | Reality | @anonymouskeys
+  - CZ
+  - 🇪🇪 @anonymouskeys-4
+  - VLESS-807
+  - '@DeltaKroneckerGithub-644'
+  - CF中转_0923061604
+  - 🇰🇷 @anonymouskeys-3
+  - US-16
+  - '@V2ray_Alpha🕰️ 5'
+  - '@DeltaKroneckerGithub-647'
+  - 🇩🇪 德国 | HYSTERIA2 | 013
+  - '@DeltaKroneckerGithub-650'
+  - 🇺🇸 美国 (United States) 222 - tammader
+  - CF中转_0923062841
+  - 🇫🇷FR_1096|589KB/s|M003-260806 01
+  - 🇺🇸 美国 | VLESS | 043
+  - NL-18
+  - 🇺🇸 美国 | VMESS | 033
+  - 🇫🇷FR_747|484KB/s|F003-260618 01
+  - 🇬🇧GB_13|468KB/s|S001-260618 01
+  - 🇮🇪_爱尔兰_404
+  - CA | 172.67.179.82 | 300ms
+  - vless-1425905221
+  - vless-332701811
+  - '[openproxylist.com] SG 7314090'
+  - 🇯🇵 | @WhiteDNS | JP714|1.0MB/s|DNSOK|GPT⁺-JP
+  - CA-34
+  - NL-19
+  - 🇺🇸 美国 | VLESS | 531
+  - 🇱🇻 拉脱维亚 | VLESS | 001
+  - https://t.me/ForceRunVPN-🇺🇸-Reston-34ms-Cloudflare Inc
+  - 🇵🇱179254
+  - '@DeltaKroneckerGithub-660'
+  - 🇸🇬 @anonymouskeys-3
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-55
+  - 🇨🇦 Canada | TCP | @anonymouskeys-3
+  - Holanda
+  - CF中转_0923063832
+  - v2go | 🇬🇧 GB | VLESS | 575
+  - NL-20
+  - '5322'
+  - hysteria2-738935847
+  - 波兰 V2CROSS.COM
+  - 🇳🇱 | @WhiteDNS | NL590|6.5MB/s|DNSOK|GPT⁺-NL
+  - 🇳🇱 荷兰 | VLESS | 092
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -5561,6 +6674,95 @@ proxy-groups:
   - EUA
   - 🇹🇼TW_1|496KB/s|C002-260622 01
   - ZZ · VMESS · ts-sf-v2ray · 4CA01A58
+  - 🇺🇸 SkyBit-45_2026-09-22 19:22:58
+  - 🇺🇸 美国 | VLESS | 459
+  - hysteria2-1066924734
+  - By EbraSha 🧲-5
+  - v2go | 🇺🇸 US | VMESS | 489
+  - SG 🇸🇬 | @Raydikalx | 8EEE09
+  - CF中转_0923062543
+  - 🇮🇹 | @WhiteDNS | IT1485|23.3MB/s|DNSOK|GPT⁺-IT
+  - 🇫🇷FR_813|680KB/s|B007-260618 01
+  - VLESS-786
+  - filembad-295
+  - '@DeltaKroneckerGithub-631'
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-52
+  - vless-522223670
+  - 🇸🇪 AetrisVPN-2
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-53
+  - 🇮🇹IT_1|737KB/s|C002-260622 01
+  - '@Shh_-New¹�%B'
+  - 🇺🇸 美国 (United States) 135 - tammader
+  - VLESS-794
+  - 🇺🇸US_408|903KB/s|A004-260618 01
+  - 🇺🇸 United States, New York | [BL]-2
+  - 🇫🇷FR_574|5.5MB/s 01
+  - 🇫🇷FR_1527|698KB/s|C002-260622 01
+  - EPODONIOS-72
+  - VLESS-795
+  - 🇦🇺 机场推荐:dafei.de 澳大利亚 02
+  - '@DeltaKroneckerGithub-636'
+  - https://t.me/ForceRunVPN-🏁-669ms-Unknown
+  - vless-1302925736
+  - v2go | 🇬🇧 GB | VLESS | 606
+  - SG-5
+  - 🏳️ ShatakVPN 689179
+  - vmess-657042639
+  - 🇪🇸ES_3|521KB/s|T001-260618 01
+  - 4Jadi-3405d047cd
+  - FI-6
+  - '@DeltaKroneckerGithub-642'
+  - 🇫🇷 - FR - @FreeOnlineVPN | 4a49fb
+  - 🇦🇪
+  - '@VConfing-2'
+  - vmess-145123
+  - US 🇺🇸 | @Raydikalx | 9B6A17
+  - '🇷🇺 [VL] Россия #3523 | РосТуннель t.me/rjsxrd'
+  - 🌐 Chile | Reality | @anonymouskeys
+  - CZ
+  - 🇪🇪 @anonymouskeys-4
+  - VLESS-807
+  - '@DeltaKroneckerGithub-644'
+  - CF中转_0923061604
+  - 🇰🇷 @anonymouskeys-3
+  - US-16
+  - '@V2ray_Alpha🕰️ 5'
+  - '@DeltaKroneckerGithub-647'
+  - 🇩🇪 德国 | HYSTERIA2 | 013
+  - '@DeltaKroneckerGithub-650'
+  - 🇺🇸 美国 (United States) 222 - tammader
+  - CF中转_0923062841
+  - 🇫🇷FR_1096|589KB/s|M003-260806 01
+  - 🇺🇸 美国 | VLESS | 043
+  - NL-18
+  - 🇺🇸 美国 | VMESS | 033
+  - 🇫🇷FR_747|484KB/s|F003-260618 01
+  - 🇬🇧GB_13|468KB/s|S001-260618 01
+  - 🇮🇪_爱尔兰_404
+  - CA | 172.67.179.82 | 300ms
+  - vless-1425905221
+  - vless-332701811
+  - '[openproxylist.com] SG 7314090'
+  - 🇯🇵 | @WhiteDNS | JP714|1.0MB/s|DNSOK|GPT⁺-JP
+  - CA-34
+  - NL-19
+  - 🇺🇸 美国 | VLESS | 531
+  - 🇱🇻 拉脱维亚 | VLESS | 001
+  - https://t.me/ForceRunVPN-🇺🇸-Reston-34ms-Cloudflare Inc
+  - 🇵🇱179254
+  - '@DeltaKroneckerGithub-660'
+  - 🇸🇬 @anonymouskeys-3
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-55
+  - 🇨🇦 Canada | TCP | @anonymouskeys-3
+  - Holanda
+  - CF中转_0923063832
+  - v2go | 🇬🇧 GB | VLESS | 575
+  - NL-20
+  - '5322'
+  - hysteria2-738935847
+  - 波兰 V2CROSS.COM
+  - 🇳🇱 | @WhiteDNS | NL590|6.5MB/s|DNSOK|GPT⁺-NL
+  - 🇳🇱 荷兰 | VLESS | 092
 - name: 🎯 全球直连
   type: select
   proxies:
