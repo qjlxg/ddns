@@ -1,0 +1,33 @@
+{
+  "url": "http://23.226.135.125:80/sub?target=clash",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "23.226.135.125",
+      "port": 443,
+      "uuid": "834a3136-5e8c-4df4-bd8e-8efea25bf788",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "download-porter.hoyoverse.com",
+      "fp": "chrome",
+      "pbk": "jDmElSwlmnVMFQzQ7_KfqKiR8nMbUHXIFG-AbAJ2JFE",
+      "sid": "2b898b26",
+      "name": "vless-23.226.135.125"
+    },
+    {
+      "type": "vmess",
+      "server": "23.226.135.125",
+      "port": 80,
+      "uuid": "834a3136-5e8c-4df4-bd8e-8efea25bf788",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "network": "ws",
+      "servername": "",
+      "name": "vmess-Cloudflare"
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}

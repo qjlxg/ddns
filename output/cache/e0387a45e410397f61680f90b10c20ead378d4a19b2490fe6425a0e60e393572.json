@@ -1,0 +1,140 @@
+{
+  "url": "http://149.104.30.68:80/hong-kong.yaml",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "hk-01",
+      "type": "vless",
+      "server": "149.104.30.68",
+      "port": 443,
+      "uuid": "98ba160c-3ebb-4ed5-90ac-969db8269eb2",
+      "udp": true,
+      "network": "tcp",
+      "tls": true,
+      "servername": "www.cloudflare.com",
+      "client-fingerprint": "chrome",
+      "flow": "xtls-rprx-vision",
+      "reality-opts": {
+        "public-key": "R3f0V29_E4OhSSMUCH2-RBBiJn8nODcjsbxGRm9yGVU",
+        "short-id": "f6d1033c365a4992"
+      }
+    },
+    {
+      "name": "hk-02",
+      "type": "vless",
+      "server": "149.104.30.68",
+      "port": 443,
+      "uuid": "a88e1f4a-d217-47d3-bbb6-f873987820c2",
+      "udp": true,
+      "network": "tcp",
+      "tls": true,
+      "servername": "www.cloudflare.com",
+      "client-fingerprint": "chrome",
+      "flow": "xtls-rprx-vision",
+      "reality-opts": {
+        "public-key": "R3f0V29_E4OhSSMUCH2-RBBiJn8nODcjsbxGRm9yGVU",
+        "short-id": "f6d1033c365a4992"
+      }
+    },
+    {
+      "name": "hk-03",
+      "type": "vless",
+      "server": "149.104.30.68",
+      "port": 443,
+      "uuid": "2f58d3ea-e365-4515-a06b-fc8650096015",
+      "udp": true,
+      "network": "tcp",
+      "tls": true,
+      "servername": "www.cloudflare.com",
+      "client-fingerprint": "chrome",
+      "flow": "xtls-rprx-vision",
+      "reality-opts": {
+        "public-key": "R3f0V29_E4OhSSMUCH2-RBBiJn8nODcjsbxGRm9yGVU",
+        "short-id": "f6d1033c365a4992"
+      }
+    },
+    {
+      "name": "hk-04",
+      "type": "vless",
+      "server": "149.104.30.68",
+      "port": 443,
+      "uuid": "27c827c2-95e6-497f-a397-804b5a133f53",
+      "udp": true,
+      "network": "tcp",
+      "tls": true,
+      "servername": "www.cloudflare.com",
+      "client-fingerprint": "chrome",
+      "flow": "xtls-rprx-vision",
+      "reality-opts": {
+        "public-key": "R3f0V29_E4OhSSMUCH2-RBBiJn8nODcjsbxGRm9yGVU",
+        "short-id": "f6d1033c365a4992"
+      }
+    },
+    {
+      "name": "hk-05",
+      "type": "vless",
+      "server": "149.104.30.68",
+      "port": 443,
+      "uuid": "d514ec13-ab69-431a-b2fa-a9f128008588",
+      "udp": true,
+      "network": "tcp",
+      "tls": true,
+      "servername": "www.cloudflare.com",
+      "client-fingerprint": "chrome",
+      "flow": "xtls-rprx-vision",
+      "reality-opts": {
+        "public-key": "R3f0V29_E4OhSSMUCH2-RBBiJn8nODcjsbxGRm9yGVU",
+        "short-id": "f6d1033c365a4992"
+      }
+    },
+    {
+      "name": "hk-06",
+      "type": "vless",
+      "server": "149.104.30.68",
+      "port": 443,
+      "uuid": "6f48ebba-5105-4588-87dc-8f57ceb546b5",
+      "udp": true,
+      "network": "tcp",
+      "tls": true,
+      "servername": "www.cloudflare.com",
+      "client-fingerprint": "chrome",
+      "flow": "xtls-rprx-vision",
+      "reality-opts": {
+        "public-key": "R3f0V29_E4OhSSMUCH2-RBBiJn8nODcjsbxGRm9yGVU",
+        "short-id": "f6d1033c365a4992"
+      }
+    },
+    {
+      "name": "hk-07",
+      "type": "vless",
+      "server": "149.104.30.68",
+      "port": 443,
+      "uuid": "1b49be75-7781-43d0-bef7-65b335226cc0",
+      "udp": true,
+      "network": "tcp",
+      "tls": true,
+      "servername": "www.cloudflare.com",
+      "client-fingerprint": "chrome",
+      "flow": "xtls-rprx-vision",
+      "reality-opts": {
+        "public-key": "R3f0V29_E4OhSSMUCH2-RBBiJn8nODcjsbxGRm9yGVU",
+        "short-id": "f6d1033c365a4992"
+      }
+    },
+    {
+      "name": "hk-08",
+      "type": "vless",
+      "server": "149.104.30.68",
+      "port": 443,
+      "uuid": "d25e42b6-15d0-43e9-9cdb-38f3a77bd429",
+      "udp": true,
+      "network": "tcp",
+      "tls": true,
+      "servername": "www.cloudflare.com",
+      "client-fingerprint": "chrome",
+      "flow": "xtls-rprx-vision"
+    }
+  ],
+  "count": 8,
+  "reason": ""
+}

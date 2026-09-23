@@ -1,0 +1,45 @@
+{
+  "url": "http://135.181.158.48:8880/4f80b88a3cea34cb0b2f.txt.bak-order",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "135.181.158.48",
+      "port": 443,
+      "uuid": "136d1cbe-3d15-40cb-8d92-b61899a48ce5",
+      "security": "reality",
+      "sni": "www.intel.com",
+      "fp": "firefox",
+      "pbk": "hlIliRNfuzl7L-fSKFyGPBsYvd7-w1pyx9-uduMPxHI",
+      "sid": "e2",
+      "spx": "/",
+      "name": "vless-135.181.158.48"
+    },
+    {
+      "type": "xhttp",
+      "server": "cdn.hot-dog-lab.com",
+      "port": 443,
+      "uuid": "136d1cbe-3d15-40cb-8d92-b61899a48ce5",
+      "security": "tls",
+      "sni": "cdn.hot-dog-lab.com",
+      "fp": "chrome",
+      "path": "/hd-xh",
+      "host": "cdn.hot-dog-lab.com",
+      "name": "vless-cdn.hot-dog-lab.com"
+    },
+    {
+      "type": "ws",
+      "server": "cdn.hot-dog-lab.com",
+      "port": 443,
+      "uuid": "136d1cbe-3d15-40cb-8d92-b61899a48ce5",
+      "security": "tls",
+      "sni": "cdn.hot-dog-lab.com",
+      "fp": "chrome",
+      "path": "/hd-ws",
+      "host": "cdn.hot-dog-lab.com",
+      "name": "vless-cdn.hot-dog-lab.com"
+    }
+  ],
+  "count": 3,
+  "reason": ""
+}

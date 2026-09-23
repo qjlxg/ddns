@@ -1,0 +1,13 @@
+{
+  "url": "http://5.175.174.49:8000/api/channels.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "dizqueTV",
+      "url": "http://5.175.174.49:8000/setup",
+      "extinf": "#EXTINF:0 tvg-id=\"1\" tvg-chno=\"1\" tvg-name=\"dizqueTV\" tvg-logo=\"http://5.175.174.49:8000/resources/dizquetv.png\" group-title=\"dizqueTV\",dizqueTV"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

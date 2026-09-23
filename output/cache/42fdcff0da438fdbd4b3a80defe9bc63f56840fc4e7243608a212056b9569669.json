@@ -1,0 +1,16 @@
+{
+  "url": "http://64.186.225.250:18080/ss",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "hysteria2",
+      "server": "34.92.91.56",
+      "port": 443,
+      "password": "ccfast-hk1-hy2-2026",
+      "insecure": "0",
+      "name": "hysteria2-34.92.91.56"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

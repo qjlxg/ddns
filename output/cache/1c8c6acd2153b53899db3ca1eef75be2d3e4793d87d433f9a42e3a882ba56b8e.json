@@ -1,0 +1,313 @@
+{
+  "url": "http://51.38.132.182:80/3.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "..::Pobrano z Darmowe-IPTV.eeu.PL::..",
+      "url": "https://leszek2301.github.io/pliki_leszek4231/darmoweiptv.ts",
+      "extinf": "#EXTINF:-0, ..::Pobrano z Darmowe-IPTV.eeu.PL::.."
+    },
+    {
+      "name": "13 Ulica",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/2716",
+      "extinf": "#EXTINF:-1 ,13 Ulica"
+    },
+    {
+      "name": "4Fun Dance",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/278633",
+      "extinf": "#EXTINF:-1 ,4Fun Dance"
+    },
+    {
+      "name": "4Fun Kids",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/2703",
+      "extinf": "#EXTINF:-1 ,4Fun Kids"
+    },
+    {
+      "name": "4Fun TV",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/2704",
+      "extinf": "#EXTINF:-1 ,4Fun TV"
+    },
+    {
+      "name": "Active Family",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/67603",
+      "extinf": "#EXTINF:-1 ,Active Family"
+    },
+    {
+      "name": "Adventure",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/37054",
+      "extinf": "#EXTINF:-1 ,Adventure"
+    },
+    {
+      "name": "Ale Kino+",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/339",
+      "extinf": "#EXTINF:-1 ,Ale Kino+"
+    },
+    {
+      "name": "AMC",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/26539",
+      "extinf": "#EXTINF:-1 ,AMC"
+    },
+    {
+      "name": "ANIMAL PLANET",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/1717",
+      "extinf": "#EXTINF:-1 ,ANIMAL PLANET"
+    },
+    {
+      "name": "AXN",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/3227",
+      "extinf": "#EXTINF:-1 ,AXN"
+    },
+    {
+      "name": "AXN Black",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/2715",
+      "extinf": "#EXTINF:-1 ,AXN Black"
+    },
+    {
+      "name": "AXN Spin",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/23186",
+      "extinf": "#EXTINF:-1 ,AXN Spin"
+    },
+    {
+      "name": "AXN White",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/340",
+      "extinf": "#EXTINF:-1 ,AXN White"
+    },
+    {
+      "name": "Baby TV",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/37890",
+      "extinf": "#EXTINF:-1 ,Baby TV"
+    },
+    {
+      "name": "BBC Brit Polska",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/3206",
+      "extinf": "#EXTINF:-1 ,BBC Brit Polska"
+    },
+    {
+      "name": "BBC Earth",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/1716",
+      "extinf": "#EXTINF:-1 ,BBC Earth"
+    },
+    {
+      "name": "BBC First",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/26545",
+      "extinf": "#EXTINF:-1 ,BBC First"
+    },
+    {
+      "name": "BBC Lifestyle",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/122184",
+      "extinf": "#EXTINF:-1 ,BBC Lifestyle"
+    },
+    {
+      "name": "Biznes 24",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/276488",
+      "extinf": "#EXTINF:-1 ,Biznes 24"
+    },
+    {
+      "name": "Boomerang",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/10206",
+      "extinf": "#EXTINF:-1 ,Boomerang"
+    },
+    {
+      "name": "CANAL+ 1",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/24247",
+      "extinf": "#EXTINF:-1 ,CANAL+ 1"
+    },
+    {
+      "name": "CANAL+ Dokument",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/2720",
+      "extinf": "#EXTINF:-1 ,CANAL+ Dokument"
+    },
+    {
+      "name": "CANAL+ Domo",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/2695",
+      "extinf": "#EXTINF:-1 ,CANAL+ Domo"
+    },
+    {
+      "name": "CANAL+ Family",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/147180",
+      "extinf": "#EXTINF:-1 ,CANAL+ Family"
+    },
+    {
+      "name": "CANAL+ Film",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/1714",
+      "extinf": "#EXTINF:-1 ,CANAL+ Film"
+    },
+    {
+      "name": "CANAL+ Kuchnia",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/1703",
+      "extinf": "#EXTINF:-1 ,CANAL+ Kuchnia"
+    },
+    {
+      "name": "CANAL+ Now",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/122183",
+      "extinf": "#EXTINF:-1 ,CANAL+ Now"
+    },
+    {
+      "name": "CANAL+ Premium",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/341",
+      "extinf": "#EXTINF:-1 ,CANAL+ Premium"
+    },
+    {
+      "name": "CANAL+ Seriale",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/342",
+      "extinf": "#EXTINF:-1 ,CANAL+ Seriale"
+    },
+    {
+      "name": "CANAL+ Sport",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/69426",
+      "extinf": "#EXTINF:-1 ,CANAL+ Sport"
+    },
+    {
+      "name": "CANAL+ Sport 2",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/343",
+      "extinf": "#EXTINF:-1 ,CANAL+ Sport 2"
+    },
+    {
+      "name": "CANAL+ Sport 3",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/33580",
+      "extinf": "#EXTINF:-1 ,CANAL+ Sport 3"
+    },
+    {
+      "name": "CANAL+ Sport 4",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/78322",
+      "extinf": "#EXTINF:-1 ,CANAL+ Sport 4"
+    },
+    {
+      "name": "CANAL+ Sport 5",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/297382",
+      "extinf": "#EXTINF:-1 ,CANAL+ Sport 5"
+    },
+    {
+      "name": "Cartoon Network",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/1713",
+      "extinf": "#EXTINF:-1 ,Cartoon Network"
+    },
+    {
+      "name": "CBeebies",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/41868",
+      "extinf": "#EXTINF:-1 ,CBeebies"
+    },
+    {
+      "name": "CBS Europa",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/26210",
+      "extinf": "#EXTINF:-1 ,CBS Europa"
+    },
+    {
+      "name": "CBS Reality",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/3224",
+      "extinf": "#EXTINF:-1 ,CBS Reality"
+    },
+    {
+      "name": "Cinemax",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/345",
+      "extinf": "#EXTINF:-1 ,Cinemax"
+    },
+    {
+      "name": "Cinemax 2",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/1712",
+      "extinf": "#EXTINF:-1 ,Cinemax 2"
+    },
+    {
+      "name": "Comedy Central",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/16675",
+      "extinf": "#EXTINF:-1 ,Comedy Central"
+    },
+    {
+      "name": "Comedy Central Extra",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/3222",
+      "extinf": "#EXTINF:-1 ,Comedy Central Extra"
+    },
+    {
+      "name": "Crime+ Investigation",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/2729",
+      "extinf": "#EXTINF:-1 ,Crime+ Investigation"
+    },
+    {
+      "name": "Da Vinci Kids",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/25615",
+      "extinf": "#EXTINF:-1 ,Da Vinci Kids"
+    },
+    {
+      "name": "Disco Polo Music",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/1711",
+      "extinf": "#EXTINF:-1 ,Disco Polo Music"
+    },
+    {
+      "name": "Discovery History",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/1710",
+      "extinf": "#EXTINF:-1 ,Discovery History"
+    },
+    {
+      "name": "Discovery Life Polska",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/1709",
+      "extinf": "#EXTINF:-1 ,Discovery Life Polska"
+    },
+    {
+      "name": "Discovery Science Polska",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/10523",
+      "extinf": "#EXTINF:-1 ,Discovery Science Polska"
+    },
+    {
+      "name": "Discovery Turbo Xtra (DTX)",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/283190",
+      "extinf": "#EXTINF:-1 ,Discovery Turbo Xtra (DTX)"
+    },
+    {
+      "name": "Discovery World",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/3230",
+      "extinf": "#EXTINF:-1 ,Discovery World"
+    },
+    {
+      "name": "Disney Channel",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/1708",
+      "extinf": "#EXTINF:-1 ,Disney Channel"
+    },
+    {
+      "name": "Disney Junior",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/16649",
+      "extinf": "#EXTINF:-1 ,Disney Junior"
+    },
+    {
+      "name": "Disney XD",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/3219",
+      "extinf": "#EXTINF:-1 ,Disney XD"
+    },
+    {
+      "name": "dlaCiebie.tv",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/284780",
+      "extinf": "#EXTINF:-1 ,dlaCiebie.tv"
+    },
+    {
+      "name": "E!",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/8036",
+      "extinf": "#EXTINF:-1 ,E!"
+    },
+    {
+      "name": "ELEVEN SPORTS 1",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/347",
+      "extinf": "#EXTINF:-1 ,ELEVEN SPORTS 1"
+    },
+    {
+      "name": "ELEVEN SPORTS 2",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/3643",
+      "extinf": "#EXTINF:-1 ,ELEVEN SPORTS 2"
+    },
+    {
+      "name": "ELEVEN SPORTS 3",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/3644",
+      "extinf": "#EXTINF:-1 ,ELEVEN SPORTS 3"
+    },
+    {
+      "name": "ELEVEN SPORTS 4",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/3645",
+      "extinf": "#EXTINF:-1 ,ELEVEN SPORTS 4"
+    },
+    {
+      "name": "Epic Drama",
+      "url": "http://kuchini.site:8080/googleiptvex/8XsdD8qVstQhcjuy/2694",
+      "extinf": "#EXTINF:-1 ,Epic Drama"
+    }
+  ],
+  "count": 61,
+  "reason": ""
+}

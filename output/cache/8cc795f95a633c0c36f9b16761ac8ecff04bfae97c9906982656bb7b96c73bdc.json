@@ -1,0 +1,33 @@
+{
+  "url": "http://154.17.28.47:25500/sub?target=clash",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "akile-JP",
+      "server": "xiaokafei.top",
+      "port": 17748,
+      "type": "hysteria2",
+      "ports": 17748,
+      "password": "eab38e27-7f7e-482d-a1f5-8365171fef28",
+      "sni": "xiaokafei.top",
+      "skip-cert-verify": false
+    },
+    {
+      "name": "DMIT-US",
+      "server": "hpclib.cn",
+      "port": 7654,
+      "type": "trojan",
+      "password": "1234#abcD",
+      "sni": "hpclib.cn",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/trojan/f1965a81/",
+        "headers": {
+          "Host": "hpclib.cn"
+        }
+      }
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}

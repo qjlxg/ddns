@@ -1,0 +1,80 @@
+{
+  "url": "http://141.11.90.69:25500/sub?target=mixed",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "hysteria2",
+      "server": "104.156.150.222",
+      "port": 8443,
+      "password": "7fb5966f62c69fd32fc7aeb959e69287ba1c95bd8216391d",
+      "insecure": "1",
+      "name": "hysteria2-104.156.150.222"
+    },
+    {
+      "type": "hysteria2",
+      "server": "akilehk.5970000.xyz",
+      "port": 8443,
+      "password": "llwr",
+      "sni": "hy2.hk.5970000.xyz",
+      "insecure": "1",
+      "name": "hysteria2-akilehk.5970000.xyz"
+    },
+    {
+      "type": "tcp",
+      "server": "2d8e0ea2-kroc2.uzuma.ru",
+      "port": 21058,
+      "uuid": "682f0ae5-dd68-439c-89b6-b3a73584b28f",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com.cn",
+      "fp": "chrome",
+      "pbk": "7t_rgYUVMydICnOwJRCxgpcvR0pvsggIoCw-KjtTMQI",
+      "sid": "abcdef0123456789",
+      "path": "/",
+      "host": "www.apple.com.cn",
+      "headerType": "none",
+      "name": "vless-2d8e0ea2-kroc2.uzuma.ru"
+    },
+    {
+      "type": "tcp",
+      "server": "akilehk.5970000.xyz",
+      "port": 443,
+      "uuid": "598a4eeb-4a52-46e0-b8de-9f7006fc05ba",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com.cn",
+      "fp": "chrome",
+      "pbk": "UTKthx1y_vvIM9ulZgcySO6ShUeibv0IU6G5klL1Yn4",
+      "sid": "abcdef0123456789",
+      "path": "/",
+      "host": "www.apple.com.cn",
+      "headerType": "none",
+      "name": "vless-akilehk.5970000.xyz"
+    },
+    {
+      "type": "tcp",
+      "server": "38.244.17.209",
+      "port": 2443,
+      "uuid": "7d213960-9240-4a92-9ced-9678d2591015",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com.cn",
+      "fp": "chrome",
+      "pbk": "kBCgzVehD3Jw2Y0ELIYI70jkhNVPuvOY2dfoB-GxqUw",
+      "sid": "abcdef0123456789",
+      "path": "/",
+      "host": "www.apple.com.cn",
+      "headerType": "none",
+      "name": "vless-38.244.17.209"
+    },
+    {
+      "type": "vless",
+      "server": "072170fd-ce19-437a-",
+      "port": 443,
+      "uuid": "",
+      "name": "vless-072170fd-ce19-437a-"
+    }
+  ],
+  "count": 6,
+  "reason": ""
+}

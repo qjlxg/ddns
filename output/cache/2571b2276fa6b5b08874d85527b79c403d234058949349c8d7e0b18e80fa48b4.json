@@ -1,0 +1,288 @@
+{
+  "url": "http://191.223.220.68:8880/lax-malibu.yaml",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "🇺🇸 dmit-malibu xtls-reality",
+      "type": "vless",
+      "server": "179.255.112.242",
+      "port": 8881,
+      "uuid": "0f40ee32-a91b-4c9a-88bc-67e5e09481af",
+      "network": "tcp",
+      "udp": true,
+      "tls": true,
+      "flow": "xtls-rprx-vision",
+      "servername": "addons.mozilla.org",
+      "client-fingerprint": "chrome",
+      "reality-opts": {
+        "public-key": "cUXsbktjwVhYEwruLXvNl-WPQW4tI6MYpE3wkZEgOH4",
+        "short-id": ""
+      },
+      "smux": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "padding": false,
+        "max-connections": "8",
+        "min-streams": "16",
+        "statistic": true,
+        "only-tcp": false
+      },
+      "brutal-opts": {
+        "enabled": false,
+        "up": "1000 Mbps",
+        "down": "1000 Mbps"
+      }
+    },
+    {
+      "name": "🇺🇸 dmit-malibu hysteria2",
+      "type": "hysteria2",
+      "server": "179.255.112.242",
+      "port": 8882,
+      "up": "1000 Mbps",
+      "down": "1000 Mbps",
+      "password": "0f40ee32-a91b-4c9a-88bc-67e5e09481af",
+      "sni": "addons.mozilla.org",
+      "skip-cert-verify": false,
+      "fingerprint": "F8:DF:25:3F:03:09:02:A6:D2:E9:1E:A8:32:BC:2D:C4:77:D1:33:87:A4:72:60:03:B1:16:63:0A:8A:E5:01:7E"
+    },
+    {
+      "name": "🇺🇸 dmit-malibu tuic",
+      "type": "tuic",
+      "server": "179.255.112.242",
+      "port": 8883,
+      "uuid": "0f40ee32-a91b-4c9a-88bc-67e5e09481af",
+      "password": "0f40ee32-a91b-4c9a-88bc-67e5e09481af",
+      "alpn": [
+        "h3"
+      ],
+      "reduce-rtt": true,
+      "request-timeout": 8000,
+      "udp-relay-mode": "native",
+      "congestion-controller": "bbr",
+      "sni": "addons.mozilla.org",
+      "skip-cert-verify": false,
+      "fingerprint": "F8:DF:25:3F:03:09:02:A6:D2:E9:1E:A8:32:BC:2D:C4:77:D1:33:87:A4:72:60:03:B1:16:63:0A:8A:E5:01:7E"
+    },
+    {
+      "name": "🇺🇸 dmit-malibu ShadowTLS",
+      "type": "ss",
+      "server": "179.255.112.242",
+      "port": 8884,
+      "cipher": "2022-blake3-aes-128-gcm",
+      "password": "9AmbweSdoMwbavOIg9otGQ==",
+      "plugin": "shadow-tls",
+      "client-fingerprint": "chrome",
+      "plugin-opts": {
+        "host": "addons.mozilla.org",
+        "password": "0f40ee32-a91b-4c9a-88bc-67e5e09481af",
+        "version": 3
+      },
+      "smux": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "padding": true,
+        "max-connections": "8",
+        "min-streams": "16",
+        "statistic": true,
+        "only-tcp": false
+      },
+      "brutal-opts": {
+        "enabled": false,
+        "up": "1000 Mbps",
+        "down": "1000 Mbps"
+      }
+    },
+    {
+      "name": "🇺🇸 dmit-malibu shadowsocks",
+      "type": "ss",
+      "server": "179.255.112.242",
+      "port": 8885,
+      "cipher": "2022-blake3-aes-128-gcm",
+      "password": "9AmbweSdoMwbavOIg9otGQ==",
+      "smux": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "padding": true,
+        "max-connections": "8",
+        "min-streams": "16",
+        "statistic": true,
+        "only-tcp": false
+      },
+      "brutal-opts": {
+        "enabled": false,
+        "up": "1000 Mbps",
+        "down": "1000 Mbps"
+      }
+    },
+    {
+      "name": "🇺🇸 dmit-malibu trojan",
+      "type": "trojan",
+      "server": "179.255.112.242",
+      "port": 8886,
+      "password": "0f40ee32-a91b-4c9a-88bc-67e5e09481af",
+      "client-fingerprint": "chrome",
+      "sni": "addons.mozilla.org",
+      "skip-cert-verify": false,
+      "fingerprint": "F8:DF:25:3F:03:09:02:A6:D2:E9:1E:A8:32:BC:2D:C4:77:D1:33:87:A4:72:60:03:B1:16:63:0A:8A:E5:01:7E",
+      "smux": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "padding": true,
+        "max-connections": "8",
+        "min-streams": "16",
+        "statistic": true,
+        "only-tcp": false
+      },
+      "brutal-opts": {
+        "enabled": false,
+        "up": "1000 Mbps",
+        "down": "1000 Mbps"
+      }
+    },
+    {
+      "name": "🇺🇸 dmit-malibu vmess-ws",
+      "type": "vmess",
+      "server": "skk.moe",
+      "port": 80,
+      "uuid": "0f40ee32-a91b-4c9a-88bc-67e5e09481af",
+      "udp": true,
+      "tls": false,
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/0f40ee32-a91b-4c9a-88bc-67e5e09481af-vmess",
+        "headers": {
+          "Host": "laxeb.tts2023.eu.org"
+        }
+      },
+      "smux": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "padding": true,
+        "max-connections": "8",
+        "min-streams": "16",
+        "statistic": true,
+        "only-tcp": false
+      },
+      "brutal-opts": {
+        "enabled": false,
+        "up": "1000 Mbps",
+        "down": "1000 Mbps"
+      }
+    },
+    {
+      "name": "🇺🇸 dmit-malibu vless-ws-tls",
+      "type": "vless",
+      "server": "skk.moe",
+      "port": 443,
+      "uuid": "0f40ee32-a91b-4c9a-88bc-67e5e09481af",
+      "udp": true,
+      "tls": true,
+      "servername": "laxeb.tts2023.eu.org",
+      "network": "ws",
+      "skip-cert-verify": false,
+      "ws-opts": {
+        "path": "/0f40ee32-a91b-4c9a-88bc-67e5e09481af-vless",
+        "headers": {
+          "Host": "laxeb.tts2023.eu.org"
+        },
+        "max-early-data": 2560,
+        "early-data-header-name": "Sec-WebSocket-Protocol"
+      },
+      "smux": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "padding": true,
+        "max-connections": "8",
+        "min-streams": "16",
+        "statistic": true,
+        "only-tcp": false
+      },
+      "brutal-opts": {
+        "enabled": false,
+        "up": "1000 Mbps",
+        "down": "1000 Mbps"
+      }
+    },
+    {
+      "name": "🇺🇸 dmit-malibu h2-reality",
+      "type": "vless",
+      "server": "179.255.112.242",
+      "port": 8889,
+      "uuid": "0f40ee32-a91b-4c9a-88bc-67e5e09481af",
+      "network": "http",
+      "tls": true,
+      "servername": "addons.mozilla.org",
+      "client-fingerprint": "chrome",
+      "reality-opts": {
+        "public-key": "cUXsbktjwVhYEwruLXvNl-WPQW4tI6MYpE3wkZEgOH4",
+        "short-id": ""
+      },
+      "smux": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "padding": true,
+        "max-connections": "8",
+        "min-streams": "16",
+        "statistic": true,
+        "only-tcp": false
+      },
+      "brutal-opts": {
+        "enabled": false,
+        "up": "1000 Mbps",
+        "down": "1000 Mbps"
+      }
+    },
+    {
+      "name": "🇺🇸 dmit-malibu grpc-reality",
+      "type": "vless",
+      "server": "179.255.112.242",
+      "port": 8890,
+      "uuid": "0f40ee32-a91b-4c9a-88bc-67e5e09481af",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "flow": null,
+      "client-fingerprint": "chrome",
+      "servername": "addons.mozilla.org",
+      "grpc-opts": {
+        "grpc-service-name": "grpc"
+      },
+      "reality-opts": {
+        "public-key": "cUXsbktjwVhYEwruLXvNl-WPQW4tI6MYpE3wkZEgOH4",
+        "short-id": ""
+      },
+      "smux": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "padding": true,
+        "max-connections": "8",
+        "min-streams": "16",
+        "statistic": true,
+        "only-tcp": false
+      },
+      "brutal-opts": {
+        "enabled": false,
+        "up": "1000 Mbps",
+        "down": "1000 Mbps"
+      }
+    },
+    {
+      "name": "🇺🇸 dmit-malibu anytls",
+      "type": "anytls",
+      "server": "179.255.112.242",
+      "port": 8891,
+      "password": "0f40ee32-a91b-4c9a-88bc-67e5e09481af",
+      "client-fingerprint": "chrome",
+      "udp": true,
+      "idle-session-check-interval": 30,
+      "idle-session-timeout": 30,
+      "sni": "addons.mozilla.org",
+      "skip-cert-verify": false,
+      "fingerprint": "F8:DF:25:3F:03:09:02:A6:D2:E9:1E:A8:32:BC:2D:C4:77:D1:33:87:A4:72:60:03:B1:16:63:0A:8A:E5:01:7E"
+    }
+  ],
+  "count": 11,
+  "reason": ""
+}

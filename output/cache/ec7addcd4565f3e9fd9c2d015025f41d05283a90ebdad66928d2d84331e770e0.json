@@ -1,0 +1,18 @@
+{
+  "url": "http://107.173.148.13:8880/vless.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "107.173.148.13",
+      "port": 8443,
+      "uuid": "129e1602-8bcd-4603-9cd2-8fc3d070df18",
+      "security": "tls",
+      "sni": "bing.com",
+      "allowInsecure": "1",
+      "name": "vless-107.173.148.13"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

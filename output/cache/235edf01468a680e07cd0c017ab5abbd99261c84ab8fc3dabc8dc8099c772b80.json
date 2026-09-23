@@ -1,0 +1,21 @@
+{
+  "url": "http://43.162.123.126:8000/shadowrocket.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "43.162.123.126",
+      "port": 443,
+      "uuid": "64c80994-d06a-48e7-9eef-c919ce8bdc48",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.google.com",
+      "fp": "chrome",
+      "pbk": "S0pEMJLiqBx38M56XxCracsWNacbD7EB2S2RcGb65gA",
+      "sid": "af3b26aec45dc9b3",
+      "name": "vless-43.162.123.126"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

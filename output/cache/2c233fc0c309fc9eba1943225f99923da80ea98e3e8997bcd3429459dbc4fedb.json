@@ -1,0 +1,108 @@
+{
+  "url": "http://91.107.150.113:80/playlist.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "✦●✦● WELCOME✦●✦●",
+      "url": "http://link.reseller-online.net:80/yUNTyjjj/cn8AWEp/426324",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"✦●✦● WELCOME✦●✦●\" tvg-logo=\"https://logo.diamondtv.one/images/logos/leeg.png\" group-title=\"✦●✦● INFORMATION ✦●✦●\",✦●✦● WELCOME✦●✦●"
+    },
+    {
+      "name": "✦●✦● INFORMATION ✦●✦●",
+      "url": "http://link.reseller-online.net:80/yUNTyjjj/cn8AWEp/207312",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"✦●✦● INFORMATION ✦●✦●\" tvg-logo=\"https://logo.diamondtv.one/images/logos/leeg.png\" group-title=\"✦●✦● INFORMATION ✦●✦●\",✦●✦● INFORMATION ✦●✦●"
+    },
+    {
+      "name": "VIAPLAY EVENT TV GUIDE",
+      "url": "http://link.reseller-online.net:80/yUNTyjjj/cn8AWEp/279383",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"VIAPLAY EVENT TV GUIDE\" tvg-logo=\"https://logo.diamondtv.one/images/logos/leeg.png\" group-title=\"✦●✦● INFORMATION ✦●✦●\",VIAPLAY EVENT TV GUIDE"
+    },
+    {
+      "name": "✦●✦● MMA ✦●✦●",
+      "url": "http://link.reseller-online.net:80/yUNTyjjj/cn8AWEp/301589",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"✦●✦● MMA ✦●✦●\" tvg-logo=\"https://logo.diamondtv.one/images/logos/leeg.png\" group-title=\"✦●✦● INFORMATION ✦●✦●\",✦●✦● MMA ✦●✦●"
+    },
+    {
+      "name": "✦●✦● GLORY ✦●✦●",
+      "url": "http://link.reseller-online.net:80/yUNTyjjj/cn8AWEp/301590",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"✦●✦● GLORY ✦●✦●\" tvg-logo=\"https://logo.diamondtv.one/images/logos/leeg.png\" group-title=\"✦●✦● INFORMATION ✦●✦●\",✦●✦● GLORY ✦●✦●"
+    },
+    {
+      "name": "✦●✦● ONE ✦●✦●",
+      "url": "http://link.reseller-online.net:80/yUNTyjjj/cn8AWEp/301591",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"✦●✦● ONE ✦●✦●\" tvg-logo=\"https://logo.diamondtv.one/images/logos/leeg.png\" group-title=\"✦●✦● INFORMATION ✦●✦●\",✦●✦● ONE ✦●✦●"
+    },
+    {
+      "name": "✦●✦● BOXING ✦●✦●",
+      "url": "http://link.reseller-online.net:80/yUNTyjjj/cn8AWEp/301588",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"✦●✦● BOXING ✦●✦●\" tvg-logo=\"https://logo.diamondtv.one/images/logos/leeg.png\" group-title=\"✦●✦● INFORMATION ✦●✦●\",✦●✦● BOXING ✦●✦●"
+    },
+    {
+      "name": "16K | NPO 1ᵁᴴᴰ",
+      "url": "http://link.reseller-online.net:80/yUNTyjjj/cn8AWEp/301360",
+      "extinf": "#EXTINF:-1 tvg-id=\"npo1.nl\" tvg-name=\"16K | NPO 1ᵁᴴᴰ\" tvg-logo=\"https://logo.diamondtv.one/images/logos/NEDERLAND/NPO1.png\" group-title=\"NL | 16ᴋ NEDERLANDᵁᴴᴰ ᵛᶦᵖ\",16K | NPO 1ᵁᴴᴰ"
+    },
+    {
+      "name": "16K | NPO 2ᵁᴴᴰ",
+      "url": "http://link.reseller-online.net:80/yUNTyjjj/cn8AWEp/301361",
+      "extinf": "#EXTINF:-1 tvg-id=\"npo2.nl\" tvg-name=\"16K | NPO 2ᵁᴴᴰ\" tvg-logo=\"https://logo.diamondtv.one/images/logos/NEDERLAND/NPO2.png\" group-title=\"NL | 16ᴋ NEDERLANDᵁᴴᴰ ᵛᶦᵖ\",16K | NPO 2ᵁᴴᴰ"
+    },
+    {
+      "name": "16K | NPO 3ᵁᴴᴰ",
+      "url": "http://link.reseller-online.net:80/yUNTyjjj/cn8AWEp/301362",
+      "extinf": "#EXTINF:-1 tvg-id=\"npo3.nl\" tvg-name=\"16K | NPO 3ᵁᴴᴰ\" tvg-logo=\"https://logo.diamondtv.one/images/logos/NEDERLAND/NPO3.png\" group-title=\"NL | 16ᴋ NEDERLANDᵁᴴᴰ ᵛᶦᵖ\",16K | NPO 3ᵁᴴᴰ"
+    },
+    {
+      "name": "16K | RTL 4ᵁᴴᴰ",
+      "url": "http://link.reseller-online.net:80/yUNTyjjj/cn8AWEp/301363",
+      "extinf": "#EXTINF:-1 tvg-id=\"rtl4.nl\" tvg-name=\"16K | RTL 4ᵁᴴᴰ\" tvg-logo=\"https://logo.diamondtv.one/images/logos/NEDERLAND/RTL4.png\" group-title=\"NL | 16ᴋ NEDERLANDᵁᴴᴰ ᵛᶦᵖ\",16K | RTL 4ᵁᴴᴰ"
+    },
+    {
+      "name": "16K | RTL 5ᵁᴴᴰ",
+      "url": "http://link.reseller-online.net:80/yUNTyjjj/cn8AWEp/301364",
+      "extinf": "#EXTINF:-1 tvg-id=\"rtl5.nl\" tvg-name=\"16K | RTL 5ᵁᴴᴰ\" tvg-logo=\"https://logo.diamondtv.one/images/logos/NEDERLAND/RTL5.png\" group-title=\"NL | 16ᴋ NEDERLANDᵁᴴᴰ ᵛᶦᵖ\",16K | RTL 5ᵁᴴᴰ"
+    },
+    {
+      "name": "16K | SBS 6ᵁᴴᴰ",
+      "url": "http://link.reseller-online.net:80/yUNTyjjj/cn8AWEp/301365",
+      "extinf": "#EXTINF:-1 tvg-id=\"sbs6.nl\" tvg-name=\"16K | SBS 6ᵁᴴᴰ\" tvg-logo=\"https://logo.diamondtv.one/images/logos/NEDERLAND/SBS6.png\" group-title=\"NL | 16ᴋ NEDERLANDᵁᴴᴰ ᵛᶦᵖ\",16K | SBS 6ᵁᴴᴰ"
+    },
+    {
+      "name": "16K | RTL 7ᵁᴴᴰ",
+      "url": "http://link.reseller-online.net:80/yUNTyjjj/cn8AWEp/301366",
+      "extinf": "#EXTINF:-1 tvg-id=\"rtl7.nl\" tvg-name=\"16K | RTL 7ᵁᴴᴰ\" tvg-logo=\"https://logo.diamondtv.one/images/logos/NEDERLAND/RTL7.png\" group-title=\"NL | 16ᴋ NEDERLANDᵁᴴᴰ ᵛᶦᵖ\",16K | RTL 7ᵁᴴᴰ"
+    },
+    {
+      "name": "16K | RTL 8ᵁᴴᴰ",
+      "url": "http://link.reseller-online.net:80/yUNTyjjj/cn8AWEp/301367",
+      "extinf": "#EXTINF:-1 tvg-id=\"rtl8.nl\" tvg-name=\"16K | RTL 8ᵁᴴᴰ\" tvg-logo=\"https://logo.diamondtv.one/images/logos/NEDERLAND/RTL8.png\" group-title=\"NL | 16ᴋ NEDERLANDᵁᴴᴰ ᵛᶦᵖ\",16K | RTL 8ᵁᴴᴰ"
+    },
+    {
+      "name": "16K | SBS 9ᵁᴴᴰ",
+      "url": "http://link.reseller-online.net:80/yUNTyjjj/cn8AWEp/301368",
+      "extinf": "#EXTINF:-1 tvg-id=\"sbs9.nl\" tvg-name=\"16K | SBS 9ᵁᴴᴰ\" tvg-logo=\"https://logo.diamondtv.one/images/logos/NEDERLAND-NEW1/SBS9.png\" group-title=\"NL | 16ᴋ NEDERLANDᵁᴴᴰ ᵛᶦᵖ\",16K | SBS 9ᵁᴴᴰ"
+    },
+    {
+      "name": "16K | NET 5ᵁᴴᴰ",
+      "url": "http://link.reseller-online.net:80/yUNTyjjj/cn8AWEp/301369",
+      "extinf": "#EXTINF:-1 tvg-id=\"net5.nl\" tvg-name=\"16K | NET 5ᵁᴴᴰ\" tvg-logo=\"https://logo.diamondtv.one/images/logos/NEDERLAND/NET5.png\" group-title=\"NL | 16ᴋ NEDERLANDᵁᴴᴰ ᵛᶦᵖ\",16K | NET 5ᵁᴴᴰ"
+    },
+    {
+      "name": "16K | VERONICA DISNEY XDᵁᴴᴰ",
+      "url": "http://link.reseller-online.net:80/yUNTyjjj/cn8AWEp/301370",
+      "extinf": "#EXTINF:-1 tvg-id=\"veronicadisneyxd.nl\" tvg-name=\"16K | VERONICA DISNEY XDᵁᴴᴰ\" tvg-logo=\"https://logo.diamondtv.one/images/logos/NEDERLAND/VERONICAHDDISNEYXD.png\" group-title=\"NL | 16ᴋ NEDERLANDᵁᴴᴰ ᵛᶦᵖ\",16K | VERONICA DISNEY XDᵁᴴᴰ"
+    },
+    {
+      "name": "16K | DISCOVERYᵁᴴᴰ",
+      "url": "http://link.reseller-online.net:80/yUNTyjjj/cn8AWEp/323576",
+      "extinf": "#EXTINF:-1 tvg-id=\"discoverychannel.nl\" tvg-name=\"16K | DISCOVERYᵁᴴᴰ\" tvg-logo=\"https://logo.diamondtv.one/images/logos/NEDERLAND-NEW1/DISCOVERY.png\" group-title=\"NL | 16ᴋ NEDERLANDᵁᴴᴰ ᵛᶦᵖ\",16K | DISCOVERYᵁᴴᴰ"
+    },
+    {
+      "name": "16K | ANIMAL PLANETᵁᴴᴰ",
+      "url": "http://link.reseller-online.net:80/yU",
+      "extinf": "#EXTINF:-1 tvg-id=\"animalplanet.nl\" tvg-name=\"16K | ANIMAL PLANETᵁᴴᴰ\" tvg-logo=\"https://logo.diamondtv.one/images/logos/NEDERLAND-NEW1/ANIMALPLANET.png\" group-title=\"NL | 16ᴋ NEDERLANDᵁᴴᴰ ᵛᶦᵖ\",16K | ANIMAL PLANETᵁᴴᴰ"
+    }
+  ],
+  "count": 20,
+  "reason": ""
+}

@@ -1,0 +1,18 @@
+{
+  "url": "http://64.186.232.173:25500/sub?target=mixed",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "64.186.232.173",
+      "port": 7443,
+      "uuid": "fbcf6a67-863e-417e-a7ce-0931908e3393",
+      "security": "true",
+      "sni": "www.oracle.com",
+      "path": "/",
+      "name": "vless-64.186.232.173"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

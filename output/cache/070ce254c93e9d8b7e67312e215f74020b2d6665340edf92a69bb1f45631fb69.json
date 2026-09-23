@@ -1,0 +1,51 @@
+{
+  "url": "http://5.188.156.71:80/sub",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "5.188.156.71",
+      "port": 2096,
+      "uuid": "9d7308c0-3b89-48be-a7b7-9c17821f9dc5",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.microsoft.com",
+      "fp": "chrome",
+      "pbk": "20v4VglvrEhEuHvVBJRbFE_G28srND0KSCP4vI60mgw",
+      "sid": "2823beca58281950",
+      "name": "vless-5.188.156.71"
+    },
+    {
+      "type": "tcp",
+      "server": "5.188.156.71",
+      "port": 8843,
+      "uuid": "9d7308c0-3b89-48be-a7b7-9c17821f9dc5",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "20v4VglvrEhEuHvVBJRbFE_G28srND0KSCP4vI60mgw",
+      "sid": "2823beca58281950",
+      "name": "vless-5.188.156.71"
+    },
+    {
+      "type": "ss",
+      "server": "5.188.156.71",
+      "port": 2087,
+      "cipher": "2022-blake3-aes-256-gcm",
+      "password": "3HRXDZo0SKTDWTTTMqclH72aYHQBEPlJiu75UYeyGv0=",
+      "name": "ss-5.188.156.71"
+    },
+    {
+      "type": "hysteria2",
+      "server": "5.188.156.71",
+      "port": 36713,
+      "password": "k8Jm2xQvn7Lp4Rs9Wt3",
+      "sni": "www.bing.com",
+      "insecure": "1",
+      "name": "hysteria2-5.188.156.71"
+    }
+  ],
+  "count": 4,
+  "reason": ""
+}

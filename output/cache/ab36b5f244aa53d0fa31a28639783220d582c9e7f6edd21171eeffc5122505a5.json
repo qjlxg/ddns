@@ -1,0 +1,293 @@
+{
+  "url": "http://207.246.102.108:80/m3u/intl_Korea.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "ABN (720p)",
+      "url": "https://vod2.abn.co.kr/IPHONE/abn.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://www.abn.co.kr/resources/images/logo.png\",ABN (720p)"
+    },
+    {
+      "name": "Arirang",
+      "url": "http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/RuHZ6Dx.png\",Arirang"
+    },
+    {
+      "name": "Arirang Radio (720p)",
+      "url": "http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/dtfiG9k.png\",Arirang Radio (720p)"
+    },
+    {
+      "name": "Arirang TV (1080p)",
+      "url": "http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/Asu5pE9.png\",Arirang TV (1080p)"
+    },
+    {
+      "name": "Arirang TV HD (720p)",
+      "url": "http://45.162.64.114/ARIRANG/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/Asu5pE9.png\",Arirang TV HD (720p)"
+    },
+    {
+      "name": "Arirang UN (1080p)",
+      "url": "https://amdlive-ch02-ctnd-com.akamaized.net/arirang_2ch/smil:arirang_2ch.smil/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/Jdy3WNm.png\",Arirang UN (1080p)"
+    },
+    {
+      "name": "BBS TV (South Korea) (1080p)",
+      "url": "http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/01UmXRe.png\",BBS TV (South Korea) (1080p)"
+    },
+    {
+      "name": "BTN TV (South Korea) (1080p)",
+      "url": "https://btn.nowcdn.co.kr/btn/btnlive2m/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/sOoS7RQ.png\",BTN TV (South Korea) (1080p)"
+    },
+    {
+      "name": "EBS 1TV (400p) [Not 24/7]",
+      "url": "https://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/EBS_1TV_Logo.svg/960px-EBS_1TV_Logo.svg.png\",EBS 1TV (400p) [Not 24/7]"
+    },
+    {
+      "name": "EBS 2TV (400p) [Not 24/7]",
+      "url": "https://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/EBS_2TV_Logo.svg/960px-EBS_2TV_Logo.svg.png\",EBS 2TV (400p) [Not 24/7]"
+    },
+    {
+      "name": "EBS English (400p) [Not 24/7]",
+      "url": "https://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/5wLJzb0.png\",EBS English (400p) [Not 24/7]"
+    },
+    {
+      "name": "EBS Kids (400p) [Not 24/7]",
+      "url": "https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/62oo8Bx.png\",EBS Kids (400p) [Not 24/7]"
+    },
+    {
+      "name": "FGTV (South Korea) (720p)",
+      "url": "https://fgtvlive.fgtv.com/smil:fgtv.smil/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.ibb.co/crxz0fd/yfgc-hearder-logo.png\",FGTV (South Korea) (720p)"
+    },
+    {
+      "name": "GCN (720p)",
+      "url": "http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_1300k.stream/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/yzwtMOC.png\",GCN (720p)"
+    },
+    {
+      "name": "GCN America (720p)",
+      "url": "http://liveen24-manminglobal3.ktcdn.co.kr/liveen24/gcnus_1300k.stream/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/DWSWrtV.png\",GCN America (720p)"
+    },
+    {
+      "name": "Gugak TV (1080p)",
+      "url": "https://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/Ey7Htm8.png\",Gugak TV (1080p)"
+    },
+    {
+      "name": "Gugbang TV (1080p) [Not 24/7]",
+      "url": "http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/f1tz5fg.png\",Gugbang TV (1080p) [Not 24/7]"
+    },
+    {
+      "name": "HLAM-DTV (720p) [Not 24/7]",
+      "url": "http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/5oraHc0.png\",HLAM-DTV (720p) [Not 24/7]"
+    },
+    {
+      "name": "HLAN-DTV (480p) [Not 24/7]",
+      "url": "https://stream.chmbc.co.kr/TV/myStream/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/lthyx2P.png\",HLAN-DTV (480p) [Not 24/7]"
+    },
+    {
+      "name": "HLAW-DTV (360p) [Not 24/7]",
+      "url": "http://andong.webcasting.co.kr/live/mbc/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/nqRWpUu.png\",HLAW-DTV (360p) [Not 24/7]"
+    },
+    {
+      "name": "HLDP-DTV (540p) [Not 24/7]",
+      "url": "https://stream.ubc.co.kr/hls/ubctvstream/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/BBCoqIf.png\",HLDP-DTV (540p) [Not 24/7]"
+    },
+    {
+      "name": "Home & Shopping (720p)",
+      "url": "https://s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/IcexRXG.png\",Home & Shopping (720p)"
+    },
+    {
+      "name": "KBS 1TV",
+      "url": "http://mytv.dothome.co.kr/ch/public/1.php",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/500px-KBS_1_logo.svg.png\",KBS 1TV"
+    },
+    {
+      "name": "KBS Joy [Not 24/7]",
+      "url": "https://xykt-fix.github.io/flv/KJ_W.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KBS_JOY.svg/960px-KBS_JOY.svg.png\",KBS Joy [Not 24/7]"
+    },
+    {
+      "name": "KBS World (720p)",
+      "url": "https://stream8.cinerama.uz/1448/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/7DqgELX.png\",KBS World (720p)"
+    },
+    {
+      "name": "KBSV 23.1 (720p) [Not 24/7]",
+      "url": "http://66.242.170.53/hls/live/temp/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/6lklsyN.png\",KBSV 23.1 (720p) [Not 24/7]"
+    },
+    {
+      "name": "KTV (South Korea) (1080p)",
+      "url": "https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.ibb.co/WkrLDJW/Screenshot-20230714-135036-removebg-preview.png\",KTV (South Korea) (1080p)"
+    },
+    {
+      "name": "KVF Sjónvarp",
+      "url": "https://w-live-edge1.kringvarp.fo/uttanlands/_definst_/smil:uttanlands.smil/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Kringvarp_F%C3%B8roya_2018.svg/500px-Kringvarp_F%C3%B8roya_2018.svg.png\",KVF Sjónvarp"
+    },
+    {
+      "name": "Korean Central Television (1080p)",
+      "url": "https://kctv.koryofront.org/stream/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/p02AEOF.png\",Korean Central Television (1080p)"
+    },
+    {
+      "name": "LLBN TV Korean (480p)",
+      "url": "https://brightstar-korean-pull-secure.akamaized.net/brightstarkorean/stream.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/WsOfy19.png\",LLBN TV Korean (480p)"
+    },
+    {
+      "name": "MBC 1 (1080p)",
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/CiA3plN.png\",MBC 1 (1080p)"
+    },
+    {
+      "name": "MBC 1 Egypt (1080p)",
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-na/eec141533c90dd34722c503a296dd0d8/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/CiA3plN.png\",MBC 1 Egypt (1080p)"
+    },
+    {
+      "name": "MBC 4 (1080p)",
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-4/24f134f1cd63db9346439e96b86ca6ed/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/BcXASJp.png\",MBC 4 (1080p)"
+    },
+    {
+      "name": "MBC 5 (1080p)",
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/fRWaDyF.png\",MBC 5 (1080p)"
+    },
+    {
+      "name": "MBC America (1080p)",
+      "url": "https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/RRc23ra.png\",MBC America (1080p)"
+    },
+    {
+      "name": "MBC Bollywood (1080p) [Geo-blocked]",
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/TTAGFHG.png\",MBC Bollywood (1080p) [Geo-blocked]"
+    },
+    {
+      "name": "MBC Brasil TV",
+      "url": "https://play.mbcbrasil.tv.br/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://eswqkrogupaisirwcsys.supabase.co/storage/v1/object/public/mbc-media/canais/1775702325773-d10vtu076za.png\",MBC Brasil TV"
+    },
+    {
+      "name": "MBC Drama (South Korea) (480p) [Geo-blocked]",
+      "url": "http://mytv.dothome.co.kr/ch/catv/26.php",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/Q20rqnX.png\",MBC Drama (South Korea) (480p) [Geo-blocked]"
+    },
+    {
+      "name": "MBC Drama (United Arab Emirates) (1080p)",
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama/2c28a458e2f3253e678b07ac7d13fe71/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/g5PWnqp.png\",MBC Drama (United Arab Emirates) (1080p)"
+    },
+    {
+      "name": "MBC FM (1080p)",
+      "url": "https://dbbv9umqcd7cs.cloudfront.net/out/v1/db15b75c3cc0400c91961468d6a232ac/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/lF8UxvR.png\",MBC FM (1080p)"
+    },
+    {
+      "name": "MBC Iraq (1080p)",
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/D0LxiPE.png\",MBC Iraq (1080p)"
+    },
+    {
+      "name": "MBC Loud",
+      "url": "https://radio-loud-fm.mbc.net/radio-loud-fm_1.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/mptwwLs.png\",MBC Loud"
+    },
+    {
+      "name": "MBC Masr (1080p)",
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/o2elx0u.png\",MBC Masr (1080p)"
+    },
+    {
+      "name": "MBC Masr 2 (1080p)",
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0aabf0e583495c68/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/KHo7Gtn.png\",MBC Masr 2 (1080p)"
+    },
+    {
+      "name": "MBC Masr Drama (1080p)",
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://media0070.elcinema.com/tvguide/1399_1.png\",MBC Masr Drama (1080p)"
+    },
+    {
+      "name": "MBC Mood (1080p)",
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-mood/78367bf48ccdba501d0d014a10c21031/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://shahid.mbc.net/mediaObject/c2b6a882-458b-446e-b0fe-f97f7992149a?height=auto&width=144&croppingPoint=&version=1&type=png\",MBC Mood (1080p)"
+    },
+    {
+      "name": "MBC Net (480p) [Geo-blocked]",
+      "url": "http://mytv.dothome.co.kr/ch/catv/28.php",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/MBCNET_%EB%A1%9C%EA%B3%A0.svg/960px-MBCNET_%EB%A1%9C%EA%B3%A0.svg.png\",MBC Net (480p) [Geo-blocked]"
+    },
+    {
+      "name": "MBC Persia (1080p)",
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/4FXiyjn.png\",MBC Persia (1080p)"
+    },
+    {
+      "name": "MBC+ Drama (1080p)",
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-plus-drama/e37251ec2aac8f6c98f75cd0fa37cd28/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/lxWdjXG.png\",MBC+ Drama (1080p)"
+    },
+    {
+      "name": "Mega TV (United States) WSBS-TV (1080p)",
+      "url": "https://mdstrm.com/live-stream-playlist/67ed74e8af482ba71d47fd7b.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/MiPdjSX.png\",Mega TV (United States) WSBS-TV (1080p)"
+    },
+    {
+      "name": "NBS (720p)",
+      "url": "https://media.joycorp.co.kr:4443/live/ngrp:live_all/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/pOSroOE.png\",NBS (720p)"
+    },
+    {
+      "name": "OBS TV",
+      "url": "https://allanf181.github.io/adaptive-streams/streams/kr/OBSGyeonginTV.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/oWB3ApR.png\",OBS TV"
+    },
+    {
+      "name": "OUN (1080p)",
+      "url": "https://live.knou.ac.kr/knou1/live1/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/7s6JtcU.png\",OUN (1080p)"
+    },
+    {
+      "name": "Persiana Korea",
+      "url": "https://korhls.persiana.live/hls/stream.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://i.imgur.com/si2ZnIA.png\",Persiana Korea"
+    },
+    {
+      "name": "SBS TV",
+      "url": "https://allanf181.github.io/adaptive-streams/streams/kr/SBSTV.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/SBS_Korea_Logo_%28Word_Only%29.svg/500px-SBS_Korea_Logo_%28Word_Only%29.svg.png\",SBS TV"
+    },
+    {
+      "name": "Swaraj Express SMBC (576p)",
+      "url": "https://d1msejlow1t3l4.cloudfront.net/fta/swarajexpresssmbc/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/SMBC_TV.png\",Swaraj Express SMBC (576p)"
+    },
+    {
+      "name": "Tingvarp",
+      "url": "https://play.kringvarp.fo/redirect/tingvarp/_definst_/smil:tingvarp.smil?type=m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🇰🇷 Korea\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/9/90/Logo_-_L%C3%B8gting.png\",Tingvarp"
+    }
+  ],
+  "count": 57,
+  "reason": ""
+}

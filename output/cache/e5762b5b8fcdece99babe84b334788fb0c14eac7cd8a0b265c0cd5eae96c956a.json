@@ -1,0 +1,273 @@
+{
+  "url": "http://36.139.158.142:8899/kzzc_ok.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "凤凰中文",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Ffhzw",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",凤凰中文"
+    },
+    {
+      "name": "CCTV1港澳版",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Fcctv1",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",CCTV1港澳版"
+    },
+    {
+      "name": "HOY TV",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Fhoy",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",HOY TV"
+    },
+    {
+      "name": "HOY资讯台",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Ffast.hidns.vip%2F163189%2Fhoy78",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",HOY资讯台"
+    },
+    {
+      "name": "NOW新闻台",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Ffast.hidns.vip%2F163189%2Fnow",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",NOW新闻台"
+    },
+    {
+      "name": "RTHK31",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Ffast.hidns.vip%2F163189%2Frthk31",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",RTHK31"
+    },
+    {
+      "name": "RTHK32",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Ffast.hidns.vip%2F163189%2Frthk32",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",RTHK32"
+    },
+    {
+      "name": "澳视澳门",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Fasam",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",澳视澳门"
+    },
+    {
+      "name": "澳视卫星",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Fas",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",澳视卫星"
+    },
+    {
+      "name": "澳门体育",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Famty",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",澳门体育"
+    },
+    {
+      "name": "澳门综艺",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Famzy",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",澳门综艺"
+    },
+    {
+      "name": "澳门莲花",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Famlh",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",澳门莲花"
+    },
+    {
+      "name": "重温经典",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Fcwjd",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",重温经典"
+    },
+    {
+      "name": "凤凰资讯",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Ffhzx",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",凤凰资讯"
+    },
+    {
+      "name": "凤凰香港",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Ffhhk",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",凤凰香港"
+    },
+    {
+      "name": "TVB1",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Ftvb1",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",TVB1"
+    },
+    {
+      "name": "TVBJ1",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Fj1",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",TVBJ1"
+    },
+    {
+      "name": "翡翠剧集台",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Ftvbd",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",翡翠剧集台"
+    },
+    {
+      "name": "翡翠台",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Ffct",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",翡翠台"
+    },
+    {
+      "name": "无线新闻台",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Fwxxw",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",无线新闻台"
+    },
+    {
+      "name": "广东珠江",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2F2.fast.hidns.vip%2F163189%2Fgdzj",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",广东珠江"
+    },
+    {
+      "name": "广东体育",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2F2.fast.hidns.vip%2F163189%2Fgdty",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",广东体育"
+    },
+    {
+      "name": "八度空间",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2F8tv",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",八度空间"
+    },
+    {
+      "name": "CH5",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Fch5",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",CH5"
+    },
+    {
+      "name": "CH8",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Fch8",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",CH8"
+    },
+    {
+      "name": "CHU",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Fchu",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",CHU"
+    },
+    {
+      "name": "龙华电影",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2F8.fast.hidns.vip%2F163189%2Flhdy",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",龙华电影"
+    },
+    {
+      "name": "龙华经典",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2F8.fast.hidns.vip%2F163189%2Flhjd",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",龙华经典"
+    },
+    {
+      "name": "龙华偶像",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2F8.fast.hidns.vip%2F163189%2Flhox",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",龙华偶像"
+    },
+    {
+      "name": "龙华日韩",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2F8.fast.hidns.vip%2F163189%2Flhrh",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",龙华日韩"
+    },
+    {
+      "name": "龙华戏剧",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2F8.fast.hidns.vip%2F163189%2Flhxj",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",龙华戏剧"
+    },
+    {
+      "name": "龙华洋片",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2F8.fast.hidns.vip%2F163189%2Flhyp",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",龙华洋片"
+    },
+    {
+      "name": "龙华卡通",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2F8.fast.hidns.vip%2F163189%2Flhkt",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",龙华卡通"
+    },
+    {
+      "name": "华丽翡翠台",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Fhlfct",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",华丽翡翠台"
+    },
+    {
+      "name": "TVB亚洲武侠",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Fyzwx",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",TVB亚洲武侠"
+    },
+    {
+      "name": "TVB娱乐新闻台",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Fylxw",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",TVB娱乐新闻台"
+    },
+    {
+      "name": "TVB星河",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Ftvbxh",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",TVB星河"
+    },
+    {
+      "name": "海峡卫视",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2F168.sryze.cc%2F163189%2Fhxws",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",海峡卫视"
+    },
+    {
+      "name": "华丽翡翠台(硬字幕)",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn6.cc.cd%2F163189%2Fjade",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",华丽翡翠台(硬字幕)"
+    },
+    {
+      "name": "CCTV4",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fphp.jdshipin.com%2FTVOD%2Fiptv.php%3Fid%3Dcctv4",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",CCTV4"
+    },
+    {
+      "name": "CCTV5",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2F168.sryze.cc%2F163189%2Fcctv5",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",CCTV5"
+    },
+    {
+      "name": "广州综合",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2F168.sryze.cc%2F163189%2Fgzzh",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",广州综合"
+    },
+    {
+      "name": "广州新闻",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2F168.sryze.cc%2F163189%2Fgzxw",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",广州新闻"
+    },
+    {
+      "name": "广州南国都市",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn15.163189.xyz%2F163189%2Fngds",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",广州南国都市"
+    },
+    {
+      "name": "五星体育",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn15.163189.xyz%2F163189%2Fwxty",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",五星体育"
+    },
+    {
+      "name": "民视影剧台",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn12.178.indevs.in%2F163189%2Fmsyj",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",民视影剧台"
+    },
+    {
+      "name": "公视戏剧",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn12.178.indevs.in%2F163189%2Fgsxj",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",公视戏剧"
+    },
+    {
+      "name": "采昌影剧台",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn12.178.indevs.in%2F163189%2Fccyj",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",采昌影剧台"
+    },
+    {
+      "name": "靖天映画",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn12.178.indevs.in%2F163189%2Fjtyh",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",靖天映画"
+    },
+    {
+      "name": "靖天戏剧台",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn12.178.indevs.in%2F163189%2Fjtxj",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",靖天戏剧台"
+    },
+    {
+      "name": "靖天电影台",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn12.178.indevs.in%2F163189%2Fjtdy",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",靖天电影台"
+    },
+    {
+      "name": "靖洋戏剧台",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn12.178.indevs.in%2F163189%2Fjyxj",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",靖洋戏剧台"
+    },
+    {
+      "name": "影迷数位电影台",
+      "url": "http://43.254.166.222:2135/iptv/proxy.php?url=https%3A%2F%2Fcdn12.178.indevs.in%2F163189%2Fymswdyt",
+      "extinf": "#EXTINF:-1 group-title=\"mytv\",影迷数位电影台"
+    }
+  ],
+  "count": 53,
+  "reason": ""
+}

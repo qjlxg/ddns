@@ -1,0 +1,25 @@
+{
+  "url": "http://154.23.163.123:8080/clash.yaml.bak.20260627-025357",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "NoSLA-LAX-Reality",
+      "type": "vless",
+      "server": "154.26.235.2",
+      "port": 443,
+      "uuid": "b480a887-8ccc-4730-8320-03b17133cffe",
+      "network": "tcp",
+      "tls": true,
+      "udp": true,
+      "flow": "xtls-rprx-vision",
+      "servername": "www.akamai.com",
+      "client-fingerprint": "chrome",
+      "reality-opts": {
+        "public-key": "lnwoM3VRgIagLRkKTx4VZwO9H-Et0LFJW7kD8iaRsUs",
+        "short-id": "1da1927f891a64fe"
+      }
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

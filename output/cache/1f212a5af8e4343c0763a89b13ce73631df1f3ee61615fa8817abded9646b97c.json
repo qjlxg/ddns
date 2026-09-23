@@ -1,0 +1,13 @@
+{
+  "url": "http://46.232.248.141:80/playlist.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "playlist",
+      "url": "https://stream.dodo.radio/playlist",
+      "extinf": "#EXTINF:-1,playlist"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

@@ -1,0 +1,74 @@
+{
+  "url": "http://64.186.236.20:8080/raw.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "64.186.232.5",
+      "port": 443,
+      "uuid": "493ef8cb-cf7b-40ee-81da-a60d8fa19470",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.microsoft.com",
+      "fp": "chrome",
+      "pbk": "YZGaFHcpoEQ6sb4JaF39RhTIf3JVHk94iCc1Yn4u5Dc",
+      "sid": "49b0e88b52ccf548",
+      "spx": "/",
+      "name": "vless-64.186.232.5"
+    },
+    {
+      "type": "tcp",
+      "server": "64.186.232.5",
+      "port": 443,
+      "uuid": "b238e348-e885-4035-853c-420510979ef9",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.microsoft.com",
+      "fp": "chrome",
+      "pbk": "YZGaFHcpoEQ6sb4JaF39RhTIf3JVHk94iCc1Yn4u5Dc",
+      "sid": "49b0e88b52ccf548",
+      "spx": "/",
+      "name": "vless-64.186.232.5"
+    },
+    {
+      "type": "tcp",
+      "server": "64.186.232.5",
+      "port": 443,
+      "uuid": "9ef05afc-d065-4543-b993-91f83dc6a0d7",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.microsoft.com",
+      "fp": "chrome",
+      "pbk": "YZGaFHcpoEQ6sb4JaF39RhTIf3JVHk94iCc1Yn4u5Dc",
+      "sid": "49b0e88b52ccf548",
+      "spx": "/",
+      "name": "vless-64.186.232.5"
+    },
+    {
+      "type": "tcp",
+      "server": "64.186.232.5",
+      "port": 443,
+      "uuid": "1756e277-217b-42b0-bd20-3ec5a1508188",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.microsoft.com",
+      "fp": "chrome",
+      "pbk": "YZGaFHcpoEQ6sb4JaF39RhTIf3JVHk94iCc1Yn4u5Dc",
+      "sid": "49b0e88b52ccf548",
+      "spx": "/",
+      "name": "vless-64.186.232.5"
+    },
+    {
+      "type": "ws",
+      "server": "64.186.232.5",
+      "port": 2083,
+      "uuid": "21d1fffe-6b1c-4953-bb86-0d835d3bcb63",
+      "security": "tls",
+      "sni": "ironhh.xyz",
+      "path": "/ray",
+      "name": "vless-64.186.232.5"
+    }
+  ],
+  "count": 5,
+  "reason": ""
+}

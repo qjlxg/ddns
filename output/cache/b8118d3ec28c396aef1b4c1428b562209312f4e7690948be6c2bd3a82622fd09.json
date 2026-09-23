@@ -1,0 +1,15 @@
+{
+  "url": "http://47.243.95.203:80/sub?target=mixed",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "vless",
+      "server": "bm9uztpiodnkytu2oc1imdhhltq2mjetowq1mc1jzdfkytriowezmwjaagtkmdeuexvlagvuzzg4oc5jb206mja0mzc",
+      "port": 443,
+      "uuid": "",
+      "name": "b83da568-VLESS_TCP/TLS_Vision"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

@@ -1,0 +1,49 @@
+{
+  "url": "http://45.8.159.90:8080/s9KFS7AJQFQMUnS1.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "45.8.159.90",
+      "port": 8000,
+      "uuid": "35df756e-3a1b-423a-81df-2b9dd55badd1",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "XiXSic5Pypj3RrfGzms3FWEZa6hQOahouYmfpz-MoQo",
+      "sid": "83",
+      "spx": "/bag",
+      "name": "vless-45.8.159.90"
+    },
+    {
+      "type": "tcp",
+      "server": "45.8.159.90",
+      "port": 8001,
+      "uuid": "35df756e-3a1b-423a-81df-2b9dd55badd1",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.microsoft.com",
+      "fp": "chrome",
+      "pbk": "XiXSic5Pypj3RrfGzms3FWEZa6hQOahouYmfpz-MoQo",
+      "sid": "b16f9a3c0e72a4d1",
+      "spx": "/news",
+      "name": "vless-45.8.159.90"
+    },
+    {
+      "type": "tcp",
+      "server": "45.8.159.90",
+      "port": 8002,
+      "uuid": "35df756e-3a1b-423a-81df-2b9dd55badd1",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "XiXSic5Pypj3RrfGzms3FWEZa6hQOahouYmfpz-MoQo",
+      "sid": "b16f9a3c0e72a4d1",
+      "name": "vless-45.8.159.90"
+    }
+  ],
+  "count": 3,
+  "reason": ""
+}

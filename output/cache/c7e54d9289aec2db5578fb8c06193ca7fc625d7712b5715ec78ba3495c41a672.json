@@ -1,0 +1,288 @@
+{
+  "url": "http://191.223.220.68:8880/dmit-hk-t1.yaml",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "🇭🇰 dmit-hkt1 xtls-reality",
+      "type": "vless",
+      "server": "191.223.209.44",
+      "port": 8881,
+      "uuid": "aca7615b-fef1-4b96-a2b4-ab5f59e8973f",
+      "network": "tcp",
+      "udp": true,
+      "tls": true,
+      "flow": "xtls-rprx-vision",
+      "servername": "addons.mozilla.org",
+      "client-fingerprint": "chrome",
+      "reality-opts": {
+        "public-key": "YzrKsFgvQeNoRpFRtKeNBQZv1cAV3Drq4rLbHUMziQg",
+        "short-id": ""
+      },
+      "smux": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "padding": false,
+        "max-connections": "8",
+        "min-streams": "16",
+        "statistic": true,
+        "only-tcp": false
+      },
+      "brutal-opts": {
+        "enabled": false,
+        "up": "1000 Mbps",
+        "down": "1000 Mbps"
+      }
+    },
+    {
+      "name": "🇭🇰 dmit-hkt1 hysteria2",
+      "type": "hysteria2",
+      "server": "191.223.209.44",
+      "port": 8882,
+      "up": "1000 Mbps",
+      "down": "1000 Mbps",
+      "password": "aca7615b-fef1-4b96-a2b4-ab5f59e8973f",
+      "sni": "addons.mozilla.org",
+      "skip-cert-verify": false,
+      "fingerprint": "76:EF:82:14:80:D7:8D:55:09:BB:7A:60:38:6D:8C:B7:BE:FE:DA:11:A7:69:6D:53:19:A6:99:11:B5:B1:1A:7A"
+    },
+    {
+      "name": "🇭🇰 dmit-hkt1 tuic",
+      "type": "tuic",
+      "server": "191.223.209.44",
+      "port": 8883,
+      "uuid": "aca7615b-fef1-4b96-a2b4-ab5f59e8973f",
+      "password": "aca7615b-fef1-4b96-a2b4-ab5f59e8973f",
+      "alpn": [
+        "h3"
+      ],
+      "reduce-rtt": true,
+      "request-timeout": 8000,
+      "udp-relay-mode": "native",
+      "congestion-controller": "bbr",
+      "sni": "addons.mozilla.org",
+      "skip-cert-verify": false,
+      "fingerprint": "76:EF:82:14:80:D7:8D:55:09:BB:7A:60:38:6D:8C:B7:BE:FE:DA:11:A7:69:6D:53:19:A6:99:11:B5:B1:1A:7A"
+    },
+    {
+      "name": "🇭🇰 dmit-hkt1 ShadowTLS",
+      "type": "ss",
+      "server": "191.223.209.44",
+      "port": 8884,
+      "cipher": "2022-blake3-aes-128-gcm",
+      "password": "5mvU1WOiFx31qlacI0h9YA==",
+      "plugin": "shadow-tls",
+      "client-fingerprint": "chrome",
+      "plugin-opts": {
+        "host": "addons.mozilla.org",
+        "password": "aca7615b-fef1-4b96-a2b4-ab5f59e8973f",
+        "version": 3
+      },
+      "smux": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "padding": true,
+        "max-connections": "8",
+        "min-streams": "16",
+        "statistic": true,
+        "only-tcp": false
+      },
+      "brutal-opts": {
+        "enabled": false,
+        "up": "1000 Mbps",
+        "down": "1000 Mbps"
+      }
+    },
+    {
+      "name": "🇭🇰 dmit-hkt1 shadowsocks",
+      "type": "ss",
+      "server": "191.223.209.44",
+      "port": 8885,
+      "cipher": "2022-blake3-aes-128-gcm",
+      "password": "5mvU1WOiFx31qlacI0h9YA==",
+      "smux": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "padding": true,
+        "max-connections": "8",
+        "min-streams": "16",
+        "statistic": true,
+        "only-tcp": false
+      },
+      "brutal-opts": {
+        "enabled": false,
+        "up": "1000 Mbps",
+        "down": "1000 Mbps"
+      }
+    },
+    {
+      "name": "🇭🇰 dmit-hkt1 trojan",
+      "type": "trojan",
+      "server": "191.223.209.44",
+      "port": 8886,
+      "password": "aca7615b-fef1-4b96-a2b4-ab5f59e8973f",
+      "client-fingerprint": "chrome",
+      "sni": "addons.mozilla.org",
+      "skip-cert-verify": false,
+      "fingerprint": "76:EF:82:14:80:D7:8D:55:09:BB:7A:60:38:6D:8C:B7:BE:FE:DA:11:A7:69:6D:53:19:A6:99:11:B5:B1:1A:7A",
+      "smux": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "padding": true,
+        "max-connections": "8",
+        "min-streams": "16",
+        "statistic": true,
+        "only-tcp": false
+      },
+      "brutal-opts": {
+        "enabled": false,
+        "up": "1000 Mbps",
+        "down": "1000 Mbps"
+      }
+    },
+    {
+      "name": "🇭🇰 dmit-hkt1 vmess-ws",
+      "type": "vmess",
+      "server": "skk.moe",
+      "port": 80,
+      "uuid": "aca7615b-fef1-4b96-a2b4-ab5f59e8973f",
+      "udp": true,
+      "tls": false,
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/aca7615b-fef1-4b96-a2b4-ab5f59e8973f-vmess",
+        "headers": {
+          "Host": "hkt1.tts2023.eu.org"
+        }
+      },
+      "smux": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "padding": true,
+        "max-connections": "8",
+        "min-streams": "16",
+        "statistic": true,
+        "only-tcp": false
+      },
+      "brutal-opts": {
+        "enabled": false,
+        "up": "1000 Mbps",
+        "down": "1000 Mbps"
+      }
+    },
+    {
+      "name": "🇭🇰 dmit-hkt1 vless-ws-tls",
+      "type": "vless",
+      "server": "skk.moe",
+      "port": 443,
+      "uuid": "aca7615b-fef1-4b96-a2b4-ab5f59e8973f",
+      "udp": true,
+      "tls": true,
+      "servername": "hkt1.tts2023.eu.org",
+      "network": "ws",
+      "skip-cert-verify": false,
+      "ws-opts": {
+        "path": "/aca7615b-fef1-4b96-a2b4-ab5f59e8973f-vless",
+        "headers": {
+          "Host": "hkt1.tts2023.eu.org"
+        },
+        "max-early-data": 2560,
+        "early-data-header-name": "Sec-WebSocket-Protocol"
+      },
+      "smux": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "padding": true,
+        "max-connections": "8",
+        "min-streams": "16",
+        "statistic": true,
+        "only-tcp": false
+      },
+      "brutal-opts": {
+        "enabled": false,
+        "up": "1000 Mbps",
+        "down": "1000 Mbps"
+      }
+    },
+    {
+      "name": "🇭🇰 dmit-hkt1 h2-reality",
+      "type": "vless",
+      "server": "191.223.209.44",
+      "port": 8889,
+      "uuid": "aca7615b-fef1-4b96-a2b4-ab5f59e8973f",
+      "network": "http",
+      "tls": true,
+      "servername": "addons.mozilla.org",
+      "client-fingerprint": "chrome",
+      "reality-opts": {
+        "public-key": "YzrKsFgvQeNoRpFRtKeNBQZv1cAV3Drq4rLbHUMziQg",
+        "short-id": ""
+      },
+      "smux": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "padding": true,
+        "max-connections": "8",
+        "min-streams": "16",
+        "statistic": true,
+        "only-tcp": false
+      },
+      "brutal-opts": {
+        "enabled": false,
+        "up": "1000 Mbps",
+        "down": "1000 Mbps"
+      }
+    },
+    {
+      "name": "🇭🇰 dmit-hkt1 grpc-reality",
+      "type": "vless",
+      "server": "191.223.209.44",
+      "port": 8890,
+      "uuid": "aca7615b-fef1-4b96-a2b4-ab5f59e8973f",
+      "network": "grpc",
+      "tls": true,
+      "udp": true,
+      "flow": null,
+      "client-fingerprint": "chrome",
+      "servername": "addons.mozilla.org",
+      "grpc-opts": {
+        "grpc-service-name": "grpc"
+      },
+      "reality-opts": {
+        "public-key": "YzrKsFgvQeNoRpFRtKeNBQZv1cAV3Drq4rLbHUMziQg",
+        "short-id": ""
+      },
+      "smux": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "padding": true,
+        "max-connections": "8",
+        "min-streams": "16",
+        "statistic": true,
+        "only-tcp": false
+      },
+      "brutal-opts": {
+        "enabled": false,
+        "up": "1000 Mbps",
+        "down": "1000 Mbps"
+      }
+    },
+    {
+      "name": "🇭🇰 dmit-hkt1 anytls",
+      "type": "anytls",
+      "server": "191.223.209.44",
+      "port": 8891,
+      "password": "aca7615b-fef1-4b96-a2b4-ab5f59e8973f",
+      "client-fingerprint": "chrome",
+      "udp": true,
+      "idle-session-check-interval": 30,
+      "idle-session-timeout": 30,
+      "sni": "addons.mozilla.org",
+      "skip-cert-verify": false,
+      "fingerprint": "76:EF:82:14:80:D7:8D:55:09:BB:7A:60:38:6D:8C:B7:BE:FE:DA:11:A7:69:6D:53:19:A6:99:11:B5:B1:1A:7A"
+    }
+  ],
+  "count": 11,
+  "reason": ""
+}

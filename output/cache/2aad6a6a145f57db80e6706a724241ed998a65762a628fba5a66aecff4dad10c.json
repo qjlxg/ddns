@@ -1,0 +1,17 @@
+{
+  "url": "http://140.82.16.219:8082/%E7%BE%8E%E5%9B%BDclash-hys2%20-%20.yaml",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "My-Hy2-Node",
+      "type": "hysteria2",
+      "server": "144.202.99.96",
+      "port": 443,
+      "password": "ShVN9wnGVNptyPsNNpdBhlTUBG7vKZqh",
+      "sni": "www.bing.com",
+      "skip-cert-verify": true
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

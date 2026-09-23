@@ -1,0 +1,30 @@
+{
+  "url": "http://45.195.69.75:8080/sub.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "hysteria2",
+      "server": "45.195.69.75",
+      "port": 8443,
+      "password": "f1225e63d57082166d7169344a702440",
+      "sni": "bing.com",
+      "insecure": "1",
+      "obfs": "salamander",
+      "obfs-password": "a7361a6e0eef4d5a",
+      "name": "hysteria2-45.195.69.75"
+    },
+    {
+      "type": "hysteria2",
+      "server": "2400:8d60:5::1:d6c9:dc75",
+      "port": 8443,
+      "password": "f1225e63d57082166d7169344a702440",
+      "sni": "bing.com",
+      "insecure": "1",
+      "obfs": "salamander",
+      "obfs-password": "a7361a6e0eef4d5a",
+      "name": "hysteria2-2400:8d60:5::1:d6c9:dc75"
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}

@@ -1,0 +1,30 @@
+{
+  "url": "http://45.32.248.186:8088/jack.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "ws",
+      "server": "45.32.248.186",
+      "port": 443,
+      "uuid": "3d62cdcc-9bed-4504-a9ba-b48d93982760",
+      "security": "tls",
+      "sni": "proxy.geo-galaxy.site",
+      "path": "/vultrws",
+      "host": "proxy.geo-galaxy.site",
+      "name": "vless-45.32.248.186"
+    },
+    {
+      "type": "ws",
+      "server": "207.148.126.35",
+      "port": 443,
+      "uuid": "3d62cdcc-9bed-4504-a9ba-b48d93982760",
+      "security": "tls",
+      "sni": "sg.geo-galaxy.site",
+      "path": "/vultrws",
+      "host": "sg.geo-galaxy.site",
+      "name": "vless-207.148.126.35"
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}

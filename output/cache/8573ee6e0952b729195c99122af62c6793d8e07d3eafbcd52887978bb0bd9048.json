@@ -1,0 +1,17 @@
+{
+  "url": "http://8.218.196.8:80/xray-sub.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "8.218.196.8",
+      "port": 10001,
+      "uuid": "63396ff8-b874-4457-bd35-5d86859a213b",
+      "security": "tls",
+      "sni": "www.microsoft.com",
+      "name": "vless-8.218.196.8"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

@@ -1,0 +1,22 @@
+{
+  "url": "http://64.186.234.30:18080/ee469694d34d5bccc39bf0f2a72e429f.yaml",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "DMIT-USW-01 AnyTLS",
+      "type": "anytls",
+      "server": "64.186.234.30",
+      "port": 8443,
+      "password": "yGCu74dCfouECPYKkMpANLlJcwO+f8fA",
+      "client-fingerprint": "chrome",
+      "udp": true,
+      "idle-session-check-interval": 30,
+      "idle-session-timeout": 30,
+      "min-idle-session": 5,
+      "sni": "64.186.234.30",
+      "skip-cert-verify": true
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

@@ -1,0 +1,48 @@
+{
+  "url": "http://77.110.116.34:18080/30fcf8522dde93f9562f4fcdc98c5e2193effd4e63252de85a98d3656f9d43d9",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "77.110.116.34",
+      "port": 8443,
+      "uuid": "ee336ab9-ebcc-451d-b376-d73dde882615",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.nvidia.com",
+      "fp": "chrome",
+      "pbk": "lSQW0FrXhY8mnmeT6kifiohxHm2zDRuKfVGlrEj5Fwc",
+      "sid": "9437ee9303f1dcd6",
+      "name": "vless-77.110.116.34"
+    },
+    {
+      "type": "xhttp",
+      "server": "77.110.116.34",
+      "port": 34500,
+      "uuid": "ee336ab9-ebcc-451d-b376-d73dde882615",
+      "security": "reality",
+      "sni": "www.nvidia.com",
+      "fp": "chrome",
+      "pbk": "lSQW0FrXhY8mnmeT6kifiohxHm2zDRuKfVGlrEj5Fwc",
+      "sid": "9437ee9303f1dcd6",
+      "path": "/f4df503fd6b3",
+      "host": "www.nvidia.com",
+      "name": "vless-77.110.116.34"
+    },
+    {
+      "type": "tcp",
+      "server": "77.110.116.34",
+      "port": 443,
+      "uuid": "ee336ab9-ebcc-451d-b376-d73dde882615",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.nvidia.com",
+      "fp": "chrome",
+      "pbk": "lSQW0FrXhY8mnmeT6kifiohxHm2zDRuKfVGlrEj5Fwc",
+      "sid": "9437ee9303f1dcd6",
+      "name": "vless-77.110.116.34"
+    }
+  ],
+  "count": 3,
+  "reason": ""
+}

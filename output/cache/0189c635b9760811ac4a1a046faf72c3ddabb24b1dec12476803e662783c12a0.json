@@ -1,0 +1,38 @@
+{
+  "url": "http://167.104.104.135:8080/sub.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "167.104.104.135",
+      "port": 443,
+      "uuid": "652301aa-b59c-43c6-a271-56816a3304d5",
+      "security": "tls",
+      "fp": "chrome",
+      "allowInsecure": "1",
+      "name": "vless-167.104.104.135"
+    },
+    {
+      "type": "tcp",
+      "server": "167.104.104.135",
+      "port": 8443,
+      "uuid": "652301aa-b59c-43c6-a271-56816a3304d5",
+      "security": "tls",
+      "fp": "chrome",
+      "allowInsecure": "1",
+      "name": "vless-167.104.104.135"
+    },
+    {
+      "type": "tcp",
+      "server": "167.104.104.135",
+      "port": 2053,
+      "uuid": "652301aa-b59c-43c6-a271-56816a3304d5",
+      "security": "tls",
+      "fp": "chrome",
+      "allowInsecure": "1",
+      "name": "vless-167.104.104.135"
+    }
+  ],
+  "count": 3,
+  "reason": ""
+}

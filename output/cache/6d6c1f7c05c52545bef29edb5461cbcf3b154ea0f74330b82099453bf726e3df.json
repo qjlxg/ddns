@@ -1,0 +1,25 @@
+{
+  "url": "http://179.255.158.131:8080/8357917d1c9f5a85.yaml",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "DMIT-GIA",
+      "type": "vless",
+      "server": "179.255.158.131",
+      "port": 443,
+      "uuid": "b2d78db8-2d8b-4e32-b105-ffcc1050c008",
+      "network": "tcp",
+      "tls": true,
+      "udp": true,
+      "flow": "xtls-rprx-vision",
+      "servername": "dl.google.com",
+      "client-fingerprint": "chrome",
+      "reality-opts": {
+        "public-key": "bdxJEXUFuHBGmLvkHgxkZu7DCh4CU0tBgEN5DUuqm3w",
+        "short-id": "cbfef0555b8b30b3"
+      }
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

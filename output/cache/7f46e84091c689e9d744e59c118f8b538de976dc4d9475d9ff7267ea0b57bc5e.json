@@ -1,0 +1,21 @@
+{
+  "url": "http://64.186.254.8:8000/1.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "154.17.233.158",
+      "port": 2333,
+      "uuid": "cdd58592-79e1-4a12-9fcb-90a7281d3837",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "6WHRDILApAm5r9sHCyuLigBV8sAM1Jd0I6apZelewDE",
+      "headerType": "none",
+      "name": "vless-154.17.233.158"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

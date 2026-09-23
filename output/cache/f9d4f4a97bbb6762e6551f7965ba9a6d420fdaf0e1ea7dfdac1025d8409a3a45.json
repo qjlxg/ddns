@@ -1,0 +1,23 @@
+{
+  "url": "http://43.166.1.207:8080/clash.yaml",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "WG-Seoul",
+      "type": "wireguard",
+      "server": "43.166.1.207",
+      "port": 51820,
+      "ip": "10.66.66.2",
+      "public-key": "JAmTsBmSwC0inaIb/XsZvb5If2BKnzRTkMQm0mhz8BU=",
+      "private-key": "uB0qYZ0GxR3fUY8CjqaVH7u3Ogay5YshhGlGf67CEE8=",
+      "mtu": 1420,
+      "udp": true,
+      "dns": [
+        "8.8.8.8",
+        "1.1.1.1"
+      ]
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

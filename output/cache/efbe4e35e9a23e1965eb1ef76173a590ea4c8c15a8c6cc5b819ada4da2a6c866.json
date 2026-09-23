@@ -1,0 +1,28 @@
+{
+  "url": "http://158.101.19.216:80/instructions.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "1 Initial steps for new user",
+      "url": "http://158.101.19.216/1-Initial_steps_for_new_user/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-name=\"1 Initial steps for new user\" tvg-logo=\"http://158.101.19.216/viptv-logo.jpg\" group-title=\"VIPtv Instructions\",1 Initial steps for new user"
+    },
+    {
+      "name": "2 How to update your playlist part 1",
+      "url": "http://158.101.19.216/2-How_to_update_your_playlist_part_1/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-name=\"2 How to update your playlist part 1\" tvg-logo=\"http://158.101.19.216/viptv-logo.jpg\" group-title=\"VIPtv Instructions\",2 How to update your playlist part 1"
+    },
+    {
+      "name": "3 How to update your playlist part 2",
+      "url": "http://158.101.19.216/3-How_to_update_your_playlist_part_2/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-name=\"3 How to update your playlist part 2\" tvg-logo=\"http://158.101.19.216/viptv-logo.jpg\" group-title=\"VIPtv Instructions\",3 How to update your playlist part 2"
+    },
+    {
+      "name": "4 How to restart the video stream",
+      "url": "http://158.101.19.216/4-How_to_restart_the_video_stream/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-name=\"4 How to restart the video stream\" tvg-logo=\"http://158.101.19.216/viptv-logo.jpg\" group-title=\"VIPtv Instructions\",4 How to restart the video stream"
+    }
+  ],
+  "count": 4,
+  "reason": ""
+}

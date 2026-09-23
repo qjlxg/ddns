@@ -1,0 +1,36 @@
+{
+  "url": "http://45.86.245.117:8080/sub/base64",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "45.86.245.117",
+      "port": 443,
+      "uuid": "2356c73e-e87b-4358-9eb8-fde008311e67",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "cdn.jsdelivr.net",
+      "fp": "chrome",
+      "pbk": "hdkejmcpGliAI8NjFpppvnS4q_KGLFS4SIpqL3Kt4gQ",
+      "sid": "41675f4cf069787d",
+      "headerType": "none",
+      "name": "vless-45.86.245.117"
+    },
+    {
+      "type": "tcp",
+      "server": "45.86.245.117",
+      "port": 2083,
+      "uuid": "2356c73e-e87b-4358-9eb8-fde008311e67",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "cdn.jsdelivr.net",
+      "fp": "chrome",
+      "pbk": "hdkejmcpGliAI8NjFpppvnS4q_KGLFS4SIpqL3Kt4gQ",
+      "sid": "41675f4cf069787d",
+      "headerType": "none",
+      "name": "vless-45.86.245.117"
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}

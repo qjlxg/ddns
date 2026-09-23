@@ -1,0 +1,51 @@
+{
+  "url": "http://162.211.228.182:8080/sub?target=clash",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "162.211.228.182",
+      "port": 443,
+      "password": "1We50tnAFnfX37MmVD9mDnzi",
+      "security": "tls",
+      "sni": "162.211.228.182",
+      "allowInsecure": "1",
+      "name": "trojan-162.211.228.182"
+    },
+    {
+      "type": "tcp",
+      "server": "185.217.108.169",
+      "port": 443,
+      "password": "8845e2ce-6f69-4556-94ce-0a1a90222e92",
+      "security": "tls",
+      "sni": "185.217.108.169",
+      "allowInsecure": "1",
+      "name": "trojan-185.217.108.169"
+    },
+    {
+      "type": "tcp",
+      "server": "38.59.226.128",
+      "port": 443,
+      "password": "ad6547c7-8fd2-4e89-888b-0489ee557feb",
+      "security": "tls",
+      "sni": "38.59.226.128",
+      "allowInsecure": "1",
+      "name": "trojan-38.59.226.128"
+    },
+    {
+      "type": "tcp",
+      "server": "38.59.242.152",
+      "port": 28443,
+      "uuid": "5bcd7970-295e-4f20-8fcd-f22f8793384b",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "Cp-TsU3_mpN0N0615jvxaanziwL4-R9wgBDgFwm3RgE",
+      "sid": "45ef25aba69f6a63",
+      "name": "vless-38.59.242.152"
+    }
+  ],
+  "count": 4,
+  "reason": ""
+}

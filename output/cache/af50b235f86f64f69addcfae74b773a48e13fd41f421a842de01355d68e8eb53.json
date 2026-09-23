@@ -1,0 +1,17 @@
+{
+  "url": "http://207.57.123.29:8080/sr-test.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "hysteria2",
+      "server": "207.57.123.29",
+      "port": 443,
+      "password": "cac36cfc69189914eaf4b5de578f385ea89621d828f3ec1c",
+      "sni": "207.57.123.29",
+      "insecure": "1",
+      "name": "hysteria2-207.57.123.29"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

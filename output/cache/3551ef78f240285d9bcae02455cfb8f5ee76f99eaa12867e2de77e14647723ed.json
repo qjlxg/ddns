@@ -1,0 +1,188 @@
+{
+  "url": "http://23.95.78.56:8080/9a3ea9a8de6347b29cf65fbd50377874.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "23.95.78.56",
+      "port": 33001,
+      "uuid": "0e8d253b-e0f8-4494-9811-3fb6b83ea264",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.microsoft.com",
+      "fp": "chrome",
+      "pbk": "t6_Ph_joeY8EfAysZK2NiJuP7Ou6bxUyzgUclHC7hRo",
+      "sid": "4d4a403f2d00a3e4",
+      "name": "vless-23.95.78.56"
+    },
+    {
+      "type": "grpc",
+      "server": "23.95.78.56",
+      "port": 10330,
+      "uuid": "0e8d253b-e0f8-4494-9811-3fb6b83ea264",
+      "security": "reality",
+      "sni": "www.one-piece.com",
+      "fp": "chrome",
+      "pbk": "t6_Ph_joeY8EfAysZK2NiJuP7Ou6bxUyzgUclHC7hRo",
+      "sid": "4d4a403f2d00a3e4",
+      "name": "vless-23.95.78.56"
+    },
+    {
+      "type": "tcp",
+      "server": "23.95.78.56",
+      "port": 38319,
+      "password": "0e8d253b-e0f8-4494-9811-3fb6b83ea264",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "t6_Ph_joeY8EfAysZK2NiJuP7Ou6bxUyzgUclHC7hRo",
+      "sid": "4d4a403f2d00a3e4",
+      "name": "trojan-23.95.78.56"
+    },
+    {
+      "type": "hysteria2",
+      "server": "23.95.78.56",
+      "port": 29960,
+      "password": "m+EBlNZSAAIWlmSzf+Z1sOMZ1oenL6TTlvBh4JPvf4c=",
+      "sni": "www.microsoft.com",
+      "allowInsecure": "1",
+      "insecure": "1",
+      "name": "hysteria2-23.95.78.56"
+    },
+    {
+      "type": "vmess",
+      "server": "23.95.78.56",
+      "port": 19239,
+      "uuid": "0e8d253b-e0f8-4494-9811-3fb6b83ea264",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "network": "ws",
+      "servername": "",
+      "name": "vmess-ws"
+    },
+    {
+      "type": "hysteria2",
+      "server": "23.95.78.56",
+      "port": 10909,
+      "password": "28drLo3jN4BcFHFnKEt5ALjellPv9ESY+7fSr2gj21Y=",
+      "sni": "www.microsoft.com",
+      "alpn": "h3",
+      "allowInsecure": "1",
+      "insecure": "1",
+      "obfs": "salamander",
+      "obfs-password": "Pt3SOYIVBDSLF6CTocZj7A==",
+      "name": "hysteria2-23.95.78.56"
+    },
+    {
+      "type": "ss",
+      "server": "23.95.78.56",
+      "port": 16431,
+      "cipher": "2022-blake3-aes-256-gcm",
+      "password": "RA6tCQZKslz4Y00JsIbY5SI4D7OGbgQO513TVeJfO7E=",
+      "name": "ss-23.95.78.56"
+    },
+    {
+      "type": "ss",
+      "server": "23.95.78.56",
+      "port": 22836,
+      "cipher": "aes-256-gcm",
+      "password": "7pRykR90xq_grFpY3JJsfFTT6Xs6z72f",
+      "name": "ss-23.95.78.56"
+    },
+    {
+      "type": "tuic",
+      "server": "23.95.78.56",
+      "port": 26988,
+      "uuid": "0e8d253b-e0f8-4494-9811-3fb6b83ea264",
+      "password": "0e8d253b-e0f8-4494-9811-3fb6b83ea264",
+      "sni": "www.microsoft.com",
+      "alpn": "h3",
+      "allowInsecure": "1",
+      "insecure": "1",
+      "name": "tuic-23.95.78.56"
+    },
+    {
+      "type": "tcp",
+      "server": "23.95.78.56",
+      "port": 25367,
+      "uuid": "0e8d253b-e0f8-4494-9811-3fb6b83ea264",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "addons.mozilla.org",
+      "fp": "chrome",
+      "pbk": "t6_Ph_joeY8EfAysZK2NiJuP7Ou6bxUyzgUclHC7hRo",
+      "sid": "4d4a403f2d00a3e4",
+      "name": "vless-23.95.78.56"
+    },
+    {
+      "type": "grpc",
+      "server": "23.95.78.56",
+      "port": 17301,
+      "uuid": "0e8d253b-e0f8-4494-9811-3fb6b83ea264",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "t6_Ph_joeY8EfAysZK2NiJuP7Ou6bxUyzgUclHC7hRo",
+      "sid": "4d4a403f2d00a3e4",
+      "name": "vless-23.95.78.56"
+    },
+    {
+      "type": "tcp",
+      "server": "23.95.78.56",
+      "port": 13832,
+      "password": "0e8d253b-e0f8-4494-9811-3fb6b83ea264",
+      "security": "reality",
+      "sni": "www.one-piece.com",
+      "fp": "chrome",
+      "pbk": "t6_Ph_joeY8EfAysZK2NiJuP7Ou6bxUyzgUclHC7hRo",
+      "sid": "4d4a403f2d00a3e4",
+      "name": "trojan-23.95.78.56"
+    },
+    {
+      "type": "hysteria2",
+      "server": "23.95.78.56",
+      "port": 31625,
+      "password": "m+EBlNZSAAIWlmSzf+Z1sOMZ1oenL6TTlvBh4JPvf4c=",
+      "sni": "www.microsoft.com",
+      "allowInsecure": "1",
+      "insecure": "1",
+      "name": "hysteria2-23.95.78.56"
+    },
+    {
+      "type": "vmess",
+      "server": "23.95.78.56",
+      "port": 42704,
+      "uuid": "0e8d253b-e0f8-4494-9811-3fb6b83ea264",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "network": "ws",
+      "servername": "",
+      "name": "vmess-ws-warp"
+    },
+    {
+      "type": "hysteria2",
+      "server": "23.95.78.56",
+      "port": 30223,
+      "password": "28drLo3jN4BcFHFnKEt5ALjellPv9ESY+7fSr2gj21Y=",
+      "sni": "www.microsoft.com",
+      "alpn": "h3",
+      "allowInsecure": "1",
+      "insecure": "1",
+      "obfs": "salamander",
+      "obfs-password": "Pt3SOYIVBDSLF6CTocZj7A==",
+      "name": "hysteria2-23.95.78.56"
+    },
+    {
+      "type": "ss",
+      "server": "23.95.78.56",
+      "port": 19713,
+      "cipher": "2022-blake3-aes-256-gcm",
+      "password": "RA6tCQZKslz4Y00JsIbY5SI4D7OGbgQO513TVeJfO7E=",
+      "name": "ss-23.95.78.56"
+    }
+  ],
+  "count": 16,
+  "reason": ""
+}

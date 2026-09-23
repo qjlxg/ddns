@@ -1,0 +1,78 @@
+{
+  "url": "http://206.245.131.176:9090/sub.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "vless",
+      "server": "206.245.131.176",
+      "port": 443,
+      "uuid": "cf2b997b-be26-49ac-a4d4-d34264f2f956",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "google.com",
+      "fp": "chrome",
+      "pbk": "Pl0SVuqYlfHJ2yCZNAkhQqNpWm_HszestB39oeMetgQ",
+      "sid": "a1b2c3d4e5f6",
+      "name": "vless-206.245.131.176"
+    },
+    {
+      "type": "hysteria2",
+      "server": "206.245.131.176",
+      "port": 2087,
+      "password": "cf2b997b-be26-49ac-a4d4-d34264f2f956",
+      "sni": "www.google.com",
+      "insecure": "1",
+      "obfs": "salamander",
+      "obfs-password": "IlyaKoledov2026SecretObfs",
+      "name": "hysteria2-206.245.131.176"
+    },
+    {
+      "type": "grpc",
+      "server": "206.245.131.176",
+      "port": 8445,
+      "uuid": "cf2b997b-be26-49ac-a4d4-d34264f2f956",
+      "security": "reality",
+      "sni": "www.microsoft.com",
+      "fp": "chrome",
+      "pbk": "Pl0SVuqYlfHJ2yCZNAkhQqNpWm_HszestB39oeMetgQ",
+      "sid": "a1b2c3d4e5f6",
+      "name": "vless-206.245.131.176"
+    },
+    {
+      "type": "xhttp",
+      "server": "206.245.131.176",
+      "port": 8448,
+      "uuid": "cf2b997b-be26-49ac-a4d4-d34264f2f956",
+      "security": "tls",
+      "sni": "206.245.131.176",
+      "allowInsecure": "1",
+      "name": "vless-206.245.131.176"
+    },
+    {
+      "type": "httpupgrade",
+      "server": "206.245.131.176",
+      "port": 8449,
+      "uuid": "cf2b997b-be26-49ac-a4d4-d34264f2f956",
+      "security": "tls",
+      "sni": "206.245.131.176",
+      "path": "/upgrade",
+      "allowInsecure": "1",
+      "name": "vless-206.245.131.176"
+    },
+    {
+      "type": "vless",
+      "server": "206.245.131.176",
+      "port": 8450,
+      "uuid": "cf2b997b-be26-49ac-a4d4-d34264f2f956",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "ya.ru",
+      "fp": "chrome",
+      "pbk": "Pl0SVuqYlfHJ2yCZNAkhQqNpWm_HszestB39oeMetgQ",
+      "sid": "f1e2d3c4b5a6",
+      "name": "vless-206.245.131.176"
+    }
+  ],
+  "count": 6,
+  "reason": ""
+}

@@ -1,0 +1,74 @@
+{
+  "url": "http://94.156.179.223:80/sub?target=clash",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "ws",
+      "server": "ws.reachx.cc",
+      "port": 443,
+      "uuid": "fc69c7c7-e6af-4c20-ac4f-f4476733672a",
+      "security": "tls",
+      "sni": "ws.reachx.cc",
+      "fp": "chrome",
+      "path": "/paradox-ws",
+      "host": "ws.reachx.cc",
+      "name": "vless-ws.reachx.cc"
+    },
+    {
+      "type": "ws",
+      "server": "ws.reachx.cc",
+      "port": 443,
+      "uuid": "fc69c7c7-e6af-4c20-ac4f-f4476733672a",
+      "security": "tls",
+      "sni": "ws.reachx.cc",
+      "fp": "chrome",
+      "path": "/paradox-ws",
+      "host": "ws.reachx.cc",
+      "name": "vless-ws.reachx.cc"
+    },
+    {
+      "type": "httpupgrade",
+      "server": "ws.reachx.cc",
+      "port": 443,
+      "uuid": "fc69c7c7-e6af-4c20-ac4f-f4476733672a",
+      "security": "tls",
+      "sni": "ws.reachx.cc",
+      "fp": "chrome",
+      "path": "/paradox-hu",
+      "host": "ws.reachx.cc",
+      "name": "vless-ws.reachx.cc"
+    },
+    {
+      "type": "xhttp",
+      "server": "ws.reachx.cc",
+      "port": 443,
+      "uuid": "fc69c7c7-e6af-4c20-ac4f-f4476733672a",
+      "security": "tls",
+      "sni": "ws.reachx.cc",
+      "fp": "chrome",
+      "path": "/paradox-xh",
+      "host": "ws.reachx.cc",
+      "name": "vless-ws.reachx.cc"
+    },
+    {
+      "type": "hysteria2",
+      "server": "83.143.112.113",
+      "port": 443,
+      "password": "XaE98gZgaP6Rh2qTSzF7",
+      "sni": "www.bing.com",
+      "insecure": "1",
+      "obfs": "salamander",
+      "obfs-password": "tTl6APx4MGgAzrGQOp8F",
+      "name": "hysteria2-83.143.112.113"
+    },
+    {
+      "type": "vless",
+      "server": "fc69c7c7-e6af-4c20-a",
+      "port": 443,
+      "uuid": "",
+      "name": "vless-fc69c7c7-e6af-4c20-a"
+    }
+  ],
+  "count": 6,
+  "reason": ""
+}

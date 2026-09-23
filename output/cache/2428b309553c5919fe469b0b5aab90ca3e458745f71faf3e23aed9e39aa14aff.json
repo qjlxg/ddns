@@ -1,0 +1,31 @@
+{
+  "url": "http://72.56.18.76:8080/marinik",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "72.56.18.76",
+      "port": 443,
+      "uuid": "641c5fd7-22a8-4da9-9bf2-58538f0ce321",
+      "security": "tls",
+      "flow": "xtls-rprx-vision",
+      "sni": "cdn.love-balkon.ru",
+      "alpn": "http/1.1",
+      "fp": "chrome",
+      "name": "vless-72.56.18.76"
+    },
+    {
+      "type": "ws",
+      "server": "72.56.18.76",
+      "port": 443,
+      "uuid": "641c5fd7-22a8-4da9-9bf2-58538f0ce321",
+      "security": "tls",
+      "sni": "cdn.love-balkon.ru",
+      "path": "/assets/ac9e9c34ef34",
+      "host": "cdn.love-balkon.ru",
+      "name": "vless-72.56.18.76"
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}

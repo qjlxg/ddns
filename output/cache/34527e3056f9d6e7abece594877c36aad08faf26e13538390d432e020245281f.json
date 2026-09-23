@@ -1,0 +1,143 @@
+{
+  "url": "http://217.79.181.99:8899/wimbledon.m3u8",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "Centre Court",
+      "url": "http://217.79.181.99:8899/ch/centre-court/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"centre-court\" tvg-name=\"Centre Court\" group-title=\"Wimbledon\",Centre Court"
+    },
+    {
+      "name": "No.1 Court",
+      "url": "http://217.79.181.99:8899/ch/no-1-court/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"no-1-court\" tvg-name=\"No.1 Court\" group-title=\"Wimbledon\",No.1 Court"
+    },
+    {
+      "name": "No.2 Court",
+      "url": "http://217.79.181.99:8899/ch/no-2-court/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"no-2-court\" tvg-name=\"No.2 Court\" group-title=\"Wimbledon\",No.2 Court"
+    },
+    {
+      "name": "No.3 Court",
+      "url": "http://217.79.181.99:8899/ch/no-3-court/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"no-3-court\" tvg-name=\"No.3 Court\" group-title=\"Wimbledon\",No.3 Court"
+    },
+    {
+      "name": "Court 4",
+      "url": "http://217.79.181.99:8899/ch/court-4/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"court-4\" tvg-name=\"Court 4\" group-title=\"Wimbledon\",Court 4"
+    },
+    {
+      "name": "Court 5",
+      "url": "http://217.79.181.99:8899/ch/court-5/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"court-5\" tvg-name=\"Court 5\" group-title=\"Wimbledon\",Court 5"
+    },
+    {
+      "name": "Court 6",
+      "url": "http://217.79.181.99:8899/ch/court-6/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"court-6\" tvg-name=\"Court 6\" group-title=\"Wimbledon\",Court 6"
+    },
+    {
+      "name": "Court 8",
+      "url": "http://217.79.181.99:8899/ch/court-8/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"court-8\" tvg-name=\"Court 8\" group-title=\"Wimbledon\",Court 8"
+    },
+    {
+      "name": "Court 11",
+      "url": "http://217.79.181.99:8899/ch/court-11/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"court-11\" tvg-name=\"Court 11\" group-title=\"Wimbledon\",Court 11"
+    },
+    {
+      "name": "Court 12",
+      "url": "http://217.79.181.99:8899/ch/court-12/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"court-12\" tvg-name=\"Court 12\" group-title=\"Wimbledon\",Court 12"
+    },
+    {
+      "name": "Court 14",
+      "url": "http://217.79.181.99:8899/ch/court-14/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"court-14\" tvg-name=\"Court 14\" group-title=\"Wimbledon\",Court 14"
+    },
+    {
+      "name": "Court 15",
+      "url": "http://217.79.181.99:8899/ch/court-15/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"court-15\" tvg-name=\"Court 15\" group-title=\"Wimbledon\",Court 15"
+    },
+    {
+      "name": "Court 16",
+      "url": "http://217.79.181.99:8899/ch/court-16/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"court-16\" tvg-name=\"Court 16\" group-title=\"Wimbledon\",Court 16"
+    },
+    {
+      "name": "Court 17",
+      "url": "http://217.79.181.99:8899/ch/court-17/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"court-17\" tvg-name=\"Court 17\" group-title=\"Wimbledon\",Court 17"
+    },
+    {
+      "name": "Court 18",
+      "url": "http://217.79.181.99:8899/ch/court-18/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"court-18\" tvg-name=\"Court 18\" group-title=\"Wimbledon\",Court 18"
+    },
+    {
+      "name": "Wimbledon Extra",
+      "url": "http://217.79.181.99:8899/ch/wimbledon-extra/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"wimbledon-extra\" tvg-name=\"Wimbledon Extra\" group-title=\"Wimbledon\",Wimbledon Extra"
+    },
+    {
+      "name": "Inclusive Feed",
+      "url": "http://217.79.181.99:8899/ch/inclusive-feed/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"inclusive-feed\" tvg-name=\"Inclusive Feed\" group-title=\"Wimbledon\",Inclusive Feed"
+    },
+    {
+      "name": "BBC One",
+      "url": "http://217.79.181.99:8899/ch/bbc-one/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"bbc-one\" tvg-name=\"BBC One\" group-title=\"BBC Live\",BBC One"
+    },
+    {
+      "name": "BBC Two",
+      "url": "http://217.79.181.99:8899/ch/bbc-two/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"bbc-two\" tvg-name=\"BBC Two\" group-title=\"BBC Live\",BBC Two"
+    },
+    {
+      "name": "BBC Three",
+      "url": "http://217.79.181.99:8899/ch/bbc-three/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"bbc-three\" tvg-name=\"BBC Three\" group-title=\"BBC Live\",BBC Three"
+    },
+    {
+      "name": "BBC Four",
+      "url": "http://217.79.181.99:8899/ch/bbc-four/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"bbc-four\" tvg-name=\"BBC Four\" group-title=\"BBC Live\",BBC Four"
+    },
+    {
+      "name": "BBC News",
+      "url": "http://217.79.181.99:8899/ch/bbc-news/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"bbc-news\" tvg-name=\"BBC News\" group-title=\"BBC Live\",BBC News"
+    },
+    {
+      "name": "BBC Scotland",
+      "url": "http://217.79.181.99:8899/ch/bbc-scotland/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"bbc-scotland\" tvg-name=\"BBC Scotland\" group-title=\"BBC Live\",BBC Scotland"
+    },
+    {
+      "name": "BBC Parliament",
+      "url": "http://217.79.181.99:8899/ch/bbc-parliament/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"bbc-parliament\" tvg-name=\"BBC Parliament\" group-title=\"BBC Live\",BBC Parliament"
+    },
+    {
+      "name": "BBC Alba",
+      "url": "http://217.79.181.99:8899/ch/bbc-alba/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"bbc-alba\" tvg-name=\"BBC Alba\" group-title=\"BBC Live\",BBC Alba"
+    },
+    {
+      "name": "CBBC",
+      "url": "http://217.79.181.99:8899/ch/cbbc/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"cbbc\" tvg-name=\"CBBC\" group-title=\"BBC Live\",CBBC"
+    },
+    {
+      "name": "CBeebies",
+      "url": "http://217.79.181.99:8899/ch/cbeebies/index.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"cbeebies\" tvg-name=\"CBeebies\" group-title=\"BBC Live\",CBeebies"
+    }
+  ],
+  "count": 27,
+  "reason": ""
+}

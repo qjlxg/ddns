@@ -1,0 +1,16 @@
+{
+  "url": "http://31.76.80.206:25500/sub.b64",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "hysteria2",
+      "server": "31.76.80.206",
+      "port": 443,
+      "password": "vpn-hysteria-2026",
+      "sni": "www.microsoft.com",
+      "name": "hysteria2-31.76.80.206"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

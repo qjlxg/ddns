@@ -1,0 +1,39 @@
+{
+  "url": "http://130.162.157.14:8080/proxies",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "🇰🇷 oracle_kr_central xtls-reality",
+      "type": "vless",
+      "server": "130.162.157.14",
+      "port": 443,
+      "uuid": "4083fd0b-91c4-4b39-bd38-18d999b1c6a1",
+      "network": "tcp",
+      "udp": true,
+      "tls": true,
+      "flow": "xtls-rprx-vision",
+      "servername": "addons.mozilla.org",
+      "client-fingerprint": "chrome",
+      "reality-opts": {
+        "public-key": "_NthxmFzVRSoWyaxdq42Sa9AyAr3LdyXZj-Jumms_Fc",
+        "short-id": ""
+      },
+      "smux": {
+        "enabled": false,
+        "protocol": "h2mux",
+        "padding": false,
+        "max-connections": "8",
+        "min-streams": "16",
+        "statistic": true,
+        "only-tcp": false
+      },
+      "brutal-opts": {
+        "enabled": false,
+        "up": "1000 Mbps",
+        "down": "1000 Mbps"
+      }
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

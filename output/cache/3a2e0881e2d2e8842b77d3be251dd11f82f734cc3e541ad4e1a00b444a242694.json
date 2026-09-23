@@ -1,0 +1,57 @@
+{
+  "url": "http://156.224.78.158:80/M200SUKI",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "zf-gz01.miyuu.top",
+      "port": 15501,
+      "uuid": "c17b8370-1fb5-4264-855f-28f0ebe90289",
+      "security": "none",
+      "headerType": "none",
+      "name": "vless-zf-gz01.miyuu.top"
+    },
+    {
+      "type": "tcp",
+      "server": "zf-gz01.miyuu.top",
+      "port": 15502,
+      "uuid": "c17b8370-1fb5-4264-855f-28f0ebe90289",
+      "security": "none",
+      "headerType": "none",
+      "name": "vless-zf-gz01.miyuu.top"
+    },
+    {
+      "type": "tcp",
+      "server": "zf-gz01.miyuu.top",
+      "port": 15503,
+      "uuid": "c17b8370-1fb5-4264-855f-28f0ebe90289",
+      "security": "none",
+      "headerType": "none",
+      "name": "vless-zf-gz01.miyuu.top"
+    },
+    {
+      "type": "ws",
+      "server": "zf-gz01.miyuu.top",
+      "port": 15601,
+      "uuid": "c17b8370-1fb5-4264-855f-28f0ebe90289",
+      "security": "tls",
+      "sni": "us01.miyuu.top",
+      "path": "/1515",
+      "host": "us01.miyuu.top",
+      "name": "vless-zf-gz01.miyuu.top"
+    },
+    {
+      "type": "ws",
+      "server": "cn2gia.miyuu.top",
+      "port": 15601,
+      "uuid": "c17b8370-1fb5-4264-855f-28f0ebe90289",
+      "security": "tls",
+      "sni": "us01.miyuu.top",
+      "path": "/1515",
+      "host": "us01.miyuu.top",
+      "name": "vless-cn2gia.miyuu.top"
+    }
+  ],
+  "count": 5,
+  "reason": ""
+}

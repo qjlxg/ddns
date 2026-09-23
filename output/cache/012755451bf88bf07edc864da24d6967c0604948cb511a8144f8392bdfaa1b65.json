@@ -1,0 +1,18 @@
+{
+  "url": "http://46.29.163.214:8080/sub",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "🇷🇺 VPS-RU",
+      "type": "hysteria2",
+      "server": "46.29.163.214",
+      "port": 443,
+      "password": "SZzeJbOxbvHnYKI-tWWN4w_bvtBUCkAv",
+      "sni": "www.bing.com",
+      "skip-cert-verify": true,
+      "fast-open": true
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

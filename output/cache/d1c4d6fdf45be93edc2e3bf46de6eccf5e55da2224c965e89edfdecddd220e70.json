@@ -1,0 +1,16 @@
+{
+  "url": "http://194.87.55.134:8081/sub/v2ray",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "127.0.0.1",
+      "port": 443,
+      "uuid": "v2ray",
+      "security": "none",
+      "name": "vless-127.0.0.1"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

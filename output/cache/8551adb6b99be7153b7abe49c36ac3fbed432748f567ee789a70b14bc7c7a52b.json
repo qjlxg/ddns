@@ -1,0 +1,21 @@
+{
+  "url": "http://167.88.186.226:80/ccc07ec70c03b4e2755e.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "167.88.186.226",
+      "port": 443,
+      "uuid": "a1cc923b-8ded-4473-951b-f38228992059",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "OcOdslxsDQpbYM7F_mXVHemubBD4tokCbe4iSK1fgT8",
+      "sid": "61eed1c550cb34e5",
+      "name": "vless-167.88.186.226"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

@@ -1,0 +1,26 @@
+{
+  "url": "http://45.89.232.244:18080/hy2-sub.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "hysteria2",
+      "server": "45.89.232.244",
+      "port": 443,
+      "password": "password",
+      "sni": "www.bing.com",
+      "insecure": "1",
+      "name": "hysteria2-45.89.232.244"
+    },
+    {
+      "type": "hysteria2",
+      "server": "45.89.232.244",
+      "port": 58443,
+      "password": "password",
+      "sni": "www.bing.com",
+      "insecure": "1",
+      "name": "hysteria2-45.89.232.244"
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}

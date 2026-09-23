@@ -1,0 +1,70 @@
+{
+  "url": "http://216.23.93.124:80/sub.bak.1788476407",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "216.23.93.124",
+      "port": 443,
+      "uuid": "90ba94b4-1962-4d20-b54f-a43e79331db0",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "music.apple.com",
+      "pbk": "Y5iTn8aZX-X678tWnQ_YOW-WCHR9-NO84sqx4R3hYXQ",
+      "sid": "4705440663e09ce3",
+      "name": "vless-216.23.93.124"
+    },
+    {
+      "type": "tcp",
+      "server": "216.23.93.124",
+      "port": 2096,
+      "uuid": "0b078aff-e4fa-47b3-a7b6-42825bb05493",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.intel.com",
+      "pbk": "BibBAIQL7lbkHCW2jzKjbUS-N17n9IJnb5qn2hNXDAE",
+      "sid": "d16d72bf8684662d",
+      "name": "vless-216.23.93.124"
+    },
+    {
+      "type": "tcp",
+      "server": "216.23.93.124",
+      "port": 8443,
+      "uuid": "9079c778-61d6-457b-902f-a5b6eecf4268",
+      "security": "reality",
+      "sni": "www.bing.com",
+      "pbk": "fOQcsfLUrmYl8PlxvVuWpayAZVm-Ey2WuKENMWk_3SM",
+      "sid": "54a3aa8bdf6c3896",
+      "name": "vless-216.23.93.124"
+    },
+    {
+      "type": "hysteria2",
+      "server": "216.23.93.124",
+      "port": 443,
+      "password": "oNBUQI8XRNxECGQhQb4nJzfS",
+      "sni": "www.icloud.com",
+      "name": "hysteria2-216.23.93.124"
+    },
+    {
+      "type": "ws",
+      "server": "vps2.tk99868.filegear-sg.me",
+      "port": 2053,
+      "uuid": "c7608c55-796e-40a7-ad3b-5d0c432b8a2d",
+      "security": "tls",
+      "sni": "vps2.tk99868.filegear-sg.me",
+      "path": "/cf-xhttp-2053",
+      "host": "vps2.tk99868.filegear-sg.me",
+      "name": "vless-vps2.tk99868.filegear-sg.me"
+    },
+    {
+      "type": "hysteria2",
+      "server": "216.23.93.124",
+      "port": 8443,
+      "password": "F1wkcDM4AB7NB2yfthxglsHa",
+      "sni": "www.apple.com",
+      "name": "hysteria2-216.23.93.124"
+    }
+  ],
+  "count": 6,
+  "reason": ""
+}

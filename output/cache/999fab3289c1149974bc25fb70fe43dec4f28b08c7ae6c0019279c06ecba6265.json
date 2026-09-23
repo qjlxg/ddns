@@ -1,0 +1,633 @@
+{
+  "url": "http://38.68.135.235:8000/playlist.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "AMC",
+      "url": "http://38.68.135.235:8000/AMC.m3u8",
+      "extinf": "#EXTINF:-1,AMC"
+    },
+    {
+      "name": "American-Heroes-Channel",
+      "url": "http://38.68.135.235:8000/American-Heroes-Channel.m3u8",
+      "extinf": "#EXTINF:-1,American-Heroes-Channel"
+    },
+    {
+      "name": "Animal-Planet",
+      "url": "http://38.68.135.235:8000/Animal-Planet.m3u8",
+      "extinf": "#EXTINF:-1,Animal-Planet"
+    },
+    {
+      "name": "Animal-Planet-West",
+      "url": "http://38.68.135.235:8000/Animal-Planet-West.m3u8",
+      "extinf": "#EXTINF:-1,Animal-Planet-West"
+    },
+    {
+      "name": "BabyTV",
+      "url": "http://38.68.135.235:8000/BabyTV.m3u8",
+      "extinf": "#EXTINF:-1,BabyTV"
+    },
+    {
+      "name": "BBC-America",
+      "url": "http://38.68.135.235:8000/BBC-America.m3u8",
+      "extinf": "#EXTINF:-1,BBC-America"
+    },
+    {
+      "name": "BBC-World-News",
+      "url": "http://38.68.135.235:8000/BBC-World-News.m3u8",
+      "extinf": "#EXTINF:-1,BBC-World-News"
+    },
+    {
+      "name": "Boomerang",
+      "url": "http://38.68.135.235:8000/Boomerang.m3u8",
+      "extinf": "#EXTINF:-1,Boomerang"
+    },
+    {
+      "name": "Bravo",
+      "url": "http://38.68.135.235:8000/Bravo.m3u8",
+      "extinf": "#EXTINF:-1,Bravo"
+    },
+    {
+      "name": "Bravo-West",
+      "url": "http://38.68.135.235:8000/Bravo-West.m3u8",
+      "extinf": "#EXTINF:-1,Bravo-West"
+    },
+    {
+      "name": "Big-Ten-Network",
+      "url": "http://38.68.135.235:8000/Big-Ten-Network.m3u8",
+      "extinf": "#EXTINF:-1,Big-Ten-Network"
+    },
+    {
+      "name": "Cartoon-Network",
+      "url": "http://38.68.135.235:8000/Cartoon-Network.m3u8",
+      "extinf": "#EXTINF:-1,Cartoon-Network"
+    },
+    {
+      "name": "Cartoon-Network-West",
+      "url": "http://38.68.135.235:8000/Cartoon-Network-West.m3u8",
+      "extinf": "#EXTINF:-1,Cartoon-Network-West"
+    },
+    {
+      "name": "CBS-Sports-Network",
+      "url": "http://38.68.135.235:8000/CBS-Sports-Network.m3u8",
+      "extinf": "#EXTINF:-1,CBS-Sports-Network"
+    },
+    {
+      "name": "Cheddar-Business",
+      "url": "http://38.68.135.235:8000/Cheddar-Business.m3u8",
+      "extinf": "#EXTINF:-1,Cheddar-Business"
+    },
+    {
+      "name": "Cheddar-News",
+      "url": "http://38.68.135.235:8000/Cheddar-News.m3u8",
+      "extinf": "#EXTINF:-1,Cheddar-News"
+    },
+    {
+      "name": "Cinemax",
+      "url": "http://38.68.135.235:8000/Cinemax.m3u8",
+      "extinf": "#EXTINF:-1,Cinemax"
+    },
+    {
+      "name": "cinemax-west",
+      "url": "http://38.68.135.235:8000/cinemax-west.m3u8",
+      "extinf": "#EXTINF:-1,cinemax-west"
+    },
+    {
+      "name": "CNBC",
+      "url": "http://38.68.135.235:8000/CNBC.m3u8",
+      "extinf": "#EXTINF:-1,CNBC"
+    },
+    {
+      "name": "CNBC-World",
+      "url": "http://38.68.135.235:8000/CNBC-World.m3u8",
+      "extinf": "#EXTINF:-1,CNBC-World"
+    },
+    {
+      "name": "CNN",
+      "url": "http://38.68.135.235:8000/CNN.m3u8",
+      "extinf": "#EXTINF:-1,CNN"
+    },
+    {
+      "name": "Comet",
+      "url": "http://38.68.135.235:8000/Comet.m3u8",
+      "extinf": "#EXTINF:-1,Comet"
+    },
+    {
+      "name": "Cooking-Channel",
+      "url": "http://38.68.135.235:8000/Cooking-Channel.m3u8",
+      "extinf": "#EXTINF:-1,Cooking-Channel"
+    },
+    {
+      "name": "COZI-TV",
+      "url": "http://38.68.135.235:8000/COZI-TV.m3u8",
+      "extinf": "#EXTINF:-1,COZI-TV"
+    },
+    {
+      "name": "Destination-America",
+      "url": "http://38.68.135.235:8000/Destination-America.m3u8",
+      "extinf": "#EXTINF:-1,Destination-America"
+    },
+    {
+      "name": "Discovery",
+      "url": "http://38.68.135.235:8000/Discovery.m3u8",
+      "extinf": "#EXTINF:-1,Discovery"
+    },
+    {
+      "name": "Discovery-West",
+      "url": "http://38.68.135.235:8000/Discovery-West.m3u8",
+      "extinf": "#EXTINF:-1,Discovery-West"
+    },
+    {
+      "name": "Discovery-Family",
+      "url": "http://38.68.135.235:8000/Discovery-Family.m3u8",
+      "extinf": "#EXTINF:-1,Discovery-Family"
+    },
+    {
+      "name": "Discovery-Life-Channel",
+      "url": "http://38.68.135.235:8000/Discovery-Life-Channel.m3u8",
+      "extinf": "#EXTINF:-1,Discovery-Life-Channel"
+    },
+    {
+      "name": "Disney-Channel",
+      "url": "http://38.68.135.235:8000/Disney-Channel.m3u8",
+      "extinf": "#EXTINF:-1,Disney-Channel"
+    },
+    {
+      "name": "Disney-Channel-West",
+      "url": "http://38.68.135.235:8000/Disney-Channel-West.m3u8",
+      "extinf": "#EXTINF:-1,Disney-Channel-West"
+    },
+    {
+      "name": "Disney-Junior",
+      "url": "http://38.68.135.235:8000/Disney-Junior.m3u8",
+      "extinf": "#EXTINF:-1,Disney-Junior"
+    },
+    {
+      "name": "Disney-Junior-West",
+      "url": "http://38.68.135.235:8000/Disney-Junior-West.m3u8",
+      "extinf": "#EXTINF:-1,Disney-Junior-West"
+    },
+    {
+      "name": "Disney-XD",
+      "url": "http://38.68.135.235:8000/Disney-XD.m3u8",
+      "extinf": "#EXTINF:-1,Disney-XD"
+    },
+    {
+      "name": "Disney-XD-West",
+      "url": "http://38.68.135.235:8000/Disney-XD-West.m3u8",
+      "extinf": "#EXTINF:-1,Disney-XD-West"
+    },
+    {
+      "name": "DIY",
+      "url": "http://38.68.135.235:8000/DIY.m3u8",
+      "extinf": "#EXTINF:-1,DIY"
+    },
+    {
+      "name": "E!",
+      "url": "http://38.68.135.235:8000/E!.m3u8",
+      "extinf": "#EXTINF:-1,E!"
+    },
+    {
+      "name": "E!-West",
+      "url": "http://38.68.135.235:8000/E!-West.m3u8",
+      "extinf": "#EXTINF:-1,E!-West"
+    },
+    {
+      "name": "EPIX-Hits",
+      "url": "http://38.68.135.235:8000/EPIX-Hits.m3u8",
+      "extinf": "#EXTINF:-1,EPIX-Hits"
+    },
+    {
+      "name": "ESPN",
+      "url": "http://38.68.135.235:8000/ESPN.m3u8",
+      "extinf": "#EXTINF:-1,ESPN"
+    },
+    {
+      "name": "ESPN-College-Extra",
+      "url": "http://38.68.135.235:8000/ESPN-College-Extra.m3u8",
+      "extinf": "#EXTINF:-1,ESPN-College-Extra"
+    },
+    {
+      "name": "ESPN-Deportes",
+      "url": "http://38.68.135.235:8000/ESPN-Deportes.m3u8",
+      "extinf": "#EXTINF:-1,ESPN-Deportes"
+    },
+    {
+      "name": "ESPN2",
+      "url": "http://38.68.135.235:8000/ESPN2.m3u8",
+      "extinf": "#EXTINF:-1,ESPN2"
+    },
+    {
+      "name": "ESPN-Classic",
+      "url": "http://38.68.135.235:8000/ESPN-Classic.m3u8",
+      "extinf": "#EXTINF:-1,ESPN-Classic"
+    },
+    {
+      "name": "ESPNews",
+      "url": "http://38.68.135.235:8000/ESPNews.m3u8",
+      "extinf": "#EXTINF:-1,ESPNews"
+    },
+    {
+      "name": "ESPNU",
+      "url": "http://38.68.135.235:8000/ESPNU.m3u8",
+      "extinf": "#EXTINF:-1,ESPNU"
+    },
+    {
+      "name": "Food-Network",
+      "url": "http://38.68.135.235:8000/Food-Network.m3u8",
+      "extinf": "#EXTINF:-1,Food-Network"
+    },
+    {
+      "name": "Food-Network-West",
+      "url": "http://38.68.135.235:8000/Food-Network-West.m3u8",
+      "extinf": "#EXTINF:-1,Food-Network-West"
+    },
+    {
+      "name": "FOX-Business-Network",
+      "url": "http://38.68.135.235:8000/FOX-Business-Network.m3u8",
+      "extinf": "#EXTINF:-1,FOX-Business-Network"
+    },
+    {
+      "name": "Fox-Deportes",
+      "url": "http://38.68.135.235:8000/Fox-Deportes.m3u8",
+      "extinf": "#EXTINF:-1,Fox-Deportes"
+    },
+    {
+      "name": "FOX-News-Channel",
+      "url": "http://38.68.135.235:8000/FOX-News-Channel.m3u8",
+      "extinf": "#EXTINF:-1,FOX-News-Channel"
+    },
+    {
+      "name": "Freeform",
+      "url": "http://38.68.135.235:8000/Freeform.m3u8",
+      "extinf": "#EXTINF:-1,Freeform"
+    },
+    {
+      "name": "Freeform-West",
+      "url": "http://38.68.135.235:8000/Freeform-West.m3u8",
+      "extinf": "#EXTINF:-1,Freeform-West"
+    },
+    {
+      "name": "FS1",
+      "url": "http://38.68.135.235:8000/FS1.m3u8",
+      "extinf": "#EXTINF:-1,FS1"
+    },
+    {
+      "name": "FS2",
+      "url": "http://38.68.135.235:8000/FS2.m3u8",
+      "extinf": "#EXTINF:-1,FS2"
+    },
+    {
+      "name": "Fusion",
+      "url": "http://38.68.135.235:8000/Fusion.m3u8",
+      "extinf": "#EXTINF:-1,Fusion"
+    },
+    {
+      "name": "FX",
+      "url": "http://38.68.135.235:8000/FX.m3u8",
+      "extinf": "#EXTINF:-1,FX"
+    },
+    {
+      "name": "FX-West",
+      "url": "http://38.68.135.235:8000/FX-West.m3u8",
+      "extinf": "#EXTINF:-1,FX-West"
+    },
+    {
+      "name": "FX+",
+      "url": "http://38.68.135.235:8000/FX+.m3u8",
+      "extinf": "#EXTINF:-1,FX+"
+    },
+    {
+      "name": "FXM",
+      "url": "http://38.68.135.235:8000/FXM.m3u8",
+      "extinf": "#EXTINF:-1,FXM"
+    },
+    {
+      "name": "FXX",
+      "url": "http://38.68.135.235:8000/FXX.m3u8",
+      "extinf": "#EXTINF:-1,FXX"
+    },
+    {
+      "name": "FXX-West",
+      "url": "http://38.68.135.235:8000/FXX-West.m3u8",
+      "extinf": "#EXTINF:-1,FXX-West"
+    },
+    {
+      "name": "GINX-eSports-TV",
+      "url": "http://38.68.135.235:8000/GINX-eSports-TV.m3u8",
+      "extinf": "#EXTINF:-1,GINX-eSports-TV"
+    },
+    {
+      "name": "Golf-Channel",
+      "url": "http://38.68.135.235:8000/Golf-Channel.m3u8",
+      "extinf": "#EXTINF:-1,Golf-Channel"
+    },
+    {
+      "name": "Hallmark-Channel",
+      "url": "http://38.68.135.235:8000/Hallmark-Channel.m3u8",
+      "extinf": "#EXTINF:-1,Hallmark-Channel"
+    },
+    {
+      "name": "Hallmark-Channel-West",
+      "url": "http://38.68.135.235:8000/Hallmark-Channel-West.m3u8",
+      "extinf": "#EXTINF:-1,Hallmark-Channel-West"
+    },
+    {
+      "name": "Hallmark-Drama",
+      "url": "http://38.68.135.235:8000/Hallmark-Drama.m3u8",
+      "extinf": "#EXTINF:-1,Hallmark-Drama"
+    },
+    {
+      "name": "Hallmark-Movies-Mysteries",
+      "url": "http://38.68.135.235:8000/Hallmark-Movies-Mysteries.m3u8",
+      "extinf": "#EXTINF:-1,Hallmark-Movies-Mysteries"
+    },
+    {
+      "name": "HBO",
+      "url": "http://38.68.135.235:8000/HBO.m3u8",
+      "extinf": "#EXTINF:-1,HBO"
+    },
+    {
+      "name": "HBO-West",
+      "url": "http://38.68.135.235:8000/HBO-West.m3u8",
+      "extinf": "#EXTINF:-1,HBO-West"
+    },
+    {
+      "name": "HGTV",
+      "url": "http://38.68.135.235:8000/HGTV.m3u8",
+      "extinf": "#EXTINF:-1,HGTV"
+    },
+    {
+      "name": "HGTV-West",
+      "url": "http://38.68.135.235:8000/HGTV-West.m3u8",
+      "extinf": "#EXTINF:-1,HGTV-West"
+    },
+    {
+      "name": "Hi-YAH",
+      "url": "http://38.68.135.235:8000/Hi-YAH.m3u8",
+      "extinf": "#EXTINF:-1,Hi-YAH"
+    },
+    {
+      "name": "HLN",
+      "url": "http://38.68.135.235:8000/HLN.m3u8",
+      "extinf": "#EXTINF:-1,HLN"
+    },
+    {
+      "name": "IFC",
+      "url": "http://38.68.135.235:8000/IFC.m3u8",
+      "extinf": "#EXTINF:-1,IFC"
+    },
+    {
+      "name": "Investigation-Discovery",
+      "url": "http://38.68.135.235:8000/Investigation-Discovery.m3u8",
+      "extinf": "#EXTINF:-1,Investigation-Discovery"
+    },
+    {
+      "name": "Investigation-Discovery-West",
+      "url": "http://38.68.135.235:8000/Investigation-Discovery-West.m3u8",
+      "extinf": "#EXTINF:-1,Investigation-Discovery-West"
+    },
+    {
+      "name": "MLB-Network",
+      "url": "http://38.68.135.235:8000/MLB-Network.m3u8",
+      "extinf": "#EXTINF:-1,MLB-Network"
+    },
+    {
+      "name": "MotorTrend",
+      "url": "http://38.68.135.235:8000/MotorTrend.m3u8",
+      "extinf": "#EXTINF:-1,MotorTrend"
+    },
+    {
+      "name": "MSNBC",
+      "url": "http://38.68.135.235:8000/MSNBC.m3u8",
+      "extinf": "#EXTINF:-1,MSNBC"
+    },
+    {
+      "name": "Nat-Geo-WILD",
+      "url": "http://38.68.135.235:8000/Nat-Geo-WILD.m3u8",
+      "extinf": "#EXTINF:-1,Nat-Geo-WILD"
+    },
+    {
+      "name": "National-Geographic",
+      "url": "http://38.68.135.235:8000/National-Geographic.m3u8",
+      "extinf": "#EXTINF:-1,National-Geographic"
+    },
+    {
+      "name": "National-Geographic-West",
+      "url": "http://38.68.135.235:8000/National-Geographic-West.m3u8",
+      "extinf": "#EXTINF:-1,National-Geographic-West"
+    },
+    {
+      "name": "NBA-TV",
+      "url": "http://38.68.135.235:8000/NBA-TV.m3u8",
+      "extinf": "#EXTINF:-1,NBA-TV"
+    },
+    {
+      "name": "NBC-Sports-Network",
+      "url": "http://38.68.135.235:8000/NBC-Sports-Network.m3u8",
+      "extinf": "#EXTINF:-1,NBC-Sports-Network"
+    },
+    {
+      "name": "NECN-New-England-Cable-News",
+      "url": "http://38.68.135.235:8000/NECN-New-England-Cable-News.m3u8",
+      "extinf": "#EXTINF:-1,NECN-New-England-Cable-News"
+    },
+    {
+      "name": "NFL-Network",
+      "url": "http://38.68.135.235:8000/NFL-Network.m3u8",
+      "extinf": "#EXTINF:-1,NFL-Network"
+    },
+    {
+      "name": "Olympic-Channel",
+      "url": "http://38.68.135.235:8000/Olympic-Channel.m3u8",
+      "extinf": "#EXTINF:-1,Olympic-Channel"
+    },
+    {
+      "name": "OWN",
+      "url": "http://38.68.135.235:8000/OWN.m3u8",
+      "extinf": "#EXTINF:-1,OWN"
+    },
+    {
+      "name": "Oxygen",
+      "url": "http://38.68.135.235:8000/Oxygen.m3u8",
+      "extinf": "#EXTINF:-1,Oxygen"
+    },
+    {
+      "name": "Oxygen-West",
+      "url": "http://38.68.135.235:8000/Oxygen-West.m3u8",
+      "extinf": "#EXTINF:-1,Oxygen-West"
+    },
+    {
+      "name": "POP",
+      "url": "http://38.68.135.235:8000/POP.m3u8",
+      "extinf": "#EXTINF:-1,POP"
+    },
+    {
+      "name": "Science",
+      "url": "http://38.68.135.235:8000/Science.m3u8",
+      "extinf": "#EXTINF:-1,Science"
+    },
+    {
+      "name": "Showtime",
+      "url": "http://38.68.135.235:8000/Showtime.m3u8",
+      "extinf": "#EXTINF:-1,Showtime"
+    },
+    {
+      "name": "Showtime-West",
+      "url": "http://38.68.135.235:8000/Showtime-West.m3u8",
+      "extinf": "#EXTINF:-1,Showtime-West"
+    },
+    {
+      "name": "Smithsonian-Channel",
+      "url": "http://38.68.135.235:8000/Smithsonian-Channel.m3u8",
+      "extinf": "#EXTINF:-1,Smithsonian-Channel"
+    },
+    {
+      "name": "Smithsonian-Channel-West",
+      "url": "http://38.68.135.235:8000/Smithsonian-Channel-West.m3u8",
+      "extinf": "#EXTINF:-1,Smithsonian-Channel-West"
+    },
+    {
+      "name": "Sony-Movie-Channel",
+      "url": "http://38.68.135.235:8000/Sony-Movie-Channel.m3u8",
+      "extinf": "#EXTINF:-1,Sony-Movie-Channel"
+    },
+    {
+      "name": "Stadium",
+      "url": "http://38.68.135.235:8000/Stadium.m3u8",
+      "extinf": "#EXTINF:-1,Stadium"
+    },
+    {
+      "name": "Stadium-2",
+      "url": "http://38.68.135.235:8000/Stadium-2.m3u8",
+      "extinf": "#EXTINF:-1,Stadium-2"
+    },
+    {
+      "name": "Stadium-3",
+      "url": "http://38.68.135.235:8000/Stadium-3.m3u8",
+      "extinf": "#EXTINF:-1,Stadium-3"
+    },
+    {
+      "name": "Start-TV",
+      "url": "http://38.68.135.235:8000/Start-TV.m3u8",
+      "extinf": "#EXTINF:-1,Start-TV"
+    },
+    {
+      "name": "SundanceTV",
+      "url": "http://38.68.135.235:8000/SundanceTV.m3u8",
+      "extinf": "#EXTINF:-1,SundanceTV"
+    },
+    {
+      "name": "Syfy",
+      "url": "http://38.68.135.235:8000/Syfy.m3u8",
+      "extinf": "#EXTINF:-1,Syfy"
+    },
+    {
+      "name": "Syfy-West",
+      "url": "http://38.68.135.235:8000/Syfy-West.m3u8",
+      "extinf": "#EXTINF:-1,Syfy-West"
+    },
+    {
+      "name": "Tastemade",
+      "url": "http://38.68.135.235:8000/Tastemade.m3u8",
+      "extinf": "#EXTINF:-1,Tastemade"
+    },
+    {
+      "name": "TBS",
+      "url": "http://38.68.135.235:8000/TBS.m3u8",
+      "extinf": "#EXTINF:-1,TBS"
+    },
+    {
+      "name": "TBS-West",
+      "url": "http://38.68.135.235:8000/TBS-West.m3u8",
+      "extinf": "#EXTINF:-1,TBS-West"
+    },
+    {
+      "name": "Tennis-Channel",
+      "url": "http://38.68.135.235:8000/Tennis-Channel.m3u8",
+      "extinf": "#EXTINF:-1,Tennis-Channel"
+    },
+    {
+      "name": "TLC",
+      "url": "http://38.68.135.235:8000/TLC.m3u8",
+      "extinf": "#EXTINF:-1,TLC"
+    },
+    {
+      "name": "TNT",
+      "url": "http://38.68.135.235:8000/TNT.m3u8",
+      "extinf": "#EXTINF:-1,TNT"
+    },
+    {
+      "name": "TNT-West",
+      "url": "http://38.68.135.235:8000/TNT-West.m3u8",
+      "extinf": "#EXTINF:-1,TNT-West"
+    },
+    {
+      "name": "Travel-Channel",
+      "url": "http://38.68.135.235:8000/Travel-Channel.m3u8",
+      "extinf": "#EXTINF:-1,Travel-Channel"
+    },
+    {
+      "name": "Travel-Channel-West",
+      "url": "http://38.68.135.235:8000/Travel-Channel-West.m3u8",
+      "extinf": "#EXTINF:-1,Travel-Channel-West"
+    },
+    {
+      "name": "truTV",
+      "url": "http://38.68.135.235:8000/truTV.m3u8",
+      "extinf": "#EXTINF:-1,truTV"
+    },
+    {
+      "name": "TruTV-West",
+      "url": "http://38.68.135.235:8000/TruTV-West.m3u8",
+      "extinf": "#EXTINF:-1,TruTV-West"
+    },
+    {
+      "name": "Turner-Classic-Movies",
+      "url": "http://38.68.135.235:8000/Turner-Classic-Movies.m3u8",
+      "extinf": "#EXTINF:-1,Turner-Classic-Movies"
+    },
+    {
+      "name": "Universal-Kids",
+      "url": "http://38.68.135.235:8000/Universal-Kids.m3u8",
+      "extinf": "#EXTINF:-1,Universal-Kids"
+    },
+    {
+      "name": "Universal-Kids-West",
+      "url": "http://38.68.135.235:8000/Universal-Kids-West.m3u8",
+      "extinf": "#EXTINF:-1,Universal-Kids-West"
+    },
+    {
+      "name": "USA",
+      "url": "http://38.68.135.235:8000/USA.m3u8",
+      "extinf": "#EXTINF:-1,USA"
+    },
+    {
+      "name": "USA-West",
+      "url": "http://38.68.135.235:8000/USA-West.m3u8",
+      "extinf": "#EXTINF:-1,USA-West"
+    },
+    {
+      "name": "WE-tv",
+      "url": "http://38.68.135.235:8000/WE-tv.m3u8",
+      "extinf": "#EXTINF:-1,WE-tv"
+    },
+    {
+      "name": "YES-Network",
+      "url": "http://38.68.135.235:8000/YES-Network.m3u8",
+      "extinf": "#EXTINF:-1,YES-Network"
+    },
+    {
+      "name": "YES-Network-West",
+      "url": "http://38.68.135.235:8000/YES-Network-West.m3u8",
+      "extinf": "#EXTINF:-1,YES-Network-West"
+    },
+    {
+      "name": "SNY",
+      "url": "http://38.68.135.235:8000/SNY.m3u8",
+      "extinf": "#EXTINF:-1,SNY"
+    }
+  ],
+  "count": 125,
+  "reason": ""
+}

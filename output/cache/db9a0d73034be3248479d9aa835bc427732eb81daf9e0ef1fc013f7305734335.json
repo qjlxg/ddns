@@ -1,0 +1,22 @@
+{
+  "url": "http://193.56.3.43:8080/ndt_test_subscription.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "http",
+      "server": "t.me",
+      "port": 443,
+      "name": "https-t.me"
+    },
+    {
+      "type": "hysteria2",
+      "server": "193.56.3.43",
+      "port": 443,
+      "password": "ndt-main",
+      "sni": "193.56.3.43",
+      "name": "hysteria2-193.56.3.43"
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}

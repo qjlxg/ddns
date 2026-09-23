@@ -1,0 +1,22 @@
+{
+  "url": "http://2.26.114.55:3000/api/v1/client/subscribe",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "xhttp",
+      "server": "panel.kirillk8888.ru",
+      "port": 443,
+      "uuid": "2507fa32-a36e-44f9-8ede-0257be068b16",
+      "security": "reality",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "k4gFduHJnVT6XSqh11ycaAKySKM-5MqCcP1b4gbCZEs",
+      "sid": "231037",
+      "path": "/cdn/",
+      "host": "www.cloudflare.com",
+      "name": "vless-panel.kirillk8888.ru"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

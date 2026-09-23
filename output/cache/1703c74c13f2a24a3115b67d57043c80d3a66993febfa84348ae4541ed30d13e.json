@@ -1,0 +1,16 @@
+{
+  "url": "http://185.112.83.254:80/tima-920d978fbb419e6c.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "ss",
+      "server": "185.112.83.254",
+      "port": 443,
+      "cipher": "chacha20-poly1305",
+      "password": "RMmFP2w5VQ+Gf5XTfUuvC3fFVpQcGpig",
+      "name": "ss-185.112.83.254"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

@@ -1,0 +1,22 @@
+{
+  "url": "http://151.241.215.77:18080/sub.b64",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "151.241.215.77",
+      "port": 8443,
+      "uuid": "db3becac-6762-43cd-adee-a2a991a4bef7",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "dl.google.com",
+      "fp": "chrome",
+      "pbk": "-ZTXkyGBTdHl-eg9pVPkhNPCQPGY_ua9k3Ok6Im6NVM",
+      "sid": "86673bb290f8bbd9",
+      "spx": "/",
+      "name": "vless-151.241.215.77"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

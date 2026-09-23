@@ -1,0 +1,25 @@
+{
+  "url": "http://107.172.57.135:8388/clash.yaml",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "US-Reality",
+      "type": "vless",
+      "server": "107.172.57.135",
+      "port": 18964,
+      "uuid": "9602377d-6552-4895-a103-5beac4d79a3f",
+      "network": "tcp",
+      "tls": true,
+      "udp": true,
+      "flow": "xtls-rprx-vision",
+      "servername": "www.microsoft.com",
+      "reality-opts": {
+        "public-key": "qPR3r6XUOECn-L3ZjdGBkczHf0DxI2OLV--XwOV4HmI",
+        "short-id": "a7ff4f4893298135"
+      },
+      "client-fingerprint": "chrome"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

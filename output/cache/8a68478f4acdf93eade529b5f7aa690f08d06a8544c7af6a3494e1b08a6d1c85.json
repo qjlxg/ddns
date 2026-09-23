@@ -1,0 +1,19 @@
+{
+  "url": "http://94.156.102.251:80/cloudflare-vless.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "ws",
+      "server": "edward-guardian-enter-moore.trycloudflare.com",
+      "port": 443,
+      "uuid": "b39cf482-5ee9-4994-90f9-59ae174ddfc0",
+      "security": "tls",
+      "sni": "edward-guardian-enter-moore.trycloudflare.com",
+      "fp": "chrome",
+      "path": "/",
+      "name": "vless-edward-guardian-enter-moore.trycloudflare.com"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

@@ -1,0 +1,21 @@
+{
+  "url": "http://72.56.5.222:8080/node",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "72.56.5.222",
+      "port": 443,
+      "uuid": "97cf854a-e430-4c22-8aa5-6189614250cb",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "2ACeiBjJ98egfErs5kUvGg9AdIFtBJPtrRGwJ-xvXig",
+      "sid": "6ba85179e30d4fc2",
+      "name": "vless-72.56.5.222"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

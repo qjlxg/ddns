@@ -1,0 +1,32 @@
+{
+  "url": "http://192.220.55.205:8080/sub.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "192.220.55.205",
+      "port": 44388,
+      "uuid": "af3eec5d-d7d0-4eed-b531-9d8ee21db04a",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "i5gEnb9ukS0xzuhqGrcypF7Azl0TErHPDzbd22fg0gA",
+      "sid": "86e0b214b8cb0d08",
+      "headerType": "none",
+      "name": "vless-192.220.55.205"
+    },
+    {
+      "type": "hysteria2",
+      "server": "192.220.55.205",
+      "port": 8443,
+      "password": "TikTokPassword2026",
+      "sni": "bing.com",
+      "insecure": "1",
+      "obfs": "none",
+      "name": "hysteria2-192.220.55.205"
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}

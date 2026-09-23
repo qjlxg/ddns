@@ -1,0 +1,52 @@
+{
+  "url": "http://103.76.85.160:25500/v2ray.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "103.76.85.160",
+      "port": 8888,
+      "uuid": "4904ab3c-896e-40e7-9486-1c92bbe6fd22",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "itunes.apple.com",
+      "fp": "chrome",
+      "pbk": "lVIHHptff-QRzPi0AgDWrEJJInaVdzzZ3AfQwwA01Rs",
+      "sid": "3c27a35916f9dd42",
+      "name": "vless-103.76.85.160"
+    },
+    {
+      "type": "hysteria2",
+      "server": "103.76.85.160",
+      "port": 8443,
+      "password": "7f95270e4e18a7b9",
+      "sni": "bing.com",
+      "alpn": "h3",
+      "insecure": "1",
+      "name": "hysteria2-103.76.85.160"
+    },
+    {
+      "type": "vmess",
+      "server": "ingredients-titans-schemes-databases.trycloudflare.com",
+      "port": 443,
+      "uuid": "8dada03d-5bf3-4af4-b3f2-97c953cd7f68",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true,
+      "network": "ws",
+      "servername": "ingredients-titans-schemes-databases.trycloudflare.com",
+      "name": "日本3"
+    },
+    {
+      "type": "hysteria2",
+      "server": "103.76.85.160",
+      "port": 7443,
+      "password": "warpaae35fcad698f9df",
+      "sni": "bing.com",
+      "alpn": "h3",
+      "name": "hysteria2-103.76.85.160"
+    }
+  ],
+  "count": 4,
+  "reason": ""
+}

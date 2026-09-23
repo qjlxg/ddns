@@ -1,0 +1,33 @@
+{
+  "url": "http://144.31.226.48:8080/sister-vpn.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "xhttp",
+      "server": "q.ooj.cz",
+      "port": 443,
+      "uuid": "27440efc-4c18-4f58-8fe0-4aa8d52bb414",
+      "security": "reality",
+      "sni": "www.okko.tv",
+      "fp": "chrome",
+      "pbk": "UXE1Qq59kckTzU3hIhG27mofGfoVjVdWYLoR99txf2o",
+      "sid": "2529073a73d3bd",
+      "spx": "/",
+      "path": "/",
+      "name": "vless-q.ooj.cz"
+    },
+    {
+      "type": "vless",
+      "server": "144.31.64.136",
+      "port": 8443,
+      "uuid": "e4257e0b-3c31-4e04-96f0-a400e80cde97",
+      "fp": "firefox",
+      "pbk": "5YwlWQULGFrmLixvhdThxlit_uNf7RK9EpIRJSUPGAc",
+      "path": "/",
+      "host": "www.sony.co.uk",
+      "name": "vless-144.31.64.136"
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}

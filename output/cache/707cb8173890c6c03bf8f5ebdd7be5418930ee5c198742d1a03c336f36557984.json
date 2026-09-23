@@ -1,0 +1,21 @@
+{
+  "url": "http://149.104.29.158:8088/vless-link.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "149.104.29.158",
+      "port": 443,
+      "uuid": "08e90868-c967-450f-8af1-a06717dd3639",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.microsoft.com",
+      "fp": "chrome",
+      "pbk": "b1vLsZrXq3qe3DlEiPmP044KktpvQCLmMFSaaw1YmAM",
+      "sid": "a6f1c30a",
+      "name": "vless-149.104.29.158"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

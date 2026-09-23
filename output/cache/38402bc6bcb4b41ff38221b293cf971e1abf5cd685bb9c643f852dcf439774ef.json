@@ -1,0 +1,30 @@
+{
+  "url": "http://45.32.248.186:8088/luck.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "ws",
+      "server": "45.32.248.186",
+      "port": 443,
+      "uuid": "8eaf8156-8411-4efa-9ff1-a3bf946a913b",
+      "security": "tls",
+      "sni": "proxy.geo-galaxy.site",
+      "path": "/vultrws",
+      "host": "proxy.geo-galaxy.site",
+      "name": "vless-45.32.248.186"
+    },
+    {
+      "type": "ws",
+      "server": "207.148.126.35",
+      "port": 443,
+      "uuid": "8eaf8156-8411-4efa-9ff1-a3bf946a913b",
+      "security": "tls",
+      "sni": "sg.geo-galaxy.site",
+      "path": "/vultrws",
+      "host": "sg.geo-galaxy.site",
+      "name": "vless-207.148.126.35"
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}

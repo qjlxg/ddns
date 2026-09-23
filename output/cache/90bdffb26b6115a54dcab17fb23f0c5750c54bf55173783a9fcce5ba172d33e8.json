@@ -1,0 +1,33 @@
+{
+  "url": "http://103.211.103.178:3000/playlist.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "🍸 The Lounge",
+      "url": "http://103.211.103.178:3000/hls/channel1/stream.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"jukebox1\" tvg-name=\"The Lounge\" group-title=\"JukeBox 🎵\",🍸 The Lounge"
+    },
+    {
+      "name": "🎉 Party Mix",
+      "url": "http://103.211.103.178:3000/hls/channel2/stream.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"jukebox2\" tvg-name=\"Party Mix\" group-title=\"JukeBox 🎵\",🎉 Party Mix"
+    },
+    {
+      "name": "🌊 Chill Vibes",
+      "url": "http://103.211.103.178:3000/hls/channel3/stream.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"jukebox3\" tvg-name=\"Chill Vibes\" group-title=\"JukeBox 🎵\",🌊 Chill Vibes"
+    },
+    {
+      "name": "🔥 Top Hits",
+      "url": "http://103.211.103.178:3000/hls/channel4/stream.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"jukebox4\" tvg-name=\"Top Hits\" group-title=\"JukeBox 🎵\",🔥 Top Hits"
+    },
+    {
+      "name": "🎸 Classic Zone",
+      "url": "http://103.211.103.178:3000/hls/channel5/stream.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"jukebox5\" tvg-name=\"Classic Zone\" group-title=\"JukeBox 🎵\",🎸 Classic Zone"
+    }
+  ],
+  "count": 5,
+  "reason": ""
+}

@@ -1,0 +1,22 @@
+{
+  "url": "http://194.32.98.211:8888/home-pc-vless.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "194.32.98.211",
+      "port": 443,
+      "uuid": "cbef468b-2179-426b-99a9-9461bf263178",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.samsung.com",
+      "fp": "chrome",
+      "pbk": "6EQ9VWad0otnaix1_gn1hA0gnzqPKQbH8W9Z7xn94ws",
+      "sid": "0123456789abcdef",
+      "spx": "/",
+      "name": "vless-194.32.98.211"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

@@ -1,0 +1,13 @@
+{
+  "url": "http://45.90.98.129:8080/hls/my987/stream.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "/hls/my987/stream",
+      "url": "https://45.90.98.129:8080/hls/my987/stream",
+      "extinf": "#EXTINF:-1,/hls/my987/stream"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

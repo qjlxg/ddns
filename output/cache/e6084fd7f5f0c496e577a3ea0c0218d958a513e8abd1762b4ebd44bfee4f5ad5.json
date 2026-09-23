@@ -1,0 +1,13 @@
+{
+  "url": "http://45.90.98.129:8080/hls/nbsradio/stream.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "/hls/nbsradio/stream",
+      "url": "https://45.90.98.129:8080/hls/nbsradio/stream",
+      "extinf": "#EXTINF:-1,/hls/nbsradio/stream"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

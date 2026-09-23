@@ -1,0 +1,17 @@
+{
+  "url": "http://107.173.148.13:8880/trojan-xray.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "trojan",
+      "server": "107.173.148.13",
+      "port": 443,
+      "password": "CcCc5XVe8ZRYA9Tx",
+      "security": "tls",
+      "sni": "bing.com",
+      "name": "trojan-107.173.148.13"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

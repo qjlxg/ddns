@@ -1,0 +1,113 @@
+{
+  "url": "http://185.170.153.13:8001/torrent.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": ".Black",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=a4fed407517f3cb0dabfe458dcef08bc61c7b0c9&pid=1",
+      "extinf": "#EXTINF:-1,.Black"
+    },
+    {
+      "name": ".black [RU]",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=18cf2d3491233fa980add6db246847a5077be047&pid=2",
+      "extinf": "#EXTINF:-1,.black [RU]"
+    },
+    {
+      "name": ".red [RU]",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=cd680104166a605ed27730dcaec73bf81221d540&pid=3",
+      "extinf": "#EXTINF:-1,.red [RU]"
+    },
+    {
+      "name": ".Sci-Fi",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=64706564a286cf162455d74a6633a4093f1946be&pid=4",
+      "extinf": "#EXTINF:-1,.Sci-Fi"
+    },
+    {
+      "name": ".sci-fi [RU]",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=4155750f93c063a053c9d6628657616b0457eb9f&pid=5",
+      "extinf": "#EXTINF:-1,.sci-fi [RU]"
+    },
+    {
+      "name": "#VAMOS FHD --> NEW ERA",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=20db14f6e9cd048c12006e7f9e5e8326390eaff1&pid=6",
+      "extinf": "#EXTINF:-1,#VAMOS FHD --> NEW ERA"
+    },
+    {
+      "name": "#VAMOS FHD (SAT) --> NEW ERA",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=0e95fe98b5cb2f1937ca846ba40f647e7fbcd585&pid=7",
+      "extinf": "#EXTINF:-1,#VAMOS FHD (SAT) --> NEW ERA"
+    },
+    {
+      "name": "+24",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=f9f765db14878279ee95a39c10b6d43b27ea8f16&pid=8",
+      "extinf": "#EXTINF:-1,+24"
+    },
+    {
+      "name": "✯ ✯ łıgα ησs 𝙇𝙄𝙑𝙀🅃🅅 ✯ ✯",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=429c4deb446dd0619b48a33534eebccca5c86ccb&pid=9",
+      "extinf": "#EXTINF:-1,✯ ✯ łıgα ησs 𝙇𝙄𝙑𝙀🅃🅅 ✯ ✯"
+    },
+    {
+      "name": "1 Radio",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=3cb105050659f11d0dfd0e344598f7fc91e01adc&pid=10",
+      "extinf": "#EXTINF:-1,1 Radio"
+    },
+    {
+      "name": "1 Radio",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=cb8b2649f99a3a0b797d3981cc63ce973ca30f7f&pid=11",
+      "extinf": "#EXTINF:-1,1 Radio"
+    },
+    {
+      "name": "1 Перший міський Кривий Ріг",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=901002ab18e984b21daee62949094440c9424e0b&pid=12",
+      "extinf": "#EXTINF:-1,1 Перший міський Кривий Ріг"
+    },
+    {
+      "name": "1+1 International",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=557d08bdc7abc40c742b31bc0fc43b3bac819daf&pid=13",
+      "extinf": "#EXTINF:-1,1+1 International"
+    },
+    {
+      "name": "1+1 International HD (720p)",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=7449d61bc629ef761103d5a5b1fe9a01400e9b6f&pid=14",
+      "extinf": "#EXTINF:-1,1+1 International HD (720p)"
+    },
+    {
+      "name": "1+1 Marafon (1080p)",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=0390d25613134c79f2126ac383a6ebf0a791a595&pid=15",
+      "extinf": "#EXTINF:-1,1+1 Marafon (1080p)"
+    },
+    {
+      "name": "1+1 UA",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=365499a0980375801f50364f480c69c899e36875&pid=16",
+      "extinf": "#EXTINF:-1,1+1 UA"
+    },
+    {
+      "name": "100% News",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=6a0133a649ea80a3a02f485075112e6c48bdc47e&pid=17",
+      "extinf": "#EXTINF:-1,100% News"
+    },
+    {
+      "name": "100% News (PlayList 24)",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=a209c451f4bd2778eaa398d80d12b427b88d2312&pid=18",
+      "extinf": "#EXTINF:-1,100% News (PlayList 24)"
+    },
+    {
+      "name": "11 канал Пенза",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=fa8951dd26d2e82340f0153a4e9e6b25666fb0c5&pid=19",
+      "extinf": "#EXTINF:-1,11 канал Пенза"
+    },
+    {
+      "name": "12 канал (Омск)",
+      "url": "http://185.170.153.13:6878/ace/getstream?infohash=0292faaeb522089df654f730583e9648eca8ff59&pid=20",
+      "extinf": "#EXTINF:-1,12 канал (Омск)"
+    },
+    {
+      "name": "13 Ulica [PL]",
+      "url": "h",
+      "extinf": "#EXTINF:-1,13 Ulica [PL]"
+    }
+  ],
+  "count": 21,
+  "reason": ""
+}

@@ -1,0 +1,20 @@
+{
+  "url": "http://69.63.204.168:8000/vmess-link.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "vmess",
+      "server": "69.63.204.168",
+      "port": 23456,
+      "uuid": "2597609a-6c3f-4634-8eb4-3a16a0565a60",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": false,
+      "network": "tcp",
+      "servername": "",
+      "name": "SOCKS5-Transit"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

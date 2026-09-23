@@ -1,0 +1,318 @@
+{
+  "url": "http://31.57.108.245:8080/playlist.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "AzTV HD",
+      "url": "https://cyriustv.cc/live/aztv-hd-dvbc/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"iptvxone:aztv\" tvg-name=\"AzTV HD\" group-title=\"⭐ Избранное\",AzTV HD"
+    },
+    {
+      "name": "Первый Канал HD",
+      "url": "https://cyriustv.cc/live/pervyj_kanal_hd/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"IPTVEPGRU:ПервыйканалHD.ru\" tvg-name=\"Первый Канал HD\" group-title=\"⭐ Избранное\",Первый Канал HD"
+    },
+    {
+      "name": "Первый Канал HD orig",
+      "url": "https://cyriustv.cc/live/perviyhdorig/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"IPTVEPGRU:ПервыйканалHD.ru\" tvg-name=\"Первый Канал HD orig\" group-title=\"⭐ Избранное\",Первый Канал HD orig"
+    },
+    {
+      "name": "НТВ HD",
+      "url": "https://cyriustv.cc/live/ntv_hd/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"IPTVEPGRU:НТВ.ru\" tvg-name=\"НТВ HD\" group-title=\"⭐ Избранное\",НТВ HD"
+    },
+    {
+      "name": "НТВ",
+      "url": "https://cyriustv.cc/live/ntv/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"IPTVEPGRU:НТВ.ru\" tvg-name=\"НТВ\" group-title=\"⭐ Избранное\",НТВ"
+    },
+    {
+      "name": "Домашний +2",
+      "url": "https://cyriustv.cc/live/domash-2/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"iptvxone:domashny-pl2\" tvg-name=\"Домашний +2\" group-title=\"⭐ Избранное\",Домашний +2"
+    },
+    {
+      "name": "Пятый Канал +7",
+      "url": "https://cyriustv.cc/live/5kanal-7/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"iptvxone:5kanal-ru-pl7\" tvg-name=\"Пятый Канал +7\" group-title=\"⭐ Избранное\",Пятый Канал +7"
+    },
+    {
+      "name": "МАТЧ! ФУТБОЛ 3 HD orig",
+      "url": "https://cyriustv.cc/live/matchfutbol3hdorig/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"iptvxone:match-football3\" tvg-name=\"МАТЧ! ФУТБОЛ 3 HD orig\" group-title=\"⭐ Избранное\",МАТЧ! ФУТБОЛ 3 HD orig"
+    },
+    {
+      "name": "ANewz",
+      "url": "https://cyriustv.cc/live/anewz-dvbc-az/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"ANewz\" group-title=\"AZ\",ANewz"
+    },
+    {
+      "name": "APA TV AZ",
+      "url": "https://cyriustv.cc/live/apatvaz/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"APA TV AZ\" group-title=\"AZ\",APA TV AZ"
+    },
+    {
+      "name": "ARB HD original",
+      "url": "https://cyriustv.cc/live/arbhdorig/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"ARB HD original\" group-title=\"AZ\",ARB HD original"
+    },
+    {
+      "name": "ARB 24 HD",
+      "url": "https://cyriustv.cc/live/arb-24-hd-dvbc/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"kontakt:1614\" tvg-name=\"ARB 24 HD\" group-title=\"AZ\",ARB 24 HD"
+    },
+    {
+      "name": "ARB 24 HD original",
+      "url": "https://cyriustv.cc/live/arb24orig/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"ARB 24 HD original\" group-title=\"AZ\",ARB 24 HD original"
+    },
+    {
+      "name": "ARB HD DVBC",
+      "url": "https://cyriustv.cc/live/arb-hd-dvbc/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"ARB HD DVBC\" group-title=\"AZ\",ARB HD DVBC"
+    },
+    {
+      "name": "ARB Günəş original",
+      "url": "https://cyriustv.cc/live/arbguneshorig/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"ARB Günəş original\" group-title=\"AZ\",ARB Günəş original"
+    },
+    {
+      "name": "ARB Günəş HD",
+      "url": "https://cyriustv.cc/live/arb-gunesh-hd-dvbc/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"kontakt:1615\" tvg-name=\"ARB Günəş HD\" group-title=\"AZ\",ARB Günəş HD"
+    },
+    {
+      "name": "ATV HD AZ",
+      "url": "https://cyriustv.cc/live/atv-az-hd-dvbc/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"ATV HD AZ\" group-title=\"AZ\",ATV HD AZ"
+    },
+    {
+      "name": "ATV HD AZ original",
+      "url": "https://cyriustv.cc/live/atvhdorig/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"ATV HD AZ original\" group-title=\"AZ\",ATV HD AZ original"
+    },
+    {
+      "name": "ATV Cinema AZ",
+      "url": "https://cyriustv.cc/live/atv-cinema-dvbcaplus/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"ATV Cinema AZ\" group-title=\"AZ\",ATV Cinema AZ"
+    },
+    {
+      "name": "ATV Vivace",
+      "url": "https://cyriustv.cc/live/atv-vivace-dvbc/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"ATV Vivace\" group-title=\"AZ\",ATV Vivace"
+    },
+    {
+      "name": "Ayaz TV",
+      "url": "https://cyriustv.cc/live/ayaz-tv-az/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Ayaz TV\" group-title=\"AZ\",Ayaz TV"
+    },
+    {
+      "name": "Azad Azerbaycan TV",
+      "url": "https://cyriustv.cc/live/atv-az/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"kontakt:2176\" tvg-name=\"Azad Azerbaycan TV\" group-title=\"AZ\",Azad Azerbaycan TV"
+    },
+    {
+      "name": "AzTV HD original",
+      "url": "https://cyriustv.cc/live/aztvorig/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"iptvxone:aztv\" tvg-name=\"AzTV HD original\" group-title=\"AZ\",AzTV HD original"
+    },
+    {
+      "name": "Baku TV HD",
+      "url": "https://cyriustv.cc/live/baku-tv-az-dvbc/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Baku TV HD\" group-title=\"AZ\",Baku TV HD"
+    },
+    {
+      "name": "Baku TV HD original",
+      "url": "https://cyriustv.cc/live/bakutvorig/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Baku TV HD original\" group-title=\"AZ\",Baku TV HD original"
+    },
+    {
+      "name": "Biznes TV AZ",
+      "url": "https://cyriustv.cc/live/biznestvaz/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Biznes TV AZ\" group-title=\"AZ\",Biznes TV AZ"
+    },
+    {
+      "name": "CBC HD original",
+      "url": "https://cyriustv.cc/live/cbcazhdorig/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"iptvxone:cbc-az\" tvg-name=\"CBC HD original\" group-title=\"AZ\",CBC HD original"
+    },
+    {
+      "name": "CBC HD Azerbaijan",
+      "url": "https://cyriustv.cc/live/cbc-dvbc/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"kontakt:1619\" tvg-name=\"CBC HD Azerbaijan\" group-title=\"AZ\",CBC HD Azerbaijan"
+    },
+    {
+      "name": "CBC Sport HD AZ",
+      "url": "https://cyriustv.cc/live/cbc-sport-hd/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"kontakt:1606\" tvg-name=\"CBC Sport HD AZ\" group-title=\"AZ\",CBC Sport HD AZ"
+    },
+    {
+      "name": "CBC Sport HD original",
+      "url": "https://cyriustv.cc/live/cbcsporthdorig/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"iptvxone:cbc-sport\" tvg-name=\"CBC Sport HD original\" group-title=\"AZ\",CBC Sport HD original"
+    },
+    {
+      "name": "Dunya TV",
+      "url": "https://cyriustv.cc/live/dunya-tv-dvbc/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Dunya TV\" group-title=\"AZ\",Dunya TV"
+    },
+    {
+      "name": "Gunaz TV HD",
+      "url": "https://cyriustv.cc/live/gunaztv/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Gunaz TV HD\" group-title=\"AZ\",Gunaz TV HD"
+    },
+    {
+      "name": "Ictimai TV HD",
+      "url": "https://cyriustv.cc/live/ictimai-hd-dvbc/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"iptvxone:ictimai-tv\" tvg-name=\"Ictimai TV HD\" group-title=\"AZ\",Ictimai TV HD"
+    },
+    {
+      "name": "Ictimai TV HD original",
+      "url": "https://cyriustv.cc/live/ictimaihdorig/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"iptvxone:ictimai-tv\" tvg-name=\"Ictimai TV HD original\" group-title=\"AZ\",Ictimai TV HD original"
+    },
+    {
+      "name": "Idman Azerbaycan HD",
+      "url": "https://cyriustv.cc/live/idman-az-dvbc/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"iptvxone:idman\" tvg-name=\"Idman Azerbaycan HD\" group-title=\"AZ\",Idman Azerbaycan HD"
+    },
+    {
+      "name": "Idman Azerbaycan HD original",
+      "url": "https://cyriustv.cc/live/idmanhdorig/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"iptvxone:idman\" tvg-name=\"Idman Azerbaycan HD original\" group-title=\"AZ\",Idman Azerbaycan HD original"
+    },
+    {
+      "name": "Kanal S AZ",
+      "url": "https://cyriustv.cc/live/kanal-s-hd-dvbc/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Kanal S AZ\" group-title=\"AZ\",Kanal S AZ"
+    },
+    {
+      "name": "Kinozal 1 HD AZ",
+      "url": "https://cyriustv.cc/live/ailetvkinozal/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Kinozal 1 HD AZ\" group-title=\"AZ\",Kinozal 1 HD AZ"
+    },
+    {
+      "name": "Kəpəz TV",
+      "url": "https://cyriustv.cc/live/kepeztv/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Kəpəz TV\" group-title=\"AZ\",Kəpəz TV"
+    },
+    {
+      "name": "Live TV AZ",
+      "url": "https://cyriustv.cc/live/livetvaz1/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Live TV AZ\" group-title=\"AZ\",Live TV AZ"
+    },
+    {
+      "name": "Medeniyyet TV HD",
+      "url": "https://cyriustv.cc/live/medeniyyet-az-dvbc/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"iptvxone:medeniyyet\" tvg-name=\"Medeniyyet TV HD\" group-title=\"AZ\",Medeniyyet TV HD"
+    },
+    {
+      "name": "Medeniyyet TV HD original",
+      "url": "https://cyriustv.cc/live/medeniyyethdoriginal/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"iptvxone:medeniyyet\" tvg-name=\"Medeniyyet TV HD original\" group-title=\"AZ\",Medeniyyet TV HD original"
+    },
+    {
+      "name": "Muz TV",
+      "url": "https://cyriustv.cc/live/mtv-az-dvbc/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Muz TV\" group-title=\"AZ\",Muz TV"
+    },
+    {
+      "name": "Muz TV HD",
+      "url": "https://cyriustv.cc/live/mtvhdazorig/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Muz TV HD\" group-title=\"AZ\",Muz TV HD"
+    },
+    {
+      "name": "Naxçıvan TV",
+      "url": "https://cyriustv.cc/live/naxcivan_tv/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Naxçıvan TV\" group-title=\"AZ\",Naxçıvan TV"
+    },
+    {
+      "name": "Qazaqstan HD",
+      "url": "https://cyriustv.cc/live/Qazaqstan_HD/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Qazaqstan HD\" group-title=\"AZ\",Qazaqstan HD"
+    },
+    {
+      "name": "Real TV HD",
+      "url": "https://cyriustv.cc/live/real-tv-dvbc/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"kontakt:1618\" tvg-name=\"Real TV HD\" group-title=\"AZ\",Real TV HD"
+    },
+    {
+      "name": "Real TV HD original",
+      "url": "https://cyriustv.cc/live/realtvhdoriginal/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Real TV HD original\" group-title=\"AZ\",Real TV HD original"
+    },
+    {
+      "name": "Sehiyye TV",
+      "url": "https://cyriustv.cc/live/sehiyye-tv-dvbc/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Sehiyye TV\" group-title=\"AZ\",Sehiyye TV"
+    },
+    {
+      "name": "Space TV HD",
+      "url": "https://cyriustv.cc/live/space-tv-hd-dvbc/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Space TV HD\" group-title=\"AZ\",Space TV HD"
+    },
+    {
+      "name": "Space TV HD orig",
+      "url": "https://cyriustv.cc/live/spacetvorig/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Space TV HD orig\" group-title=\"AZ\",Space TV HD orig"
+    },
+    {
+      "name": "Sport TV AZ HD",
+      "url": "https://cyriustv.cc/live/sport_tv-az/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Sport TV AZ HD\" group-title=\"AZ\",Sport TV AZ HD"
+    },
+    {
+      "name": "Sport TV AZ 2 HD",
+      "url": "https://cyriustv.cc/live/sport_tv_az2/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Sport TV AZ 2 HD\" group-title=\"AZ\",Sport TV AZ 2 HD"
+    },
+    {
+      "name": "Star TV AZ",
+      "url": "https://cyriustv.cc/live/star-tv-az/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Star TV AZ\" group-title=\"AZ\",Star TV AZ"
+    },
+    {
+      "name": "TMB AZ",
+      "url": "https://cyriustv.cc/live/tmbaz/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"TMB AZ\" group-title=\"AZ\",TMB AZ"
+    },
+    {
+      "name": "TV1 HD AZ",
+      "url": "https://cyriustv.cc/live/topaz-tv-hd/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"TV1 HD AZ\" group-title=\"AZ\",TV1 HD AZ"
+    },
+    {
+      "name": "TVNet Sport AZ",
+      "url": "https://cyriustv.cc/live/tvnetsport_az/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"TVNet Sport AZ\" group-title=\"AZ\",TVNet Sport AZ"
+    },
+    {
+      "name": "TVShow Plus AZ",
+      "url": "https://cyriustv.cc/live/tvshow-plus-az/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"TVShow Plus AZ\" group-title=\"AZ\",TVShow Plus AZ"
+    },
+    {
+      "name": "Xazar TV HD",
+      "url": "https://cyriustv.cc/live/xazar-hd-dvbc/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Xazar TV HD\" group-title=\"AZ\",Xazar TV HD"
+    },
+    {
+      "name": "Xazar TV HD original",
+      "url": "https://cyriustv.cc/live/xazarhdorig/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-name=\"Xazar TV HD original\" group-title=\"AZ\",Xazar TV HD original"
+    },
+    {
+      "name": "2TV HD",
+      "url": "https://cyriustv.cc/live/2TV_HD/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"LT:2TV.lt\" tvg-name=\"2TV HD\" group-title=\"Baltic\",2TV HD"
+    },
+    {
+      "name": "3+ LV HD",
+      "url": "https://cyriustv.cc/live/3plus_LV_HD/index.m3u8?sid=QTT232PVCBCV",
+      "extinf": "#EXTINF:-1 tvg-id=\"LV:3+.lv\" tvg-name=\"3+ LV HD\" group-title=\"Baltic\",3+ LV HD"
+    }
+  ],
+  "count": 62,
+  "reason": ""
+}

@@ -1,0 +1,71 @@
+{
+  "url": "http://72.56.81.53:8080/sub-ipad",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "72.56.107.21",
+      "port": 8443,
+      "uuid": "04c09ab2-f1c5-426f-9147-d08615e3515b",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.samsung.com",
+      "fp": "chrome",
+      "pbk": "DMB-Gt3U2-z5vaWjuYrQcZRPUYQ3fcuwxtaVU44IhHM",
+      "sid": "868dfce46a3967da",
+      "name": "vless-72.56.107.21"
+    },
+    {
+      "type": "ws",
+      "server": "aaa.fmone.ru",
+      "port": 2096,
+      "uuid": "04c09ab2-f1c5-426f-9147-d08615e3515b",
+      "security": "tls",
+      "sni": "aaa.fmone.ru",
+      "fp": "chrome",
+      "path": "/abelws",
+      "host": "aaa.fmone.ru",
+      "name": "vless-aaa.fmone.ru"
+    },
+    {
+      "type": "xhttp",
+      "server": "aaa.fmone.ru",
+      "port": 2096,
+      "uuid": "04c09ab2-f1c5-426f-9147-d08615e3515b",
+      "security": "tls",
+      "sni": "aaa.fmone.ru",
+      "fp": "chrome",
+      "path": "/abelcdn",
+      "host": "aaa.fmone.ru",
+      "name": "vless-aaa.fmone.ru"
+    },
+    {
+      "type": "tcp",
+      "server": "72.56.81.53",
+      "port": 2053,
+      "uuid": "04c09ab2-f1c5-426f-9147-d08615e3515b",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.samsung.com",
+      "fp": "qq",
+      "pbk": "dPD8ZmAVprF0bEBrj0KbxCIIDhqDZKcEOOR9SSVWTEE",
+      "sid": "11ef25feb36d3bcd",
+      "name": "vless-72.56.81.53"
+    },
+    {
+      "type": "tcp",
+      "server": "72.56.81.53",
+      "port": 443,
+      "uuid": "04c09ab2-f1c5-426f-9147-d08615e3515b",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.samsung.com",
+      "fp": "qq",
+      "pbk": "dPD8ZmAVprF0bEBrj0KbxCIIDhqDZKcEOOR9SSVWTEE",
+      "sid": "11ef25feb36d3bcd",
+      "name": "vless-72.56.81.53"
+    }
+  ],
+  "count": 5,
+  "reason": ""
+}

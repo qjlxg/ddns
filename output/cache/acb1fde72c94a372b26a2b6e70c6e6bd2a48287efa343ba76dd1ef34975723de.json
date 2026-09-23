@@ -1,0 +1,218 @@
+{
+  "url": "http://36.139.158.142:8899/test_prov.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "湖南卫视-4K",
+      "url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",湖南卫视-4K"
+    },
+    {
+      "name": "浙江卫视",
+      "url": "https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",浙江卫视"
+    },
+    {
+      "name": "浙江国际",
+      "url": "https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",浙江国际"
+    },
+    {
+      "name": "河北卫视-4K",
+      "url": "https://event.pull.hebtv.com/live/live101.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",河北卫视-4K"
+    },
+    {
+      "name": "康巴卫视",
+      "url": "http://110.185.237.164:8888/hls/30/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",康巴卫视"
+    },
+    {
+      "name": "广西文旅",
+      "url": "http://111.59.24.227:8181/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",广西文旅"
+    },
+    {
+      "name": "广州综合",
+      "url": "https://tencentplaybusiness.gztv.com/live/zonghes.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",广州综合"
+    },
+    {
+      "name": "兰州新闻综合",
+      "url": "https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",兰州新闻综合"
+    },
+    {
+      "name": "兰州文旅",
+      "url": "https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",兰州文旅"
+    },
+    {
+      "name": "内蒙古卫视",
+      "url": "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",内蒙古卫视"
+    },
+    {
+      "name": "内蒙古蒙语",
+      "url": "http://play1-qk.nmtv.cn/live/1769652109096027.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",内蒙古蒙语"
+    },
+    {
+      "name": "四平综合",
+      "url": "http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",四平综合"
+    },
+    {
+      "name": "白城新闻综合",
+      "url": "https://stream2.jlntv.cn/baicheng1/sd/live.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",白城新闻综合"
+    },
+    {
+      "name": "赤峰综合",
+      "url": "http://play1-qk.nmtv.cn/live/1735546697341033.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",赤峰综合"
+    },
+    {
+      "name": "HomePlus",
+      "url": "https://homeplushls.wns.live/hls/stream.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",HomePlus"
+    },
+    {
+      "name": "ABN海外中文",
+      "url": "https://mediaserver.abnvideos.com/streams/abnchina.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",ABN海外中文"
+    },
+    {
+      "name": "面包台海外",
+      "url": "https://video.bread-tv.com:8091/hls-live24/online/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",面包台海外"
+    },
+    {
+      "name": "CCTV1",
+      "url": "http://74.91.26.218:82/live/cctv1hd.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",CCTV1"
+    },
+    {
+      "name": "CCTV5+",
+      "url": "https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",CCTV5+"
+    },
+    {
+      "name": "CCTV12",
+      "url": "http://74.91.26.218:82/live/cctv12hd.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",CCTV12"
+    },
+    {
+      "name": "CCTV2",
+      "url": "http://112.46.105.20:8009/hls/502/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",CCTV2"
+    },
+    {
+      "name": "CCTV3",
+      "url": "http://112.46.105.20:8009/hls/3/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",CCTV3"
+    },
+    {
+      "name": "CCTV4",
+      "url": "http://112.46.105.20:8009/hls/4/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",CCTV4"
+    },
+    {
+      "name": "CCTV5",
+      "url": "http://112.46.105.20:8009/hls/503/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",CCTV5"
+    },
+    {
+      "name": "CCTV7",
+      "url": "http://112.46.105.20:8009/hls/504/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",CCTV7"
+    },
+    {
+      "name": "CCTV8",
+      "url": "http://112.46.105.20:8009/hls/8/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",CCTV8"
+    },
+    {
+      "name": "CCTV9",
+      "url": "http://112.46.105.20:8009/hls/509/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",CCTV9"
+    },
+    {
+      "name": "CCTV11",
+      "url": "http://112.46.105.20:8009/hls/11/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",CCTV11"
+    },
+    {
+      "name": "CCTV12-2",
+      "url": "http://112.46.105.20:8009/hls/507/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",CCTV12-2"
+    },
+    {
+      "name": "CCTV13",
+      "url": "http://112.46.105.20:8009/hls/13/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"全国\",CCTV13"
+    },
+    {
+      "name": "凉山新闻综合",
+      "url": "http://file.yizu.tv/nmip-media/channellive/channel106606/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"四川\",凉山新闻综合"
+    },
+    {
+      "name": "凉山语",
+      "url": "http://file.yizu.tv/nmip-media/channellive/channel107323/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"四川\",凉山语"
+    },
+    {
+      "name": "泸州新闻综合",
+      "url": "http://m3u8.channel.luzhoubs.com/nmip-media/channellive/channel106011/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"四川\",泸州新闻综合"
+    },
+    {
+      "name": "泸州公共",
+      "url": "http://m3u8.channel.luzhoubs.com/nmip-media/channellive/channel102221/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"四川\",泸州公共"
+    },
+    {
+      "name": "泸州科教",
+      "url": "http://m3u8.channel.luzhoubs.com/nmip-media/channellive/channel103074/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"四川\",泸州科教"
+    },
+    {
+      "name": "黑水新闻综合",
+      "url": "http://live.schstv.com:90/live/xwzh.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"四川\",黑水新闻综合"
+    },
+    {
+      "name": "汶川新闻综合",
+      "url": "http://live.iwcmt.cn:90/live/zhxw.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"四川\",汶川新闻综合"
+    },
+    {
+      "name": "松潘新闻综合",
+      "url": "http://live.spccmc.com:90/live/spxwzh.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"四川\",松潘新闻综合"
+    },
+    {
+      "name": "营山电视台",
+      "url": "http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"四川\",营山电视台"
+    },
+    {
+      "name": "甘孜综合",
+      "url": "http://tv.drs.ganzitv.com:8100/channellive/gztv.flv",
+      "extinf": "#EXTINF:-1 group-title=\"四川\",甘孜综合"
+    },
+    {
+      "name": "荆门新闻综合",
+      "url": "http://stream.jmtv.com.cn/xwzh/sd/live.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"湖北\",荆门新闻综合"
+    },
+    {
+      "name": "荆门-备用",
+      "url": "http://",
+      "extinf": "#EXTINF:-1 group-title=\"湖北\",荆门-备用"
+    }
+  ],
+  "count": 42,
+  "reason": ""
+}

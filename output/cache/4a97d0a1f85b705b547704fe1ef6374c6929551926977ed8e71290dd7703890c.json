@@ -1,0 +1,57 @@
+{
+  "url": "http://5.35.85.132:8080/53c29d9ed9d95f81821630d2",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "5.35.85.132",
+      "port": 11443,
+      "uuid": "6e386bd3-de35-4c92-9291-0909b655953d",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "id.pervye.ru",
+      "fp": "qq",
+      "pbk": "s5o2Z4qtfULgcoUDLPyoEoC9132q6XYEr9OdpplRCE0",
+      "sid": "e9069e5acdf32c0c",
+      "name": "vless-5.35.85.132"
+    },
+    {
+      "type": "tcp",
+      "server": "5.35.85.132",
+      "port": 2055,
+      "uuid": "22b249a4-5467-4fc6-8410-5c4be3511686",
+      "security": "reality",
+      "sni": "dl.google.com",
+      "fp": "chrome",
+      "pbk": "y3AteFlasRFA7kbiUDelq-2IBT_dnjU4s_CZJOihQWs",
+      "sid": "2e063b5ab8703d59",
+      "name": "vless-5.35.85.132"
+    },
+    {
+      "type": "tcp",
+      "server": "5.35.85.132",
+      "port": 2056,
+      "uuid": "65e58468-9d03-47d9-989a-7e85d6796280",
+      "security": "reality",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "6qWaQ8WDRCxKzww2G_HRV0EbpA8EF3kEtcRBvuKBxB4",
+      "sid": "5812c707c8fb5e17",
+      "name": "vless-5.35.85.132"
+    },
+    {
+      "type": "tcp",
+      "server": "5.35.85.132",
+      "port": 2053,
+      "uuid": "1954ad0d-c4fe-41af-806d-b4a10e44a746",
+      "security": "reality",
+      "sni": "www.samsung.com",
+      "fp": "chrome",
+      "pbk": "hD8uP-tcRrMWPlD22AAD35AMIuQa-WUGoXa9mIeOj2s",
+      "sid": "4f16170ef7011c79",
+      "name": "vless-5.35.85.132"
+    }
+  ],
+  "count": 4,
+  "reason": ""
+}

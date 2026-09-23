@@ -1,0 +1,22 @@
+{
+  "url": "http://38.59.243.85:8080/sub.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "38.59.243.85",
+      "port": 443,
+      "uuid": "25363f70-9b72-429f-9804-ad3221ce7c1f",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com",
+      "fp": "chrome",
+      "pbk": "cm2s9cHk7Qi2ghM9fy_DitZ3Z8ju422L6-DJlSuwYyI",
+      "sid": "abcd1234",
+      "headerType": "none",
+      "name": "vless-38.59.243.85"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

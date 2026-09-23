@@ -1,0 +1,113 @@
+{
+  "url": "http://38.7.145.93:8880/playlist.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "TCV",
+      "url": "http://38.7.145.93:8880/stream/1",
+      "extinf": "#EXTINF:-1  tvg-chno=\"1\" tvg-id=\"\" tvg-name=\"TCV\" group-title=\"TV\",TCV"
+    },
+    {
+      "name": "TCSM",
+      "url": "http://38.7.145.93:8880/stream/2",
+      "extinf": "#EXTINF:-1  tvg-chno=\"2\" tvg-id=\"\" tvg-name=\"TCSM\" group-title=\"TV\",TCSM"
+    },
+    {
+      "name": "TVCidade",
+      "url": "http://38.7.145.93:8880/stream/3",
+      "extinf": "#EXTINF:-1  tvg-chno=\"3\" tvg-id=\"\" tvg-name=\"TVCidade\" group-title=\"TV\",TVCidade"
+    },
+    {
+      "name": "TV Sal One",
+      "url": "http://38.7.145.93:8880/stream/4",
+      "extinf": "#EXTINF:-1  tvg-chno=\"4\" tvg-id=\"\" tvg-name=\"TV Sal One\" group-title=\"TV\",TV Sal One"
+    },
+    {
+      "name": "RTP 1",
+      "url": "http://38.7.145.93:8880/stream/5",
+      "extinf": "#EXTINF:-1  tvg-chno=\"5\" tvg-id=\"RTP1.pt\" tvg-name=\"RTP 1\" group-title=\"TV\",RTP 1"
+    },
+    {
+      "name": "RTP 2",
+      "url": "http://38.7.145.93:8880/stream/6",
+      "extinf": "#EXTINF:-1  tvg-chno=\"6\" tvg-id=\"RTP2.pt\" tvg-name=\"RTP 2\" group-title=\"TV\",RTP 2"
+    },
+    {
+      "name": "SIC",
+      "url": "http://38.7.145.93:8880/stream/7",
+      "extinf": "#EXTINF:-1  tvg-chno=\"7\" tvg-id=\"SIC.pt\" tvg-name=\"SIC\" group-title=\"TV\",SIC"
+    },
+    {
+      "name": "TVI",
+      "url": "http://38.7.145.93:8880/stream/8",
+      "extinf": "#EXTINF:-1  tvg-chno=\"8\" tvg-id=\"TVI.pt\" tvg-name=\"TVI\" group-title=\"TV\",TVI"
+    },
+    {
+      "name": "SIC Notícias",
+      "url": "http://38.7.145.93:8880/stream/9",
+      "extinf": "#EXTINF:-1  tvg-chno=\"9\" tvg-id=\"SICNoticias.pt\" tvg-name=\"SIC Notícias\" group-title=\"TV\",SIC Notícias"
+    },
+    {
+      "name": "CNN Portugal",
+      "url": "http://38.7.145.93:8880/stream/10",
+      "extinf": "#EXTINF:-1  tvg-chno=\"10\" tvg-id=\"CNN Portugal.pt\" tvg-name=\"CNN Portugal\" group-title=\"TV\",CNN Portugal"
+    },
+    {
+      "name": "RTP 3",
+      "url": "http://38.7.145.93:8880/stream/11",
+      "extinf": "#EXTINF:-1  tvg-chno=\"11\" tvg-id=\"RTP3.pt\" tvg-name=\"RTP 3\" group-title=\"TV\",RTP 3"
+    },
+    {
+      "name": "On FM Portugal",
+      "url": "http://38.7.145.93:8880/stream/12",
+      "extinf": "#EXTINF:-1  tvg-chno=\"12\" tvg-id=\"\" tvg-name=\"On FM Portugal\" group-title=\"TV\",On FM Portugal"
+    },
+    {
+      "name": "Assim é Portugal",
+      "url": "http://38.7.145.93:8880/stream/13",
+      "extinf": "#EXTINF:-1  tvg-chno=\"13\" tvg-id=\"\" tvg-name=\"Assim é Portugal\" group-title=\"TV\",Assim é Portugal"
+    },
+    {
+      "name": "Fama TV",
+      "url": "http://38.7.145.93:8880/stream/14",
+      "extinf": "#EXTINF:-1  tvg-chno=\"14\" tvg-id=\"\" tvg-name=\"Fama TV\" group-title=\"TV\",Fama TV"
+    },
+    {
+      "name": "Record News",
+      "url": "http://38.7.145.93:8880/stream/16",
+      "extinf": "#EXTINF:-1  tvg-chno=\"16\" tvg-id=\"\" tvg-name=\"Record News\" group-title=\"TV\",Record News"
+    },
+    {
+      "name": "CNN Brasil",
+      "url": "http://38.7.145.93:8880/stream/17",
+      "extinf": "#EXTINF:-1  tvg-chno=\"17\" tvg-id=\"CNNBrasil.br\" tvg-name=\"CNN Brasil\" group-title=\"TV\",CNN Brasil"
+    },
+    {
+      "name": "TVI Internacional",
+      "url": "http://38.7.145.93:8880/stream/18",
+      "extinf": "#EXTINF:-1  tvg-chno=\"18\" tvg-id=\"TVIInternacional.pt\" tvg-name=\"TVI Internacional\" group-title=\"TV\",TVI Internacional"
+    },
+    {
+      "name": "V+ TVI",
+      "url": "http://38.7.145.93:8880/stream/20",
+      "extinf": "#EXTINF:-1  tvg-chno=\"20\" tvg-id=\"VPlusTVI.pt\" tvg-name=\"V+ TVI\" group-title=\"TV\",V+ TVI"
+    },
+    {
+      "name": "TVI Ficção",
+      "url": "http://38.7.145.93:8880/stream/21",
+      "extinf": "#EXTINF:-1  tvg-chno=\"21\" tvg-id=\"TVIFiccao.pt\" tvg-name=\"TVI Ficção\" group-title=\"TV\",TVI Ficção"
+    },
+    {
+      "name": "TVI Reality",
+      "url": "http://38.7.145.93:8880/stream/22",
+      "extinf": "#EXTINF:-1  tvg-chno=\"22\" tvg-id=\"TVIReality.pt\" tvg-name=\"TVI Reality\" group-title=\"TV\",TVI Reality"
+    },
+    {
+      "name": "TVM",
+      "url": "http://38.7.145.93:8880/stream/2",
+      "extinf": "#EXTINF:-1  tvg-chno=\"23\" tvg-id=\"TVM.mz\" tvg-name=\"TVM\" group-title=\"TV\",TVM"
+    }
+  ],
+  "count": 21,
+  "reason": ""
+}

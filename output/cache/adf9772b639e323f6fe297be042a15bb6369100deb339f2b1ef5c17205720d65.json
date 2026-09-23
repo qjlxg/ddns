@@ -1,0 +1,26 @@
+{
+  "url": "http://64.186.249.159:80/test_minimal.yaml",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "DMIT-LAX",
+      "type": "vless",
+      "server": "64.186.249.159",
+      "port": 443,
+      "uuid": "f49470eb-9e5e-45ae-b2c8-49db3e61e44b",
+      "network": "tcp",
+      "tls": true,
+      "udp": true,
+      "flow": "xtls-rprx-vision",
+      "client-fingerprint": "chrome",
+      "reality": true,
+      "servername": "www.apple.com",
+      "reality-opts": {
+        "public-key": "6gOq1nV5Kc1hfcx7I74UPZcku4z0I-ZVrzZRUCIAPXM",
+        "short-id": "61096379ead7ff25"
+      }
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

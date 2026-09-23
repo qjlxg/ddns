@@ -1,0 +1,25 @@
+{
+  "url": "http://192.220.9.200:8080/clash.yaml",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "NovixLink-LAX-CUPN-Reality",
+      "type": "vless",
+      "server": "192.220.9.200",
+      "port": 443,
+      "uuid": "4b5c6438-241c-48e4-9fa0-a6a3a2db0064",
+      "network": "tcp",
+      "tls": true,
+      "udp": true,
+      "flow": "xtls-rprx-vision",
+      "servername": "www.akamai.com",
+      "client-fingerprint": "chrome",
+      "reality-opts": {
+        "public-key": "u9camjSA3usa65qWev4fGGJmNe56_tNcS--ZQUzSTHI",
+        "short-id": "4f08a51ab1ec38c3"
+      }
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

@@ -1,0 +1,163 @@
+{
+  "url": "http://144.21.37.14:80/JHmuott.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "LTV1",
+      "url": "http://192.168.11.40:55555/LTV1",
+      "extinf": "#EXTINF:0 tvg-id=\"ltv1\" tvg-name=\"LTV1\" tvg-logo=\"https://iptvxpix.ml/ltv1.png\",LTV1"
+    },
+    {
+      "name": "LTV1 HD",
+      "url": "http://192.168.11.40:55555/LTV1%20HD",
+      "extinf": "#EXTINF:0 tvg-id=\"ltv1hd\" tvg-name=\"LTV1 HD\" tvg-logo=\"https://iptvxpix.ml/ltv1.png\",LTV1 HD"
+    },
+    {
+      "name": "LTV7",
+      "url": "http://192.168.11.40:55555/LTV7",
+      "extinf": "#EXTINF:0 tvg-id=\"ltv7\" tvg-name=\"LTV7\" tvg-logo=\"https://iptvxpix.ml/ltv7.png\",LTV7"
+    },
+    {
+      "name": "LTV7 HD",
+      "url": "http://192.168.11.40:55555/LTV7%20HD",
+      "extinf": "#EXTINF:0 tvg-id=\"ltv7hd\" tvg-name=\"LTV7 HD\" tvg-logo=\"https://iptvxpix.ml/ltv7.png\",LTV7 HD"
+    },
+    {
+      "name": "ReTV",
+      "url": "http://192.168.11.40:55555/ReTV",
+      "extinf": "#EXTINF:0 tvg-id=\"retv\" tvg-name=\"ReTV\" tvg-logo=\"https://baltcom.lv/channel_logo/re_tv_web.png\",ReTV"
+    },
+    {
+      "name": "TV24",
+      "url": "http://192.168.11.40:55555/TV24",
+      "extinf": "#EXTINF:0 tvg-id=\"tv24lv\" tvg-name=\"TV24\" tvg-logo=\"https://guide.baltcom.lv/media/uploads/channel_logo/web_Riga_TV24.png\",TV24"
+    },
+    {
+      "name": "TV4",
+      "url": "http://192.168.11.40:55555/TV4",
+      "extinf": "#EXTINF:0 tvg-id=\"tv4lv\" tvg-name=\"TV4\" tvg-logo=\"https://baltcom.lv/channel_logo/TV4kanals_web.png\",TV4"
+    },
+    {
+      "name": "TV3",
+      "url": "http://185.176.117.243/live/eds/TV3_LV_SD/H1s_0utput/TV3_LV_SD.m3u8",
+      "extinf": "#EXTINF:0 tvg-id=\"tv3-lv\" tvg-name=\"TV3 LV\" tvg-logo=\"http://iptvxpix.ml/tv3-lv.png\" tvg-language=\"Latvian\" tvg-country=\"LV\",TV3"
+    },
+    {
+      "name": "TV6",
+      "url": "http://185.176.117.243/live/eds/TV6_LV_SD/H1s_0utput/TV6_LV_SD.m3u8",
+      "extinf": "#EXTINF:0 tvg-id=\"tv6-lv\" tvg-name=\"TV6 LV\" tvg-logo=\"https://baltcom.lv/channel_logo/TV6_web.png\" tvg-language=\"Latvian\" tvg-country=\"LV\",TV6"
+    },
+    {
+      "name": "Chau TV",
+      "url": "http://video.chaula.tv/hls/live/high/playlist_high.m3u8",
+      "extinf": "#EXTINF:0 tvg-logo=\"Chau TV.png\" tvg-language=\"Latvian\" tvg-country=\"LV\",Chau TV"
+    },
+    {
+      "name": "Уникум",
+      "url": "http://46.174.83.66/Unikum/mpegts",
+      "extinf": "#EXTINF:0,Уникум"
+    },
+    {
+      "name": "Gulli_Girl",
+      "url": "http://46.174.83.66/Gulli_Girl/index.m3u8?em9uYS1pcHR2LnJ1",
+      "extinf": "#EXTINF:0,Gulli_Girl"
+    },
+    {
+      "name": "O",
+      "url": "http://46.174.83.66/O/index.m3u8?em9uYS1pcHR2LnJ1",
+      "extinf": "#EXTINF:0,O"
+    },
+    {
+      "name": "Karusel",
+      "url": "http://46.174.83.66/Karusel/index.m3u8?em9uYS1pcHR2LnJ1",
+      "extinf": "#EXTINF:0,Karusel"
+    },
+    {
+      "name": "Мультимания RU",
+      "url": "http://85.192.10.131/hls/MultimaniaRu/playlist.m3u8",
+      "extinf": "#EXTINF:0,Мультимания RU"
+    },
+    {
+      "name": "VH1",
+      "url": "https://content.uplynk.com/channel/36953f5b6546464590d2fcd954bc89cf.m3u8",
+      "extinf": "#EXTINF:0,VH1"
+    },
+    {
+      "name": "Portal FoxMix TV",
+      "url": "http://tv.portalfoxmix.club:1935/portalfoxmix/portalfoxmix/chunklist_w707723531.m3u8",
+      "extinf": "#EXTINF:0 tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/c/c5/Enter_music_2010.png\",Portal FoxMix TV"
+    },
+    {
+      "name": "Retro Music Television",
+      "url": "http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8",
+      "extinf": "#EXTINF:0 tvg-id=\"retro-music-cz\" tvg-logo=\"https://online-red.com/images/tv/retro-music-tv.png\",Retro Music Television"
+    },
+    {
+      "name": "MusicTop",
+      "url": "http://live-edge01.telecentro.net.ar/live/smil:musictop.smil/chunklist_w538311571_b364000_sleng.m3u8",
+      "extinf": "#EXTINF:0 tvg-logo=\"https://ic.wampi.ru/2021/04/14/fc883aa80727d04964499d18ff50de95.jpg\",MusicTop"
+    },
+    {
+      "name": "M6 Music HD",
+      "url": "http://190.2.155.162:8080/m6music/mpegts",
+      "extinf": "#EXTINF:0,M6 Music HD"
+    },
+    {
+      "name": "National Geographic Wild HD",
+      "url": "https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8",
+      "extinf": "#EXTINF:0 tvg-id=\"nat-geo-wild\" tvg-logo=\"https://manstv.lattelecom.tv/images/01_Bildes/01_Kanalu_LOGO/446e_national_geographic_channel.png\",National Geographic Wild HD"
+    },
+    {
+      "name": "Наука (480p)",
+      "url": "http://ott-cdn.ucom.am/s98/index.m3u8",
+      "extinf": "#EXTINF:0 tvg-id=\"nauka\" tvg-logo=\"https://avatars.mds.yandex.net/get-tv-channel-logos/1656757/2a0000017014a842438531fe936e01c14776/214x121\" tvg-language=\"Russian\" tvg-country=\"RU\",Наука (480p)"
+    },
+    {
+      "name": "365",
+      "url": "http://46.174.83.66/365/index.m3u8?em9uYS1pcHR2LnJ1",
+      "extinf": "#EXTINF:0,365"
+    },
+    {
+      "name": "Ren TV Baltic",
+      "url": "http://ott-cdn.ucom.am/s85/index.m3u8",
+      "extinf": "#EXTINF:0 tvg-id=\"rentv-int\" tvg-name=\"Рен ТВ International\" tvg-logo=\"https://i.imgur.com/DDTbDtG.png\" tvg-language=\"Russian\" tvg-country=\"RU\",Ren TV Baltic"
+    },
+    {
+      "name": "Рен ТВ International",
+      "url": "https://sc.id-tv.kz/RenTV_36_37.m3u8",
+      "extinf": "#EXTINF:0 tvg-id=\"rentv-int\" tvg-name=\"Рен ТВ International\" tvg-logo=\"https://i.imgur.com/DDTbDtG.png\" tvg-language=\"Russian\" tvg-country=\"RU\",Рен ТВ International"
+    },
+    {
+      "name": "РЕН ТВ International (576p)",
+      "url": "https://sc.id-tv.kz/RenTV.m3u8",
+      "extinf": "#EXTINF:0 tvg-id=\"rentv-int\" tvg-logo=\"https://avatars.mds.yandex.net/get-tv-channel-logos/30303/2a0000016e89588796d4590c9dd4dda32ffc/170x100\" tvg-language=\"Russian\" tvg-country=\"RU\",РЕН ТВ International (576p)"
+    },
+    {
+      "name": "рен тв",
+      "url": "http://46.174.83.66/RenTV/mpegts",
+      "extinf": "#EXTINF:0 tvg-id=\"rentv\" tvg-name=\"Рен ТВ\" tvg-logo=\"https://i.imgur.com/DDTbDtG.png\" tvg-language=\"Russian\" tvg-country=\"RU\",рен тв"
+    },
+    {
+      "name": "Первый канал Евразия (396p) [Not 24/7]",
+      "url": "http://stream.euroasia.lfstrm.tv/perviy_evrasia/1/index.m3u8",
+      "extinf": "#EXTINF:0 tvg-id=\"PervyykanalEvraziya.ru\" tvg-language=\"Russian\" tvg-country=\"RU\",Первый канал Евразия (396p) [Not 24/7]"
+    },
+    {
+      "name": "Дорама (480p)",
+      "url": "http://ott-cdn.ucom.am/s95/index.m3u8",
+      "extinf": "#EXTINF:0 tvg-id=\"dorama\" tvg-logo=\"https://i.imgur.com/lHn6OlM.png\" tvg-language=\"Russian\" tvg-country=\"RU\",Дорама (480p)"
+    },
+    {
+      "name": "Дорама [ru +3 NT]",
+      "url": "http://langamepp.com/chtst/5A98F24AEFD7BA78B8CC49E4831E221568A8CA73DEE4C610CCB839DEAC31112274A9CB7FC1E194498BFA73DCB23157712AB7C079D6F98B568AFD67D1B524132769AC8E7BD9E38E4F8DF570D0BA",
+      "extinf": "#EXTINF:0 tvg-shift=\"+3\" tvg-id=\"dorama\" tvg-logo=\"https://i.imgur.com/lHn6OlM.png\" audio-track=\"rus\" tvg-language=\"Russian\" tvg-country=\"RU\",Дорама [ru +3 NT]"
+    },
+    {
+      "name": "Дорама",
+      "url": "http://tvshare.ottrast.com/iptv/EAEWFFWBXPVVLY/1066/index.m3u8",
+      "extinf": "#EXTINF:0 tvg-id=\"dorama\" tvg-logo=\"https://i.imgur.com/lHn6OlM.png\" tvg-language=\"Russian\" tvg-country=\"RU\",Дорама"
+    }
+  ],
+  "count": 31,
+  "reason": ""
+}

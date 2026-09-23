@@ -1,0 +1,83 @@
+{
+  "url": "http://205.237.106.12:5000/playlist.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "LA 1",
+      "url": "http://tvela1-pry-movistarplus.emisiondof6.com/index.isml/Manifest|DRM=002032a819cf431e83e94c7a8e1f0f36:c1b0db7ed42a9e63538a901308919d7a|PlayReady",
+      "extinf": "#EXTINF:-1 tvg-id=\"1000016601\" tvg-name=\"LA 1\" tvg-logo=\"http://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/TVE\",LA 1"
+    },
+    {
+      "name": "LA 2",
+      "url": "http://la2-pry-movistarplus.emisiondof6.com/index.isml/Manifest|DRM=0046c5afb62c48b0b6b4d004d9a613c0:bae6953fae4365f9001e7660d67d521b|PlayReady",
+      "extinf": "#EXTINF:-1 tvg-id=\"1000016602\" tvg-name=\"LA 2\" tvg-logo=\"http://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/LA2\",LA 2"
+    },
+    {
+      "name": "Antena 3",
+      "url": "http://antena3-pry-movistarplus.emisiondof6.com/index.isml/Manifest|DRM=020a19dde2c05c7cb694b9103d9ba147:3729a8c5e73959a6fcd380ba52f74678|PlayReady",
+      "extinf": "#EXTINF:-1 tvg-id=\"1000016603\" tvg-name=\"Antena 3\" tvg-logo=\"http://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/A3\",Antena 3"
+    },
+    {
+      "name": "Cuatro",
+      "url": "http://cuatro-pry-movistarplus.emisiondof6.com/index.isml/Manifest|DRM=0272a6b2b15c483fb8b0bdbde8ed9707:1534e8d39d1647232983d9bdc8e9f606|PlayReady",
+      "extinf": "#EXTINF:-1 tvg-id=\"1000016608\" tvg-name=\"Cuatro\" tvg-logo=\"http://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/C4\",Cuatro"
+    },
+    {
+      "name": "Telecinco",
+      "url": "http://tele5-pry-movistarplus.emisiondof6.com/index.isml/Manifest|DRM=04287ef30f6f49eab489843fdd7eeab3:240927504e287b570b91a94769979c13|PlayReady",
+      "extinf": "#EXTINF:-1 tvg-id=\"1000016609\" tvg-name=\"Telecinco\" tvg-logo=\"http://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/T5\",Telecinco"
+    },
+    {
+      "name": "La Sexta",
+      "url": "http://lasexta-pry-movistarplus.emisiondof6.com/index.isml/Manifest|DRM=04ff25127643407080fa7cd88a89cb7c:913657ae0e6c341dc956a96261e8f0ab|PlayReady",
+      "extinf": "#EXTINF:-1 tvg-id=\"1000016606\" tvg-name=\"La Sexta\" tvg-logo=\"http://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/SEXTA\",La Sexta"
+    },
+    {
+      "name": "Movistar Plus+",
+      "url": "http://mplus-pry-movistarplus.emisiondof6.com/index.isml/Manifest|DRM=0581fd2ddee44c248990c5786eb69e9f:2cfe035cb21085b05175b94f482a8ad7|PlayReady",
+      "extinf": "#EXTINF:-1 tvg-id=\"1000016240\" tvg-name=\"Movistar Plus+\" tvg-logo=\"http://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MPLUS\",Movistar Plus+"
+    },
+    {
+      "name": "M+ Vamos",
+      "url": "http://vamos-pry-movistarplus.emisiondof6.com/index.isml/Manifest?tcdn-bitrate-filter=mpluslive|DRM=063be2946bdb4de8b06cdaab96b79e2e:79966530f1332e8da93661265fc3247e|PlayReady",
+      "extinf": "#EXTINF:-1 tvg-id=\"1000016598\" tvg-name=\"M+ Vamos\" tvg-logo=\"http://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/VAMOSD\",M+ Vamos"
+    },
+    {
+      "name": "M+ Estrenos",
+      "url": "http://m1estrenos-pry-movistarplus.emisiondof6.com/index.isml/Manifest|DRM=0642ed6de8ab446bb0cb1cada74c335e:ceba2e5663d4dd3d5bd7b9e2563053c7|PlayReady",
+      "extinf": "#EXTINF:-1 tvg-id=\"1000016466\" tvg-name=\"M+ Estrenos\" tvg-logo=\"http://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MV1\",M+ Estrenos"
+    },
+    {
+      "name": "M+ Hits",
+      "url": "http://m1hits-pry-movistarplus.emisiondof6.com/index.isml/Manifest|DRM=0864498c758041aba5c2163eb3288b0c:7b1bdc7c7e30af519b278a9a922ef6d3|PlayReady",
+      "extinf": "#EXTINF:-1 tvg-id=\"1000016486\" tvg-name=\"M+ Hits\" tvg-logo=\"http://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MHITS\",M+ Hits"
+    },
+    {
+      "name": "M+ Originales",
+      "url": "http://moriginales-pry-movistarplus.emisiondof6.com/index.isml/Manifest|DRM=091d996297be4998ae9405617463efa1:26d95b9e9e1d88b492c857cea3665afa|PlayReady",
+      "extinf": "#EXTINF:-1 tvg-id=\"1000016259\" tvg-name=\"M+ Originales\" tvg-logo=\"http://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MORIG\",M+ Originales"
+    },
+    {
+      "name": "M+ Los 2000",
+      "url": "http://1popup-pry-movistarplus.emisiondof6.com/index.isml/Manifest|DRM=09f31fd3fc584029b310e8e4891e194c:7aed71dceea44af72d944c3b57b009ae|PlayReady",
+      "extinf": "#EXTINF:-1 tvg-id=\"1000016955\" tvg-name=\"M+ Los 2000\" tvg-logo=\"http://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/L2000\",M+ Los 2000"
+    },
+    {
+      "name": "M+ Documentales",
+      "url": "http://mdocumentales-pry-movistarplus.emisiondof6.com/index.isml/Manifest|DRM=0b460369baa24719b2bdcfc0a4bd978a:2189232c870323e05eee0c84bf02082a|PlayReady",
+      "extinf": "#EXTINF:-1 tvg-id=\"1000016245\" tvg-name=\"M+ Documentales\" tvg-logo=\"http://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MDOC\",M+ Documentales"
+    },
+    {
+      "name": "M+ Top Comedia Española",
+      "url": "http://02popup-pry-movistarplus.emisiondof6.com/index.isml/Manifest|DRM=0b5227c110fc4af5b506e6a6c7791da1:fce863b6daf0a9190db85ecede2481f6|PlayReady",
+      "extinf": "#EXTINF:-1 tvg-id=\"1000016252\" tvg-name=\"M+ Top Comedia Española\" tvg-logo=\"http://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/TOPCOM\",M+ Top Comedia Española"
+    },
+    {
+      "name": "M+ Clásicos",
+      "url": "http://mclasicos-pry-movistarplus.emisiondof6.com/index.isml/Manifest|DRM=0bd6fd024a9d4af192f8113e4945fc97:9c947f3d4773e174367",
+      "extinf": "#EXTINF:-1 tvg-id=\"1000016993\" tvg-name=\"M+ Clásicos\" tvg-logo=\"http://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MCLAS\",M+ Clásicos"
+    }
+  ],
+  "count": 15,
+  "reason": ""
+}

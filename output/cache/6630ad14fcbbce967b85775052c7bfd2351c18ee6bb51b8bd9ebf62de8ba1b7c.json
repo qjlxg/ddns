@@ -1,0 +1,17 @@
+{
+  "url": "http://47.89.186.242:8888/vps-proxy.yaml",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "VPS_Proxy",
+      "type": "ss",
+      "server": "47.89.186.242",
+      "port": 18443,
+      "cipher": "aes-256-gcm",
+      "password": "Pu8VVli9Hu5Gz6eFj4oc",
+      "udp": true
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

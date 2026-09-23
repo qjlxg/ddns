@@ -1,0 +1,128 @@
+{
+  "url": "http://66.154.102.233:8888/sub_default.yaml",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "VLESS-TCP",
+      "type": "vless",
+      "server": "66.154.102.233",
+      "port": 443,
+      "uuid": "fb89baf7-fbe8-4ff9-a05b-0ef57f1326cf",
+      "network": "http",
+      "tls": true,
+      "servername": "66.154.102.233",
+      "packet-encoding": "xudp",
+      "udp": true,
+      "client-fingerprint": "chrome",
+      "skip-cert-verify": false,
+      "http-opts": {
+        "path": [
+          "/90euFyS75SenkjSHp7nKhs"
+        ],
+        "host": [
+          "66.154.102.233"
+        ]
+      }
+    },
+    {
+      "name": "VMess-TCP",
+      "type": "vmess",
+      "server": "66.154.102.233",
+      "port": 443,
+      "uuid": "fb89baf7-fbe8-4ff9-a05b-0ef57f1326cf",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "http",
+      "tls": true,
+      "servername": "66.154.102.233",
+      "packet-encoding": "xudp",
+      "udp": true,
+      "client-fingerprint": "chrome",
+      "skip-cert-verify": false,
+      "http-opts": {
+        "path": [
+          "/qdfK7w1FIqSr75SenkjSHp7nKhs"
+        ],
+        "host": [
+          "66.154.102.233"
+        ]
+      }
+    },
+    {
+      "name": "VLESS-gRPC",
+      "type": "vless",
+      "server": "66.154.102.233",
+      "port": 443,
+      "uuid": "fb89baf7-fbe8-4ff9-a05b-0ef57f1326cf",
+      "network": "h2",
+      "tls": true,
+      "servername": "66.154.102.233",
+      "packet-encoding": "xudp",
+      "udp": true,
+      "client-fingerprint": "chrome",
+      "skip-cert-verify": false,
+      "h2-opts": {
+        "path": "90euFyShn0MVgt5tVa",
+        "host": [
+          "66.154.102.233"
+        ]
+      }
+    },
+    {
+      "name": "VMess-gRPC",
+      "type": "vmess",
+      "server": "66.154.102.233",
+      "port": 443,
+      "uuid": "fb89baf7-fbe8-4ff9-a05b-0ef57f1326cf",
+      "alterId": 0,
+      "cipher": "auto",
+      "network": "h2",
+      "tls": true,
+      "servername": "66.154.102.233",
+      "packet-encoding": "xudp",
+      "udp": true,
+      "client-fingerprint": "chrome",
+      "skip-cert-verify": false,
+      "h2-opts": {
+        "path": "qdfK7w1FIqSrhn0MVgt5tVa",
+        "host": [
+          "66.154.102.233"
+        ]
+      }
+    },
+    {
+      "name": "Hysteria2",
+      "type": "hysteria2",
+      "server": "66.154.102.233",
+      "port": 49208,
+      "password": "fb89baf7-fbe8-4ff9-a05b-0ef57f1326cf",
+      "obfs": "salamander",
+      "obfs-password": "rRnT1t2TYsdEHCIQpcp",
+      "sni": "66.154.102.233",
+      "alpn": [
+        "h3"
+      ],
+      "skip-cert-verify": false,
+      "udp": true
+    },
+    {
+      "name": "TUIC",
+      "type": "tuic",
+      "server": "66.154.102.233",
+      "port": 23570,
+      "uuid": "fb89baf7-fbe8-4ff9-a05b-0ef57f1326cf",
+      "password": "fb89baf7-fbe8-4ff9-a05b-0ef57f1326cf",
+      "sni": "66.154.102.233",
+      "alpn": [
+        "h3"
+      ],
+      "congestion-controller": "cubic",
+      "udp-relay-mode": "native",
+      "reduce-rtt": true,
+      "skip-cert-verify": false,
+      "udp": true
+    }
+  ],
+  "count": 6,
+  "reason": ""
+}

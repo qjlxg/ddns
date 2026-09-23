@@ -1,0 +1,31 @@
+{
+  "url": "http://202.155.11.223:80/api/v1/user/get-subscribe",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "62.113.44.234",
+      "port": 443,
+      "uuid": "b9ed7455-a32e-412c-b743-2e3268efb6cf",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "dl.google.com",
+      "fp": "firefox",
+      "pbk": "7tb0vrmbXI658s1lCFDtqqrizDmTbr1ynq1cl_9ZfGY",
+      "sid": "28",
+      "name": "vless-62.113.44.234"
+    },
+    {
+      "type": "hysteria2",
+      "server": "62.113.44.234",
+      "port": 443,
+      "password": "Hy2SecretKey98341Kx",
+      "sni": "se.happ.today",
+      "obfs": "salamander",
+      "obfs-password": "SalamanderPass9921",
+      "name": "hysteria2-62.113.44.234"
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}

@@ -1,0 +1,18 @@
+{
+  "url": "http://43.160.247.13:80/sub?target=mixed",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "ws",
+      "server": "43.160.247.13",
+      "port": 80,
+      "uuid": "6f2d9926-c176-4940-8e74-463873ce4c74",
+      "security": "none",
+      "path": "/ws",
+      "host": "43.160.247.13",
+      "name": "vless-43.160.247.13"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

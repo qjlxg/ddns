@@ -1,0 +1,21 @@
+{
+  "url": "http://51.250.101.35:8081/stalin.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "xhttp",
+      "server": "51.250.101.35",
+      "port": 443,
+      "uuid": "e97965c1-64c8-4fff-8edb-b660a54eb699",
+      "security": "reality",
+      "sni": "xapi.ozon.ru",
+      "fp": "chrome",
+      "pbk": "fQS44dXdqSV0-ePgp3a2JJ4F__BMGp7_vCSrC0rsUSI",
+      "sid": "b5d2a1f3",
+      "path": "/",
+      "name": "vless-51.250.101.35"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

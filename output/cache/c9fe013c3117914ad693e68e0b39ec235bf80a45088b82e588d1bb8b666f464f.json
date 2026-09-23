@@ -1,0 +1,54 @@
+{
+  "url": "http://2.27.109.179:18080/dsh",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "2.27.109.179",
+      "port": 33105,
+      "uuid": "02d4c9e3-e576-4e26-8142-3a37dd45b314",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.amd.com",
+      "fp": "chrome",
+      "pbk": "6XGaPVYW-Um9WwzV28Ld5gNAaWlIc6mB_nI7k-LsdXg",
+      "sid": "4fff92f08b820d",
+      "name": "vless-2.27.109.179"
+    },
+    {
+      "type": "grpc",
+      "server": "2.27.109.179",
+      "port": 52118,
+      "uuid": "a5863369-8e63-456f-a1ab-7c5c515c4b40",
+      "security": "reality",
+      "sni": "www.sony.com",
+      "fp": "chrome",
+      "pbk": "6DVpT50T24Rjy6Xp-kJ_vNrPC1rdlGlqCIozB8gcikY",
+      "sid": "57",
+      "name": "vless-2.27.109.179"
+    },
+    {
+      "type": "tcp",
+      "server": "2.27.109.179",
+      "port": 45464,
+      "password": "XuMweB2PWs",
+      "security": "tls",
+      "sni": "2.27.109.179.sslip.io",
+      "name": "trojan-2.27.109.179"
+    },
+    {
+      "type": "vmess",
+      "server": "2.27.109.179",
+      "port": 41099,
+      "uuid": "16f5005d-3dae-4d17-86a5-aca4355c33d2",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true,
+      "network": "ws",
+      "servername": "",
+      "name": "VMess---WS---TLS"
+    }
+  ],
+  "count": 4,
+  "reason": ""
+}

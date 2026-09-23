@@ -1,0 +1,43 @@
+{
+  "url": "http://195.133.20.184:8080/Family.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "195.133.20.184",
+      "port": 443,
+      "uuid": "40a3df88-dc6c-4eed-89e6-a1148630b073",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "ya.ru",
+      "fp": "chrome",
+      "pbk": "Mr5pDmHhujdRtwBgaXiGVvX7dzHNWDb2bv0TWsqJUVI",
+      "sid": "3fcc36708e528c4f",
+      "name": "vless-195.133.20.184"
+    },
+    {
+      "type": "tcp",
+      "server": "195.133.20.184",
+      "port": 8443,
+      "uuid": "40a3df88-dc6c-4eed-89e6-a1148630b073",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.avito.ru",
+      "fp": "firefox",
+      "pbk": "Mr5pDmHhujdRtwBgaXiGVvX7dzHNWDb2bv0TWsqJUVI",
+      "sid": "3fcc36708e528c4f",
+      "name": "vless-195.133.20.184"
+    },
+    {
+      "type": "hysteria2",
+      "server": "195.133.20.184",
+      "port": 8443,
+      "password": "16b668a3058f37a5ba2269aa",
+      "sni": "oleg.elisnet.ru",
+      "insecure": "0",
+      "name": "hysteria2-195.133.20.184"
+    }
+  ],
+  "count": 3,
+  "reason": ""
+}

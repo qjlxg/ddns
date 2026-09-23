@@ -1,0 +1,258 @@
+{
+  "url": "http://207.246.102.108:80/m3u/hktwmo.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "ATV",
+      "url": "http://88.212.15.19/live/test_atv_hungary_1200_atk/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Atv_logo_2018.png/250px-Atv_logo_2018.png\",ATV"
+    },
+    {
+      "name": "ATV (Armenia) (1080p)",
+      "url": "http://stream.mcquack.net/36/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/xrqFEou.png\",ATV (Armenia) (1080p)"
+    },
+    {
+      "name": "ATV (Belgium) (1080p)",
+      "url": "https://live.zendzend.com/mpegts/29375_107244/media_mpegts_0.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/ATV_Belgium_logo.svg/960px-ATV_Belgium_logo.svg.png\",ATV (Belgium) (1080p)"
+    },
+    {
+      "name": "ATV (Peru) (1080p)",
+      "url": "http://190.93.224.42/ATV/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/eUzYZfg.png\",ATV (Peru) (1080p)"
+    },
+    {
+      "name": "ATV Alanya (1080p)",
+      "url": "https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/bUwarR0.png\",ATV Alanya (1080p)"
+    },
+    {
+      "name": "ATV Sur (1080p)",
+      "url": "http://190.93.224.42/ATV-SUR/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/LnyVa5H.png\",ATV Sur (1080p)"
+    },
+    {
+      "name": "ATV+ (1080p)",
+      "url": "http://45.171.108.253:8888/ATV/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/fY9256H.png\",ATV+ (1080p)"
+    },
+    {
+      "name": "ATV+ Noticias Ⓨ",
+      "url": "https://www.youtube.com/c/ATVNoticiasOficial/live",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/f/f4/Atv_noticias_logo.png\",ATV+ Noticias Ⓨ"
+    },
+    {
+      "name": "ATVSat (1080p) [Not 24/7]",
+      "url": "https://stream.atvsat.com/atvsatlive/smil:atvsatlive.smil/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/pwM5txv.png\",ATVSat (1080p) [Not 24/7]"
+    },
+    {
+      "name": "ArubaTV +",
+      "url": "https://rtmpcontrol.com:1936/atvplus/ngrp:atvplus_all/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/9s6LZJZ.png\",ArubaTV +"
+    },
+    {
+      "name": "BATV Educational Channel",
+      "url": "https://livestream.telvue.com/billerica2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/eDoJqtg.png\",BATV Educational Channel"
+    },
+    {
+      "name": "BATV Government Channel",
+      "url": "https://livestream.telvue.com/billerica3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/4MdSstx.png\",BATV Government Channel"
+    },
+    {
+      "name": "BATV Public Channel",
+      "url": "https://livestream.telvue.com/billerica1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/zKQMDsu.png\",BATV Public Channel"
+    },
+    {
+      "name": "Best of BATV Channel",
+      "url": "https://livestream.telvue.com/billerica4/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/TUMiKCX.png\",Best of BATV Channel"
+    },
+    {
+      "name": "CAtv (1080p) [Not 24/7]",
+      "url": "https://video2.getstreamhosting.com:19360/8216/8216.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://caribbeanadvantage.com/images/CAtv-logo-512.png\",CAtv (1080p) [Not 24/7]"
+    },
+    {
+      "name": "Catve FM (720p) [Not 24/7]",
+      "url": "https://5b33b873179a2.streamlock.net:1443/radiocamera/livestream/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/w89yw36.png\",Catve FM (720p) [Not 24/7]"
+    },
+    {
+      "name": "Catve Master TV (720p) [Not 24/7]",
+      "url": "https://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/4m7Iazm.png\",Catve Master TV (720p) [Not 24/7]"
+    },
+    {
+      "name": "Catve2 (720p)",
+      "url": "https://5b33b873179a2.streamlock.net:1443/catve2/catve2/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/qiVfsfB.png\",Catve2 (720p)"
+    },
+    {
+      "name": "ConstanzaTV (1080p) [Not 24/7]",
+      "url": "https://live20.bozztv.com/akamaissh101/ssh101/ctv8hd/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/4uV90gw.png\",ConstanzaTV (1080p) [Not 24/7]"
+    },
+    {
+      "name": "CreaLaTV (1080p)",
+      "url": "https://stream.crealatv.com/live.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/Bnjj29f.png\",CreaLaTV (1080p)"
+    },
+    {
+      "name": "DellaTV (720p)",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-211474/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/6lvQ3Xz.png\",DellaTV (720p)"
+    },
+    {
+      "name": "DeltaTV",
+      "url": "https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/crttwAR.png\",DeltaTV"
+    },
+    {
+      "name": "FarmodaTV (1080p)",
+      "url": "https://avr.host247.net/live/FarmodaTV/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/x4KCQlH.png\",FarmodaTV (1080p)"
+    },
+    {
+      "name": "GRP VERATV (576p)",
+      "url": "https://webstream.multistream.it/memfs/a3195c96-f884-4c74-924f-2648814fc0b5_output_0.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/jasSHXJ.png\",GRP VERATV (576p)"
+    },
+    {
+      "name": "KandelaTV (480p)",
+      "url": "https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/cCFxyIp.jpg\",KandelaTV (480p)"
+    },
+    {
+      "name": "LATV (1080p) [Geo-blocked]",
+      "url": "https://amg00779-latv-amg00779c1-cineverse-us-1746.playouts.now.amagi.tv/playlist/amg00779-latvnetworkllc-latv-cineverseus/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/Vr9LLc5.png\",LATV (1080p) [Geo-blocked]"
+    },
+    {
+      "name": "LatacungaTV (360p)",
+      "url": "https://stmv1.voxtvhd.com.br/latacungatv/latacungatv/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/YjgYYH3.png\",LatacungaTV (360p)"
+    },
+    {
+      "name": "LiraTV (720p)",
+      "url": "https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/hBswXYZ.png\",LiraTV (720p)"
+    },
+    {
+      "name": "NicoyaTV (720p) [Not 24/7]",
+      "url": "https://59ef525c24caa.streamlock.net/nicoyatv/nicoyatv/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/Lj2jRn3.png\",NicoyaTV (720p) [Not 24/7]"
+    },
+    {
+      "name": "PiuraTV (720p)",
+      "url": "https://live-evg7.tv360.bitel.com.pe/bitel/piuratvSRT/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/KnJAqbd.png\",PiuraTV (720p)"
+    },
+    {
+      "name": "RBATV (720p)",
+      "url": "https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/ZWFxlU1.png\",RBATV (720p)"
+    },
+    {
+      "name": "RSelvaTV (720p)",
+      "url": "https://live-evg11.tv360.bitel.com.pe/bitel/selvaticaSRT/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/DAK5ZnD.png\",RSelvaTV (720p)"
+    },
+    {
+      "name": "RadioItaliaTV",
+      "url": "https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/4VCEJuJ.png\",RadioItaliaTV"
+    },
+    {
+      "name": "ReTV",
+      "url": "https://retv2132.bstrm.net/slive/_definst_/retv_retv_channel_5k7_42787_default_891_hls.smil/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/ReTV_Zals.svg/500px-ReTV_Zals.svg.png\",ReTV"
+    },
+    {
+      "name": "Sienatv",
+      "url": "https://router.xdevel.com/video0s976727-1441/stream/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/gcysky4.png\",Sienatv"
+    },
+    {
+      "name": "SpektraTV (720p)",
+      "url": "https://cloudvideo.servers10.com:8081/8026/tracks-v1a1/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/0zCt8e4.png\",SpektraTV (720p)"
+    },
+    {
+      "name": "SperantaTV (1080p)",
+      "url": "https://jstre.am/live/jsl:2gNjpghXRLE.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/KUyqQCX.png\",SperantaTV (1080p)"
+    },
+    {
+      "name": "TATV (720p) [Not 24/7]",
+      "url": "https://v2.siar.us/tatv/live.sdp/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://i.imgur.com/1f0EC7t.png\",TATV (720p) [Not 24/7]"
+    },
+    {
+      "name": "TV9 Bharatvarsh (720p)",
+      "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9hinjzgtpe/liveabr/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TV9_BHARATVARSH/images/LOGO_HD/image.png\",TV9 Bharatvarsh (720p)"
+    },
+    {
+      "name": "TV9 Bharatvarsh Ⓨ",
+      "url": "https://www.youtube.com/watch?v=nSpwwcHVp80",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/TV9_Bharatvarsh.svg/500px-TV9_Bharatvarsh.svg.png\",TV9 Bharatvarsh Ⓨ"
+    },
+    {
+      "name": "TVB Vietnam (1080p)",
+      "url": "https://amg01868-amg01868c3-tvbanywhere-us-4491.playouts.now.amagi.tv/playlist/amg01868-tvbusa-tvbvietnam-tvbanywhereus/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/TVB%20Vietnam.jpeg\",TVB Vietnam (1080p)"
+    },
+    {
+      "name": "TVBPearl",
+      "url": "http://122.152.202.33/s/81a8a44f/index.m3u8?id=23",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBPearl.png\",TVBPearl"
+    },
+    {
+      "name": "TVBPearl",
+      "url": "http://php.jdshipin.com/TVOD/iptv.php?id=mzt",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBPearl.png\",TVBPearl"
+    },
+    {
+      "name": "TVBPearl",
+      "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=mzt",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBPearl.png\",TVBPearl"
+    },
+    {
+      "name": "TVBPlus",
+      "url": "http://74.91.26.218:82/live/j2.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBPlus.png\",TVBPlus"
+    },
+    {
+      "name": "TVBPlus",
+      "url": "http://bak.dou.ddns-ip.net/api.php?n=xxxtw&id=aCMBgd&tk=SLK5QjnsRiya",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBPlus.png\",TVBPlus"
+    },
+    {
+      "name": "TVBPlus",
+      "url": "http://php.jdshipin.com/TVOD/iptv.php?id=tvbp",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBPlus.png\",TVBPlus"
+    },
+    {
+      "name": "TVBS",
+      "url": "http://31.43.191.125:8080/restream/restream/34915",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBS.png\",TVBS"
+    },
+    {
+      "name": "TVBS",
+      "url": "http://31.43.191.125:8080/vip7201770826573/415c945b71e8/34915",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBS.png\",TVBS"
+    },
+    {
+      "name": "TVBS",
+      "url": "https://7612-5516-affc-d88b.kylintv.tv/live/tvbshd_iphone.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🇭🇰 港澳台\" tvg-logo=\"https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBS.png\",TVBS"
+    }
+  ],
+  "count": 50,
+  "reason": ""
+}

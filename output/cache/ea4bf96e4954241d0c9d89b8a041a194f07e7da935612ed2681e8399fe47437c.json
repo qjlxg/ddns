@@ -1,0 +1,65 @@
+{
+  "url": "http://209.141.34.51:80/jiedian",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "hubent.cfd",
+      "port": 25480,
+      "uuid": "83ce1b48-dbb1-42dd-85e7-a9110f6f3332",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "lovelive-anime.jp",
+      "fp": "chrome",
+      "pbk": "RKBUWykIyXm-gyswMBYB3fm-wRr7U7Y62hzCjHsOmxg",
+      "sid": "8124166769f24f",
+      "headerType": "none",
+      "name": "vless-hubent.cfd"
+    },
+    {
+      "type": "tcp",
+      "server": "hubent.cfd",
+      "port": 21186,
+      "password": "Pzioj48jKF",
+      "security": "reality",
+      "sni": "www.lovelive-anime.jp",
+      "fp": "chrome",
+      "pbk": "1CRLHtl9GjQIct8Zi4BiyiU0yvXMd1wR-9JfxczsGD0",
+      "sid": "e9bef5",
+      "headerType": "none",
+      "name": "trojan-hubent.cfd"
+    },
+    {
+      "type": "tcp",
+      "server": "hubents.shop",
+      "port": 57197,
+      "password": "sdIxo2S1LY",
+      "security": "tls",
+      "headerType": "none",
+      "name": "trojan-hubents.shop"
+    },
+    {
+      "type": "vmess",
+      "server": "hubents.shop",
+      "port": 16859,
+      "uuid": "0da42011-01f1-49e0-82be-493cac8af5fa",
+      "alterId": 0,
+      "cipher": "auto",
+      "tls": true,
+      "network": "tcp",
+      "servername": "",
+      "name": "xray-vmess-1"
+    },
+    {
+      "type": "tcp",
+      "server": "hubents.shop",
+      "port": 24760,
+      "uuid": "a25faf72-8ab8-4bb3-b446-f35d9ec93449",
+      "security": "tls",
+      "sni": "hubents.shop",
+      "name": "vless-hubents.shop"
+    }
+  ],
+  "count": 5,
+  "reason": ""
+}

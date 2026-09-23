@@ -1,0 +1,21 @@
+{
+  "url": "http://31.76.64.21:8080/iphone",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "31.76.64.21",
+      "port": 8443,
+      "uuid": "71efd424-5b94-4664-a21c-6f0794dbb8c8",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com",
+      "fp": "firefox",
+      "pbk": "djQ3N8xcTCHjKFZhVIElpt9NdP6GgsRFjjq7TsfbeSQ",
+      "sid": "d9eda899c955900c",
+      "name": "vless-31.76.64.21"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

@@ -1,0 +1,21 @@
+{
+  "url": "http://213.165.52.190:18080/hiddify.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "212.193.4.60",
+      "port": 8443,
+      "uuid": "e12e1add-4868-4e08-82d3-4f791adff92a",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "5PdWYAR1_Ri9mc86WkINQ4PsyLFQxht8HiQ0OzX5w1w",
+      "sid": "0959175d17e161c7",
+      "name": "vless-212.193.4.60"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

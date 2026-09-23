@@ -1,0 +1,25 @@
+{
+  "url": "http://104.168.86.187:8080/clash-ins-uk.yaml",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "INS-UK-Residential",
+      "type": "vless",
+      "server": "104.168.86.187",
+      "port": 443,
+      "uuid": "7e3c2f98-1d75-4122-9b2f-8138e3d3815d",
+      "network": "tcp",
+      "udp": true,
+      "tls": true,
+      "flow": "",
+      "servername": "www.cloudflare.com",
+      "client-fingerprint": "chrome",
+      "reality-opts": {
+        "public-key": "UJAPJZZrkpRcd_fXb4l0ODJ9NXA5NsaZ1elKOdr1Dx0",
+        "short-id": "616d4d1b0b0a6826"
+      }
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

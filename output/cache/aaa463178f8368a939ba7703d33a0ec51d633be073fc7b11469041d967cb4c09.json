@@ -1,0 +1,20 @@
+{
+  "url": "http://89.58.33.146:8080/660a266717f9dde2",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "grpc",
+      "server": "89.58.33.146",
+      "port": 443,
+      "uuid": "9de8c647-5278-433c-8ebc-333bafa23456",
+      "security": "reality",
+      "sni": "dl.google.com",
+      "fp": "chrome",
+      "pbk": "FE8zyGVdMgd0LFbvj5rSmCNvMgYUi0F9rWSNAjkfbFQ",
+      "sid": "7f0426fa747566a3",
+      "name": "vless-89.58.33.146"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

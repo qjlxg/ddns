@@ -1,0 +1,31 @@
+{
+  "url": "http://194.34.236.241:80/sub?target=v2ray",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "45.9.12.109",
+      "port": 443,
+      "uuid": "e78b88d1-33ca-4da5-8760-1e695fe419e0",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "dl.google.com",
+      "fp": "firefox",
+      "pbk": "TVlt9O_k-z82ol5RER7VmBcjbboA2hHSkVOVm61BCAo",
+      "sid": "28",
+      "name": "vless-45.9.12.109"
+    },
+    {
+      "type": "hysteria2",
+      "server": "45.9.12.109",
+      "port": 443,
+      "password": "Hy2_sIbo9sqxY66TU7CXQgCxZg",
+      "sni": "fi.happ.today",
+      "obfs": "salamander",
+      "obfs-password": "Salamander_wNU5ofvQ0J69MOqOzLFSkQ",
+      "name": "hysteria2-45.9.12.109"
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}

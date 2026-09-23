@@ -1,0 +1,22 @@
+{
+  "url": "http://172.245.180.105:80/sub?target=clash",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "172.245.180.105",
+      "port": 26000,
+      "uuid": "c5f039ec-a8b6-420c-966e-18727afa51f2",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.microsoft.com",
+      "fp": "chrome",
+      "pbk": "NVxnkR_pncFyDO-daOruEiW0W7sGq8iphKOCiK7HpyI",
+      "sid": "2b7a14c5843b26e5",
+      "headerType": "none",
+      "name": "vless-172.245.180.105"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

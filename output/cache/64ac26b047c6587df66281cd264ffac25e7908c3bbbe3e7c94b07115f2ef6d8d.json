@@ -1,0 +1,368 @@
+{
+  "url": "http://207.246.102.108:80/m3u/intl_Americas.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "+Perfil",
+      "url": "https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/perfiltv/livestream2/chunks.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/3wZdPwN.png\",+Perfil"
+    },
+    {
+      "name": "3ABN Canada (720p)",
+      "url": "https://3abn.bozztv.com/3abncanada/3ABN/master.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/U99CsEc.png\",3ABN Canada (720p)"
+    },
+    {
+      "name": "AXN Latin America Mexico",
+      "url": "http://190.11.225.124:5000/live/axn_hd/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png\",AXN Latin America Mexico"
+    },
+    {
+      "name": "Alcance TV (Mexico) (720p)",
+      "url": "https://5bf8041cb3fed.streamlock.net/AlcanceTV/AlcanceTV/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/5nYjRlb.png\",Alcance TV (Mexico) (720p)"
+    },
+    {
+      "name": "Alkarma TV North America & Canada (1080p) [Not 24/7]",
+      "url": "https://5aafcc5de91f1.streamlock.net/alkarmatv.com/alkarmana1.smil/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/pnm60bq.png\",Alkarma TV North America & Canada (1080p) [Not 24/7]"
+    },
+    {
+      "name": "Bethel Colombia (720p)",
+      "url": "http://138.121.15.230:9002/BETHEL/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/BYdMsLL.png\",Bethel Colombia (720p)"
+    },
+    {
+      "name": "Bio Bio TV",
+      "url": "https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/wrRufts.png\",Bio Bio TV"
+    },
+    {
+      "name": "CBC News Network (1080p)",
+      "url": "https://d2ny9lo79ujali.cloudfront.net/CBC_News_International.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/SjTdhvJ.png\",CBC News Network (1080p)"
+    },
+    {
+      "name": "CBC TV8 (1080p) [Not 24/7]",
+      "url": "https://1740288887.rsc.cdn77.org/1740288887/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/WsD83lq.png\",CBC TV8 (1080p) [Not 24/7]"
+    },
+    {
+      "name": "CRTV (Chile) (720p)",
+      "url": "https://stmv2.voxtvhd.com.br/crtvchile/crtvchile/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i2.paste.pics/bf68b159547597c39574aec9dd7c626a.png\",CRTV (Chile) (720p)"
+    },
+    {
+      "name": "Canada One (720p) [Not 24/7]",
+      "url": "http://cdn8.live247stream.com/canadaone/tv/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\",Canada One (720p) [Not 24/7]"
+    },
+    {
+      "name": "Canal 1 (Colombia) (576p)",
+      "url": "http://138.121.15.230:9002/CANAL-UNO/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/YFywPLC.png\",Canal 1 (Colombia) (576p)"
+    },
+    {
+      "name": "Canal 13",
+      "url": "https://redirector.dps.live/hls/13cl/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/JIo1HBs.png\",Canal 13"
+    },
+    {
+      "name": "Canal 13 (Chile) (1080p)",
+      "url": "http://15.204.246.24:8080/Canal13HD/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://static.wikia.nocookie.net/logopedia/images/0/01/Canal_13_2018.png/revision/latest/scale-to-width-down/512/\",Canal 13 (Chile) (1080p)"
+    },
+    {
+      "name": "Canal 26 (Argentina) (1080p)",
+      "url": "https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png\",Canal 26 (Argentina) (1080p)"
+    },
+    {
+      "name": "Canal 26 (Mexico) (1080p)",
+      "url": "https://60417ddeaf0d9.streamlock.net/telemetrika3/smil:telemetrika3.smil/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/PAvnVN9.png\",Canal 26 (Mexico) (1080p)"
+    },
+    {
+      "name": "Canal Once",
+      "url": "https://vivo.canaloncelive.tv/secureoncedos/oncedigital/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://graph.facebook.com/CANALONCETV/picture?width=200&height=200\",Canal Once"
+    },
+    {
+      "name": "Central TV (Chile) (720p)",
+      "url": "https://freya.mivideo.pro/centraltv/video.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://cdn.m3u.cl/logo/1706_Central_TV.png\",Central TV (Chile) (720p)"
+    },
+    {
+      "name": "Chile Channel (720p)",
+      "url": "https://v2.tustreaming.cl/chilechannel/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/F1it6fh.png\",Chile Channel (720p)"
+    },
+    {
+      "name": "ChileVision (1080p)",
+      "url": "http://15.204.246.24:8080/CHVHD/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/PRijvR0.png\",ChileVision (1080p)"
+    },
+    {
+      "name": "Disney Channel Latin America Mexico (720p)",
+      "url": "http://45.166.93.156:9999/play/a0f3/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg\",Disney Channel Latin America Mexico (720p)"
+    },
+    {
+      "name": "E! Latin America Mexico (720p)",
+      "url": "http://72.1.184.5:8089/play/a05d/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/500px-E%21_Logo_2012.svg.png\",E! Latin America Mexico (720p)"
+    },
+    {
+      "name": "EWTN (United States) Canada (720p)",
+      "url": "https://cdn3.wowza.com/1/YW5wSWZiRGd2eFlU/bGV0aVBq/hls/live/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://play-lh.googleusercontent.com/3716tvZCgzpIt-X1giV8jKwCdC8zwOI4eMUfO_ETWzNX6eGKIi2RiUK9a_fr6BCzjw\",EWTN (United States) Canada (720p)"
+    },
+    {
+      "name": "El Pingüino TV",
+      "url": "https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/pinguinotv/pinguinotv.smil/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/ohXs2NV.png\",El Pingüino TV"
+    },
+    {
+      "name": "El Trece",
+      "url": "https://livetrx01.vodgc.net/eltrecetv/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/ZK7AQFg.png\",El Trece"
+    },
+    {
+      "name": "Estrella TV",
+      "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00567-estrellamedia-estrellatv-estrellamedia/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://graph.facebook.com/EstrellaTV/picture?width=200&height=200\",Estrella TV"
+    },
+    {
+      "name": "GTN Canada (1080i) [Geo-blocked]",
+      "url": "https://streamer12.vdn.dstreamone.net/carishowtime/showtime/chunks.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/7bQPJOd.png\",GTN Canada (1080i) [Geo-blocked]"
+    },
+    {
+      "name": "Global News",
+      "url": "https://jmp2.uk/plu-62cbef9ebb857100072fc187.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/IpfmG93.png\",Global News"
+    },
+    {
+      "name": "Global News Saskatoon",
+      "url": "https://jmp2.uk/plu-62cc00359cb58900088dc840.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/IpfmG93.png\",Global News Saskatoon"
+    },
+    {
+      "name": "Global News Winnipeg",
+      "url": "https://jmp2.uk/plu-62cc0120880c890007191016.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/IpfmG93.png\",Global News Winnipeg"
+    },
+    {
+      "name": "ICI Télé HD Ⓖ",
+      "url": "https://rcavlive.akamaized.net/hls/live/696615/xcancbft/master.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/HsSi3NV.png\",ICI Télé HD Ⓖ"
+    },
+    {
+      "name": "Ici Radio-Canada Tele CFHD-DT (720p)",
+      "url": "https://amdici.akamaized.net/hls/live/873426/ICI-Live-Stream/master.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/x0vLIWr.png\",Ici Radio-Canada Tele CFHD-DT (720p)"
+    },
+    {
+      "name": "Justicia TV (Mexico) (720p)",
+      "url": "https://live-scjn.ovp-vivaro.digital/ovp-origin/638a22b47746d/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/zyAS1hk.png\",Justicia TV (Mexico) (720p)"
+    },
+    {
+      "name": "La Chilena TV",
+      "url": "https://vdochile.com:3134/stream/play.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/GHJkxaB.png\",La Chilena TV"
+    },
+    {
+      "name": "Mega",
+      "url": "https://unlimited2-cl-isp.dps.live/mega/mega.smil/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/CYdWSDb.png\",Mega"
+    },
+    {
+      "name": "Mega (Chile) (1080p)",
+      "url": "http://15.204.246.24:8080/MEGAHD/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/RlZfR84.png\",Mega (Chile) (1080p)"
+    },
+    {
+      "name": "MyTime Movie Network (Mexico) (720p)",
+      "url": "https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/pw4NZK1.png\",MyTime Movie Network (Mexico) (720p)"
+    },
+    {
+      "name": "México Travel TV",
+      "url": "https://5ca9af4645e15.streamlock.net/mexicotravel/videomexicotravel/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://graph.facebook.com/MexicoTravelChannelTV/picture?width=200&height=200\",México Travel TV"
+    },
+    {
+      "name": "NTD TV Canada",
+      "url": "https://live.ntdtv.com/mllive860/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/iyFXcDy.png\",NTD TV Canada"
+    },
+    {
+      "name": "NTD TV Canada West",
+      "url": "https://live.ntdtv.com/cwlive220/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/iyFXcDy.png\",NTD TV Canada West"
+    },
+    {
+      "name": "National Geographic (Mexico) (1080p)",
+      "url": "http://138.121.15.230:9002/NAT-GEO/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png\",National Geographic (Mexico) (1080p)"
+    },
+    {
+      "name": "Neo TV (Argentina)",
+      "url": "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/Xtu85tb.png\",Neo TV (Argentina)"
+    },
+    {
+      "name": "Net TV",
+      "url": "https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/EWmshtx.png\",Net TV"
+    },
+    {
+      "name": "Oasis TV (Colombia) (720p) [Not 24/7]",
+      "url": "https://5e85d90130e77.streamlock.net/6020/6020/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/VKYzFpZ.png\",Oasis TV (Colombia) (720p) [Not 24/7]"
+    },
+    {
+      "name": "Oli TV (Chile) (1080p)",
+      "url": "https://v4.tustreaming.cl/retroplaytv/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/2emMRvf.jpeg\",Oli TV (Chile) (1080p)"
+    },
+    {
+      "name": "PTC Punjabi Canada (1080p)",
+      "url": "https://stream.ottlive.co.in/ptccanada/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/8/88/PTC_Punjabi.png\",PTC Punjabi Canada (1080p)"
+    },
+    {
+      "name": "Pichilemu TV (1080p)",
+      "url": "https://5ff3d9babae13.streamlock.net/8028/8028/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/eaJVCwM.png\",Pichilemu TV (1080p)"
+    },
+    {
+      "name": "Pluto TV Novelas de Mexico",
+      "url": "https://jmp2.uk/plu-6474a7958e3c0a0008b97cae.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://images.pluto.tv/channels/6474a7958e3c0a0008b97cae/colorLogoPNG_1765475296297.png\",Pluto TV Novelas de Mexico"
+    },
+    {
+      "name": "Polar TV (Chile)",
+      "url": "https://polartv.webredirect.org/memfs/319ac83c-e602-4e91-8104-2b5501380b5e.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/4exfvPt.png\",Polar TV (Chile)"
+    },
+    {
+      "name": "Presumiendo Mexico (720p)",
+      "url": "https://60417ddeaf0d9.streamlock.net/telemetrika/smil:telemetrika.smil/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/bFG4Rqz.png\",Presumiendo Mexico (720p)"
+    },
+    {
+      "name": "Quiero TV",
+      "url": "https://stream.ontvmx.com/ontv/ghxTYEQmKkB2UJyVuW/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://graph.facebook.com/quierotvGDL/picture?width=200&height=200\",Quiero TV"
+    },
+    {
+      "name": "RTN (Argentina) (720p) [Not 24/7]",
+      "url": "https://media.neuquen.gov.ar/rtn/television/media.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/8xqYg4C.png\",RTN (Argentina) (720p) [Not 24/7]"
+    },
+    {
+      "name": "SoloTV",
+      "url": "https://stream.making.cl/memfs/ee909361-73e9-4e74-8391-5f1b0b8006c2.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/Ad2ueID.png\",SoloTV"
+    },
+    {
+      "name": "Sony Channel (Argentina) (1080p)",
+      "url": "http://138.121.15.230:9002/SONY/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png\",Sony Channel (Argentina) (1080p)"
+    },
+    {
+      "name": "South Park: Welcome to Canada!",
+      "url": "https://jmp2.uk/plu-663115d923e24f000843b49c.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://images.pluto.tv/channels/663115d923e24f000843b49c/colorLogoPNG.png\",South Park: Welcome to Canada!"
+    },
+    {
+      "name": "Star Channel (Chile) (720p)",
+      "url": "http://138.121.15.230:9002/STAR-CHANNEL/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png\",Star Channel (Chile) (720p)"
+    },
+    {
+      "name": "T13 en vivo",
+      "url": "https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/3CEijac.png\",T13 en vivo"
+    },
+    {
+      "name": "TV Chile",
+      "url": "https://xyktmobile00.s.gy/093_TV_CHILE",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/oYFto0V.png\",TV Chile"
+    },
+    {
+      "name": "TV Mana Argentina (576p) [Not 24/7]",
+      "url": "https://w2.manasat.com/tvmana-ar/smil:tvmana-ar.smil/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/jars0mP.png\",TV Mana Argentina (576p) [Not 24/7]"
+    },
+    {
+      "name": "TVN (Chile) (1080p)",
+      "url": "http://15.204.246.24:8080/TVNHD/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/3FKZHL4.png\",TVN (Chile) (1080p)"
+    },
+    {
+      "name": "TVN 3",
+      "url": "https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/84lWqRi.png\",TVN 3"
+    },
+    {
+      "name": "Telemax (Argentina)",
+      "url": "https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telemax_Argentina_%282018%29.png/960px-Telemax_Argentina_%282018%29.png\",Telemax (Argentina)"
+    },
+    {
+      "name": "Telemax (Mexico) XEWH-TDT (1080p)",
+      "url": "https://s5.mexside.net:1936/telemax/telemax/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/klhTyDU.png\",Telemax (Mexico) XEWH-TDT (1080p)"
+    },
+    {
+      "name": "Televida (Chile) (1080p)",
+      "url": "https://tls-cl.cdnz.cl/televida/live/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/bmNA8hq.png\",Televida (Chile) (1080p)"
+    },
+    {
+      "name": "TeveColombia (720p) [Not 24/7]",
+      "url": "https://cloud6.livescast.com:3900/live/tevecolombialive.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/vPwiJTw.png\",TeveColombia (720p) [Not 24/7]"
+    },
+    {
+      "name": "The Cowboy Channel Canada (1080p)",
+      "url": "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/xwntWOP.png\",The Cowboy Channel Canada (1080p)"
+    },
+    {
+      "name": "The Pet Collective Mexico (720p)",
+      "url": "https://the-pet-collective-international-mx.samsung.wurl.tv/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/yH7n2dF.png\",The Pet Collective Mexico (720p)"
+    },
+    {
+      "name": "UCL",
+      "url": "https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/ucl/ucl.smil/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/JxqVHPX.png\",UCL"
+    },
+    {
+      "name": "UCV Televisión",
+      "url": "https://unlimited1-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/2VL4Pts.png\",UCV Televisión"
+    },
+    {
+      "name": "UTV (Chile) (720p)",
+      "url": "https://v2.tustreaming.cl/utv/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/ZJNSpfZ.png\",UTV (Chile) (720p)"
+    },
+    {
+      "name": "WeatherSpy (Mexico) (720p)",
+      "url": "https://jukin-weatherspy-2-mx.samsung.wurl.tv/playlist.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/KIEKOt1.png\",WeatherSpy (Mexico) (720p)"
+    },
+    {
+      "name": "Zoom (Colombia) (1080p)",
+      "url": "http://138.121.15.230:9002/ZOOM/index.m3u8",
+      "extinf": "#EXTINF:-1 group-title=\"🌍 🌎 Americas\" tvg-logo=\"https://i.imgur.com/euy5zp6.png\",Zoom (Colombia) (1080p)"
+    }
+  ],
+  "count": 72,
+  "reason": ""
+}

@@ -1,0 +1,93 @@
+{
+  "url": "http://141.147.153.1:8088/m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "2026-09-23 16:09:40",
+      "url": "https://live.ottiptv.cc/mg/608807420.m3u8?userid=5702211200&sign=71a18f0804acd1d0c8fc326a6424472ab6911e1acaf3e1c7b14d764a825c9552f0511a260bfac21222569cc2d2ef08c8be80e1156f707301e0d667aef13f199e521d6978951a13ba276137d174d6f20ac0&auth_token=a8a641202c05ae8c414eb25e6e03104a",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV-1\" tvg-name=\"CCTV-1\" tvg-logo=\"https://www.xn--rgv465a.top/tvlogo/CCTV-1.png\" group-title=\"🕘️更新时间\",2026-09-23 16:09:40"
+    },
+    {
+      "name": "CCTV-1",
+      "url": "https://live.ottiptv.cc/mg/608807420.m3u8?userid=5702211200&sign=71a18f0804acd1d0c8fc326a6424472ab6911e1acaf3e1c7b14d764a825c9552f0511a260bfac21222569cc2d2ef08c8be80e1156f707301e0d667aef13f199e521d6978951a13ba276137d174d6f20ac0&auth_token=a8a641202c05ae8c414eb25e6e03104a",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV-1\" tvg-name=\"CCTV-1\" tvg-logo=\"https://wapx.cmvideo.cn/publish/poms/image/2201/057/821/202204010054_1626677502161_H169_1080.jpg\" group-title=\"📺央视频道\",CCTV-1"
+    },
+    {
+      "name": "CCTV-1",
+      "url": "https://live.ottiptv.cc/mcp/cctv1.m3u8?userid=445077140&sign=729b76bdd3633c5bda185b140fbd87537bb74b3e9672047e4ae4f8bf68bb13e09f0ec561eaab3315191589f31c59b033082d81441e3c40893e45ce0b6580c9c2fbc175f0affaee1e8c977f54&auth_token=7b826e3677426fbd208003e00508b9d9",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV-1\" tvg-name=\"CCTV-1\" tvg-logo=\"https://cdn.jsdelivr.net/gh/mursor1985/epg/logo/cctv1.png\" group-title=\"📺央视频道\",CCTV-1"
+    },
+    {
+      "name": "CCTV-1",
+      "url": "https://live.ottiptv.cc/mcp/cctv1av3asfhd.m3u8?userid=445077140&sign=ba9db5f53404c2d8d744eb4541a894db0d24a87f7dd78e8c4becf1b67a108fbe5397e5d8d8ba240ad6b445301bfae9cd0dc87942f17ba7413fcda09ed4cd57fcbb19efc7cc38e1e4493805ed3d0aa61374606c1c&auth_token=7b826e3677426fbd208003e00508b9d9",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV-1\" tvg-name=\"CCTV-1\" tvg-logo=\"https://cdn.jsdelivr.net/gh/mursor1985/epg/logo/cctv1.png\" group-title=\"📺央视频道\",CCTV-1"
+    },
+    {
+      "name": "CCTV-2",
+      "url": "https://live.ottiptv.cc/mg/631780532.m3u8?userid=5702211200&sign=641dcb9d0aba0dccb5370acebb8d350aa95d04c5e1aa6e0b2e4835243eb7cb45eccdd224af4066c4c3641fd20b92241fa10819f03ace7489bced6f53e7b0381adad0e109f3f179db1c9f04af29dafc0d57&auth_token=a8a641202c05ae8c414eb25e6e03104a",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV-2\" tvg-name=\"CCTV-2\" tvg-logo=\"https://wapx.cmvideo.cn/publish/poms/image/5500/346/945/202205311432_1653977575541_H169_1080.jpg\" group-title=\"📺央视频道\",CCTV-2"
+    },
+    {
+      "name": "CCTV-2",
+      "url": "https://live.ottiptv.cc/mcp/cctv2.m3u8?userid=445077140&sign=92bea51195495df0bf432400c745178124746b8d644434d4af99eab5b82c3ed4ebef4ab86c058e536cbb555997b5031a54633c5a5b4125c48cc0738401dbb93d796ef2daafea0ade84c1d333&auth_token=7b826e3677426fbd208003e00508b9d9",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV-2\" tvg-name=\"CCTV-2\" tvg-logo=\"https://cdn.jsdelivr.net/gh/mursor1985/epg/logo/cctv2.png\" group-title=\"📺央视频道\",CCTV-2"
+    },
+    {
+      "name": "CCTV-2",
+      "url": "https://live.ottiptv.cc/mcp/cctv2av3asfhd.m3u8?userid=445077140&sign=aa3134f6ee8eb47f331d6bd813a4e3a9817a0d886ca9b3b5de47bd5bcb68f6c64ef5ca79d4b56d50f768d6ecb00f1fba3eca9ae2b06468b1b354d348a435c2bca6945dcc3a5c87b6fd3738c13c5a75184c8b1e49&auth_token=7b826e3677426fbd208003e00508b9d9",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV-2\" tvg-name=\"CCTV-2\" tvg-logo=\"https://cdn.jsdelivr.net/gh/mursor1985/epg/logo/cctv2.png\" group-title=\"📺央视频道\",CCTV-2"
+    },
+    {
+      "name": "CCTV-3",
+      "url": "http://74.91.26.218:82/live/cctv3hd.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV-3\" tvg-name=\"CCTV-3\" tvg-logo=\"https://i.imgur.com/iFlkIuw.png\" group-title=\"📺央视频道\",CCTV-3"
+    },
+    {
+      "name": "CCTV-3",
+      "url": "https://live.ottiptv.cc/mg/624878271.m3u8?userid=5702211200&sign=e97571a45833813f127f881cbb1e21b395bdbba0d9123fddede7c7338f842d91d74ecbc063bbd4b19ce325d94b9b37a822484538dcdb4cdc3a0848225037d0c3a6ad7d2430ece7a4a3d1834aad8ba24876&auth_token=a8a641202c05ae8c414eb25e6e03104a",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV-3\" tvg-name=\"CCTV-3\" tvg-logo=\"https://wapx.cmvideo.cn/publish/poms/image/5500/212/864/202204010055_1626679292691_H169_1080.jpg\" group-title=\"📺央视频道\",CCTV-3"
+    },
+    {
+      "name": "CCTV-3",
+      "url": "https://live.ottiptv.cc/mcp/cctv3.m3u8?userid=445077140&sign=5bf9e73d3f0b3941b4b2f46672781d128ed743c3f9121a7877453861793c4680ffc7a47e54667bea9e9fcd9cdeba5ed15d5d74dae757274845f41700a99b762afb50f0a47a84d5ce06ea94a7&auth_token=7b826e3677426fbd208003e00508b9d9",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV-3\" tvg-name=\"CCTV-3\" tvg-logo=\"https://cdn.jsdelivr.net/gh/mursor1985/epg/logo/cctv3.png\" group-title=\"📺央视频道\",CCTV-3"
+    },
+    {
+      "name": "CCTV-3",
+      "url": "https://live.ottiptv.cc/mcp/cctv3av3asfhd.m3u8?userid=445077140&sign=0656a525f2a0af9cb1858400e41a47edbd11bfdc40e7a9400bb3d02f43e317b1b45db8c725c92428223832fdb7c94beb3cc35f350a600793926691ec3fbafc4fa7b13e46776dd7014ebde9aee662a88cef652b95&auth_token=7b826e3677426fbd208003e00508b9d9",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV-3\" tvg-name=\"CCTV-3\" tvg-logo=\"https://cdn.jsdelivr.net/gh/mursor1985/epg/logo/cctv3.png\" group-title=\"📺央视频道\",CCTV-3"
+    },
+    {
+      "name": "CCTV-4",
+      "url": "https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1790203500-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-a79075847001f4d36443c0ec535cdd2c&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV-4\" tvg-name=\"CCTV-4\" tvg-logo=\"https://live.fanmingming.com/tv/CCTV4.png\" group-title=\"📺央视频道\",CCTV-4"
+    },
+    {
+      "name": "CCTV-4",
+      "url": "http://74.91.26.218:82/live/cctv4hd.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV-4\" tvg-name=\"CCTV-4\" tvg-logo=\"https://i.imgur.com/tWt4Wou.png\" group-title=\"📺央视频道\",CCTV-4"
+    },
+    {
+      "name": "CCTV-4",
+      "url": "https://live.ottiptv.cc/mg/631780421.m3u8?userid=5702211200&sign=5def444b56b5b36f4b3fe361956ecabc3405218bc8414df67b4674b656db824cde8b489fcb684fe45ee6ec8205825592e68c9a072dbafd1fdfd14a5c4c880349489c5f3c42865ef62a6f3a82c6b3d9b455&auth_token=a8a641202c05ae8c414eb25e6e03104a",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV-4\" tvg-name=\"CCTV-4\" tvg-logo=\"https://wapx.cmvideo.cn/publish/poms/image/5500/346/947/202204010054_1626679457281_H169_1080.jpg\" group-title=\"📺央视频道\",CCTV-4"
+    },
+    {
+      "name": "CCTV-4",
+      "url": "https://live.ottiptv.cc/mcp/cctv4.m3u8?userid=445077140&sign=cb2e0bd2e8ae57166af7851daef0542e3d1bf9844b5c7170042dc185605ad020344260de5149175d9da24c804ee796fd79de99ad7acbe76f378d9c576a241b59d6b5de55a4e54d5b9b41d2f3&auth_token=7b826e3677426fbd208003e00508b9d9",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV-4\" tvg-name=\"CCTV-4\" tvg-logo=\"https://cdn.jsdelivr.net/gh/mursor1985/epg/logo/cctv4.png\" group-title=\"📺央视频道\",CCTV-4"
+    },
+    {
+      "name": "CCTV-4",
+      "url": "https://live.ottiptv.cc/mcp/cctv4av3asfhd.m3u8?userid=445077140&sign=2496542af621b1edaab7b5c7adb35aef6a4dcbb007319f1689bd6a4bc19a4c107aeafdfabfc0bbd29bc906ce7d5771138f11742c08fe68482cf816f2565556f35d7027402863f052975734e847372fbe4b663efb&auth_token=7b826e3677426fbd208003e00508b9d9",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV-4\" tvg-name=\"CCTV-4\" tvg-logo=\"https://cdn.jsdelivr.net/gh/mursor1985/epg/logo/cctv4.png\" group-title=\"📺央视频道\",CCTV-4"
+    },
+    {
+      "name": "CCTV-5",
+      "url": "https://live.ottiptv.cc/mg/641886683.m3u8?userid=5702211200&sign=c70a7510a012f7b68fbc69dcfdf26b570adb445b11af9d4c8efae39f8ff1ed4c0805da802284fce3ce7bc317a8344fb331d107eb1f776573ecda7b892666352cb6a397dc084a0d34342a4bdc65a2f9c95d&auth_token=a8a641202c05ae8c414eb25e6e03104a",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV-5\" tvg-name=\"CCTV-5\" tvg-logo=\"https://wapx.cmvideo.cn/publish/poms/image/5500/516/171/202204010048_1626679645474_H169_1080.jpg\" group-title=\"📺央视频道\",CCTV-5"
+    }
+  ],
+  "count": 17,
+  "reason": ""
+}

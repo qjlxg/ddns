@@ -1,0 +1,49 @@
+{
+  "url": "http://8.211.152.234:80/subscription.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "8.211.152.234",
+      "port": 8443,
+      "uuid": "623f92f5-fad8-4216-9ceb-577f55a03c56",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "DZ013j7KEKzXLUAbnHg_-helm3PUZAogPnahmJdNxUQ",
+      "sid": "9f1dc7f84f3b4246",
+      "spx": "/0cc1f5f578d65e7",
+      "name": "vless-8.211.152.234"
+    },
+    {
+      "type": "tcp",
+      "server": "8.211.152.234",
+      "port": 443,
+      "uuid": "1ffcd2f3-24ad-4e4e-8ef8-bee9e5499424",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "edXYyqvmWrjlMYVSzI_0dtgtwWbjsePjI6eazTa4tVY",
+      "sid": "3247d8ec853b12ff",
+      "spx": "/0cc1f5f578d65e7",
+      "name": "vless-8.211.152.234"
+    },
+    {
+      "type": "tcp",
+      "server": "8.211.152.234",
+      "port": 80,
+      "password": "133b8f4be23474740003b89689040242",
+      "security": "reality",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "xs7JWDfQnWXrG946d1iChqhWQO7e3496uanmp0ZsOU8",
+      "sid": "308b940642151d2f",
+      "spx": "/0cc1f5f578d65e7",
+      "name": "trojan-8.211.152.234"
+    }
+  ],
+  "count": 3,
+  "reason": ""
+}

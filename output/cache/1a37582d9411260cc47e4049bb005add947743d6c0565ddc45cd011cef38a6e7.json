@@ -1,0 +1,21 @@
+{
+  "url": "http://107.172.57.135:8388/token.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "107.172.57.135",
+      "port": 18964,
+      "uuid": "9602377d-6552-4895-a103-5beac4d79a3f",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.microsoft.com",
+      "fp": "chrome",
+      "pbk": "qPR3r6XUOECn-L3ZjdGBkczHf0DxI2OLV--XwOV4HmI",
+      "sid": "a7ff4f4893298135",
+      "name": "vless-107.172.57.135"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

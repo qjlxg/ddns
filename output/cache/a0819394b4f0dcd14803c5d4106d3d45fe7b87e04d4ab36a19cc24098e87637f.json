@@ -1,0 +1,78 @@
+{
+  "url": "http://157.230.147.240:8880/nodes.txt.save",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "157.230.147.240",
+      "port": 443,
+      "uuid": "e3a3af21-9fd0-498a-9b30-5707c718fa7e",
+      "security": "reality",
+      "sni": "www.cloudflare.com",
+      "fp": "chrome",
+      "pbk": "NMUafOd_WAX5XyKxj9OfdTrd0J0DjZLpUQRc_KeH6E0",
+      "sid": "2e9da195",
+      "spx": "/uhD1CgYB24R6Uss",
+      "name": "vless-157.230.147.240"
+    },
+    {
+      "type": "tcp",
+      "server": "157.230.147.240",
+      "port": 21994,
+      "uuid": "3ef720df-7a55-40e9-965d-1681eaf73061",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.nvidia.com",
+      "fp": "chrome",
+      "pbk": "aRboFrzKzN3e1OET-qUgt5PjNXHlFBcyQAsD1w1pVVc",
+      "sid": "8d14cc89680127",
+      "spx": "/MDPQDECC9kYSaQo",
+      "name": "vless-157.230.147.240"
+    },
+    {
+      "type": "tcp",
+      "server": "157.230.147.240",
+      "port": 2053,
+      "uuid": "e044bd68-ef27-4ebc-b33f-a06b81dd2948",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.sony.com",
+      "fp": "chrome",
+      "pbk": "tn2uWI4hipJIexeqi0tCaKqquHTAf69N9lhCnD38ykQ",
+      "sid": "cebc",
+      "spx": "/C8GdXt37XSUBUB2",
+      "name": "vless-157.230.147.240"
+    },
+    {
+      "type": "tcp",
+      "server": "157.230.147.240",
+      "port": 42518,
+      "uuid": "23c4dc42-e1c9-4a88-a48d-224e9f401dec",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.python.org",
+      "fp": "chrome",
+      "pbk": "kmsau_mRn-jfX30IHjeg19raL5khGgPuQwS9Mgsapi8",
+      "sid": "9237d2d2bcd2",
+      "spx": "/BC7XucsyDQ1uoiH",
+      "name": "vless-157.230.147.240"
+    },
+    {
+      "type": "ss",
+      "server": "157.230.147.240",
+      "port": 8838,
+      "cipher": "2022-blake3-aes-256-gcm",
+      "password": "ug5uh8vnT3R/GndhSTHMqTfpx3CGt2KX/dwlp37S5Fs=:iqCbAJANW07a4pHFp/rwqrXLYWe4LANCD26ShCPma2Q=",
+      "name": "ss-157.230.147.240"
+    },
+    {
+      "type": "vless",
+      "server": "littleststar1.com",
+      "port": 58696,
+      "uuid": "a3ef1f65-fac8-4bd8-ba80-3d6feaa59160",
+      "name": "vless-littleststar1.com"
+    }
+  ],
+  "count": 6,
+  "reason": ""
+}

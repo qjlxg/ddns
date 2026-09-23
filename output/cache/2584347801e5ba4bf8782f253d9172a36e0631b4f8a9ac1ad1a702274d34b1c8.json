@@ -1,0 +1,42 @@
+{
+  "url": "http://45.32.248.186:8088/clash.yaml",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "东京-01",
+      "type": "vless",
+      "server": "45.32.248.186",
+      "port": 443,
+      "uuid": "699f10e2-f4fb-496c-95e3-93b5e811d44b",
+      "network": "ws",
+      "tls": true,
+      "udp": true,
+      "servername": "proxy.geo-galaxy.site",
+      "ws-opts": {
+        "path": "/vultrws",
+        "headers": {
+          "Host": "proxy.geo-galaxy.site"
+        }
+      }
+    },
+    {
+      "name": "新加坡-01",
+      "type": "vless",
+      "server": "207.148.126.35",
+      "port": 443,
+      "uuid": "699f10e2-f4fb-496c-95e3-93b5e811d44b",
+      "network": "ws",
+      "tls": true,
+      "udp": true,
+      "servername": "sg.geo-galaxy.site",
+      "ws-opts": {
+        "path": "/vultrws",
+        "headers": {
+          "Host": "sg.geo-galaxy.site"
+        }
+      }
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}

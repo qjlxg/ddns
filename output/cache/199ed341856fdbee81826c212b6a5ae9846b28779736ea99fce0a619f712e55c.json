@@ -1,0 +1,27 @@
+{
+  "url": "http://207.57.123.29:8080/base64.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "hysteria2",
+      "server": "207.57.123.29",
+      "port": 443,
+      "password": "cac36cfc69189914eaf4b5de578f385ea89621d828f3ec1c",
+      "sni": "207.57.123.29",
+      "insecure": "1",
+      "name": "hysteria2-207.57.123.29"
+    },
+    {
+      "type": "tuic",
+      "server": "207.57.123.29",
+      "port": 8443,
+      "uuid": "fd4e247c-cb89-45c3-9620-2edf0f47bfcb",
+      "password": "30b4c40be689a92194fe8a3a91aba7dd384fa75558f9c3df",
+      "sni": "207.57.123.29",
+      "insecure": "1",
+      "name": "tuic-207.57.123.29"
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}

@@ -1,0 +1,20 @@
+{
+  "url": "http://154.19.185.64:8000/rocket_links.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "154.19.185.64",
+      "port": 443,
+      "uuid": "3c08fc3b-b761-49a5-abe1-260c72178884",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.microsoft.com",
+      "fp": "chrome",
+      "sid": "5325b0057bff7279",
+      "name": "vless-154.19.185.64"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}
