@@ -38,6 +38,9 @@ HEADERS={
 def now():
     return datetime.now(BJ).strftime("%Y-%m-%d %H:%M:%S")
 
+def timestamp():
+    return datetime.now(BJ).strftime("%Y%m%d_%H%M%S")
+
 def sha(x):
     return hashlib.sha256(
         x if isinstance(x,bytes) else x.encode()
@@ -117,33 +120,10 @@ def download_drive_csv():
 
         r.raise_for_status()
 
-        data=r.content
-
-        text=data.decode(
+        return r.content.decode(
             "utf-8-sig",
             "replace"
         )
-
-        print()
-        print("Google Drive CSV下载结果：")
-        print(f"最终URL：{r.url}")
-        print(f"HTTP状态：{r.status_code}")
-        print(
-            f"Content-Length："
-            f"{r.headers.get('Content-Length','')}"
-        )
-        print(
-            f"实际字节：{len(data):,}"
-        )
-        print(
-            f"实际行数："
-            f"{len(text.splitlines()):,}"
-        )
-        print(
-            f"前500字符：\n{text[:500]}"
-        )
-
-        return text
 
     except Exception as e:
         raise RuntimeError(
@@ -151,15 +131,9 @@ def download_drive_csv():
             f"{type(e).__name__}: {e}"
         )
 
-# ================= CSV：严格按记录读取第一列 =================
+# ================= CSV =================
 def get_urls(text):
-    rows=[]
     out=[]
-    empty_rows=0
-    header_rows=0
-    nonempty_first=0
-    http_urls=0
-    other_values=0
 
     try:
         reader=csv.reader(
@@ -170,10 +144,7 @@ def get_urls(text):
         for row_no,row in enumerate(reader,1):
 
             if not row:
-                empty_rows+=1
                 continue
-
-            rows.append(row)
 
             u=str(row[0]).strip()
             u=u.lstrip("\ufeff").strip()
@@ -185,7 +156,6 @@ def get_urls(text):
                 u=u[1:-1].strip()
 
             if not u:
-                empty_rows+=1
                 continue
 
             if row_no==1 and u.lower() in (
@@ -200,19 +170,7 @@ def get_urls(text):
                 "来源url",
                 "来源网址"
             ):
-                header_rows+=1
                 continue
-
-            nonempty_first+=1
-
-            if re.match(
-                r"^https?://",
-                u,
-                re.I
-            ):
-                http_urls+=1
-            else:
-                other_values+=1
 
             out.append(u)
 
@@ -222,58 +180,7 @@ def get_urls(text):
             f"{type(e).__name__}: {e}"
         )
 
-    unique=list(dict.fromkeys(out))
-
-    print()
-    print("="*70)
-    print("CSV读取诊断")
-    print("="*70)
-    print(
-        f"CSV字符数：{len(text):,}"
-    )
-    print(
-        f"CSV物理行数："
-        f"{len(text.splitlines()):,}"
-    )
-    print(
-        f"CSV实际记录数：{len(rows):,}"
-    )
-    print(
-        f"空记录：{empty_rows:,}"
-    )
-    print(
-        f"表头：{header_rows:,}"
-    )
-    print(
-        f"第一列非空：{nonempty_first:,}"
-    )
-    print(
-        f"第一列HTTP/HTTPS：{http_urls:,}"
-    )
-    print(
-        f"第一列其它内容：{other_values:,}"
-    )
-    print(
-        f"去重前URL：{len(out):,}"
-    )
-    print(
-        f"去重后URL：{len(unique):,}"
-    )
-    print("="*70)
-
-    if len(unique)<100:
-        print()
-        print(
-            "⚠️ 当前读取到的URL少于100条。"
-        )
-        print(
-            "CSV前2000字符："
-        )
-        print("-"*70)
-        print(text[:2000])
-        print("-"*70)
-
-    return unique
+    return list(dict.fromkeys(out))
 
 # ================= URL =================
 def normalize_url(u):
@@ -319,7 +226,6 @@ def is_tvbox(text):
     if not isinstance(x,dict):
         return False
 
-    # ---------- TVBox sites ----------
     sites=x.get("sites")
 
     if isinstance(sites,list) and sites:
@@ -328,8 +234,6 @@ def is_tvbox(text):
             if not isinstance(s,dict):
                 continue
 
-            # 常见TVBox/CatVod站点结构：
-            # key + name + api/ext
             if (
                 s.get("key")
                 and s.get("name")
@@ -340,8 +244,6 @@ def is_tvbox(text):
             ):
                 return True
 
-            # 某些配置没有key，但存在：
-            # name + type + api/ext
             if (
                 s.get("name")
                 and s.get("type") is not None
@@ -352,7 +254,6 @@ def is_tvbox(text):
             ):
                 return True
 
-    # ---------- TVBox lives ----------
     lives=x.get("lives")
 
     if isinstance(lives,list) and lives:
@@ -375,7 +276,6 @@ def is_tvbox(text):
             ):
                 return True
 
-    # ---------- TVBox parses ----------
     parses=x.get("parses")
 
     if isinstance(parses,list) and parses:
@@ -1509,9 +1409,16 @@ async def rebuild(records):
 
         merged[k]=arr
 
+    # ---------- 时间戳 ----------
+    ts=timestamp()
+
+    nodes_file=OUT/f"nodes_{ts}.yaml"
+    m3u_file=OUT/f"playlist_{ts}.m3u"
+    tvbox_file=OUT/f"tvbox_{ts}.json"
+
     # ---------- 写节点 ----------
     with open(
-        OUT/"nodes.yaml",
+        nodes_file,
         "w",
         encoding="utf-8"
     ) as f:
@@ -1527,7 +1434,7 @@ async def rebuild(records):
 
     # ---------- 写M3U ----------
     with open(
-        OUT/"playlist.m3u",
+        m3u_file,
         "w",
         encoding="utf-8"
     ) as f:
@@ -1556,7 +1463,7 @@ async def rebuild(records):
 
     # ---------- 写TVBox ----------
     with open(
-        OUT/"tvbox.json",
+        tvbox_file,
         "w",
         encoding="utf-8"
     ) as f:
@@ -1571,7 +1478,8 @@ async def rebuild(records):
     return (
         len(nd),
         len(mo),
-        merged
+        merged,
+        ts
     )
 
 # ================= 主程序 =================
@@ -1588,46 +1496,25 @@ async def main_async():
         {}
     )
 
-    # =========================================================
-    # 1. 完整下载Google Drive CSV
-    # =========================================================
     print(
         "读取 Google Drive CSV..."
     )
 
     csv_text=download_drive_csv()
 
-    # =========================================================
-    # 2. CSV诊断
-    # =========================================================
     urls=get_urls(
         csv_text
     )
 
-    print()
     print(
-        f"CSV逐行读取来源 URL：{len(urls):,}"
+        f"CSV来源 URL：{len(urls):,}"
     )
 
-    if len(urls)<100:
-
-        print(
-            "⚠️ 当前CSV解析得到的URL少于100条。"
-        )
-
-        print(
-            "⚠️ 如果你确认原CSV有800+条，"
-            "请检查上面的CSV下载结果。"
-        )
-
-    # =========================================================
-    # 3. 并行检查全部来源
-    # =========================================================
+    # ================= 并行检查 =================
     sem=asyncio.Semaphore(
         CONCURRENCY
     )
 
-    print()
     print(
         f"开始检查全部来源，并发数："
         f"{CONCURRENCY}"
@@ -1657,9 +1544,7 @@ async def main_async():
             *tasks
         )
 
-    # =========================================================
-    # 4. 更新状态
-    # =========================================================
+    # ================= 更新状态 =================
     new_state={}
     stats=[]
 
@@ -1878,18 +1763,13 @@ async def main_async():
             )
         })
 
-    # =========================================================
-    # 5. 保存当前来源状态
-    # =========================================================
+    # ================= 保存来源状态 =================
     savej(
         STATE,
         new_state
     )
 
-    # =========================================================
-    # 6. 从所有缓存重新构建最终结果
-    # =========================================================
-    print()
+    # ================= 从全部缓存重建 =================
     print(
         "重新整理全部缓存内容..."
     )
@@ -1937,13 +1817,11 @@ async def main_async():
             )
         }
 
-    node_count,m3u_count,tv=await rebuild(
+    node_count,m3u_count,tv,ts=await rebuild(
         records
     )
 
-    # =========================================================
-    # 7. statistics.csv
-    # =========================================================
+    # ================= statistics.csv =================
     fields=[
         "url",
         "status",
@@ -1957,8 +1835,10 @@ async def main_async():
         "sha256"
     ]
 
+    statistics_file=OUT/f"statistics_{ts}.csv"
+
     with open(
-        OUT/"statistics.csv",
+        statistics_file,
         "w",
         encoding="utf-8-sig",
         newline=""
@@ -1972,11 +1852,11 @@ async def main_async():
         w.writeheader()
         w.writerows(stats)
 
-    # =========================================================
-    # 8. failed.csv
-    # =========================================================
+    # ================= failed.csv =================
+    failed_file=OUT/f"failed_{ts}.csv"
+
     with open(
-        OUT/"failed.csv",
+        failed_file,
         "w",
         encoding="utf-8-sig",
         newline=""
@@ -1997,9 +1877,7 @@ async def main_async():
             ):
                 w.writerow(x)
 
-    # =========================================================
-    # 9. 汇总
-    # =========================================================
+    # ================= 汇总 =================
     status_count={}
 
     for x in stats:
@@ -2051,20 +1929,16 @@ async def main_async():
 
     print()
     print("="*70)
-    print(
-        "运行完成"
-    )
+    print("运行完成")
     print("="*70)
     print(
         f"北京时间：{now()}"
     )
 
     print()
+    print("【来源】")
     print(
-        "【来源】"
-    )
-    print(
-        f"CSV逐行读取：{len(urls):,}"
+        f"CSV来源：{len(urls):,}"
     )
     print(
         f"新增：{status_count.get('new',0):,}"
@@ -2083,9 +1957,7 @@ async def main_async():
     )
 
     print()
-    print(
-        "【实际内容类型】"
-    )
+    print("【实际内容类型】")
 
     for k,v in sorted(
         type_count.items()
@@ -2095,9 +1967,7 @@ async def main_async():
         )
 
     print()
-    print(
-        "【最终合并】"
-    )
+    print("【最终合并】")
     print(
         f"节点：{node_count:,}"
     )
@@ -2115,36 +1985,29 @@ async def main_async():
     )
 
     print()
+    print("【本次输出】")
     print(
-        "【输出】"
+        f"output/nodes_{ts}.yaml"
     )
     print(
-        "output/nodes.yaml"
+        f"output/playlist_{ts}.m3u"
     )
     print(
-        "output/playlist.m3u"
+        f"output/tvbox_{ts}.json"
     )
     print(
-        "output/tvbox.json"
+        f"output/statistics_{ts}.csv"
     )
     print(
-        "output/statistics.csv"
+        f"output/failed_{ts}.csv"
     )
-    print(
-        "output/failed.csv"
-    )
-    print(
-        "output/source_state.json"
-    )
-    print(
-        "output/geo_cache.json"
-    )
-    print(
-        "output/dns_cache.json"
-    )
-    print(
-        "output/cache/"
-    )
+
+    print()
+    print("【持续缓存】")
+    print("output/source_state.json")
+    print("output/geo_cache.json")
+    print("output/dns_cache.json")
+    print("output/cache/")
 
     print()
     print(
