@@ -1,0 +1,282 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 0.0.0.0:9090
+proxies:
+- name: 🇫🇷FR_1665|510KB/s|T001-260618 01
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  tls: false
+  servername: 188.114.97.6
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-f.workers.dev.
+- name: 🇬🇧 @anonymouskeys-22
+  type: vless
+  server: 3.9.135.156
+  port: 51847
+  uuid: 391a01e9-b664-407b-9158-610fab3f5920
+  tls: true
+  servername: www.tesla.com
+  network: raw
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc
+    short-id: 0eec442e7b34d2f2
+  client-fingerprint: chrome
+- name: 🇷🇺 @anonymouskeys-34
+  type: vless
+  server: 72.56.1.5
+  port: 443
+  uuid: 8057eabc-921d-4ef5-9acb-80ccc6b48379
+  tls: true
+  servername: www.siemens.com
+  network: grpc
+  reality-opts:
+    public-key: 0FeZt3p4idHrFpZRIjn69W_zUFiVBKmoGhkqSqbAvRw
+    short-id: 271684c10127374d
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: Popka
+- name: 🇨🇦 加拿大 | VLESS | 017
+  type: vless
+  server: 166.1.228.218
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇨🇦 Canada | WebSocket | @anonymouskeys-162
+  type: vless
+  server: 162.159.24.131
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  servername: 162.159.24.131
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: SG 🇸🇬 | @Raydikalx | 3AD363
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ww11.levikogjgfdd.ir
+  network: tcp
+- name: CF中转_0923061428
+  type: vless
+  server: 172.66.47.45
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: wk1.f1w.de5.net
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: wk1.f1w.de5.net
+- name: 🇺🇸 @anonymouskeys-85
+  type: vless
+  server: 198.251.78.29
+  port: 2053
+  uuid: c423cc1b-f88e-421c-9a16-c480d84da20f
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: Uk5b-Wh_uxeCc7R8NS9iWE40xc0h9wWC04rSB9yhgAw
+    short-id: b5d625695ec82c7e
+  client-fingerprint: firefox
+- name: JP 🇯🇵 | @Raydikalx | 18C67C
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: null
+  network: tcp#🎡90@oneclickvpnkeys
+- name: 🇪🇪 | @WhiteDNS | EE32|4.8MB/s|DNSOK|GPT⁺-EE
+  type: vless
+  server: 104.17.147.22
+  port: 443
+  uuid: a88e61a0-2b38-f6df-c5c7-d20600000000
+  tls: true
+  servername: netlivpn5002.whwbbb.workers.dev
+  network: ws
+  ws-opts:
+    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
+    headers:
+      Host: netlivpn5002.whwbbb.workers.dev
+- name: 🌐 @anonymouskeys-139
+  type: hysteria2
+  server: es1.xiaoliyu.cyou
+  port: 4433
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  sni: es1.xiaoliyu.cyou
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | VLESS | 283
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 94f1b60a-7786-4ab4-a1f6-eb5591c3d645
+  tls: true
+  servername: tradingview.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+  client-fingerprint: firefox
+- name: 🇨🇦 @anonymouskeys-31
+  type: vless
+  server: 172.67.152.71
+  port: 8880
+  uuid: 5bbf0601-8431-45f6-a4e9-a1e8b44c0055
+  tls: false
+  servername: 172.67.152.71
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: misty-mouse-141d.177-f18.workers.dev
+  alpn:
+  - http/1.1
+- name: 🇨🇦 Canada | WebSocket | @anonymouskeys-163
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: 7242eccf-5261-4e31-813e-871bfbde90c2
+  tls: false
+  servername: 188.114.97.6
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: long-flower-ac0d.176-17e.workers.dev
+- name: 🇫🇷FR_1644|375KB/s 01
+  type: vless
+  server: www.wto.org
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  tls: false
+  servername: www.wto.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-f.workers.dev
+- name: BZ-2
+  type: vless
+  server: nl4.zuoai.cf
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇺🇸 SkyBit-39_2026-09-22 19:22:58
+  type: vless
+  server: 169.40.42.133
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  tls: true
+  servername: yahoo.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  client-fingerprint: chrome
+proxy-groups:
+- name: 🚀 节点选择
+  type: select
+  proxies:
+  - ♻️ 自动选择
+  - 🎯 全球直连
+  - 🇫🇷FR_1665|510KB/s|T001-260618 01
+  - 🇬🇧 @anonymouskeys-22
+  - 🇷🇺 @anonymouskeys-34
+  - 🇨🇦 加拿大 | VLESS | 017
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-162
+  - SG 🇸🇬 | @Raydikalx | 3AD363
+  - CF中转_0923061428
+  - 🇺🇸 @anonymouskeys-85
+  - JP 🇯🇵 | @Raydikalx | 18C67C
+  - 🇪🇪 | @WhiteDNS | EE32|4.8MB/s|DNSOK|GPT⁺-EE
+  - 🌐 @anonymouskeys-139
+  - 🇺🇸 美国 | VLESS | 283
+  - 🇨🇦 @anonymouskeys-31
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-163
+  - 🇫🇷FR_1644|375KB/s 01
+  - BZ-2
+  - 🇺🇸 SkyBit-39_2026-09-22 19:22:58
+- name: ♻️ 自动选择
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🇫🇷FR_1665|510KB/s|T001-260618 01
+  - 🇬🇧 @anonymouskeys-22
+  - 🇷🇺 @anonymouskeys-34
+  - 🇨🇦 加拿大 | VLESS | 017
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-162
+  - SG 🇸🇬 | @Raydikalx | 3AD363
+  - CF中转_0923061428
+  - 🇺🇸 @anonymouskeys-85
+  - JP 🇯🇵 | @Raydikalx | 18C67C
+  - 🇪🇪 | @WhiteDNS | EE32|4.8MB/s|DNSOK|GPT⁺-EE
+  - 🌐 @anonymouskeys-139
+  - 🇺🇸 美国 | VLESS | 283
+  - 🇨🇦 @anonymouskeys-31
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-163
+  - 🇫🇷FR_1644|375KB/s 01
+  - BZ-2
+  - 🇺🇸 SkyBit-39_2026-09-22 19:22:58
+- name: 🎯 全球直连
+  type: select
+  proxies:
+  - DIRECT
+rule-providers:
+  adsblock:
+    type: http
+    behavior: domain
+    url: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geo/geosite/category-ads-all.yaml
+    path: ./rules/adsblock.yaml
+    interval: 86400
+  cn_domain:
+    type: http
+    behavior: domain
+    url: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geo/geosite/cn.yaml
+    path: ./rules/cn_domain.yaml
+    interval: 86400
+  cn_ip:
+    type: http
+    behavior: ipcidr
+    url: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geo/geoip/cn.yaml
+    path: ./rules/cn_ip.yaml
+    interval: 86400
+rules:
+- RULE-SET,adsblock,REJECT
+- RULE-SET,cn_domain,🎯 全球直连
+- RULE-SET,cn_ip,🎯 全球直连
+- GEOIP,CN,🎯 全球直连
+- MATCH,🚀 节点选择
