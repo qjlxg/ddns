@@ -1,0 +1,293 @@
+{
+  "url": "http://15.204.199.45:8080/playlist.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "USA LAFF TV",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/75343.ts",
+      "extinf": "#EXTINF:0 CUID=\"4993\" tvg-name=\"USA LAFF TV\" tvg-id=\"lafftv.us\" tvg-logo=\"https://static.realiptv.to/snapshots/75343.jpg\" group-title=\"USA ENTERTAINMENT\",USA LAFF TV"
+    },
+    {
+      "name": "USA A&E (SHD)",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/30881.ts",
+      "extinf": "#EXTINF:0 CUID=\"6098\" tvg-name=\"USA A&E (SHD)\" tvg-id=\"aande.us\" tvg-logo=\"https://static.realiptv.to/snapshots/30881.jpg\" group-title=\"USA ENTERTAINMENT\",USA A&E (SHD)"
+    },
+    {
+      "name": "USA A&E UHD",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/3607.ts",
+      "extinf": "#EXTINF:0 CUID=\"6099\" tvg-name=\"USA A&E UHD\" tvg-id=\"aande.us\" catchup-type=\"xc\" catchup-days=\"3\" tvg-logo=\"https://static.realiptv.to/snapshots/3607.jpg\" group-title=\"USA ENTERTAINMENT\",USA A&E UHD"
+    },
+    {
+      "name": "USA  All Reality We TV",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/339685.ts",
+      "extinf": "#EXTINF:0 CUID=\"6105\" tvg-name=\"USA  All Reality We TV\" tvg-id=\"REALITY\" tvg-logo=\"https://static.realiptv.to/snapshots/339685.jpg\" group-title=\"USA ENTERTAINMENT\",USA  All Reality We TV"
+    },
+    {
+      "name": "USA AccuWeather",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/76440.ts",
+      "extinf": "#EXTINF:0 CUID=\"6107\" tvg-name=\"USA AccuWeather\" tvg-id=\"accuweather.us\" tvg-logo=\"https://static.realiptv.to/snapshots/76440.jpg\" group-title=\"USA ENTERTAINMENT\",USA AccuWeather"
+    },
+    {
+      "name": "USA Adult Swim West",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/52529.ts",
+      "extinf": "#EXTINF:0 CUID=\"6108\" tvg-name=\"USA Adult Swim West\" tvg-id=\"adultswim.us\" tvg-logo=\"https://static.realiptv.to/snapshots/52529.jpg\" group-title=\"USA ENTERTAINMENT\",USA Adult Swim West"
+    },
+    {
+      "name": "USA Afro",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/573315.ts",
+      "extinf": "#EXTINF:0 CUID=\"6109\" tvg-name=\"USA Afro\" tvg-id=\"afrotv.us\" tvg-logo=\"https://static.realiptv.to/snapshots/573315.jpg\" group-title=\"USA ENTERTAINMENT\",USA Afro"
+    },
+    {
+      "name": "USA AFV Family (PC)",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/660927.ts",
+      "extinf": "#EXTINF:0 CUID=\"6110\" tvg-name=\"USA AFV Family (PC)\" tvg-logo=\"https://static.realiptv.to/snapshots/660927.jpg\" group-title=\"USA ENTERTAINMENT\",USA AFV Family (PC)"
+    },
+    {
+      "name": "USA AMC East (SHD)",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/3843.ts",
+      "extinf": "#EXTINF:0 CUID=\"6114\" tvg-name=\"USA AMC East (SHD)\" tvg-id=\"amc.us\" tvg-logo=\"https://static.realiptv.to/snapshots/3843.jpg\" group-title=\"USA ENTERTAINMENT\",USA AMC East (SHD)"
+    },
+    {
+      "name": "USA AMC East LHD",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/3702.ts",
+      "extinf": "#EXTINF:0 CUID=\"6115\" tvg-name=\"USA AMC East LHD\" tvg-id=\"amc.us\" tvg-logo=\"https://static.realiptv.to/snapshots/3702.jpg\" group-title=\"USA ENTERTAINMENT\",USA AMC East LHD"
+    },
+    {
+      "name": "USA AMC Presents",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/339688.ts",
+      "extinf": "#EXTINF:0 CUID=\"6116\" tvg-name=\"USA AMC Presents\" tvg-id=\"AMCPRES\" tvg-logo=\"https://static.realiptv.to/snapshots/339688.jpg\" group-title=\"USA ENTERTAINMENT\",USA AMC Presents"
+    },
+    {
+      "name": "USA AMC UHD",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/3608.ts",
+      "extinf": "#EXTINF:0 CUID=\"6118\" tvg-name=\"USA AMC UHD\" tvg-id=\"amc.us\" catchup-type=\"xc\" catchup-days=\"3\" tvg-logo=\"https://static.realiptv.to/snapshots/3608.jpg\" group-title=\"USA ENTERTAINMENT\",USA AMC UHD"
+    },
+    {
+      "name": "USA AMC West (SHD)",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/643834.ts",
+      "extinf": "#EXTINF:0 CUID=\"6119\" tvg-name=\"USA AMC West (SHD)\" tvg-id=\"I254.59337.zap2it.com\" tvg-logo=\"https://static.realiptv.to/snapshots/643834.jpg\" group-title=\"USA ENTERTAINMENT\",USA AMC West (SHD)"
+    },
+    {
+      "name": "USA AMC+",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/339687.ts",
+      "extinf": "#EXTINF:0 CUID=\"6120\" tvg-name=\"USA AMC+\" tvg-id=\"amcplus.us\" tvg-logo=\"https://static.realiptv.to/snapshots/339687.jpg\" group-title=\"USA ENTERTAINMENT\",USA AMC+"
+    },
+    {
+      "name": "USA Animal Planet East (SHD)",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/2662.ts",
+      "extinf": "#EXTINF:0 CUID=\"6122\" tvg-name=\"USA Animal Planet East (SHD)\" tvg-id=\"animalplanet.us\" tvg-logo=\"https://static.realiptv.to/snapshots/2662.jpg\" group-title=\"USA ENTERTAINMENT\",USA Animal Planet East (SHD)"
+    },
+    {
+      "name": "USA Animal Planet East LHD",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/3703.ts",
+      "extinf": "#EXTINF:0 CUID=\"6123\" tvg-name=\"USA Animal Planet East LHD\" tvg-id=\"animalplanet.us\" tvg-logo=\"https://static.realiptv.to/snapshots/3703.jpg\" group-title=\"USA ENTERTAINMENT\",USA Animal Planet East LHD"
+    },
+    {
+      "name": "USA Animal Planet East UHD",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/3609.ts",
+      "extinf": "#EXTINF:0 CUID=\"6124\" tvg-name=\"USA Animal Planet East UHD\" tvg-id=\"animalplanet.us\" catchup-type=\"xc\" catchup-days=\"3\" tvg-logo=\"https://static.realiptv.to/snapshots/3609.jpg\" group-title=\"USA ENTERTAINMENT\",USA Animal Planet East UHD"
+    },
+    {
+      "name": "USA Animal Planet West",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/2661.ts",
+      "extinf": "#EXTINF:0 CUID=\"6126\" tvg-name=\"USA Animal Planet West\" tvg-id=\"e440f0b7-1941-4fea-9777-6f243edfffc7\" tvg-logo=\"https://static.realiptv.to/snapshots/2661.jpg\" group-title=\"USA ENTERTAINMENT\",USA Animal Planet West"
+    },
+    {
+      "name": "USA Aspire",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/21630.ts",
+      "extinf": "#EXTINF:0 CUID=\"6167\" tvg-name=\"USA Aspire\" tvg-id=\"aspiretv.us\" tvg-logo=\"https://static.realiptv.to/snapshots/21630.jpg\" group-title=\"USA ENTERTAINMENT\",USA Aspire"
+    },
+    {
+      "name": "USA AWE",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/40582.ts",
+      "extinf": "#EXTINF:0 CUID=\"6171\" tvg-name=\"USA AWE\" tvg-id=\"awe.us\" tvg-logo=\"https://static.realiptv.to/snapshots/40582.jpg\" group-title=\"USA ENTERTAINMENT\",USA AWE"
+    },
+    {
+      "name": "USA AXS TV",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/42309.ts",
+      "extinf": "#EXTINF:0 CUID=\"6172\" tvg-name=\"USA AXS TV\" tvg-id=\"axstv.us\" tvg-logo=\"https://static.realiptv.to/snapshots/42309.jpg\" group-title=\"USA ENTERTAINMENT\",USA AXS TV"
+    },
+    {
+      "name": "USA Beach TV - Myrtle Beach",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/70154.ts",
+      "extinf": "#EXTINF:0 CUID=\"6189\" tvg-name=\"USA Beach TV - Myrtle Beach\" tvg-logo=\"https://static.realiptv.to/snapshots/70154.jpg\" group-title=\"USA ENTERTAINMENT\",USA Beach TV - Myrtle Beach"
+    },
+    {
+      "name": "USA Beach TV Key West",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/149580.ts",
+      "extinf": "#EXTINF:0 CUID=\"6190\" tvg-name=\"USA Beach TV Key West\" tvg-logo=\"https://static.realiptv.to/snapshots/149580.jpg\" group-title=\"USA ENTERTAINMENT\",USA Beach TV Key West"
+    },
+    {
+      "name": "USA Beach TV Panama City",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/149578.ts",
+      "extinf": "#EXTINF:0 CUID=\"6191\" tvg-name=\"USA Beach TV Panama City\" tvg-logo=\"https://static.realiptv.to/snapshots/149578.jpg\" group-title=\"USA ENTERTAINMENT\",USA Beach TV Panama City"
+    },
+    {
+      "name": "USA BET East (SHD)",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/647385.ts",
+      "extinf": "#EXTINF:0 CUID=\"6206\" tvg-name=\"USA BET East (SHD)\" tvg-id=\"bet.us\" tvg-logo=\"https://static.realiptv.to/snapshots/647385.jpg\" group-title=\"USA ENTERTAINMENT\",USA BET East (SHD)"
+    },
+    {
+      "name": "USA BET East UHD",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/21895.ts",
+      "extinf": "#EXTINF:0 CUID=\"6207\" tvg-name=\"USA BET East UHD\" tvg-id=\"bet.us\" catchup-type=\"xc\" catchup-days=\"3\" tvg-logo=\"https://static.realiptv.to/snapshots/21895.jpg\" group-title=\"USA ENTERTAINMENT\",USA BET East UHD"
+    },
+    {
+      "name": "USA BET HER UHD",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/3946.ts",
+      "extinf": "#EXTINF:0 CUID=\"6210\" tvg-name=\"USA BET HER UHD\" tvg-id=\"bether.us\" catchup-type=\"xc\" catchup-days=\"3\" tvg-logo=\"https://static.realiptv.to/snapshots/3946.jpg\" group-title=\"USA ENTERTAINMENT\",USA BET HER UHD"
+    },
+    {
+      "name": "USA BET HER West",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/631835.ts",
+      "extinf": "#EXTINF:0 CUID=\"6211\" tvg-name=\"USA BET HER West\" tvg-id=\"bether.us\" tvg-logo=\"https://static.realiptv.to/snapshots/631835.jpg\" group-title=\"USA ENTERTAINMENT\",USA BET HER West"
+    },
+    {
+      "name": "USA BET West",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/48973.ts",
+      "extinf": "#EXTINF:0 CUID=\"6214\" tvg-name=\"USA BET West\" tvg-id=\"betwest.us\" tvg-logo=\"https://static.realiptv.to/snapshots/48973.jpg\" group-title=\"USA ENTERTAINMENT\",USA BET West"
+    },
+    {
+      "name": "USA Black Voices",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/435347.ts",
+      "extinf": "#EXTINF:0 CUID=\"6221\" tvg-name=\"USA Black Voices\" tvg-logo=\"https://static.realiptv.to/snapshots/435347.jpg\" group-title=\"USA ENTERTAINMENT\",USA Black Voices"
+    },
+    {
+      "name": "USA BOUNCE TV",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/21896.ts",
+      "extinf": "#EXTINF:0 CUID=\"6227\" tvg-name=\"USA BOUNCE TV\" tvg-id=\"bouncetv.us\" tvg-logo=\"https://static.realiptv.to/snapshots/21896.jpg\" group-title=\"USA ENTERTAINMENT\",USA BOUNCE TV"
+    },
+    {
+      "name": "USA Bounce XL",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/612207.ts",
+      "extinf": "#EXTINF:0 CUID=\"6228\" tvg-name=\"USA Bounce XL\" tvg-logo=\"https://static.realiptv.to/snapshots/612207.jpg\" group-title=\"USA ENTERTAINMENT\",USA Bounce XL"
+    },
+    {
+      "name": "USA Bravo East (SHD)",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/2655.ts",
+      "extinf": "#EXTINF:0 CUID=\"6230\" tvg-name=\"USA Bravo East (SHD)\" tvg-id=\"bravo.us\" tvg-logo=\"https://static.realiptv.to/snapshots/2655.jpg\" group-title=\"USA ENTERTAINMENT\",USA Bravo East (SHD)"
+    },
+    {
+      "name": "USA Bravo East LHD",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/3709.ts",
+      "extinf": "#EXTINF:0 CUID=\"6231\" tvg-name=\"USA Bravo East LHD\" tvg-id=\"bravo.us\" tvg-logo=\"https://static.realiptv.to/snapshots/3709.jpg\" group-title=\"USA ENTERTAINMENT\",USA Bravo East LHD"
+    },
+    {
+      "name": "USA Bravo East UHD",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/3617.ts",
+      "extinf": "#EXTINF:0 CUID=\"6232\" tvg-name=\"USA Bravo East UHD\" tvg-id=\"bravo.us\" catchup-type=\"xc\" catchup-days=\"3\" tvg-logo=\"https://static.realiptv.to/snapshots/3617.jpg\" group-title=\"USA ENTERTAINMENT\",USA Bravo East UHD"
+    },
+    {
+      "name": "USA Bravo West",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/3823.ts",
+      "extinf": "#EXTINF:0 CUID=\"6233\" tvg-name=\"USA Bravo West\" tvg-id=\"bravowest.us\" tvg-logo=\"https://static.realiptv.to/snapshots/3823.jpg\" group-title=\"USA ENTERTAINMENT\",USA Bravo West"
+    },
+    {
+      "name": "USA Buzzr",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/75342.ts",
+      "extinf": "#EXTINF:0 CUID=\"6234\" tvg-name=\"USA Buzzr\" tvg-id=\"buzzrwpwr.us\" tvg-logo=\"https://static.realiptv.to/snapshots/75342.jpg\" group-title=\"USA ENTERTAINMENT\",USA Buzzr"
+    },
+    {
+      "name": "USA Cars TV",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/75345.ts",
+      "extinf": "#EXTINF:0 CUID=\"6239\" tvg-name=\"USA Cars TV\" tvg-logo=\"https://static.realiptv.to/snapshots/75345.jpg\" group-title=\"USA ENTERTAINMENT\",USA Cars TV"
+    },
+    {
+      "name": "USA Charge! WCWN (SHD)",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/553125.ts",
+      "extinf": "#EXTINF:0 CUID=\"6266\" tvg-name=\"USA Charge! WCWN (SHD)\" tvg-id=\"charge.us\" tvg-logo=\"https://static.realiptv.to/snapshots/553125.jpg\" group-title=\"USA ENTERTAINMENT\",USA Charge! WCWN (SHD)"
+    },
+    {
+      "name": "USA Circle (PC)",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/660929.ts",
+      "extinf": "#EXTINF:0 CUID=\"6283\" tvg-name=\"USA Circle (PC)\" tvg-logo=\"https://static.realiptv.to/snapshots/660929.jpg\" group-title=\"USA ENTERTAINMENT\",USA Circle (PC)"
+    },
+    {
+      "name": "USA Circle (SHD)",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/470624.ts",
+      "extinf": "#EXTINF:0 CUID=\"6284\" tvg-name=\"USA Circle (SHD)\" tvg-id=\"circletv.us\" tvg-logo=\"https://static.realiptv.to/snapshots/470624.jpg\" group-title=\"USA ENTERTAINMENT\",USA Circle (SHD)"
+    },
+    {
+      "name": "USA Cleo TV (SHD)",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/573316.ts",
+      "extinf": "#EXTINF:0 CUID=\"6285\" tvg-name=\"USA Cleo TV (SHD)\" tvg-id=\"cleo.us\" tvg-logo=\"https://static.realiptv.to/snapshots/573316.jpg\" group-title=\"USA ENTERTAINMENT\",USA Cleo TV (SHD)"
+    },
+    {
+      "name": "USA CMT (SHD)",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/647783.ts",
+      "extinf": "#EXTINF:0 CUID=\"6286\" tvg-name=\"USA CMT (SHD)\" tvg-id=\"cmt.us\" tvg-logo=\"https://static.realiptv.to/snapshots/647783.jpg\" group-title=\"USA ENTERTAINMENT\",USA CMT (SHD)"
+    },
+    {
+      "name": "USA Comedy Central East (SHD)",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/648957.ts",
+      "extinf": "#EXTINF:0 CUID=\"6303\" tvg-name=\"USA Comedy Central East (SHD)\" tvg-id=\"comedycentral.us\" tvg-logo=\"https://static.realiptv.to/snapshots/648957.jpg\" group-title=\"USA ENTERTAINMENT\",USA Comedy Central East (SHD)"
+    },
+    {
+      "name": "USA Comedy Central East UHD",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/3626.ts",
+      "extinf": "#EXTINF:0 CUID=\"6304\" tvg-name=\"USA Comedy Central East UHD\" tvg-id=\"comedycentral.us\" catchup-type=\"xc\" catchup-days=\"3\" tvg-logo=\"https://static.realiptv.to/snapshots/3626.jpg\" group-title=\"USA ENTERTAINMENT\",USA Comedy Central East UHD"
+    },
+    {
+      "name": "USA COMEDY CENTRAL WEST",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/89211.ts",
+      "extinf": "#EXTINF:0 CUID=\"6305\" tvg-name=\"USA COMEDY CENTRAL WEST\" tvg-id=\"comedycentral.us\" tvg-logo=\"https://static.realiptv.to/snapshots/89211.jpg\" group-title=\"USA ENTERTAINMENT\",USA COMEDY CENTRAL WEST"
+    },
+    {
+      "name": "USA Comedy Dynamics",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/660930.ts",
+      "extinf": "#EXTINF:0 CUID=\"6306\" tvg-name=\"USA Comedy Dynamics\" tvg-logo=\"https://static.realiptv.to/snapshots/660930.jpg\" group-title=\"USA ENTERTAINMENT\",USA Comedy Dynamics"
+    },
+    {
+      "name": "USA Comedy.tv",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/77411.ts",
+      "extinf": "#EXTINF:0 CUID=\"6307\" tvg-name=\"USA Comedy.tv\" tvg-id=\"comedytv.us\" tvg-logo=\"https://static.realiptv.to/snapshots/77411.jpg\" group-title=\"USA ENTERTAINMENT\",USA Comedy.tv"
+    },
+    {
+      "name": "USA Comet (SHD)",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/3850.ts",
+      "extinf": "#EXTINF:0 CUID=\"6309\" tvg-name=\"USA Comet (SHD)\" tvg-id=\"comet.us\" tvg-logo=\"https://static.realiptv.to/snapshots/3850.jpg\" group-title=\"USA ENTERTAINMENT\",USA Comet (SHD)"
+    },
+    {
+      "name": "USA Cooking Channel (SHD)",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/2605.ts",
+      "extinf": "#EXTINF:0 CUID=\"6310\" tvg-name=\"USA Cooking Channel (SHD)\" tvg-id=\"cookingchannel.us\" tvg-logo=\"https://static.realiptv.to/snapshots/2605.jpg\" group-title=\"USA ENTERTAINMENT\",USA Cooking Channel (SHD)"
+    },
+    {
+      "name": "USA Court TV",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/74680.ts",
+      "extinf": "#EXTINF:0 CUID=\"6312\" tvg-name=\"USA Court TV\" tvg-id=\"court.us\" tvg-logo=\"https://static.realiptv.to/snapshots/74680.jpg\" group-title=\"USA ENTERTAINMENT\",USA Court TV"
+    },
+    {
+      "name": "USA COZI TV (SHD)",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/3851.ts",
+      "extinf": "#EXTINF:0 CUID=\"6314\" tvg-name=\"USA COZI TV (SHD)\" tvg-id=\"cozitvny.us\" tvg-logo=\"https://static.realiptv.to/snapshots/3851.jpg\" group-title=\"USA ENTERTAINMENT\",USA COZI TV (SHD)"
+    },
+    {
+      "name": "USA Create WMHT",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/648971.ts",
+      "extinf": "#EXTINF:0 CUID=\"6315\" tvg-name=\"USA Create WMHT\" tvg-logo=\"https://static.realiptv.to/snapshots/648971.jpg\" group-title=\"USA ENTERTAINMENT\",USA Create WMHT"
+    },
+    {
+      "name": "USA Crime & Investigation Network (SHD)",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/20211.ts",
+      "extinf": "#EXTINF:0 CUID=\"6316\" tvg-name=\"USA Crime & Investigation Network (SHD)\" tvg-id=\"crimeinvestigation.us\" tvg-logo=\"https://static.realiptv.to/snapshots/20211.jpg\" group-title=\"USA ENTERTAINMENT\",USA Crime & Investigation Network (SHD)"
+    },
+    {
+      "name": "USA DABL",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/333484.ts",
+      "extinf": "#EXTINF:0 CUID=\"6331\" tvg-name=\"USA DABL\" tvg-id=\"dabl.us\" tvg-logo=\"https://static.realiptv.to/snapshots/333484.jpg\" group-title=\"USA ENTERTAINMENT\",USA DABL"
+    },
+    {
+      "name": "USA Destination America (SHD)",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/2602.ts",
+      "extinf": "#EXTINF:0 CUID=\"6333\" tvg-name=\"USA Destination America (SHD)\" tvg-id=\"destinationamerica.us\" tvg-logo=\"https://static.realiptv.to/snapshots/2602.jpg\" group-title=\"USA ENTERTAINMENT\",USA Destination America (SHD)"
+    },
+    {
+      "name": "USA Destination America LHD",
+      "url": "https://s.rocketdns.info/live/v97K2wI63v/yReiDJzkzS/3717.ts",
+      "extinf": "#EXTINF:0 CUID=\"6334\" tvg-name=\"USA Destination America LHD\" tvg-id=\"destinationamerica.us\" tvg-logo=\"https://static.realiptv.to/snapshots/3717.jpg\" group-title=\"USA ENTERTAINMENT\",USA Destination America LHD"
+    }
+  ],
+  "count": 57,
+  "reason": ""
+}

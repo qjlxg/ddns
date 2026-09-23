@@ -1,0 +1,26 @@
+{
+  "url": "http://113.20.15.176:8000/config.yaml.bak",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "My-VPS-Reality",
+      "type": "vless",
+      "server": "142.171.233.113",
+      "port": 443,
+      "uuid": "31a20bde-0e2b-48b1-a8fe-094216c19f2d",
+      "network": "tcp",
+      "tls": true,
+      "udp": true,
+      "flow": "xtls-rprx-vision",
+      "servername": "www.cloudflare.com",
+      "skip-cert-verify": true,
+      "client-fingerprint": "chrome",
+      "reality-opts": {
+        "public-key": "T0G43nqxOr-iGw2-zUq_XvM1WUN6HU4HSCxEpM8q9Ro",
+        "short-id": "6ba85179e30d4fc2"
+      }
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

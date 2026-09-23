@@ -1,0 +1,22 @@
+{
+  "url": "http://144.31.226.48:8080/father-vpn.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "xhttp",
+      "server": "q.ooj.cz",
+      "port": 443,
+      "uuid": "dc64fce3-2658-4e40-8902-0a5447f65c10",
+      "security": "reality",
+      "sni": "www.okko.tv",
+      "fp": "chrome",
+      "pbk": "UXE1Qq59kckTzU3hIhG27mofGfoVjVdWYLoR99txf2o",
+      "sid": "2529073a73d3bd",
+      "spx": "/",
+      "path": "/",
+      "name": "vless-q.ooj.cz"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

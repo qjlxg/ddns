@@ -1,0 +1,7 @@
+{
+  "url": "http://146.190.159.181:8080/hls/stream.m3u8",
+  "type": "m3u",
+  "items": [],
+  "count": 0,
+  "reason": "M3U格式存在但没有有效节目"
+}

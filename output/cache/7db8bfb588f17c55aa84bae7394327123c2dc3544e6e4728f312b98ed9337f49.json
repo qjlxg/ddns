@@ -1,0 +1,36 @@
+{
+  "url": "http://141.11.87.113:8080/788976718f1bfbc42ab6766dd77aa8eb0c5e959f",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "hysteria2",
+      "server": "2407:cdc0:f004:3ed6:885e:695d:8316:2f91",
+      "port": 443,
+      "password": "cI8BUxCWjbOyL2UvLMG+pZjCQRm3EVzESVsenwaka4o=",
+      "sni": "hysteria2",
+      "insecure": "1",
+      "name": "hysteria2-2407:cdc0:f004:3ed6:885e:695d:8316:2f91"
+    },
+    {
+      "type": "hysteria2",
+      "server": "141.11.87.113",
+      "port": 443,
+      "password": "cI8BUxCWjbOyL2UvLMG+pZjCQRm3EVzESVsenwaka4o=",
+      "sni": "hysteria2",
+      "insecure": "1",
+      "name": "hysteria2-141.11.87.113"
+    },
+    {
+      "type": "trojan",
+      "server": "141.11.87.113",
+      "port": 443,
+      "password": "cI8BUxCWjbOyL2UvLMG+pZjCQRm3EVzESVsenwaka4o=",
+      "security": "tls",
+      "sni": "hysteria2",
+      "allowInsecure": "1",
+      "name": "trojan-141.11.87.113"
+    }
+  ],
+  "count": 3,
+  "reason": ""
+}

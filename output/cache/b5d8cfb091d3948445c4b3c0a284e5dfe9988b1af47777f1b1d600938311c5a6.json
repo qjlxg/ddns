@@ -1,0 +1,16 @@
+{
+  "url": "http://144.31.226.48:8080/ipad-ss.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "ss",
+      "server": "q.ooj.cz",
+      "port": 30915,
+      "cipher": "aes-256-gcm",
+      "password": "zXmENq3rm+XtRY4UHBKwxVgB3Us6IMmRiiSTfqym+bg=",
+      "name": "ss-q.ooj.cz"
+    }
+  ],
+  "count": 1,
+  "reason": ""
+}

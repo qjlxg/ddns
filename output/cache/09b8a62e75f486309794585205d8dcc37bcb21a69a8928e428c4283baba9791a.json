@@ -1,0 +1,34 @@
+{
+  "url": "http://107.175.24.218:8088/vps-xray-232340d1b74d96d3.yaml",
+  "type": "nodes",
+  "items": [
+    {
+      "name": "VPS-REALITY-8443",
+      "type": "vless",
+      "server": "107.175.24.218",
+      "port": 8443,
+      "uuid": "882c2288-dac7-40bd-a941-07219e525130",
+      "network": "tcp",
+      "udp": true,
+      "tls": true,
+      "flow": "xtls-rprx-vision",
+      "servername": "www.cloudflare.com",
+      "client-fingerprint": "chrome",
+      "reality-opts": {
+        "public-key": "7SUE7ms8FK0yyebsGb3vRbXhYx-GJ9qsQgXF49PWm1g",
+        "short-id": "09e450f8028e4ceb"
+      }
+    },
+    {
+      "name": "VPS-SS-8388",
+      "type": "ss",
+      "server": "107.175.24.218",
+      "port": 8388,
+      "cipher": "chacha20-ietf-poly1305",
+      "password": "whf9hn9WLEAdtAqCEmll",
+      "udp": true
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}
