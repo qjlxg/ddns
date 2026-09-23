@@ -876,7 +876,7 @@ async def fetch(
                 timeout=aiohttp.ClientTimeout(
                     total=TIMEOUT
                 ),
-                allow_redirects=True
+                allow_redirects=True,
                 ssl=False  # <--- 忽略自签名或不信任的 SSL 证书
             ) as r:
 
