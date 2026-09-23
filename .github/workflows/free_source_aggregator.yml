@@ -6,8 +6,8 @@ on:
       - "free_source_aggregator.py"
       - ".github/workflows/free_source_aggregator.yml"
   workflow_dispatch:
-  schedule:
-    - cron: "0 */6 * * *"
+ # schedule:
+  #  - cron: "0 */6 * * *"
 
 permissions:
   contents: write
