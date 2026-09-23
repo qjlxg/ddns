@@ -27,7 +27,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install
-        run: pip install aiohttp pyyaml
+        run: pip install aiohttp pyyaml requests
 
       - name: Run
         run: python free_source_aggregator.py
