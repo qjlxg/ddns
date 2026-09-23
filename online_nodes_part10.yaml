@@ -5701,6 +5701,142 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
+- name: '@leviconfigs🪐-12-6'
+  type: vless
+  server: 169.40.42.225
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  tls: true
+  servername: yahoo.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  client-fingerprint: chrome
+- name: '@FREE2CONFIG - 132'
+  type: vless
+  server: 131.123.34.145
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  tls: false
+  servername: 131.123.34.145
+  network: ws
+  ws-opts:
+    path: /vless-test
+- name: CA-169
+  type: vless
+  server: 104.19.110.205
+  port: 80
+  uuid: 50414e45-4c5f-5a45-5553-b52a90ada6ab
+  tls: false
+  servername: trex-panel-ew6n46.zeus-e0oqfp.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/TrexBridge/b52a90ada6ab
+    headers:
+      Host: trex-panel-ew6n46.zeus-e0oqfp.workers.dev
+- name: vless-1434291867
+  type: vless
+  server: 5.78.28.48
+  port: 443
+  uuid: b88a54a0-501c-4acf-930b-305354452f4e
+  tls: true
+  servername: www.yahoo.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: XB7peN-a_9j_WGBHvs3DIMDlsOzJAOehGnziOE9OvwE
+    short-id: 884dffd8e62a5c48
+  client-fingerprint: safari
+- name: 🇺🇸_美国_495
+  type: vless
+  server: 174.138.48.29
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇺🇸 美国 | VLESS | 274
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 382bd1ec-1ba8-44fd-8df4-53e251c467c7
+  tls: true
+  servername: tradingview.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+  client-fingerprint: firefox
+- name: CF中转_0923061458
+  type: vless
+  server: 172.64.229.170
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸_美国_448
+  type: vless
+  server: 66.187.5.142
+  port: 8443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: hysteria2-657099768
+  type: hysteria2
+  server: 62.210.7.139
+  port: 60111
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: t.me
+  skip-cert-verify: true
+- name: HK 🇭🇰 | @Raydikalx | 5E380B
+  type: vmess
+  server: 89.223.95.77
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ''
+  network: tcp
+- name: vless-700287131
+  type: vless
+  server: 169.40.42.231
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  tls: true
+  servername: yahoo.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  client-fingerprint: random
+- name: '@DeltaKroneckerGithub-3461'
+  type: vless
+  server: 185.255.179.11
+  port: 9443
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  tls: true
+  servername: hub-se-02.hanvpn.cc
+  network: grpc
+  grpc-opts:
+    grpc-service-name: se02-grpc-8e47a
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -6195,6 +6331,18 @@ proxy-groups:
   - 🇸🇬 Singapore, SG · Amazon.com | 54.251.9.130 :24146·vless·#3
   - '@DeltaKroneckerGithub-3452'
   - AE-2
+  - '@leviconfigs🪐-12-6'
+  - '@FREE2CONFIG - 132'
+  - CA-169
+  - vless-1434291867
+  - 🇺🇸_美国_495
+  - 🇺🇸 美国 | VLESS | 274
+  - CF中转_0923061458
+  - 🇺🇸_美国_448
+  - hysteria2-657099768
+  - HK 🇭🇰 | @Raydikalx | 5E380B
+  - vless-700287131
+  - '@DeltaKroneckerGithub-3461'
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -6689,6 +6837,18 @@ proxy-groups:
   - 🇸🇬 Singapore, SG · Amazon.com | 54.251.9.130 :24146·vless·#3
   - '@DeltaKroneckerGithub-3452'
   - AE-2
+  - '@leviconfigs🪐-12-6'
+  - '@FREE2CONFIG - 132'
+  - CA-169
+  - vless-1434291867
+  - 🇺🇸_美国_495
+  - 🇺🇸 美国 | VLESS | 274
+  - CF中转_0923061458
+  - 🇺🇸_美国_448
+  - hysteria2-657099768
+  - HK 🇭🇰 | @Raydikalx | 5E380B
+  - vless-700287131
+  - '@DeltaKroneckerGithub-3461'
 - name: 🎯 全球直连
   type: select
   proxies:
