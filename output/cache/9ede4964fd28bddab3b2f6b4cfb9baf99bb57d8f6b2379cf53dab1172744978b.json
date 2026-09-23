@@ -1,0 +1,113 @@
+{
+  "url": "http://139.224.111.181:3000/m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "CCTV1综合",
+      "url": "http://139.224.111.181:3000/608807420",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV1综合\" tvg-name=\"CCTV1综合\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/2201/057/821/202204010054_1626677671392_H32_1080.webp\" group-title=\"央视\",CCTV1综合"
+    },
+    {
+      "name": "CCTV2财经",
+      "url": "http://139.224.111.181:3000/631780532",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV2财经\" tvg-name=\"CCTV2财经\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5500/346/945/202205311432_1626678578843_H32_1080.webp\" group-title=\"央视\",CCTV2财经"
+    },
+    {
+      "name": "CCTV3综艺",
+      "url": "http://139.224.111.181:3000/624878271",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV3综艺\" tvg-name=\"CCTV3综艺\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/864/202204010055_1626679244629_H32_1080.webp\" group-title=\"央视\",CCTV3综艺"
+    },
+    {
+      "name": "CCTV4中文国际",
+      "url": "http://139.224.111.181:3000/631780421",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV4中文国际\" tvg-name=\"CCTV4中文国际\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5500/346/947/202204010054_1626679413842_H32_1080.webp\" group-title=\"央视\",CCTV4中文国际"
+    },
+    {
+      "name": "CCTV5体育",
+      "url": "http://139.224.111.181:3000/641886683",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV5体育\" tvg-name=\"CCTV5体育\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5500/516/171/202204010048_1626679603804_H32_1080.webp\" group-title=\"央视\",CCTV5体育"
+    },
+    {
+      "name": "CCTV5+体育赛事",
+      "url": "http://139.224.111.181:3000/641886773",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV5+体育赛事\" tvg-name=\"CCTV5+体育赛事\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5500/516/288/202204010048_1626679712843_H32_1080.webp\" group-title=\"央视\",CCTV5+体育赛事"
+    },
+    {
+      "name": "CCTV6电影",
+      "url": "http://139.224.111.181:3000/624878396",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV6电影\" tvg-name=\"CCTV6电影\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/872/202204010054_1626679914432_H32_1080.webp\" group-title=\"央视\",CCTV6电影"
+    },
+    {
+      "name": "CCTV7国防军事",
+      "url": "http://139.224.111.181:3000/673168121",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV7国防军事\" tvg-name=\"CCTV7国防军事\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/622/202204010054_1626680119210_H32_1080.webp\" group-title=\"央视\",CCTV7国防军事"
+    },
+    {
+      "name": "CCTV8电视剧",
+      "url": "http://139.224.111.181:3000/624878356",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV8电视剧\" tvg-name=\"CCTV8电视剧\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/868/202204010049_1626677150014_H32_1080.webp\" group-title=\"央视\",CCTV8电视剧"
+    },
+    {
+      "name": "CCTV9纪录",
+      "url": "http://139.224.111.181:3000/673168140",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV9纪录\" tvg-name=\"CCTV9纪录\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/624/202603081600_1772956792519_H32_1080.webp\" group-title=\"央视\",CCTV9纪录"
+    },
+    {
+      "name": "CCTV10科教",
+      "url": "http://139.224.111.181:3000/624878405",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV10科教\" tvg-name=\"CCTV10科教\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/874/202204010054_1626677767922_H32_1080.webp\" group-title=\"央视\",CCTV10科教"
+    },
+    {
+      "name": "CCTV11戏曲",
+      "url": "http://139.224.111.181:3000/667987558",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV11戏曲\" tvg-name=\"CCTV11戏曲\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5500/988/610/202204010054_1626677922732_H32_1080.webp\" group-title=\"央视\",CCTV11戏曲"
+    },
+    {
+      "name": "CCTV12社会与法",
+      "url": "http://139.224.111.181:3000/673168185",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV12社会与法\" tvg-name=\"CCTV12社会与法\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/627/202204010053_1626678108629_H32_1080.webp\" group-title=\"央视\",CCTV12社会与法"
+    },
+    {
+      "name": "CCTV13新闻",
+      "url": "http://139.224.111.181:3000/608807423",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV13新闻\" tvg-name=\"CCTV13新闻\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/2202/208/864/202204010051_2202208864_H32_1080.webp\" group-title=\"央视\",CCTV13新闻"
+    },
+    {
+      "name": "CCTV14少儿",
+      "url": "http://139.224.111.181:3000/624878440",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV14少儿\" tvg-name=\"CCTV14少儿\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/875/202204010054_1626678147073_H32_1080.webp\" group-title=\"央视\",CCTV14少儿"
+    },
+    {
+      "name": "CCTV15音乐",
+      "url": "http://139.224.111.181:3000/673168223",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV15音乐\" tvg-name=\"CCTV15音乐\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/628/202204010054_1626678245130_H32_1080.webp\" group-title=\"央视\",CCTV15音乐"
+    },
+    {
+      "name": "CCTV17农业农村",
+      "url": "http://139.224.111.181:3000/673168256",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV17农业农村\" tvg-name=\"CCTV17农业农村\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/631/202204010052_1626678428060_H32_1080.webp\" group-title=\"央视\",CCTV17农业农村"
+    },
+    {
+      "name": "CCTV4欧洲",
+      "url": "http://139.224.111.181:3000/608807419",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV4欧洲\" tvg-name=\"CCTV4欧洲\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/315/202204010055_1626831010992_H32_1080.webp\" group-title=\"央视\",CCTV4欧洲"
+    },
+    {
+      "name": "CCTV4美洲",
+      "url": "http://139.224.111.181:3000/608807416",
+      "extinf": "#EXTINF:-1 tvg-id=\"CCTV4美洲\" tvg-name=\"CCTV4美洲\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/344/202204010055_1626830746239_H32_1080.webp\" group-title=\"央视\",CCTV4美洲"
+    },
+    {
+      "name": "CGTN外语纪录",
+      "url": "http://139.224.111.181:3000/609006487",
+      "extinf": "#EXTINF:-1 tvg-id=\"CGTN外语纪录\" tvg-name=\"CGTN外语纪录\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/356/202502251602_1740470541608_H32_1080.webp\" group-title=\"央视\",CGTN外语纪录"
+    },
+    {
+      "name": "CGTN阿拉伯语",
+      "url": "http://139.224.111.181:3000/609154345",
+      "extinf": "#EXTINF:-1 tvg-id=\"CGTN阿拉伯语\" tvg-name=\"CGTN阿拉伯语\" tvg-logo=\"http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/303/202502251557_1740470230464_H32_1080.webp\" group-title=\"央视\",CGTN阿拉伯语"
+    }
+  ],
+  "count": 21,
+  "reason": ""
+}

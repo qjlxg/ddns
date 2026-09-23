@@ -1,0 +1,68 @@
+{
+  "url": "http://31.15.17.171:80/sub?target=clash",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "31.15.17.171",
+      "port": 8443,
+      "uuid": "edf8672d-0c52-45c2-9b8f-a93ba883ab83",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "dl.google.com",
+      "fp": "safari",
+      "pbk": "WH0G1eDG9jG7KKPCmoUDdWTavMXx7OeNFAue6BZZkHA",
+      "sid": "3b2985cbf7d446a9",
+      "name": "vless-31.15.17.171"
+    },
+    {
+      "type": "tcp",
+      "server": "31.15.17.171",
+      "port": 8443,
+      "uuid": "edf8672d-0c52-45c2-9b8f-a93ba883ab83",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "video.tilda.cc",
+      "fp": "chrome",
+      "pbk": "WH0G1eDG9jG7KKPCmoUDdWTavMXx7OeNFAue6BZZkHA",
+      "sid": "3b2985cbf7d446a9",
+      "name": "vless-31.15.17.171"
+    },
+    {
+      "type": "tcp",
+      "server": "31.15.17.171",
+      "port": 8443,
+      "uuid": "edf8672d-0c52-45c2-9b8f-a93ba883ab83",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "vk.com",
+      "fp": "chrome",
+      "pbk": "WH0G1eDG9jG7KKPCmoUDdWTavMXx7OeNFAue6BZZkHA",
+      "sid": "3b2985cbf7d446a9",
+      "name": "vless-31.15.17.171"
+    },
+    {
+      "type": "tcp",
+      "server": "31.15.17.171",
+      "port": 8443,
+      "uuid": "edf8672d-0c52-45c2-9b8f-a93ba883ab83",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "yandex.ru",
+      "fp": "chrome",
+      "pbk": "WH0G1eDG9jG7KKPCmoUDdWTavMXx7OeNFAue6BZZkHA",
+      "sid": "3b2985cbf7d446a9",
+      "name": "vless-31.15.17.171"
+    },
+    {
+      "type": "xhttp",
+      "server": "cdn.archiesite.abrdns.com",
+      "port": 443,
+      "uuid": "edf8672d-0c52-45c2-9b8f-a93ba883ab83",
+      "path": "/stream-7793eccf",
+      "name": "vless-cdn.archiesite.abrdns.com"
+    }
+  ],
+  "count": 5,
+  "reason": ""
+}

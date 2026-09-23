@@ -1,0 +1,7 @@
+{
+  "url": "https://209.38.52.93:443/status.json",
+  "type": "json_unknown",
+  "items": [],
+  "count": 0,
+  "reason": "JSON存在，但不是可识别的TVBox或节点格式"
+}

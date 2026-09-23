@@ -1,0 +1,108 @@
+{
+  "url": "http://23.95.68.159:8080/playlist.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "Demo News 24",
+      "url": "http://23.95.68.159:8080/stream/demo-news-24.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"demo-news-24\" tvg-name=\"Demo News 24\" group-title=\"News\",Demo News 24"
+    },
+    {
+      "name": "World News",
+      "url": "http://23.95.68.159:8080/stream/world-news.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"world-news\" tvg-name=\"World News\" group-title=\"News\",World News"
+    },
+    {
+      "name": "Tech News",
+      "url": "http://23.95.68.159:8080/stream/tech-news.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"tech-news\" tvg-name=\"Tech News\" group-title=\"News\",Tech News"
+    },
+    {
+      "name": "Business News",
+      "url": "http://23.95.68.159:8080/stream/business-news.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"business-news\" tvg-name=\"Business News\" group-title=\"News\",Business News"
+    },
+    {
+      "name": "Sports Live",
+      "url": "http://23.95.68.159:8080/stream/sports-live.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"sports-live\" tvg-name=\"Sports Live\" group-title=\"Sports\",Sports Live"
+    },
+    {
+      "name": "Football TV",
+      "url": "http://23.95.68.159:8080/stream/football-tv.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"football-tv\" tvg-name=\"Football TV\" group-title=\"Sports\",Football TV"
+    },
+    {
+      "name": "Extreme Sports",
+      "url": "http://23.95.68.159:8080/stream/extreme-sports.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"extreme-sports\" tvg-name=\"Extreme Sports\" group-title=\"Sports\",Extreme Sports"
+    },
+    {
+      "name": "Movie Central",
+      "url": "http://23.95.68.159:8080/stream/movie-central.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"movie-central\" tvg-name=\"Movie Central\" group-title=\"Entertainment\",Movie Central"
+    },
+    {
+      "name": "Comedy Hub",
+      "url": "http://23.95.68.159:8080/stream/comedy-hub.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"comedy-hub\" tvg-name=\"Comedy Hub\" group-title=\"Entertainment\",Comedy Hub"
+    },
+    {
+      "name": "Drama Channel",
+      "url": "http://23.95.68.159:8080/stream/drama-channel.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"drama-channel\" tvg-name=\"Drama Channel\" group-title=\"Entertainment\",Drama Channel"
+    },
+    {
+      "name": "Reality TV",
+      "url": "http://23.95.68.159:8080/stream/reality-tv.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"reality-tv\" tvg-name=\"Reality TV\" group-title=\"Entertainment\",Reality TV"
+    },
+    {
+      "name": "Cartoon World",
+      "url": "http://23.95.68.159:8080/stream/cartoon-world.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"cartoon-world\" tvg-name=\"Cartoon World\" group-title=\"Kids\",Cartoon World"
+    },
+    {
+      "name": "Kids Discovery",
+      "url": "http://23.95.68.159:8080/stream/kids-discovery.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"kids-discovery\" tvg-name=\"Kids Discovery\" group-title=\"Kids\",Kids Discovery"
+    },
+    {
+      "name": "Teen Zone",
+      "url": "http://23.95.68.159:8080/stream/teen-zone.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"teen-zone\" tvg-name=\"Teen Zone\" group-title=\"Kids\",Teen Zone"
+    },
+    {
+      "name": "Music Hits",
+      "url": "http://23.95.68.159:8080/stream/music-hits.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"music-hits\" tvg-name=\"Music Hits\" group-title=\"Music\",Music Hits"
+    },
+    {
+      "name": "Classical TV",
+      "url": "http://23.95.68.159:8080/stream/classical-tv.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"classical-tv\" tvg-name=\"Classical TV\" group-title=\"Music\",Classical TV"
+    },
+    {
+      "name": "Jazz & Blues",
+      "url": "http://23.95.68.159:8080/stream/jazz-blues.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"jazz-blues\" tvg-name=\"Jazz & Blues\" group-title=\"Music\",Jazz & Blues"
+    },
+    {
+      "name": "Nature Docs",
+      "url": "http://23.95.68.159:8080/stream/nature-docs.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"nature-docs\" tvg-name=\"Nature Docs\" group-title=\"Documentary\",Nature Docs"
+    },
+    {
+      "name": "History TV",
+      "url": "http://23.95.68.159:8080/stream/history-tv.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"history-tv\" tvg-name=\"History TV\" group-title=\"Documentary\",History TV"
+    },
+    {
+      "name": "Science TV",
+      "url": "http://23.95.68.159:8080/stream/science-tv.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"science-tv\" tvg-name=\"Science TV\" group-title=\"Documentary\",Science TV"
+    }
+  ],
+  "count": 20,
+  "reason": ""
+}

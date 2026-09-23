@@ -1,0 +1,123 @@
+{
+  "url": "http://45.91.134.37:8001/playlist.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "Pursuit of Jade 2026 S01E01",
+      "url": "https://45.91.134.37:8001/secure-stream/107",
+      "extinf": "#EXTINF:-1 tvg-logo=\"/storage/covers/107/thumb_2.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E01"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E02",
+      "url": "https://45.91.134.37:8001/secure-stream/108",
+      "extinf": "#EXTINF:-1 tvg-logo=\"/storage/covers/108/thumb_2.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E02"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E03",
+      "url": "https://45.91.134.37:8001/secure-stream/109",
+      "extinf": "#EXTINF:-1 tvg-logo=\"/storage/covers/109/thumb_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E03"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E04",
+      "url": "https://45.91.134.37:8001/secure-stream/110",
+      "extinf": "#EXTINF:-1 tvg-logo=\"/storage/covers/110/thumb_3.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E04"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E05",
+      "url": "https://45.91.134.37:8001/secure-stream/111",
+      "extinf": "#EXTINF:-1 tvg-logo=\"/storage/covers/111/thumb_3.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E05"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E06",
+      "url": "https://45.91.134.37:8001/secure-stream/130",
+      "extinf": "#EXTINF:-1 tvg-logo=\"/storage/covers/111/thumb_2.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E06"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E07",
+      "url": "https://45.91.134.37:8001/secure-stream/131",
+      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/131/poster_1.jpg?t=1776090716\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E07"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E09",
+      "url": "https://45.91.134.37:8001/secure-stream/132",
+      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/132/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E09"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E08",
+      "url": "https://45.91.134.37:8001/secure-stream/133",
+      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/133/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E08"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E10",
+      "url": "https://45.91.134.37:8001/secure-stream/134",
+      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/134/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E10"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E12",
+      "url": "https://45.91.134.37:8001/secure-stream/143",
+      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/143/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E12"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E11",
+      "url": "https://45.91.134.37:8001/secure-stream/146",
+      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/146/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E11"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E13",
+      "url": "https://45.91.134.37:8001/secure-stream/147",
+      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/147/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E13"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E14",
+      "url": "https://45.91.134.37:8001/secure-stream/148",
+      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/148/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E14"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E15",
+      "url": "https://45.91.134.37:8001/secure-stream/149",
+      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/149/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E15"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E16",
+      "url": "https://45.91.134.37:8001/secure-stream/150",
+      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/150/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E16"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E17",
+      "url": "https://45.91.134.37:8001/secure-stream/151",
+      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/151/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E17"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E18",
+      "url": "https://45.91.134.37:8001/secure-stream/152",
+      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/152/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E18"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E19",
+      "url": "https://45.91.134.37:8001/secure-stream/153",
+      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/153/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E19"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E20",
+      "url": "https://45.91.134.37:8001/secure-stream/154",
+      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/154/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E20"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E21",
+      "url": "https://45.91.134.37:8001/secure-stream/155",
+      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/155/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E21"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E22",
+      "url": "https://45.91.134.37:8001/secure-stream/156",
+      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/156/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E22"
+    },
+    {
+      "name": "Pursuit of Jade 2026 S01E23",
+      "url": "ht",
+      "extinf": "#EXTINF:-1 tvg-logo=\"https://node1.myflix.shop/storage/movies/hls/157/poster_1.jpg\" group-title=\"Pursuit.of.Jade.4k.2026\", Pursuit of Jade 2026 S01E23"
+    }
+  ],
+  "count": 23,
+  "reason": ""
+}

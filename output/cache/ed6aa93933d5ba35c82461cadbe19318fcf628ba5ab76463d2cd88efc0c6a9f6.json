@@ -1,0 +1,68 @@
+{
+  "url": "http://5.129.251.22:80/api/sites",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "http",
+      "server": "timeweb.cloud",
+      "port": 443,
+      "name": "https-timeweb.cloud"
+    },
+    {
+      "type": "http",
+      "server": "ya.ru",
+      "port": 443,
+      "name": "https-ya.ru"
+    },
+    {
+      "type": "http",
+      "server": "www.ozon.ru",
+      "port": 443,
+      "name": "https-www.ozon.ru"
+    },
+    {
+      "type": "http",
+      "server": "www.rbc.ru",
+      "port": 443,
+      "name": "https-www.rbc.ru"
+    },
+    {
+      "type": "http",
+      "server": "dancecolor.ru",
+      "port": 443,
+      "name": "https-dancecolor.ru"
+    },
+    {
+      "type": "http",
+      "server": "habr.com",
+      "port": 443,
+      "name": "https-habr.com"
+    },
+    {
+      "type": "http",
+      "server": "vk.com",
+      "port": 443,
+      "name": "https-vk.com"
+    },
+    {
+      "type": "http",
+      "server": "gosuslugi.ru",
+      "port": 443,
+      "name": "https-gosuslugi.ru"
+    },
+    {
+      "type": "http",
+      "server": "mail.ru",
+      "port": 443,
+      "name": "https-mail.ru"
+    },
+    {
+      "type": "http",
+      "server": "smolsovet.ru",
+      "port": 443,
+      "name": "https-smolsovet.ru"
+    }
+  ],
+  "count": 10,
+  "reason": ""
+}

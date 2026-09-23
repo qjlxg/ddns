@@ -1,0 +1,128 @@
+{
+  "url": "http://173.249.200.24:80/tvbox.json",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "CCTV-1综合",
+      "url": "https://live.264788.xyz/channel/cctv1?streamid=284f3fa6368b5098d035fc0bdfdee06b&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"1\" tvg-name=\"CCTV1\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV1.png\" group-title=\"央视\",CCTV-1综合"
+    },
+    {
+      "name": "CCTV-1综合",
+      "url": "https://live.264788.xyz/channel/cctv1?streamid=598462f1834649ea27064f28e513fa2f&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"1\" tvg-name=\"CCTV1\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV1.png\" group-title=\"央视\",CCTV-1综合"
+    },
+    {
+      "name": "CCTV-1综合",
+      "url": "https://live.264788.xyz/channel/cctv1?streamid=ae1fc95449a7d4a13c53490cbcae614f&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"1\" tvg-name=\"CCTV1\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV1.png\" catchup=\"append\" catchup-source=\"&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}\" group-title=\"央视\",CCTV-1综合"
+    },
+    {
+      "name": "CCTV-1综合",
+      "url": "https://live.264788.xyz/channel/cctv1?streamid=0361e56ecb002b71992e2389d940833d&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"1\" tvg-name=\"CCTV1\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV1.png\" catchup=\"append\" catchup-source=\"&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}\" group-title=\"央视\",CCTV-1综合"
+    },
+    {
+      "name": "CCTV-1综合",
+      "url": "https://live.264788.xyz/channel/cctv1?streamid=b3819637a4c479c8ccd4d25e42eb96ca&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"1\" tvg-name=\"CCTV1\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV1.png\" catchup=\"append\" catchup-source=\"&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}\" group-title=\"央视\",CCTV-1综合"
+    },
+    {
+      "name": "CCTV-2财经",
+      "url": "https://live.264788.xyz/channel/cctv2?streamid=d1cc2ab1935ffcbb4bacddf350a1a3ba&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"2\" tvg-name=\"CCTV2\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV2.png\" group-title=\"央视\",CCTV-2财经"
+    },
+    {
+      "name": "CCTV-2财经",
+      "url": "https://live.264788.xyz/channel/cctv2?streamid=119eded5fa72df990c4a2eb3b45ffe21&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"2\" tvg-name=\"CCTV2\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV2.png\" group-title=\"央视\",CCTV-2财经"
+    },
+    {
+      "name": "CCTV-2财经",
+      "url": "https://live.264788.xyz/channel/cctv2?streamid=9d3681a7c74fcc88af7a6e9c998f37a0&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"2\" tvg-name=\"CCTV2\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV2.png\" catchup=\"append\" catchup-source=\"&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}\" group-title=\"央视\",CCTV-2财经"
+    },
+    {
+      "name": "CCTV-2财经",
+      "url": "https://live.264788.xyz/channel/cctv2?streamid=f3dda6ea205b8de722bbab201bd0bc9b&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"2\" tvg-name=\"CCTV2\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV2.png\" catchup=\"append\" catchup-source=\"&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}\" group-title=\"央视\",CCTV-2财经"
+    },
+    {
+      "name": "CCTV-2财经",
+      "url": "https://live.264788.xyz/channel/cctv2?streamid=723ba4b322fd8ec423d8f247a6dbe636&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"2\" tvg-name=\"CCTV2\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV2.png\" catchup=\"append\" catchup-source=\"&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}\" group-title=\"央视\",CCTV-2财经"
+    },
+    {
+      "name": "CCTV-3综艺",
+      "url": "https://live.264788.xyz/channel/cctv3?streamid=d6096ad52726df89fa7bb40676ef00ee&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"3\" tvg-name=\"CCTV3\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV3.png\" group-title=\"央视\",CCTV-3综艺"
+    },
+    {
+      "name": "CCTV-3综艺",
+      "url": "https://live.264788.xyz/channel/cctv3?streamid=799605abfd0421def8404c885d3299ac&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"3\" tvg-name=\"CCTV3\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV3.png\" group-title=\"央视\",CCTV-3综艺"
+    },
+    {
+      "name": "CCTV-3综艺",
+      "url": "https://live.264788.xyz/channel/cctv3?streamid=bf8db09e1cc53a2b7ab59e4f4ed11a20&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"3\" tvg-name=\"CCTV3\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV3.png\" catchup=\"append\" catchup-source=\"&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}\" group-title=\"央视\",CCTV-3综艺"
+    },
+    {
+      "name": "CCTV-3综艺",
+      "url": "https://live.264788.xyz/channel/cctv3?streamid=7cf5005abb2cf8ff19569c4e23a386da&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"3\" tvg-name=\"CCTV3\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV3.png\" catchup=\"append\" catchup-source=\"&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}\" group-title=\"央视\",CCTV-3综艺"
+    },
+    {
+      "name": "CCTV-3综艺",
+      "url": "https://live.264788.xyz/channel/cctv3?streamid=b56bf50c19821aafefca9f20761908e2&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"3\" tvg-name=\"CCTV3\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV3.png\" catchup=\"append\" catchup-source=\"&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}\" group-title=\"央视\",CCTV-3综艺"
+    },
+    {
+      "name": "CCTV-4中文国际",
+      "url": "https://live.264788.xyz/channel/cctv4?streamid=7ffd1595166a5eef3b9a0d2b6289bbbd&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"4\" tvg-name=\"CCTV4\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV4.png\" group-title=\"央视\",CCTV-4中文国际"
+    },
+    {
+      "name": "CCTV-4中文国际",
+      "url": "https://live.264788.xyz/channel/cctv4?streamid=3feba32dfa633a5c83070369ae9a3eb6&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"4\" tvg-name=\"CCTV4\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV4.png\" group-title=\"央视\",CCTV-4中文国际"
+    },
+    {
+      "name": "CCTV-4中文国际",
+      "url": "https://live.264788.xyz/channel/cctv4?streamid=cc1a7c2d76ea7e0ab85515d9318d6a67&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"4\" tvg-name=\"CCTV4\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV4.png\" catchup=\"append\" catchup-source=\"&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}\" group-title=\"央视\",CCTV-4中文国际"
+    },
+    {
+      "name": "CCTV-4中文国际",
+      "url": "https://live.264788.xyz/channel/cctv4?streamid=d9c90dcbb55c328cbe6415daad8f9b79&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"4\" tvg-name=\"CCTV4\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV4.png\" catchup=\"append\" catchup-source=\"&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}\" group-title=\"央视\",CCTV-4中文国际"
+    },
+    {
+      "name": "CCTV-4中文国际",
+      "url": "https://live.264788.xyz/channel/cctv4?streamid=322dde75a155820f409e33444cb6cd15&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"4\" tvg-name=\"CCTV4\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV4.png\" catchup=\"append\" catchup-source=\"&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}\" group-title=\"央视\",CCTV-4中文国际"
+    },
+    {
+      "name": "CCTV-5体育",
+      "url": "https://live.264788.xyz/channel/cctv5?streamid=d5e775ac0d8529b4d3f928ee41d71a10&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"5\" tvg-name=\"CCTV5\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV5.png\" group-title=\"央视\",CCTV-5体育"
+    },
+    {
+      "name": "CCTV-5体育",
+      "url": "https://live.264788.xyz/channel/cctv5?streamid=3b4b9f6e9a130898d64671bf597ad7da&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"5\" tvg-name=\"CCTV5\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV5.png\" group-title=\"央视\",CCTV-5体育"
+    },
+    {
+      "name": "CCTV-5体育",
+      "url": "https://live.264788.xyz/channel/cctv5?streamid=188da934b8ba25977f0ac6a59478a16b&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"5\" tvg-name=\"CCTV5\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV5.png\" catchup=\"append\" catchup-source=\"&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}\" group-title=\"央视\",CCTV-5体育"
+    },
+    {
+      "name": "CCTV-5体育",
+      "url": "https://live.264788.xyz/channel/cctv5?streamid=1806e73ac17e1ad9a7f4c7b2dc9abea6&livekey=01WZHgUeuQwYaD5UTEaGR9Wuwe1Ro8HGWLgF9",
+      "extinf": "#EXTINF:-1 tvg-id=\"5\" tvg-name=\"CCTV5\" tvg-logo=\"https://static.tv.darwinchow.com/logo/CCTV5.png\" catchup=\"append\" catchup-source=\"&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}\" group-title=\"央视\",CCTV-5体育"
+    }
+  ],
+  "count": 24,
+  "reason": ""
+}

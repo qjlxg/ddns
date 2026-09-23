@@ -1,0 +1,103 @@
+{
+  "url": "http://45.84.222.142:9999/playlist.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "Первый канал (+6)",
+      "url": "http://45.84.222.142:9999/channel/0J_QtdGA0LLRi9C5INC60LDQvdCw0LsgKCs2KQ/pervy-pl6",
+      "extinf": "#EXTINF:-1 tvg-id=\"pervy-pl6\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/pervy-pl6.png\" group-title=\"ТВ-каналы\",Первый канал (+6)"
+    },
+    {
+      "name": "Россия 1 (+6)",
+      "url": "http://45.84.222.142:9999/channel/0KDQvtGB0YHQuNGPIDEgKCs2KQ/rossia1-pl6",
+      "extinf": "#EXTINF:-1 tvg-id=\"rossia1-pl6\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/rossia1-pl6.png\" group-title=\"ТВ-каналы\",Россия 1 (+6)"
+    },
+    {
+      "name": "Матч!",
+      "url": "http://45.84.222.142:9999/channel/0JzQsNGC0Ych/match-tv",
+      "extinf": "#EXTINF:-1 tvg-id=\"match-tv\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/match-tv.png\" group-title=\"ТВ-каналы\",Матч!"
+    },
+    {
+      "name": "НТВ (+7)",
+      "url": "http://45.84.222.142:9999/channel/0J3QotCSICgrNyk/ntv-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"ntv-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/ntv-pl7.png\" group-title=\"ТВ-каналы\",НТВ (+7)"
+    },
+    {
+      "name": "5 канал (+7)",
+      "url": "http://45.84.222.142:9999/channel/NSDQutCw0L3QsNC7ICgrNyk/5kanal-ru-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"5kanal-ru-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/5kanal-ru-pl7.png\" group-title=\"ТВ-каналы\",5 канал (+7)"
+    },
+    {
+      "name": "Россия К (+7)",
+      "url": "http://45.84.222.142:9999/channel/0KDQvtGB0YHQuNGPINCaICgrNyk/kultura-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"kultura-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/kultura-pl7.png\" group-title=\"ТВ-каналы\",Россия К (+7)"
+    },
+    {
+      "name": "Россия 24",
+      "url": "http://45.84.222.142:9999/channel/0KDQvtGB0YHQuNGPIDI0/rossia-24",
+      "extinf": "#EXTINF:-1 tvg-id=\"rossia-24\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/rossia-24.png\" group-title=\"ТВ-каналы\",Россия 24"
+    },
+    {
+      "name": "Карусель (+7)",
+      "url": "http://45.84.222.142:9999/channel/0JrQsNGA0YPRgdC10LvRjCAoKzcp/karusel-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"karusel-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/karusel-pl7.png\" group-title=\"ТВ-каналы\",Карусель (+7)"
+    },
+    {
+      "name": "ОТР (+6)",
+      "url": "http://45.84.222.142:9999/channel/0J7QotCgICgrNik/otr-pl6",
+      "extinf": "#EXTINF:-1 tvg-id=\"otr-pl6\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/otr-pl6.png\" group-title=\"ТВ-каналы\",ОТР (+6)"
+    },
+    {
+      "name": "ТВЦ (+7)",
+      "url": "http://45.84.222.142:9999/channel/0KLQktCmICgrNyk/tvcentr-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"tvcentr-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/tvcentr-pl7.png\" group-title=\"ТВ-каналы\",ТВЦ (+7)"
+    },
+    {
+      "name": "Рен ТВ (+7)",
+      "url": "http://45.84.222.142:9999/channel/0KDQtdC9INCi0JIgKCs3KQ/rentv-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"rentv-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/rentv-pl7.png\" group-title=\"ТВ-каналы\",Рен ТВ (+7)"
+    },
+    {
+      "name": "Спас (+7)",
+      "url": "http://45.84.222.142:9999/channel/0KHQv9Cw0YEgKCs3KQ/spas-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"spas-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/spas-pl7.png\" group-title=\"ТВ-каналы\",Спас (+7)"
+    },
+    {
+      "name": "СТС (+7)",
+      "url": "http://45.84.222.142:9999/channel/0KHQotChICgrNyk/sts-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"sts-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/sts-pl7.png\" group-title=\"ТВ-каналы\",СТС (+7)"
+    },
+    {
+      "name": "Домашний (+7)",
+      "url": "http://45.84.222.142:9999/channel/0JTQvtC80LDRiNC90LjQuSAoKzcp/domashny-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"domashny-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/domashny-pl7.png\" group-title=\"ТВ-каналы\",Домашний (+7)"
+    },
+    {
+      "name": "ТВ3 (+7)",
+      "url": "http://45.84.222.142:9999/channel/0KLQkjMgKCs3KQ/tv3-ru-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"tv3-ru-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/tv3-ru-pl7.png\" group-title=\"ТВ-каналы\",ТВ3 (+7)"
+    },
+    {
+      "name": "Пятница! (+7)",
+      "url": "http://45.84.222.142:9999/channel/0J_Rj9GC0L3QuNGG0LAhICgrNyk/piatnica-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"piatnica-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/piatnica-pl7.png\" group-title=\"ТВ-каналы\",Пятница! (+7)"
+    },
+    {
+      "name": "Звезда (+7)",
+      "url": "http://45.84.222.142:9999/channel/0JfQstC10LfQtNCwICgrNyk/zvezda-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"zvezda-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/zvezda-pl7.png\" group-title=\"ТВ-каналы\",Звезда (+7)"
+    },
+    {
+      "name": "МИР (+7)",
+      "url": "http://45.84.222.142:9999/channel/0JzQmNCgICgrNyk/mir-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"mir-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/mir-pl7.png\" group-title=\"ТВ-каналы\",МИР (+7)"
+    },
+    {
+      "name": "ТНТ (+7)",
+      "url": "http://45.84.222.142:9999/channel/0KLQndCiICgrNyk/tnt-pl7",
+      "extinf": "#EXTINF:-1 tvg-id=\"tnt-pl7\" catchup=\"append\" catchup-days=\"3\" catchup-source=\"?offset=-${offset}&utcstart=${timestamp}\" tvg-logo=\"https://epg.iptvx.one/picons/tnt-pl7.png\" group-title=\"ТВ-каналы\",ТНТ (+7)"
+    }
+  ],
+  "count": 19,
+  "reason": ""
+}

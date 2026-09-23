@@ -1,0 +1,7 @@
+{
+  "url": "http://178.62.226.80:80/status.json",
+  "type": "json_unknown",
+  "items": [],
+  "count": 0,
+  "reason": "JSON存在，但不是可识别的TVBox或节点格式"
+}
