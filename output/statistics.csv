@@ -1,71 +1,71 @@
 ﻿url,status,http_status,type,count,reason,last_modified,last_checked,last_updated,sha256
-http://104.207.157.134:8080/trojan.yaml,not_modified,304,nodes,1,,"Thu, 04 Jun 2026 03:29:14 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,78409bf2e05e8a09403e798edbdaff38292a6e851dd390d49c11c8ec15b2a218
-http://104.207.157.134:8080/trojan.yml,not_modified,304,nodes,1,,"Thu, 04 Jun 2026 03:29:14 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,78409bf2e05e8a09403e798edbdaff38292a6e851dd390d49c11c8ec15b2a218
-http://104.238.133.28:80/vpn/default,not_modified,304,nodes,15,,"Mon, 29 Jun 2026 10:50:29 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,a43b56defe53ca6d164c8b81a3605a5bfe7db9dcc62d7a7eee8bb4d7f5331089
-https://104.238.133.28:443/vpn/default,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:10:40,,
-http://107.172.217.187:8888/jhsub.txt,not_modified,304,nodes,4,,"Thu, 20 Aug 2026 13:05:19 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,cce7b722681c0a86ac84633bcf98dffecd0be8337b3dda8927d369a55784d581
-https://107.174.133.238:8443/shadowrocket.txt,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:10:40,,
-http://107.174.192.167:8899/sub64,failed,0,failed,0,http:ClientConnectorError,,2026-09-23 21:10:40,,
-http://107.175.24.218:8088/vps-xray-232340d1b74d96d3.yaml,not_modified,304,nodes,2,,"Fri, 07 Aug 2026 06:16:31 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,4d628c2f7706eeb70a4f26697758e267e348a5cd78ad28276f5f5f50a862b0a3
-http://108.61.211.168:80/v2sub,not_modified,304,nodes,12,,"Sat, 22 Aug 2026 20:18:01 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,ae9239ad0addb4aa5b4f236edff27c4baca075fd44d4acc56ce757d50f78fc14
-http://108.61.211.168:80/v2sub-plain.txt,unchanged,200,nodes,12,,"Sat, 22 Aug 2026 20:18:02 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,286f2ca9b218d3a6430aa9656e107f3739c39c1142e05a73d88862ec64d229bb
-http://113.20.15.176:8000/config.yaml,not_modified,304,nodes,1,,"Thu, 13 Aug 2026 06:09:21 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,b1499a8f33a960a282b6bb5dc0e658091dd3363f91cfdcde51ad445be39973fe
-http://113.20.15.176:8000/config.yaml.bak,not_modified,304,nodes,1,,"Thu, 13 Aug 2026 06:09:07 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,ee9331889bfa2343ae464ac96d3d6dbb63a84013338decdfb8b87d72dd3977e4
-http://129.146.245.34:80/subscribe-ssr.txt,not_modified,304,unknown,0,,"Fri, 13 Dec 2024 07:46:43 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,07530c9e762456d1fae7c5cb10c58bf8c581f4de8fde29d4740e77dbb832551a
-http://129.146.245.34:80/subscribe-v2ray.txt,not_modified,304,nodes,24,,"Fri, 13 Dec 2024 07:35:33 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,72362e6a6a1ac0780712182dc80a0b43919c464d6bfdd2e8ab6f002661f97131
-http://129.146.245.34:80/subscribe-ss.txt,not_modified,304,unknown,0,,"Fri, 13 Dec 2024 07:46:40 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,79c998db8d58c10890c0876c379bc73b6b7c3ce747bb941240cab96c08e51011
-https://129.146.245.34:8443/subscribe-ssr.txt,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:10:40,,
-https://129.146.245.34:8443/subscribe-ss.txt,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:10:40,,
-https://129.146.245.34:443/subscribe-ssr.txt,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:10:40,,
-https://129.146.245.34:443/subscribe-v2ray.txt,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:10:40,,
-https://129.146.245.34:443/subscribe-ss.txt,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:10:40,,
-http://135.181.158.48:8880/deecdb1af15e6200.txt,not_modified,304,nodes,2,,"Tue, 22 Sep 2026 04:30:05 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,8eb345cdb9c48d2279712dbf8970b98912a835cd86550e5c426eb3b3897f51cf
-http://135.181.158.48:8880/109ae8e1402b4ac6.txt,not_modified,304,nodes,6,,"Fri, 21 Aug 2026 09:50:04 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,ee0ff4d72218fa48485385fcf55268a0de5be93f8efed08206871050201a45ea
-http://135.181.158.48:8880/89917d9188f772eb.txt,not_modified,304,nodes,4,,"Fri, 21 Aug 2026 09:50:04 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,b288cbe3ec42b09bc7ed9570beb55603133fa9ff0029c2e3d675d7eeac0755d5
-http://135.181.158.48:8880/deecdb1af15e6200.txt.bak-clean-1787311641,not_modified,304,nodes,9,,"Fri, 21 Aug 2026 11:27:21 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,9ab1f2e0a3c3777e4fb9817cb4dc29681c602839100900fa6adc8862cc7d51f7
-http://135.181.158.48:8880/deecdb1af15e6200.txt.bak-prehop-1787311616,not_modified,304,nodes,7,,"Fri, 21 Aug 2026 11:26:56 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,83d42ae3cee794b4813afafb3d0b67975bee5e21efeec045989454abc44d0d67
-http://135.181.158.48:8880/64eccd63a2077c20.txt,not_modified,304,nodes,5,,"Fri, 21 Aug 2026 09:50:04 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,301f82ac2886613a01799106f056e9ba1be8e77bf33571cf8deb5cfad32a086d
-http://135.181.158.48:8880/a7f56d5d964c2046.txt,not_modified,304,nodes,4,,"Fri, 21 Aug 2026 09:50:04 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,757b7dc4a9c02f397c5f5111329e17d9755076d28f2e358f835dc73710ece04e
-http://138.124.244.139:8080/sub.txt,not_modified,304,nodes,1,,"Fri, 01 May 2026 17:09:29 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,e257f4ba7ec939a4f7ef229dffd3be45ae07cb31acf2c9843e232e5fcaa38808
-http://140.238.0.18:8080/0d5efc7d,not_modified,304,nodes,1,,"Thu, 20 Aug 2026 12:43:22 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,b5c36602ce21c5bf701abba2f1cbc0524d0609be88cc988904350087f607b681
-http://141.11.87.113:8080/788976718f1bfbc42ab6766dd77aa8eb0c5e959f,not_modified,304,nodes,3,,"Mon, 13 Jul 2026 11:10:06 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,633cfe00708206df73138fe09b6c4425982994a57f2f2b8acc1c4395f1c41349
-http://141.227.139.221:8080/shadowrocket.txt,not_modified,304,nodes,9,,"Wed, 24 Jun 2026 11:07:12 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,beb8baaee3d22460104e25b41cbb16a2921ab880da3d48dbe125745375e21b34
-http://144.124.246.109:8088/semyonvpn2026,failed,0,failed,0,timeout,,2026-09-23 21:10:40,,
-http://144.31.1.210:8081/subscription.txt,failed,0,failed,0,http:ClientConnectorError,,2026-09-23 21:10:40,,
-http://144.31.226.48:8080/mypc-vpn.txt,not_modified,304,nodes,1,,"Mon, 08 Jun 2026 14:20:31 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,7145529bb08fd4431152e3e43854c9bb02672b8fd1375c995608279831a1414b
-http://144.31.226.48:8080/iphone-ss.txt,not_modified,304,nodes,1,,"Thu, 06 Aug 2026 21:47:41 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,2aaffbb383d991b6fab0c098a443924660ce64873c406fb9f02d55fa9900432b
-http://144.31.226.48:8080/ipad-ss.txt,not_modified,304,nodes,1,,"Thu, 06 Aug 2026 21:47:16 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,4746ee23c390bc39d69d74933ce09ad38fb281edea8c09193aa7d380ab0b0459
-http://144.31.226.48:8080/myphone-vpn.txt,not_modified,304,nodes,2,,"Sun, 26 Jul 2026 20:26:20 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,e5b5979d4d95557d5adebb2da5495cb545d56fce03afe9822c7e955ba3bfc53d
-http://144.31.226.48:8080/nuriya-vpn.txt,not_modified,304,nodes,1,,"Sat, 25 Jul 2026 09:45:07 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,b3bdebe7e9ba13e7350ebd66a965347afa84f398aadc274ce6a61f837e7afb57
-http://144.31.226.48:8080/father-vpn.txt,not_modified,304,nodes,1,,"Wed, 12 Aug 2026 16:00:04 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,f27da26b25f29f3cb4e385f331791297ef60191d759c5a81ea11b59161513c79
-https://144.31.232.135:443/hero-sub,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:10:40,,
-https://144.31.232.135:443/node-box-tag,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:10:40,,
-https://144.31.232.135:443/node-box,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:10:40,,
-http://144.31.232.135:80/hero-sub,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:10:40,,
-http://144.31.232.135:80/node-box-tag,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:10:40,,
-http://144.31.232.135:80/node-box,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:10:40,,
-https://144.31.74.174:443/api/auth/status,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:10:40,,
-http://146.103.97.71:80/vpn-setup-guide.md,not_modified,304,nodes,16,,"Sun, 29 Mar 2026 15:47:27 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,2e17bda1aff543477896432b7940e7407d658c0713739c83b5931e37884ca31c
-http://146.190.159.181:8080/hls/stream.m3u8,not_modified,304,m3u,0,,"Tue, 22 Sep 2026 23:27:16 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,9965a702ebc3479818b121501769e3c6651dd18886949f7618ea6555d5a72a21
-https://146.190.159.181:443/hls/stream.m3u8,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:10:40,,
-https://146.59.3.12:443/play.m3u,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:10:40,,
-http://147.135.112.189:8080/tuner-9-playlist.m3u,failed,0,failed,0,timeout,,2026-09-23 21:10:40,,
-http://147.135.112.189:8080/tuner-8-playlist.m3u,failed,0,failed,0,timeout,,2026-09-23 21:10:40,,
-http://147.135.112.189:8080/tuner-12-playlist.m3u,failed,0,failed,0,timeout,,2026-09-23 21:10:40,,
-http://147.135.112.189:8080/tuner-5-playlist.m3u,failed,0,failed,0,timeout,,2026-09-23 21:10:40,,
-http://147.135.112.189:8080/tuner-1-playlist.m3u,failed,0,failed,0,timeout,,2026-09-23 21:10:40,,
-http://147.135.112.189:8080/tuner-3-playlist.m3u,failed,0,failed,0,timeout,,2026-09-23 21:10:40,,
-http://147.135.112.189:8080/tuner-6-playlist.m3u,failed,0,failed,0,timeout,,2026-09-23 21:10:40,,
-http://147.135.112.189:8080/tuner-4-playlist.m3u,failed,0,failed,0,timeout,,2026-09-23 21:10:40,,
-http://147.45.248.179:8080/krabik-vip.txt,not_modified,304,nodes,4,,"Tue, 28 Jul 2026 12:42:12 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,779be49ebaed96ed7ee7fdd8f1ff7f91cdf81b35f65d27f1382c0ac8decd6339
-http://147.45.248.179:8080/black-lists.txt,not_modified,304,nodes,8,,"Wed, 23 Sep 2026 13:00:01 GMT",2026-09-23 21:10:40,2026-09-23 21:02:08,cb51958a6d556d149b7267bdb6d93e29985991201ea68c344689788d2d213fa2
-http://147.45.248.179:8080/white-lists.txt,not_modified,304,nodes,4,,"Wed, 23 Sep 2026 07:00:02 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,9bb1252b39af6a4fa822b4244312a7afd4063a4b27a1c64a486f0aff8f9c4428
-http://147.90.14.161:8080/sub.b64,not_modified,304,nodes,1,,"Tue, 28 Apr 2026 07:58:19 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,037bc7ed9d298563f4047056b3a02b154efc39b184ab206321343c0a2f183f0f
-http://147.90.14.161:8080/sub.txt,not_modified,304,nodes,1,,"Tue, 28 Apr 2026 07:58:19 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,09c7b9cea89f383ac67a9d4f29ba72d54769340e1cd4f6be8de3895fb8d62030
-http://15.204.199.45:8080/playlist.m3u,changed,200,m3u,10,,,2026-09-23 21:10:40,2026-09-23 21:10:40,11b4fa2920fbdab83d39b616a81207ef06afe4c6f69f4bd5e3a5056c07ddf7b3
-http://150.241.71.222:8080/raw,not_modified,304,nodes,16,,"Sun, 21 Jun 2026 13:50:50 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,98367d1145f7c97ee0d88ef2af719fadd134e80b3b8bacbdb05697745acc2552
-http://150.241.71.222:8080/sub,not_modified,304,nodes,14,,"Sun, 21 Jun 2026 13:50:50 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,db6975b0ce7bfca00dd0a331ef0e03682ee5a238095a76a37b740a0cbb754621
-http://151.247.219.216:80/8rbeto0x3ehg,not_modified,304,nodes,1,,"Thu, 03 Sep 2026 11:18:36 GMT",2026-09-23 21:10:40,2026-09-23 20:57:41,f0e6225e633560a0c69b70b289c77bd9ec9986f9150fd9ffc82b8d5b5d4a99d0
-https://152.228.217.211:443/listen.m3u,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:10:40,,
-http://152.228.217.211:80/listen.m3u,unchanged,200,m3u,3,,,2026-09-23 21:10:40,2026-09-23 20:57:41,518cc27e580304a15249f2fa318ea22024416dfb2893ab396114c709d1376ede
-http://152.67.218.241:8080/m,failed,404,failed,0,HTTP 404,,2026-09-23 21:10:40,,
+http://104.207.157.134:8080/trojan.yaml,not_modified,304,nodes,1,,"Thu, 04 Jun 2026 03:29:14 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,78409bf2e05e8a09403e798edbdaff38292a6e851dd390d49c11c8ec15b2a218
+http://104.207.157.134:8080/trojan.yml,not_modified,304,nodes,1,,"Thu, 04 Jun 2026 03:29:14 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,78409bf2e05e8a09403e798edbdaff38292a6e851dd390d49c11c8ec15b2a218
+http://104.238.133.28:80/vpn/default,not_modified,304,nodes,15,,"Mon, 29 Jun 2026 10:50:29 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,a43b56defe53ca6d164c8b81a3605a5bfe7db9dcc62d7a7eee8bb4d7f5331089
+https://104.238.133.28:443/vpn/default,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:20:04,,
+http://107.172.217.187:8888/jhsub.txt,not_modified,304,nodes,4,,"Thu, 20 Aug 2026 13:05:19 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,cce7b722681c0a86ac84633bcf98dffecd0be8337b3dda8927d369a55784d581
+https://107.174.133.238:8443/shadowrocket.txt,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:20:04,,
+http://107.174.192.167:8899/sub64,failed,0,failed,0,http:ClientConnectorError,,2026-09-23 21:20:04,,
+http://107.175.24.218:8088/vps-xray-232340d1b74d96d3.yaml,not_modified,304,nodes,2,,"Fri, 07 Aug 2026 06:16:31 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,4d628c2f7706eeb70a4f26697758e267e348a5cd78ad28276f5f5f50a862b0a3
+http://108.61.211.168:80/v2sub,not_modified,304,nodes,12,,"Sat, 22 Aug 2026 20:18:01 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,ae9239ad0addb4aa5b4f236edff27c4baca075fd44d4acc56ce757d50f78fc14
+http://108.61.211.168:80/v2sub-plain.txt,unchanged,200,nodes,12,,"Sat, 22 Aug 2026 20:18:02 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,286f2ca9b218d3a6430aa9656e107f3739c39c1142e05a73d88862ec64d229bb
+http://113.20.15.176:8000/config.yaml,not_modified,304,nodes,1,,"Thu, 13 Aug 2026 06:09:21 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,b1499a8f33a960a282b6bb5dc0e658091dd3363f91cfdcde51ad445be39973fe
+http://113.20.15.176:8000/config.yaml.bak,not_modified,304,nodes,1,,"Thu, 13 Aug 2026 06:09:07 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,ee9331889bfa2343ae464ac96d3d6dbb63a84013338decdfb8b87d72dd3977e4
+http://129.146.245.34:80/subscribe-ssr.txt,not_modified,304,unknown,0,,"Fri, 13 Dec 2024 07:46:43 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,07530c9e762456d1fae7c5cb10c58bf8c581f4de8fde29d4740e77dbb832551a
+http://129.146.245.34:80/subscribe-v2ray.txt,not_modified,304,nodes,24,,"Fri, 13 Dec 2024 07:35:33 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,72362e6a6a1ac0780712182dc80a0b43919c464d6bfdd2e8ab6f002661f97131
+http://129.146.245.34:80/subscribe-ss.txt,not_modified,304,unknown,0,,"Fri, 13 Dec 2024 07:46:40 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,79c998db8d58c10890c0876c379bc73b6b7c3ce747bb941240cab96c08e51011
+https://129.146.245.34:8443/subscribe-ssr.txt,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:20:04,,
+https://129.146.245.34:8443/subscribe-ss.txt,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:20:04,,
+https://129.146.245.34:443/subscribe-ssr.txt,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:20:04,,
+https://129.146.245.34:443/subscribe-v2ray.txt,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:20:04,,
+https://129.146.245.34:443/subscribe-ss.txt,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:20:04,,
+http://135.181.158.48:8880/deecdb1af15e6200.txt,not_modified,304,nodes,2,,"Tue, 22 Sep 2026 04:30:05 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,8eb345cdb9c48d2279712dbf8970b98912a835cd86550e5c426eb3b3897f51cf
+http://135.181.158.48:8880/109ae8e1402b4ac6.txt,not_modified,304,nodes,6,,"Fri, 21 Aug 2026 09:50:04 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,ee0ff4d72218fa48485385fcf55268a0de5be93f8efed08206871050201a45ea
+http://135.181.158.48:8880/89917d9188f772eb.txt,not_modified,304,nodes,4,,"Fri, 21 Aug 2026 09:50:04 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,b288cbe3ec42b09bc7ed9570beb55603133fa9ff0029c2e3d675d7eeac0755d5
+http://135.181.158.48:8880/deecdb1af15e6200.txt.bak-clean-1787311641,not_modified,304,nodes,9,,"Fri, 21 Aug 2026 11:27:21 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,9ab1f2e0a3c3777e4fb9817cb4dc29681c602839100900fa6adc8862cc7d51f7
+http://135.181.158.48:8880/deecdb1af15e6200.txt.bak-prehop-1787311616,not_modified,304,nodes,7,,"Fri, 21 Aug 2026 11:26:56 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,83d42ae3cee794b4813afafb3d0b67975bee5e21efeec045989454abc44d0d67
+http://135.181.158.48:8880/64eccd63a2077c20.txt,not_modified,304,nodes,5,,"Fri, 21 Aug 2026 09:50:04 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,301f82ac2886613a01799106f056e9ba1be8e77bf33571cf8deb5cfad32a086d
+http://135.181.158.48:8880/a7f56d5d964c2046.txt,not_modified,304,nodes,4,,"Fri, 21 Aug 2026 09:50:04 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,757b7dc4a9c02f397c5f5111329e17d9755076d28f2e358f835dc73710ece04e
+http://138.124.244.139:8080/sub.txt,not_modified,304,nodes,1,,"Fri, 01 May 2026 17:09:29 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,e257f4ba7ec939a4f7ef229dffd3be45ae07cb31acf2c9843e232e5fcaa38808
+http://140.238.0.18:8080/0d5efc7d,not_modified,304,nodes,1,,"Thu, 20 Aug 2026 12:43:22 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,b5c36602ce21c5bf701abba2f1cbc0524d0609be88cc988904350087f607b681
+http://141.11.87.113:8080/788976718f1bfbc42ab6766dd77aa8eb0c5e959f,not_modified,304,nodes,3,,"Mon, 13 Jul 2026 11:10:06 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,633cfe00708206df73138fe09b6c4425982994a57f2f2b8acc1c4395f1c41349
+http://141.227.139.221:8080/shadowrocket.txt,not_modified,304,nodes,9,,"Wed, 24 Jun 2026 11:07:12 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,beb8baaee3d22460104e25b41cbb16a2921ab880da3d48dbe125745375e21b34
+http://144.124.246.109:8088/semyonvpn2026,failed,0,failed,0,timeout,,2026-09-23 21:20:04,,
+http://144.31.1.210:8081/subscription.txt,failed,0,failed,0,http:ClientConnectorError,,2026-09-23 21:20:04,,
+http://144.31.226.48:8080/mypc-vpn.txt,not_modified,304,nodes,1,,"Mon, 08 Jun 2026 14:20:31 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,7145529bb08fd4431152e3e43854c9bb02672b8fd1375c995608279831a1414b
+http://144.31.226.48:8080/iphone-ss.txt,not_modified,304,nodes,1,,"Thu, 06 Aug 2026 21:47:41 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,2aaffbb383d991b6fab0c098a443924660ce64873c406fb9f02d55fa9900432b
+http://144.31.226.48:8080/ipad-ss.txt,not_modified,304,nodes,1,,"Thu, 06 Aug 2026 21:47:16 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,4746ee23c390bc39d69d74933ce09ad38fb281edea8c09193aa7d380ab0b0459
+http://144.31.226.48:8080/myphone-vpn.txt,not_modified,304,nodes,2,,"Sun, 26 Jul 2026 20:26:20 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,e5b5979d4d95557d5adebb2da5495cb545d56fce03afe9822c7e955ba3bfc53d
+http://144.31.226.48:8080/nuriya-vpn.txt,not_modified,304,nodes,1,,"Sat, 25 Jul 2026 09:45:07 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,b3bdebe7e9ba13e7350ebd66a965347afa84f398aadc274ce6a61f837e7afb57
+http://144.31.226.48:8080/father-vpn.txt,not_modified,304,nodes,1,,"Wed, 12 Aug 2026 16:00:04 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,f27da26b25f29f3cb4e385f331791297ef60191d759c5a81ea11b59161513c79
+https://144.31.232.135:443/hero-sub,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:20:04,,
+https://144.31.232.135:443/node-box-tag,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:20:04,,
+https://144.31.232.135:443/node-box,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:20:04,,
+http://144.31.232.135:80/hero-sub,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:20:04,,
+http://144.31.232.135:80/node-box-tag,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:20:04,,
+http://144.31.232.135:80/node-box,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:20:04,,
+https://144.31.74.174:443/api/auth/status,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:20:04,,
+http://146.103.97.71:80/vpn-setup-guide.md,not_modified,304,nodes,16,,"Sun, 29 Mar 2026 15:47:27 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,2e17bda1aff543477896432b7940e7407d658c0713739c83b5931e37884ca31c
+http://146.190.159.181:8080/hls/stream.m3u8,not_modified,304,m3u,0,,"Tue, 22 Sep 2026 23:27:16 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,9965a702ebc3479818b121501769e3c6651dd18886949f7618ea6555d5a72a21
+https://146.190.159.181:443/hls/stream.m3u8,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:20:04,,
+https://146.59.3.12:443/play.m3u,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:20:04,,
+http://147.135.112.189:8080/tuner-9-playlist.m3u,failed,0,failed,0,timeout,,2026-09-23 21:20:04,,
+http://147.135.112.189:8080/tuner-8-playlist.m3u,failed,0,failed,0,timeout,,2026-09-23 21:20:04,,
+http://147.135.112.189:8080/tuner-12-playlist.m3u,failed,0,failed,0,timeout,,2026-09-23 21:20:04,,
+http://147.135.112.189:8080/tuner-5-playlist.m3u,failed,0,failed,0,timeout,,2026-09-23 21:20:04,,
+http://147.135.112.189:8080/tuner-1-playlist.m3u,failed,0,failed,0,timeout,,2026-09-23 21:20:04,,
+http://147.135.112.189:8080/tuner-3-playlist.m3u,failed,0,failed,0,timeout,,2026-09-23 21:20:04,,
+http://147.135.112.189:8080/tuner-6-playlist.m3u,failed,0,failed,0,timeout,,2026-09-23 21:20:04,,
+http://147.135.112.189:8080/tuner-4-playlist.m3u,failed,0,failed,0,timeout,,2026-09-23 21:20:04,,
+http://147.45.248.179:8080/krabik-vip.txt,not_modified,304,nodes,4,,"Tue, 28 Jul 2026 12:42:12 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,779be49ebaed96ed7ee7fdd8f1ff7f91cdf81b35f65d27f1382c0ac8decd6339
+http://147.45.248.179:8080/black-lists.txt,not_modified,304,nodes,8,,"Wed, 23 Sep 2026 13:00:01 GMT",2026-09-23 21:20:04,2026-09-23 21:02:08,cb51958a6d556d149b7267bdb6d93e29985991201ea68c344689788d2d213fa2
+http://147.45.248.179:8080/white-lists.txt,not_modified,304,nodes,4,,"Wed, 23 Sep 2026 07:00:02 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,9bb1252b39af6a4fa822b4244312a7afd4063a4b27a1c64a486f0aff8f9c4428
+http://147.90.14.161:8080/sub.b64,not_modified,304,nodes,1,,"Tue, 28 Apr 2026 07:58:19 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,037bc7ed9d298563f4047056b3a02b154efc39b184ab206321343c0a2f183f0f
+http://147.90.14.161:8080/sub.txt,not_modified,304,nodes,1,,"Tue, 28 Apr 2026 07:58:19 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,09c7b9cea89f383ac67a9d4f29ba72d54769340e1cd4f6be8de3895fb8d62030
+http://15.204.199.45:8080/playlist.m3u,changed,200,m3u,57,,,2026-09-23 21:20:04,2026-09-23 21:20:04,ae93feeef82046f2ed8594b37799d6bce45a55dbb7838031a59dfc1965361c93
+http://150.241.71.222:8080/raw,not_modified,304,nodes,16,,"Sun, 21 Jun 2026 13:50:50 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,98367d1145f7c97ee0d88ef2af719fadd134e80b3b8bacbdb05697745acc2552
+http://150.241.71.222:8080/sub,not_modified,304,nodes,14,,"Sun, 21 Jun 2026 13:50:50 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,db6975b0ce7bfca00dd0a331ef0e03682ee5a238095a76a37b740a0cbb754621
+http://151.247.219.216:80/8rbeto0x3ehg,not_modified,304,nodes,1,,"Thu, 03 Sep 2026 11:18:36 GMT",2026-09-23 21:20:04,2026-09-23 20:57:41,f0e6225e633560a0c69b70b289c77bd9ec9986f9150fd9ffc82b8d5b5d4a99d0
+https://152.228.217.211:443/listen.m3u,failed,0,failed,0,http:ClientConnectorCertificateError,,2026-09-23 21:20:04,,
+http://152.228.217.211:80/listen.m3u,unchanged,200,m3u,3,,,2026-09-23 21:20:04,2026-09-23 20:57:41,518cc27e580304a15249f2fa318ea22024416dfb2893ab396114c709d1376ede
+http://152.67.218.241:8080/m3,failed,404,failed,0,HTTP 404,,2026-09-23 21:20:04,,
