@@ -1,0 +1,133 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 0.0.0.0:9090
+proxies:
+- name: 🌐 Hong Kong | WebSocket | @anonymouskeys-4
+  type: vmess
+  server: 156.245.232.239
+  port: 35043
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+- name: 🌐 Brazil | WebSocket | @anonymouskeys-2
+  type: vless
+  server: 157.151.4.93
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇨🇦CA_33|1.1MB/s|A004-260618 01
+  type: vless
+  server: 66.70.179.124
+  port: 443
+  uuid: c8f9e08d-7d07-4059-9f71-0b014b9e0ec7
+  tls: true
+  servername: www.apple.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: feWlxnxySxB9B9HiuC4NwoTe_6slRqaW-EULPN0yxjY
+    short-id: af7e79b5
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: US 🇺🇸 | @Raydikalx | 3B1D0A
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ''
+  network: tcp
+- name: '@v2ray_phoenix-2'
+  type: vless
+  server: 172.67.174.37
+  port: 8880
+  uuid: b2c879ed-08a2-4a79-9c57-37c7db614e96
+  tls: false
+  servername: 172.67.174.37
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: sweet-cake-1340.474-288.workers.dev
+- name: VLESS-415
+  type: vless
+  server: 45.40.155.4
+  port: 80
+  uuid: e403856e-4e50-49e6-9edc-d9536a803a6a
+  tls: false
+  servername: 45.40.155.4
+  network: ws
+  ws-opts:
+    path: /pyip=Telegram🇨🇳 @WangCai2
+    headers:
+      Host: proud-cloud-5c50.113-8dc.workers.dev
+proxy-groups:
+- name: 🚀 节点选择
+  type: select
+  proxies:
+  - ♻️ 自动选择
+  - 🎯 全球直连
+  - 🌐 Hong Kong | WebSocket | @anonymouskeys-4
+  - 🌐 Brazil | WebSocket | @anonymouskeys-2
+  - 🇨🇦CA_33|1.1MB/s|A004-260618 01
+  - US 🇺🇸 | @Raydikalx | 3B1D0A
+  - '@v2ray_phoenix-2'
+  - VLESS-415
+- name: ♻️ 自动选择
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - 🌐 Hong Kong | WebSocket | @anonymouskeys-4
+  - 🌐 Brazil | WebSocket | @anonymouskeys-2
+  - 🇨🇦CA_33|1.1MB/s|A004-260618 01
+  - US 🇺🇸 | @Raydikalx | 3B1D0A
+  - '@v2ray_phoenix-2'
+  - VLESS-415
+- name: 🎯 全球直连
+  type: select
+  proxies:
+  - DIRECT
+rule-providers:
+  adsblock:
+    type: http
+    behavior: domain
+    url: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geo/geosite/category-ads-all.yaml
+    path: ./rules/adsblock.yaml
+    interval: 86400
+  cn_domain:
+    type: http
+    behavior: domain
+    url: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geo/geosite/cn.yaml
+    path: ./rules/cn_domain.yaml
+    interval: 86400
+  cn_ip:
+    type: http
+    behavior: ipcidr
+    url: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geo/geoip/cn.yaml
+    path: ./rules/cn_ip.yaml
+    interval: 86400
+rules:
+- RULE-SET,adsblock,REJECT
+- RULE-SET,cn_domain,🎯 全球直连
+- RULE-SET,cn_ip,🎯 全球直连
+- GEOIP,CN,🎯 全球直连
+- MATCH,🚀 节点选择
