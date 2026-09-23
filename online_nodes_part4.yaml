@@ -5546,6 +5546,279 @@ proxies:
   network: ws
   ws-opts:
     path: /sync
+- name: 🇯🇵-2
+  type: vless
+  server: 162.159.38.127
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇩🇪DE_15|370KB/s|F003-260618
+  type: vless
+  server: 62.60.238.191
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: Configs by DukeMehdi-223
+  type: vmess
+  server: 93ucrn4i0pffuabk.v.3dns.vip
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: 93ucrn4i0pffuabk.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+- name: '@SylphNet | 1405-07-01 #210'
+  type: vless
+  server: 104.16.174.164
+  port: 443
+  uuid: 73796e63-0000-4000-8000-000000000000
+  tls: true
+  servername: wireguard.ahmad-kh5716.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: wireguard.ahmad-kh5716.workers.dev
+- name: 🇩🇪[openproxylist.com-3
+  type: vless
+  server: 31.76.7.154
+  port: 7443
+  uuid: d7cad038-0c3f-4cce-8f8a-36464aaf66c0
+  tls: true
+  servername: ya.ru
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
+    short-id: d2061bb1
+  client-fingerprint: chrome
+- name: vless-656230619
+  type: vless
+  server: 186.246.19.79
+  port: 40443
+  uuid: 5e3f974b-06fc-4555-907a-6681391b7c17
+  tls: true
+  servername: deepl.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: oc9uweln_cqyaJnlRMnhhhKrGNP7RrYOsuYtaIOIQDE
+    short-id: 2bc0
+  client-fingerprint: qq
+- name: 未知 VMESS-1571 | free-nodes
+  type: vmess
+  server: wwafj5lhl6bi8au9.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: wwafj5LHl6bI8aU9.v.3dns.vip
+  network: ws
+  ws-opts:
+    headers:
+      Host: wwafj5LHl6bI8aU9.v.3dns.vip
+    path: /ws-vmess
+- name: 🇩🇪 Germany | Reality Vision | @anonymouskeys-23
+  type: vless
+  server: 150.241.101.17
+  port: 8443
+  uuid: 47d9b534-8a0a-4bd2-90f1-1d6ade14427e
+  tls: true
+  servername: yandex.net
+  network: raw
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
+- name: Configs by DukeMehdi-224
+  type: vmess
+  server: 167.88.63.59
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ''
+  network: tcp
+- name: 🇺🇸 @anonymouskeys-49
+  type: vless
+  server: 169.40.42.184
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  tls: true
+  servername: yahoo.com
+  network: raw
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  client-fingerprint: chrome
+- name: ❓Other_25|183KB/s|T001-260618
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 9775116b-b463-4fca-9f61-d01ac2355b21
+  tls: true
+  servername: tradingview.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+  client-fingerprint: firefox
+- name: 4Nika-3d8f891760
+  type: hysteria2
+  server: 85.204.107.177
+  port: 8080
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  sni: hopp-romania-new.roxa.org
+- name: 🇩🇪 @anonymouskeys-41
+  type: vless
+  server: 159.69.103.251
+  port: 2053
+  uuid: 6cf6bb53-9785-49d5-9d39-53b4de45ff84
+  tls: true
+  servername: 91.98.44.116
+  network: raw
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: W2V2xk0G3_neYDnTLNhaYxovp_ThMXDw68uweM12W2Y
+    short-id: 5ecb8c5a753a36fc
+  client-fingerprint: chrome
+- name: US-35
+  type: vless
+  server: 15.204.97.206
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  tls: true
+  servername: fuck.rkn
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+- name: 未知 VMESS-1139 | free-nodes
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: null
+  network: tcp
+- name: 🇫🇷FR_1737|379KB/s|A004-260618 01
+  type: trojan
+  server: app-538961.user-y0o4gm.workers.dev
+  port: 443
+  password: 0b5fa773-6f37-4134-87d4-0c349742b6f6
+  sni: app-538961.user-y0o4gm.workers.dev
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇫🇷FR_564|253KB/s|A001-260618 01
+  type: vless
+  server: 188.114.97.6
+  port: 8880
+  uuid: f09f4baa-7688-4514-8062-c3ea8e319624
+  tls: false
+  servername: 188.114.97.6
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: dark-leaf-93a1.440-02e.workers.dev
+- name: 🇨🇦 Canada | WebSocket | @anonymouskeys-111
+  type: vless
+  server: 104.21.70.21
+  port: 8080
+  uuid: 3e553ebf-db9d-4858-b608-03d6ff615a41
+  tls: false
+  servername: rapid-waterfall-7270.255-22b.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: rapid-waterfall-7270.255-22b.workers.dev
+- name: 🇺🇸 @anonymouskeys-50
+  type: vless
+  server: 34.85.179.6
+  port: 443
+  uuid: 8ea1a178-2719-47b7-99d0-33d8dc361ba3
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI
+    short-id: c08efcd72d7e8389
+  client-fingerprint: random
+- name: 🇩🇪 德国 | VLESS | 002
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+  tls: true
+  servername: wild-sky-f384.alvlirm3737.workers.dev
+  network: ws
+  ws-opts:
+    path: /proxyip=172.86.93.55,194.99.20.245,46.101.165.85,46.101.181.132,209.38.201.199,165.22.89.207,207.154.242.240,64.188.83.202
+    headers:
+      Host: wild-sky-f384.alvlirm3737.workers.dev
+- name: HK 🇭🇰 | @Raydikalx | 4B13CB
+  type: vmess
+  server: 8.218.184.4
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
+  network: ws
+  ws-opts:
+    headers:
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+    path: /ws-vmess
+- name: vmess-468166909
+  type: vmess
+  server: 216.106.183.35
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: 216.106.183.35
+  network: tcp
+- name: '@FarazV2ray -2'
+  type: trojan
+  server: www.speedtest.net
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  skip-cert-verify: false
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -6029,6 +6302,29 @@ proxy-groups:
   - 未知 VLESS-794 | free-nodes
   - 🇨🇦 Canada | WebSocket | @anonymouskeys-110
   - Estados+Unidos
+  - 🇯🇵-2
+  - 🇩🇪DE_15|370KB/s|F003-260618
+  - Configs by DukeMehdi-223
+  - '@SylphNet | 1405-07-01 #210'
+  - 🇩🇪[openproxylist.com-3
+  - vless-656230619
+  - 未知 VMESS-1571 | free-nodes
+  - 🇩🇪 Germany | Reality Vision | @anonymouskeys-23
+  - Configs by DukeMehdi-224
+  - 🇺🇸 @anonymouskeys-49
+  - ❓Other_25|183KB/s|T001-260618
+  - 4Nika-3d8f891760
+  - 🇩🇪 @anonymouskeys-41
+  - US-35
+  - 未知 VMESS-1139 | free-nodes
+  - 🇫🇷FR_1737|379KB/s|A004-260618 01
+  - 🇫🇷FR_564|253KB/s|A001-260618 01
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-111
+  - 🇺🇸 @anonymouskeys-50
+  - 🇩🇪 德国 | VLESS | 002
+  - HK 🇭🇰 | @Raydikalx | 4B13CB
+  - vmess-468166909
+  - '@FarazV2ray -2'
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -6512,6 +6808,29 @@ proxy-groups:
   - 未知 VLESS-794 | free-nodes
   - 🇨🇦 Canada | WebSocket | @anonymouskeys-110
   - Estados+Unidos
+  - 🇯🇵-2
+  - 🇩🇪DE_15|370KB/s|F003-260618
+  - Configs by DukeMehdi-223
+  - '@SylphNet | 1405-07-01 #210'
+  - 🇩🇪[openproxylist.com-3
+  - vless-656230619
+  - 未知 VMESS-1571 | free-nodes
+  - 🇩🇪 Germany | Reality Vision | @anonymouskeys-23
+  - Configs by DukeMehdi-224
+  - 🇺🇸 @anonymouskeys-49
+  - ❓Other_25|183KB/s|T001-260618
+  - 4Nika-3d8f891760
+  - 🇩🇪 @anonymouskeys-41
+  - US-35
+  - 未知 VMESS-1139 | free-nodes
+  - 🇫🇷FR_1737|379KB/s|A004-260618 01
+  - 🇫🇷FR_564|253KB/s|A001-260618 01
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-111
+  - 🇺🇸 @anonymouskeys-50
+  - 🇩🇪 德国 | VLESS | 002
+  - HK 🇭🇰 | @Raydikalx | 4B13CB
+  - vmess-468166909
+  - '@FarazV2ray -2'
 - name: 🎯 全球直连
   type: select
   proxies:
