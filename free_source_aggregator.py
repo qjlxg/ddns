@@ -309,25 +309,90 @@ def is_m3u(text):
         "#EXTINF" in head
     )
 
+# ================= TVBox严格识别 =================
 def is_tvbox(text):
     try:
         x=json.loads(text)
-
-        return (
-            isinstance(x,dict)
-            and any(
-                k in x
-                for k in (
-                    "sites",
-                    "lives",
-                    "spider",
-                    "parses"
-                )
-            )
-        )
-
     except:
         return False
+
+    if not isinstance(x,dict):
+        return False
+
+    # ---------- TVBox sites ----------
+    sites=x.get("sites")
+
+    if isinstance(sites,list) and sites:
+        for s in sites:
+
+            if not isinstance(s,dict):
+                continue
+
+            # 常见TVBox/CatVod站点结构：
+            # key + name + api/ext
+            if (
+                s.get("key")
+                and s.get("name")
+                and (
+                    s.get("api")
+                    or s.get("ext")
+                )
+            ):
+                return True
+
+            # 某些配置没有key，但存在：
+            # name + type + api/ext
+            if (
+                s.get("name")
+                and s.get("type") is not None
+                and (
+                    s.get("api")
+                    or s.get("ext")
+                )
+            ):
+                return True
+
+    # ---------- TVBox lives ----------
+    lives=x.get("lives")
+
+    if isinstance(lives,list) and lives:
+        for item in lives:
+
+            if not isinstance(item,dict):
+                continue
+
+            if (
+                (
+                    item.get("name")
+                    or item.get("group")
+                )
+                and
+                (
+                    item.get("url")
+                    or item.get("urlPrefix")
+                    or item.get("epg")
+                )
+            ):
+                return True
+
+    # ---------- TVBox parses ----------
+    parses=x.get("parses")
+
+    if isinstance(parses,list) and parses:
+        for item in parses:
+
+            if not isinstance(item,dict):
+                continue
+
+            if (
+                item.get("name")
+                or item.get("type")
+                or item.get("url")
+                or item.get("parse")
+            ):
+                return True
+
+    return False
 
 def extract_node_uris(text):
     pat=(
@@ -725,30 +790,13 @@ def parse_m3u(text):
 
 # ================= TVBox =================
 def parse_tvbox(text):
-    try:
-        x=json.loads(text)
+    if not is_tvbox(text):
+        return None
 
+    try:
+        return json.loads(text)
     except:
         return None
-
-    if not isinstance(
-        x,
-        dict
-    ):
-        return None
-
-    if any(
-        k in x
-        for k in (
-            "sites",
-            "lives",
-            "spider",
-            "parses"
-        )
-    ):
-        return x
-
-    return None
 
 # ================= 内容实际识别 =================
 def parse_content(text):
@@ -877,7 +925,7 @@ async def fetch(
                     total=TIMEOUT
                 ),
                 allow_redirects=True,
-                ssl=False  # <--- 忽略自签名或不信任的 SSL 证书
+                ssl=False
             ) as r:
 
                 etag=r.headers.get(
