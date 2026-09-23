@@ -411,5 +411,19 @@
     "countryCode": "CA",
     "region": "安大略",
     "city": "多伦多"
+  },
+  "34.186.193.91": {
+    "ip": "34.186.193.91",
+    "country": "加拿大",
+    "countryCode": "CA",
+    "region": "Quebec",
+    "city": "Montreal"
+  },
+  "85.155.228.81": {
+    "ip": "85.155.228.81",
+    "country": "阿尔巴尼亚",
+    "countryCode": "AL",
+    "region": "Tirana",
+    "city": "地拉那"
   }
 }
