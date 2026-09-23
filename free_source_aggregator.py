@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import asyncio,base64,csv,hashlib,json,re,socket,ipaddress
+import asyncio,base64,csv,hashlib,json,re,socket,ipaddress,io
 from datetime import datetime,timezone,timedelta
 from pathlib import Path
 from urllib.parse import urlparse,parse_qs,unquote
@@ -57,70 +57,173 @@ def savej(p,x):
 
 def b64d(s):
     try:
+        s=str(s).strip()
         s=re.sub(r"\s+","",s)
+        if not s:
+            return ""
         s+="="*((4-len(s)%4)%4)
-        return base64.urlsafe_b64decode(s).decode("utf-8","ignore")
+        return base64.urlsafe_b64decode(s).decode(
+            "utf-8","ignore"
+        )
     except:
         return ""
 
 def clean_name(x):
     x=str(x or "Unnamed").strip()
-    return re.sub(r'[\x00-\x1f<>:"/\\|?*]','_',x)[:120]
+    return re.sub(
+        r'[\x00-\x1f<>:"/\\|?*]',
+        '_',
+        x
+    )[:120]
 
 def unique_name(x,used):
     x=clean_name(x)
     if not x:
         x="Unnamed"
+
     n=x
     i=2
+
     while n in used:
         n=f"{x}-{i}"
         i+=1
+
     used.add(n)
     return n
 
-# ================= CSV：逐行读取 =================
+# ================= CSV：严格按记录读取第一列 =================
 def get_urls(text):
     """
-    CSV中的每一行：
-    第一列 = 一个来源URL
+    CSV：
+    每一条CSV记录的第一列 = 一个来源URL。
 
-    不根据扩展名判断。
-    不要求URL必须以http开头才进入来源池。
+    重要：
+    1. 不按照文件扩展名判断。
+    2. 不要求必须http/https。
+    3. 使用csv.reader(StringIO())，不再使用splitlines()。
+    4. 保留所有非空第一列。
+    5. 最后按原顺序去重。
     """
+
+    rows=[]
     out=[]
-    for row_no,row in enumerate(csv.reader(text.splitlines()),1):
-        if not row:
-            continue
+    empty_rows=0
+    header_rows=0
+    nonempty_first=0
+    http_urls=0
+    other_values=0
 
-        u=row[0].strip().strip('"').strip("'").strip()
+    try:
+        reader=csv.reader(
+            io.StringIO(text),
+            skipinitialspace=False
+        )
 
-        if not u:
-            continue
+        for row_no,row in enumerate(reader,1):
 
-        # 只跳过明显的表头，不过滤其它URL
-        if row_no==1 and u.lower() in (
-            "url","source","source_url","link","网址","链接","地址"
-        ):
-            continue
+            if not row:
+                empty_rows+=1
+                continue
 
-        out.append(u)
+            rows.append(row)
 
-    # 保持CSV原顺序并去重
-    return list(dict.fromkeys(out))
+            u=str(row[0]).strip()
+
+            # 去掉UTF-8 BOM
+            u=u.lstrip("\ufeff").strip()
+
+            # 去掉外围引号
+            if len(u)>=2 and (
+                (u[0]=='"' and u[-1]=='"') or
+                (u[0]=="'" and u[-1]=="'")
+            ):
+                u=u[1:-1].strip()
+
+            if not u:
+                empty_rows+=1
+                continue
+
+            # 只跳过第一列明显表头
+            if row_no==1 and u.lower() in (
+                "url",
+                "source",
+                "source_url",
+                "link",
+                "网址",
+                "链接",
+                "地址",
+                "来源",
+                "来源url",
+                "来源网址"
+            ):
+                header_rows+=1
+                continue
+
+            nonempty_first+=1
+
+            if re.match(
+                r"^https?://",
+                u,
+                re.I
+            ):
+                http_urls+=1
+            else:
+                other_values+=1
+
+            out.append(u)
+
+    except Exception as e:
+        print(
+            f"❌ CSV解析异常：{type(e).__name__}: {e}"
+        )
+
+    unique=list(dict.fromkeys(out))
+
+    print()
+    print("="*70)
+    print("CSV读取诊断")
+    print("="*70)
+    print(f"CSV字符数：{len(text):,}")
+    print(f"CSV物理行数：{len(text.splitlines()):,}")
+    print(f"CSV实际记录数：{len(rows):,}")
+    print(f"空记录：{empty_rows:,}")
+    print(f"表头：{header_rows:,}")
+    print(f"第一列非空：{nonempty_first:,}")
+    print(f"第一列HTTP/HTTPS：{http_urls:,}")
+    print(f"第一列其它内容：{other_values:,}")
+    print(f"去重前URL：{len(out):,}")
+    print(f"去重后URL：{len(unique):,}")
+    print("="*70)
+
+    # 只在数量明显异常时打印前几行
+    if len(unique)<100:
+        print()
+        print("⚠️ 当前读取到的URL少于100条。")
+        print("CSV前2000字符：")
+        print("-"*70)
+        print(text[:2000])
+        print("-"*70)
+
+    return unique
 
 # ================= URL =================
 def normalize_url(u):
-    u=u.strip()
+    u=str(u).strip()
 
     if u.startswith("//"):
         return "https:"+u
 
-    if re.match(r"^[a-zA-Z][a-zA-Z0-9+.-]*://",u):
+    if re.match(
+        r"^[a-zA-Z][a-zA-Z0-9+.-]*://",
+        u
+    ):
         return u
 
-    # 如果CSV里真的存在不带协议的域名
-    if re.match(r"^[\w.-]+\.[A-Za-z]{2,}([/:?#]|$)",u):
+    # CSV里如果是无协议域名
+    if re.match(
+        r"^[\w.-]+\.[A-Za-z]{2,}([/:?#]|$)",
+        u
+    ):
         return "https://"+u
 
     return u
@@ -129,47 +232,90 @@ def normalize_url(u):
 def is_m3u(text):
     t=text.lstrip("\ufeff \r\n\t")
     head=t[:5000].upper()
-    return "#EXTM3U" in head or "#EXTINF" in head
+
+    return (
+        "#EXTM3U" in head or
+        "#EXTINF" in head
+    )
 
 def is_tvbox(text):
     try:
         x=json.loads(text)
-        return isinstance(x,dict) and any(
-            k in x for k in ("sites","lives","spider","parses")
+
+        return (
+            isinstance(x,dict)
+            and any(
+                k in x
+                for k in (
+                    "sites",
+                    "lives",
+                    "spider",
+                    "parses"
+                )
+            )
         )
+
     except:
         return False
 
 def extract_node_uris(text):
     pat=(
-        r'(?i)(?:ss|ssr|vmess|vless|trojan|hysteria|hysteria2|hy2|'
-        r'tuic|socks|socks5|http|https|wireguard)://[^\s<>"\'`]+'
+        r'(?i)(?:'
+        r'ss|ssr|vmess|vless|trojan|hysteria|'
+        r'hysteria2|hy2|tuic|socks|socks5|'
+        r'http|https|wireguard'
+        r')://[^\s<>"\'`]+'
     )
+
     return re.findall(pat,text)
 
 # ================= 节点解析 =================
 def parse_vmess(u):
     try:
-        x=json.loads(b64d(u[8:]))
+        x=json.loads(
+            b64d(u[8:])
+        )
+
         return {
             "type":"vmess",
             "server":x.get("add",""),
             "port":int(x.get("port",443)),
             "uuid":x.get("id",""),
-            "alterId":int(x.get("aid",0) or 0),
+            "alterId":int(
+                x.get("aid",0) or 0
+            ),
             "cipher":x.get("scy","auto"),
-            "tls":str(x.get("tls","")).lower() in ("tls","1","true"),
-            "network":x.get("net","tcp"),
-            "servername":x.get("sni",""),
-            "name":x.get("ps","vmess")
+            "tls":str(
+                x.get("tls","")
+            ).lower() in (
+                "tls",
+                "1",
+                "true"
+            ),
+            "network":x.get(
+                "net",
+                "tcp"
+            ),
+            "servername":x.get(
+                "sni",
+                ""
+            ),
+            "name":x.get(
+                "ps",
+                "vmess"
+            )
         }
+
     except:
         return None
 
 def parse_ss(u):
     try:
         p=urlparse(u)
-        raw=unquote(p.username or "")
+
+        raw=unquote(
+            p.username or ""
+        )
 
         if ":" not in raw:
             raw=b64d(raw)
@@ -177,7 +323,11 @@ def parse_ss(u):
         if ":" not in raw:
             return None
 
-        method,password=raw.split(":",1)
+        method,password=raw.split(
+            ":",
+            1
+        )
+
         q=parse_qs(p.query)
 
         return {
@@ -187,9 +337,13 @@ def parse_ss(u):
             "cipher":method,
             "password":password,
             "name":unquote(
-                q.get("remarks",[""])[0]
+                q.get(
+                    "remarks",
+                    [""]
+                )[0]
             ) or f"ss-{p.hostname}"
         }
+
     except:
         return None
 
@@ -206,10 +360,22 @@ def parse_uri(u):
             return parse_ss(u)
 
         if s in (
-            "vless","trojan","hysteria",
-            "hysteria2","hy2","tuic"
+            "vless",
+            "trojan",
+            "hysteria",
+            "hysteria2",
+            "hy2",
+            "tuic"
         ):
-            typ="hysteria2" if s in ("hy2","hysteria2") else s
+
+            typ=(
+                "hysteria2"
+                if s in (
+                    "hy2",
+                    "hysteria2"
+                )
+                else s
+            )
 
             d={
                 "type":typ,
@@ -218,50 +384,100 @@ def parse_uri(u):
             }
 
             if s=="vless":
-                d["uuid"]=unquote(p.username or "")
+                d["uuid"]=unquote(
+                    p.username or ""
+                )
 
             elif s=="trojan":
-                d["password"]=unquote(p.username or "")
+                d["password"]=unquote(
+                    p.username or ""
+                )
 
-            elif s in ("hysteria","hysteria2","hy2"):
-                d["password"]=unquote(p.username or "")
+            elif s in (
+                "hysteria",
+                "hysteria2",
+                "hy2"
+            ):
+                d["password"]=unquote(
+                    p.username or ""
+                )
 
             elif s=="tuic":
-                d["uuid"]=unquote(p.username or "")
-                d["password"]=unquote(p.password or "")
+                d["uuid"]=unquote(
+                    p.username or ""
+                )
+                d["password"]=unquote(
+                    p.password or ""
+                )
 
             for k in (
-                "security","type","flow","sni","servername",
-                "alpn","fp","pbk","sid","spx","path","host",
-                "headerType","allowInsecure","insecure",
-                "obfs","obfs-password"
+                "security",
+                "type",
+                "flow",
+                "sni",
+                "servername",
+                "alpn",
+                "fp",
+                "pbk",
+                "sid",
+                "spx",
+                "path",
+                "host",
+                "headerType",
+                "allowInsecure",
+                "insecure",
+                "obfs",
+                "obfs-password"
             ):
                 if k in q:
                     d[k]=q[k][0]
 
             d["name"]=unquote(
-                q.get("remarks",[""])[0] or
-                q.get("name",[""])[0] or
-                f"{typ}-{p.hostname}"
+                q.get(
+                    "remarks",
+                    [""]
+                )[0]
+                or q.get(
+                    "name",
+                    [""]
+                )[0]
+                or f"{typ}-{p.hostname}"
             )
 
             return d
 
-        if s in ("socks","socks5","http","https"):
+        if s in (
+            "socks",
+            "socks5",
+            "http",
+            "https"
+        ):
+
             d={
-                "type":"socks5" if s.startswith("socks") else "http",
+                "type":(
+                    "socks5"
+                    if s.startswith("socks")
+                    else "http"
+                ),
                 "server":p.hostname or "",
                 "port":p.port or 443,
                 "name":unquote(
-                    q.get("remarks",[""])[0]
+                    q.get(
+                        "remarks",
+                        [""]
+                    )[0]
                 ) or f"{s}-{p.hostname}"
             }
 
             if p.username:
-                d["username"]=unquote(p.username)
+                d["username"]=unquote(
+                    p.username
+                )
 
             if p.password:
-                d["password"]=unquote(p.password)
+                d["password"]=unquote(
+                    p.password
+                )
 
             return d
 
@@ -273,17 +489,22 @@ def parse_uri(u):
 def parse_yaml_nodes(text):
     try:
         x=yaml.safe_load(text)
+
     except:
         return []
 
     if not isinstance(x,dict):
         return []
 
-    if not isinstance(x.get("proxies"),list):
+    if not isinstance(
+        x.get("proxies"),
+        list
+    ):
         return []
 
     return [
-        dict(n) for n in x["proxies"]
+        dict(n)
+        for n in x["proxies"]
         if isinstance(n,dict)
         and n.get("type")
         and n.get("server")
@@ -292,37 +513,53 @@ def parse_yaml_nodes(text):
 def parse_json_nodes(text):
     try:
         x=json.loads(text)
+
     except:
         return []
 
     if not isinstance(x,dict):
         return []
 
-    if not isinstance(x.get("proxies"),list):
+    if not isinstance(
+        x.get("proxies"),
+        list
+    ):
         return []
 
     return [
-        dict(n) for n in x["proxies"]
+        dict(n)
+        for n in x["proxies"]
         if isinstance(n,dict)
         and n.get("type")
         and n.get("server")
     ]
 
 def parse_nodes(text):
+
     # 1. Clash/Mihomo YAML
     x=parse_yaml_nodes(text)
+
     if x:
         return x
 
     # 2. JSON节点
     x=parse_json_nodes(text)
+
     if x:
         return x
 
     # 3. 正文直接包含URI节点
     out=[]
+
     for u in extract_node_uris(text):
+
+        # 去掉URI末尾常见标点
+        u=u.rstrip(
+            ".,;)]}>"
+        )
+
         n=parse_uri(u)
+
         if n:
             out.append(n)
 
@@ -330,9 +567,14 @@ def parse_nodes(text):
         return out
 
     # 4. Base64
-    d=b64d(text.strip())
+    d=b64d(
+        text.strip()
+    )
 
-    if d and d.strip()!=text.strip():
+    if (
+        d
+        and d.strip()!=text.strip()
+    ):
         return parse_nodes(d)
 
     return []
@@ -342,21 +584,38 @@ def parse_m3u(text):
     out=[]
     info=None
 
-    for line in text.lstrip("\ufeff").splitlines():
+    for line in text.lstrip(
+        "\ufeff"
+    ).splitlines():
+
         line=line.strip()
 
         if not line:
             continue
 
-        if line.upper().startswith("#EXTINF"):
+        if line.upper().startswith(
+            "#EXTINF"
+        ):
             info=line
             continue
 
-        if line and not line.startswith("#") and info:
-            m=re.search(r"#EXTINF:[^,]*,(.*)",info)
+        if (
+            line
+            and not line.startswith("#")
+            and info
+        ):
+
+            m=re.search(
+                r"#EXTINF:[^,]*,(.*)",
+                info
+            )
 
             out.append({
-                "name":m.group(1).strip() if m else "Unnamed",
+                "name":(
+                    m.group(1).strip()
+                    if m
+                    else "Unnamed"
+                ),
                 "url":line,
                 "extinf":info
             })
@@ -369,64 +628,133 @@ def parse_m3u(text):
 def parse_tvbox(text):
     try:
         x=json.loads(text)
+
     except:
         return None
 
     if not isinstance(x,dict):
         return None
 
-    if any(k in x for k in ("sites","lives","spider","parses")):
+    if any(
+        k in x
+        for k in (
+            "sites",
+            "lives",
+            "spider",
+            "parses"
+        )
+    ):
         return x
 
     return None
 
 # ================= 内容实际识别 =================
 def parse_content(text):
-    text=text.lstrip("\ufeff")
+
+    text=text.lstrip(
+        "\ufeff"
+    )
 
     if not text.strip():
-        return "empty",[],0,"正文为空"
+        return (
+            "empty",
+            [],
+            0,
+            "正文为空"
+        )
 
-    # M3U
+    # 1. M3U
     if is_m3u(text):
+
         x=parse_m3u(text)
 
         if x:
-            return "m3u",x,len(x),""
+            return (
+                "m3u",
+                x,
+                len(x),
+                ""
+            )
 
-        return "m3u",[],0,"检测到M3U标记但没有有效节目"
+        return (
+            "m3u",
+            [],
+            0,
+            "检测到M3U标记但没有有效节目"
+        )
 
-    # TVBox
+    # 2. TVBox
     x=parse_tvbox(text)
 
     if x:
-        return "tvbox",x,1,""
+        return (
+            "tvbox",
+            x,
+            1,
+            ""
+        )
 
-    # Clash/Mihomo / URI / Base64
+    # 3. Clash/Mihomo / URI / Base64
     x=parse_nodes(text)
 
     if x:
-        return "nodes",x,len(x),""
+        return (
+            "nodes",
+            x,
+            len(x),
+            ""
+        )
 
-    # 尝试直接JSON，便于记录原因
+    # 4. 普通JSON
     try:
         json.loads(text)
-        return "json_unknown",[],0,"JSON存在，但不是可识别的TVBox或节点格式"
+
+        return (
+            "json_unknown",
+            [],
+            0,
+            "JSON存在，但不是可识别的TVBox或节点格式"
+        )
+
     except:
         pass
 
-    # Markdown / 普通文本里完全没有节点
-    if re.search(r"(?i)^\s*#|```|\[[^\]]+\]\(",text,re.M):
-        return "text",[],0,"文本/Markdown中未发现有效节点"
+    # 5. Markdown / 普通文本
+    if re.search(
+        r"(?i)^\s*#|```|\[[^\]]+\]\(",
+        text,
+        re.M
+    ):
+        return (
+            "text",
+            [],
+            0,
+            "文本/Markdown中未发现有效节点"
+        )
 
-    return "unknown",[],0,"未识别为节点、M3U、TVBox或Base64"
+    return (
+        "unknown",
+        [],
+        0,
+        "未识别为节点、M3U、TVBox或Base64"
+    )
 
 # ================= HTTP抓取 =================
-async def fetch(session,url,old,sem):
+async def fetch(
+    session,
+    url,
+    old,
+    sem
+):
     async with sem:
+
         u=normalize_url(url)
 
-        if not re.match(r"^https?://",u,re.I):
+        if not re.match(
+            r"^https?://",
+            u,
+            re.I
+        ):
             return {
                 "status":"failed",
                 "http":0,
@@ -439,55 +767,104 @@ async def fetch(session,url,old,sem):
             h["If-None-Match"]=old["etag"]
 
         if old.get("last_modified"):
-            h["If-Modified-Since"]=old["last_modified"]
+            h["If-Modified-Since"]=old[
+                "last_modified"
+            ]
 
         try:
+
             async with session.get(
                 u,
                 headers=h,
-                timeout=aiohttp.ClientTimeout(total=TIMEOUT),
+                timeout=aiohttp.ClientTimeout(
+                    total=TIMEOUT
+                ),
                 allow_redirects=True
             ) as r:
 
-                etag=r.headers.get("ETag","")
-                lm=r.headers.get("Last-Modified","")
+                etag=r.headers.get(
+                    "ETag",
+                    ""
+                )
+
+                lm=r.headers.get(
+                    "Last-Modified",
+                    ""
+                )
 
                 # 服务器明确告诉我们没有变化
                 if r.status==304:
+
                     return {
                         "status":"not_modified",
                         "http":304,
-                        "etag":etag or old.get("etag",""),
-                        "lm":lm or old.get("last_modified","")
+                        "etag":(
+                            etag
+                            or old.get(
+                                "etag",
+                                ""
+                            )
+                        ),
+                        "lm":(
+                            lm
+                            or old.get(
+                                "last_modified",
+                                ""
+                            )
+                        )
                     }
 
                 if r.status!=200:
+
                     return {
                         "status":"failed",
                         "http":r.status,
-                        "reason":f"HTTP {r.status}",
+                        "reason":(
+                            f"HTTP {r.status}"
+                        ),
                         "etag":etag,
                         "lm":lm
                     }
 
-                data=await r.content.read(MAX_SIZE+1)
+                data=await r.content.read(
+                    MAX_SIZE+1
+                )
 
                 if len(data)>MAX_SIZE:
+
                     return {
                         "status":"failed",
                         "http":r.status,
-                        "reason":f"正文超过{MAX_SIZE//1024//1024}MB"
+                        "reason":(
+                            f"正文超过"
+                            f"{MAX_SIZE//1024//1024}MB"
+                        )
                     }
 
                 digest=sha(data)
 
-                # 没有304，但正文SHA256没变化
-                if old.get("sha256")==digest:
+                # 没有304，但SHA256没变化
+                if old.get(
+                    "sha256"
+                )==digest:
+
                     return {
                         "status":"unchanged",
                         "http":r.status,
-                        "etag":etag or old.get("etag",""),
-                        "lm":lm or old.get("last_modified",""),
+                        "etag":(
+                            etag
+                            or old.get(
+                                "etag",
+                                ""
+                            )
+                        ),
+                        "lm":(
+                            lm
+                            or old.get(
+                                "last_modified",
+                                ""
+                            )
+                        ),
                         "sha256":digest
                     }
 
@@ -497,10 +874,14 @@ async def fetch(session,url,old,sem):
                     "etag":etag,
                     "lm":lm,
                     "sha256":digest,
-                    "text":data.decode("utf-8","ignore")
+                    "text":data.decode(
+                        "utf-8",
+                        "ignore"
+                    )
                 }
 
         except asyncio.TimeoutError:
+
             return {
                 "status":"failed",
                 "http":0,
@@ -508,63 +889,87 @@ async def fetch(session,url,old,sem):
             }
 
         except aiohttp.ClientError as e:
+
             return {
                 "status":"failed",
                 "http":0,
-                "reason":f"http:{type(e).__name__}"
+                "reason":(
+                    f"http:{type(e).__name__}"
+                )
             }
 
         except Exception as e:
+
             return {
                 "status":"failed",
                 "http":0,
-                "reason":f"{type(e).__name__}:{e}"
+                "reason":(
+                    f"{type(e).__name__}:{e}"
+                )
             }
 
 # ================= 地理位置 =================
 COUNTRY_WORDS=[
-    "中国","大陆","香港","澳门","台湾","日本","韩国","新加坡",
-    "美国","加拿大","英国","德国","法国","荷兰","俄罗斯","印度",
-    "澳大利亚","新西兰","越南","泰国","菲律宾","马来西亚",
-    "印度尼西亚","印尼","土耳其","瑞士","瑞典","挪威","芬兰",
-    "丹麦","波兰","乌克兰","西班牙","意大利","巴西","墨西哥",
-    "Argentina","Hong Kong","Taiwan","Japan","Korea","Singapore",
-    "United States","USA","Canada","UK","Germany","France",
-    "Netherlands","Russia","India","Australia","Vietnam","Thailand",
-    "Philippines","Malaysia","Indonesia","Turkey","Switzerland",
-    "Sweden","Norway","Finland","Poland","Ukraine","Spain","Italy",
+    "中国","大陆","香港","澳门","台湾","日本","韩国",
+    "新加坡","美国","加拿大","英国","德国","法国",
+    "荷兰","俄罗斯","印度","澳大利亚","新西兰","越南",
+    "泰国","菲律宾","马来西亚","印度尼西亚","印尼",
+    "土耳其","瑞士","瑞典","挪威","芬兰","丹麦","波兰",
+    "乌克兰","西班牙","意大利","巴西","墨西哥",
+    "Argentina","Hong Kong","Taiwan","Japan","Korea",
+    "Singapore","United States","USA","Canada","UK",
+    "Germany","France","Netherlands","Russia","India",
+    "Australia","Vietnam","Thailand","Philippines",
+    "Malaysia","Indonesia","Turkey","Switzerland","Sweden",
+    "Norway","Finland","Poland","Ukraine","Spain","Italy",
     "Brazil","Mexico"
 ]
 
-FLAGS=re.compile(r"[\U0001F1E6-\U0001F1FF]{2}")
+FLAGS=re.compile(
+    r"[\U0001F1E6-\U0001F1FF]{2}"
+)
 
 def has_geo(name):
-    if FLAGS.search(str(name)):
+
+    if FLAGS.search(
+        str(name)
+    ):
         return True
 
     low=str(name).lower()
 
-    # 常见国家代码/地理标记
     if re.search(
-        r"(?<![A-Za-z])(?:US|UK|CA|DE|FR|NL|JP|KR|SG|HK|TW|"
-        r"CN|RU|IN|AU|NZ|VN|TH|MY|ID|TR|CH|SE|NO|FI|DK|PL|"
-        r"UA|ES|IT|BR|MX)(?![A-Za-z])",
+        r"(?<![A-Za-z])"
+        r"(?:US|UK|CA|DE|FR|NL|JP|KR|SG|HK|TW|"
+        r"CN|RU|IN|AU|NZ|VN|TH|MY|ID|TR|CH|SE|NO|FI|DK|"
+        r"PL|UA|ES|IT|BR|MX)"
+        r"(?![A-Za-z])",
         low
     ):
         return True
 
-    return any(x.lower() in low for x in COUNTRY_WORDS)
+    return any(
+        x.lower() in low
+        for x in COUNTRY_WORDS
+    )
 
 def get_server(n):
-    return str(n.get("server","")).strip()
+    return str(
+        n.get("server","")
+    ).strip()
 
-async def resolve_host(host,dns_cache):
+async def resolve_host(
+    host,
+    dns_cache
+):
+
     if not host:
         return ""
 
     try:
         ipaddress.ip_address(host)
         return host
+
     except:
         pass
 
@@ -572,12 +977,19 @@ async def resolve_host(host,dns_cache):
         return dns_cache[host]
 
     try:
+
         infos=await asyncio.to_thread(
             socket.getaddrinfo,
-            host,None,socket.AF_INET
+            host,
+            None,
+            socket.AF_INET
         )
 
-        ip=infos[0][4][0] if infos else ""
+        ip=(
+            infos[0][4][0]
+            if infos
+            else ""
+        )
 
         if ip:
             dns_cache[host]=ip
@@ -587,13 +999,20 @@ async def resolve_host(host,dns_cache):
     except:
         return ""
 
-async def geo_one(session,ip,sem):
+async def geo_one(
+    session,
+    ip,
+    sem
+):
+
     async with sem:
+
         try:
+
             url=(
                 f"http://ip-api.com/json/{ip}"
-                "?lang=zh-CN&fields=status,country,countryCode,"
-                "regionName,city,query"
+                "?lang=zh-CN&fields=status,country,"
+                "countryCode,regionName,city,query"
             )
 
             async with session.get(
@@ -605,120 +1024,223 @@ async def geo_one(session,ip,sem):
                 if r.status!=200:
                     return None
 
-                x=await r.json(content_type=None)
+                x=await r.json(
+                    content_type=None
+                )
 
-                if x.get("status")!="success":
+                if x.get(
+                    "status"
+                )!="success":
                     return None
 
                 return {
                     "ip":ip,
-                    "country":x.get("country",""),
-                    "countryCode":x.get("countryCode",""),
-                    "region":x.get("regionName",""),
-                    "city":x.get("city","")
+                    "country":x.get(
+                        "country",
+                        ""
+                    ),
+                    "countryCode":x.get(
+                        "countryCode",
+                        ""
+                    ),
+                    "region":x.get(
+                        "regionName",
+                        ""
+                    ),
+                    "city":x.get(
+                        "city",
+                        ""
+                    )
                 }
 
         except:
             return None
 
 async def enrich_geo(nodes):
-    geo=loadj(GEO_CACHE,{})
-    dns=loadj(DNS_CACHE,{})
 
-    hosts=list({
-        get_server(n)
-        for n in nodes
-        if get_server(n)
-    })
+    geo=loadj(
+        GEO_CACHE,
+        {}
+    )
+
+    dns=loadj(
+        DNS_CACHE,
+        {}
+    )
 
     host_ip={}
 
     # 只给没有地理信息的节点做DNS
     for n in nodes:
-        if has_geo(n.get("name","")):
+
+        if has_geo(
+            n.get("name","")
+        ):
             continue
 
         h=get_server(n)
 
         if h and h not in host_ip:
-            host_ip[h]=await resolve_host(h,dns)
+            host_ip[h]=await resolve_host(
+                h,
+                dns
+            )
 
-    savej(DNS_CACHE,dns)
+    savej(
+        DNS_CACHE,
+        dns
+    )
 
     need=[
-        ip for ip in set(host_ip.values())
-        if ip and ip not in geo
+        ip
+        for ip in set(
+            host_ip.values()
+        )
+        if ip
+        and ip not in geo
     ]
 
     if need:
-        sem=asyncio.Semaphore(GEO_CONCURRENCY)
+
+        sem=asyncio.Semaphore(
+            GEO_CONCURRENCY
+        )
 
         async with aiohttp.ClientSession(
             connector=aiohttp.TCPConnector(
                 limit=GEO_CONCURRENCY
             )
         ) as s:
-            rs=await asyncio.gather(*[
-                geo_one(s,ip,sem)
-                for ip in need
-            ])
 
-        for ip,g in zip(need,rs):
-            geo[ip]=g if g else {"failed":True}
+            rs=await asyncio.gather(
+                *[
+                    geo_one(
+                        s,
+                        ip,
+                        sem
+                    )
+                    for ip in need
+                ]
+            )
 
-        savej(GEO_CACHE,geo)
+        for ip,g in zip(
+            need,
+            rs
+        ):
+            geo[ip]=(
+                g
+                if g
+                else {"failed":True}
+            )
+
+        savej(
+            GEO_CACHE,
+            geo
+        )
 
     for n in nodes:
-        name=str(n.get("name",""))
+
+        name=str(
+            n.get(
+                "name",
+                ""
+            )
+        )
 
         # 原名称已有国家/地区/国旗
         if has_geo(name):
             continue
 
-        ip=host_ip.get(get_server(n),"")
+        ip=host_ip.get(
+            get_server(n),
+            ""
+        )
+
         g=geo.get(ip)
 
-        if not g or g.get("failed"):
+        if (
+            not g
+            or g.get("failed")
+        ):
             continue
 
-        country=g.get("country","")
-        city=g.get("city","")
+        country=g.get(
+            "country",
+            ""
+        )
 
-        label=f"{country}-{city}" if country and city else (
-            country or city
+        city=g.get(
+            "city",
+            ""
+        )
+
+        label=(
+            f"{country}-{city}"
+            if country and city
+            else (
+                country
+                or city
+            )
         )
 
         if label:
-            n["name"]=f"{clean_name(name)} [{label}]"
+            n["name"]=(
+                f"{clean_name(name)} "
+                f"[{label}]"
+            )
 
 # ================= 输出重建 =================
 async def rebuild(records):
+
     nodes=[]
     m3u=[]
     tv=[]
 
     for r in records.values():
+
         typ=r.get("type")
 
         if typ=="nodes":
-            nodes.extend(r.get("items",[]))
+            nodes.extend(
+                r.get(
+                    "items",
+                    []
+                )
+            )
 
         elif typ=="m3u":
-            m3u.extend(r.get("items",[]))
+            m3u.extend(
+                r.get(
+                    "items",
+                    []
+                )
+            )
 
         elif typ=="tvbox":
-            tv.append(r.get("items",{}))
+            tv.append(
+                r.get(
+                    "items",
+                    {}
+                )
+            )
 
     # ---------- 节点去重 ----------
     nd=[]
     seen=set()
 
     for n in nodes:
-        if not isinstance(n,dict):
+
+        if not isinstance(
+            n,
+            dict
+        ):
             continue
 
         z=dict(n)
-        z.pop("name",None)
+        z.pop(
+            "name",
+            None
+        )
 
         k=sha(
             json.dumps(
@@ -732,15 +1254,23 @@ async def rebuild(records):
             continue
 
         seen.add(k)
-        nd.append(dict(n))
+        nd.append(
+            dict(n)
+        )
 
     await enrich_geo(nd)
 
     used=set()
 
     for n in nd:
+
         n["name"]=unique_name(
-            n.get("name") or n.get("server"),
+            n.get(
+                "name"
+            )
+            or n.get(
+                "server"
+            ),
             used
         )
 
@@ -749,22 +1279,30 @@ async def rebuild(records):
     seen=set()
 
     for x in m3u:
-        if not isinstance(x,dict):
+
+        if not isinstance(
+            x,
+            dict
+        ):
             continue
 
         k=sha(
-            f'{x.get("name","")}|{x.get("url","")}'
+            f'{x.get("name","")}|'
+            f'{x.get("url","")}'
         )
 
         if k in seen:
             continue
 
         seen.add(k)
-        mo.append(dict(x))
+        mo.append(
+            dict(x)
+        )
 
     used=set()
 
     for x in mo:
+
         x["name"]=unique_name(
             x.get("name"),
             used
@@ -774,20 +1312,37 @@ async def rebuild(records):
     merged={}
 
     for obj in tv:
-        if not isinstance(obj,dict):
+
+        if not isinstance(
+            obj,
+            dict
+        ):
             continue
 
         for k,v in obj.items():
 
-            if isinstance(v,list):
-                merged.setdefault(k,[]).extend(v)
+            if isinstance(
+                v,
+                list
+            ):
+                merged.setdefault(
+                    k,
+                    []
+                ).extend(v)
 
             elif k not in merged:
                 merged[k]=v
 
-    for k in ("sites","lives","parses"):
+    for k in (
+        "sites",
+        "lives",
+        "parses"
+    ):
 
-        if not isinstance(merged.get(k),list):
+        if not isinstance(
+            merged.get(k),
+            list
+        ):
             continue
 
         arr=[]
@@ -811,41 +1366,58 @@ async def rebuild(records):
 
         merged[k]=arr
 
-    # ---------- 写文件 ----------
+    # ---------- 写节点 ----------
     with open(
         OUT/"nodes.yaml",
         "w",
         encoding="utf-8"
     ) as f:
+
         yaml.safe_dump(
-            {"proxies":nd},
+            {
+                "proxies":nd
+            },
             f,
             allow_unicode=True,
             sort_keys=False
         )
 
+    # ---------- 写M3U ----------
     with open(
         OUT/"playlist.m3u",
         "w",
         encoding="utf-8"
     ) as f:
 
-        f.write("#EXTM3U\n")
+        f.write(
+            "#EXTM3U\n"
+        )
 
         for x in mo:
+
             f.write(
                 x.get(
                     "extinf",
                     f'#EXTINF:-1,{x.get("name","Unnamed")}'
-                )+"\n"
+                )
+                +"\n"
             )
-            f.write(x.get("url","")+"\n")
 
+            f.write(
+                x.get(
+                    "url",
+                    ""
+                )
+                +"\n"
+            )
+
+    # ---------- 写TVBox ----------
     with open(
         OUT/"tvbox.json",
         "w",
         encoding="utf-8"
     ) as f:
+
         json.dump(
             merged,
             f,
@@ -863,47 +1435,99 @@ async def rebuild(records):
 async def main_async():
 
     print("="*70)
-    print(f"开始时间：{now()} 北京时间")
+    print(
+        f"开始时间：{now()} 北京时间"
+    )
     print("="*70)
 
-    state=loadj(STATE,{})
+    state=loadj(
+        STATE,
+        {}
+    )
 
     # =========================================================
     # 1. 每次读取Google Drive CSV
     # =========================================================
-    print("读取 Google Drive CSV...")
+    print(
+        "读取 Google Drive CSV..."
+    )
 
     sem=asyncio.Semaphore(2)
 
-    async with aiohttp.ClientSession() as s:
+    async with aiohttp.ClientSession(
+        connector=aiohttp.TCPConnector(
+            limit=2,
+            ttl_dns_cache=300
+        )
+    ) as s:
 
         r=await fetch(
             s,
             DRIVE_CSV,
-            {},       # CSV本身每次读取，不使用来源增量状态
+            {},
             sem
         )
 
     if not r.get("text"):
+
         raise RuntimeError(
-            "Google Drive CSV读取失败："+
-            r.get("reason","unknown")
+            "Google Drive CSV读取失败："
+            +r.get(
+                "reason",
+                "unknown"
+            )
         )
 
-    urls=get_urls(r["text"])
+    # =========================================================
+    # CSV诊断
+    # =========================================================
+    csv_text=r["text"]
 
-    print(f"CSV逐行读取来源 URL：{len(urls)}")
+    print()
+    print(
+        "Google Drive CSV下载结果："
+    )
+    print(
+        f"正文长度：{len(csv_text):,} 字符"
+    )
+    print(
+        f"前500字符：\n{csv_text[:500]}"
+    )
+
+    # =========================================================
+    # 逐条读取第一列
+    # =========================================================
+    urls=get_urls(
+        csv_text
+    )
+
+    print()
+    print(
+        f"CSV逐行读取来源 URL：{len(urls):,}"
+    )
 
     if len(urls)<100:
-        print("⚠️ 注意：CSV实际读取到的URL少于100个，请检查CSV内容。")
+
+        print(
+            "⚠️ 当前CSV解析得到的URL少于100条。"
+        )
+
+        print(
+            "⚠️ 如果你确认原CSV有800+条，"
+            "那么重点看上面的“CSV实际记录数”。"
+        )
 
     # =========================================================
     # 2. 并行检查全部来源
     # =========================================================
-    sem=asyncio.Semaphore(CONCURRENCY)
+    sem=asyncio.Semaphore(
+        CONCURRENCY
+    )
 
+    print()
     print(
-        f"开始检查全部来源，并发数：{CONCURRENCY}"
+        f"开始检查全部来源，并发数："
+        f"{CONCURRENCY}"
     )
 
     async with aiohttp.ClientSession(
@@ -917,13 +1541,18 @@ async def main_async():
             fetch(
                 s,
                 u,
-                state.get(u,{}),
+                state.get(
+                    u,
+                    {}
+                ),
                 sem
             )
             for u in urls
         ]
 
-        results=await asyncio.gather(*tasks)
+        results=await asyncio.gather(
+            *tasks
+        )
 
     # =========================================================
     # 3. 更新状态
@@ -932,44 +1561,76 @@ async def main_async():
     stats=[]
 
     for index,(url,r) in enumerate(
-        zip(urls,results),1
+        zip(
+            urls,
+            results
+        ),
+        1
     ):
 
-        old=state.get(url,{})
-        st=r.get("status")
+        old=state.get(
+            url,
+            {}
+        )
+
+        st=r.get(
+            "status"
+        )
 
         # ---------- 未变化 ----------
-        if st in ("not_modified","unchanged"):
+        if st in (
+            "not_modified",
+            "unchanged"
+        ):
 
             rec=dict(old)
 
             rec["last_checked"]=now()
 
             if r.get("etag"):
-                rec["etag"]=r["etag"]
+                rec["etag"]=r[
+                    "etag"
+                ]
 
             if r.get("lm"):
-                rec["last_modified"]=r["lm"]
+                rec["last_modified"]=r[
+                    "lm"
+                ]
 
             new_state[url]=rec
 
             stats.append({
                 "url":url,
                 "status":st,
-                "http_status":r.get("http",200),
-                "type":rec.get("type",""),
-                "count":rec.get("count",0),
+                "http_status":r.get(
+                    "http",
+                    200
+                ),
+                "type":rec.get(
+                    "type",
+                    ""
+                ),
+                "count":rec.get(
+                    "count",
+                    0
+                ),
                 "reason":"",
                 "last_modified":rec.get(
-                    "last_modified",""
+                    "last_modified",
+                    ""
                 ),
                 "last_checked":rec.get(
-                    "last_checked",""
+                    "last_checked",
+                    ""
                 ),
                 "last_updated":rec.get(
-                    "last_updated",""
+                    "last_updated",
+                    ""
                 ),
-                "sha256":rec.get("sha256","")
+                "sha256":rec.get(
+                    "sha256",
+                    ""
+                )
             })
 
             continue
@@ -980,12 +1641,14 @@ async def main_async():
             rec=dict(old)
 
             rec["last_checked"]=now()
+
             rec["last_error"]=r.get(
                 "reason",
                 "unknown"
             )
 
             if not rec:
+
                 rec={
                     "type":"failed",
                     "count":0,
@@ -1001,32 +1664,54 @@ async def main_async():
             stats.append({
                 "url":url,
                 "status":"failed",
-                "http_status":r.get("http",0),
-                "type":rec.get("type","failed"),
-                "count":rec.get("count",0),
+                "http_status":r.get(
+                    "http",
+                    0
+                ),
+                "type":rec.get(
+                    "type",
+                    "failed"
+                ),
+                "count":rec.get(
+                    "count",
+                    0
+                ),
                 "reason":rec.get(
-                    "last_error",""
+                    "last_error",
+                    ""
                 ),
                 "last_modified":rec.get(
-                    "last_modified",""
+                    "last_modified",
+                    ""
                 ),
                 "last_checked":rec.get(
-                    "last_checked",""
+                    "last_checked",
+                    ""
                 ),
                 "last_updated":rec.get(
-                    "last_updated",""
+                    "last_updated",
+                    ""
                 ),
-                "sha256":rec.get("sha256","")
+                "sha256":rec.get(
+                    "sha256",
+                    ""
+                )
             })
 
             continue
 
         # ---------- 新内容/内容变化 ----------
         typ,items,count,reason=parse_content(
-            r.get("text","")
+            r.get(
+                "text",
+                ""
+            )
         )
 
-        cache_name=sha(url)+".json"
+        cache_name=(
+            sha(url)
+            +".json"
+        )
 
         savej(
             CACHE/cache_name,
@@ -1045,9 +1730,18 @@ async def main_async():
             "type":typ,
             "count":count,
             "reason":reason,
-            "etag":r.get("etag",""),
-            "last_modified":r.get("lm",""),
-            "sha256":r.get("sha256",""),
+            "etag":r.get(
+                "etag",
+                ""
+            ),
+            "last_modified":r.get(
+                "lm",
+                ""
+            ),
+            "sha256":r.get(
+                "sha256",
+                ""
+            ),
             "last_checked":t,
             "last_updated":t,
             "cache":cache_name
@@ -1057,33 +1751,53 @@ async def main_async():
 
         stats.append({
             "url":url,
-            "status":"new" if not old else "changed",
-            "http_status":r.get("http",200),
+            "status":(
+                "new"
+                if not old
+                else "changed"
+            ),
+            "http_status":r.get(
+                "http",
+                200
+            ),
             "type":typ,
             "count":count,
             "reason":reason,
-            "last_modified":r.get("lm",""),
+            "last_modified":r.get(
+                "lm",
+                ""
+            ),
             "last_checked":t,
             "last_updated":t,
-            "sha256":r.get("sha256","")
+            "sha256":r.get(
+                "sha256",
+                ""
+            )
         })
 
     # =========================================================
     # 4. 保存当前来源状态
     # =========================================================
-    savej(STATE,new_state)
+    savej(
+        STATE,
+        new_state
+    )
 
     # =========================================================
     # 5. 从所有缓存重新构建最终结果
     # =========================================================
     print()
-    print("重新整理全部缓存内容...")
+    print(
+        "重新整理全部缓存内容..."
+    )
 
     records={}
 
     for url,rec in new_state.items():
 
-        cache_name=rec.get("cache")
+        cache_name=rec.get(
+            "cache"
+        )
 
         if not cache_name:
             continue
@@ -1093,16 +1807,31 @@ async def main_async():
         if not p.exists():
             continue
 
-        x=loadj(p,{})
+        x=loadj(
+            p,
+            {}
+        )
 
         if not x:
             continue
 
         records[url]={
-            "type":x.get("type",""),
-            "items":x.get("items",[]),
-            "count":x.get("count",0),
-            "reason":x.get("reason","")
+            "type":x.get(
+                "type",
+                ""
+            ),
+            "items":x.get(
+                "items",
+                []
+            ),
+            "count":x.get(
+                "count",
+                0
+            ),
+            "reason":x.get(
+                "reason",
+                ""
+            )
         }
 
     node_count,m3u_count,tv=await rebuild(
@@ -1171,74 +1900,159 @@ async def main_async():
     status_count={}
 
     for x in stats:
+
         k=x["status"]
-        status_count[k]=status_count.get(k,0)+1
+
+        status_count[k]=(
+            status_count.get(k,0)
+            +1
+        )
 
     type_count={}
 
     for x in stats:
+
         k=x["type"] or "unknown"
-        type_count[k]=type_count.get(k,0)+1
 
-    tv_sites=len(
-        tv.get("sites",[])
-    ) if isinstance(tv.get("sites"),list) else 0
+        type_count[k]=(
+            type_count.get(k,0)
+            +1
+        )
 
-    tv_lives=len(
-        tv.get("lives",[])
-    ) if isinstance(tv.get("lives"),list) else 0
+    tv_sites=(
+        len(tv.get("sites",[]))
+        if isinstance(
+            tv.get("sites"),
+            list
+        )
+        else 0
+    )
 
-    tv_parses=len(
-        tv.get("parses",[])
-    ) if isinstance(tv.get("parses"),list) else 0
+    tv_lives=(
+        len(tv.get("lives",[]))
+        if isinstance(
+            tv.get("lives"),
+            list
+        )
+        else 0
+    )
+
+    tv_parses=(
+        len(tv.get("parses",[]))
+        if isinstance(
+            tv.get("parses"),
+            list
+        )
+        else 0
+    )
 
     print()
     print("="*70)
-    print("运行完成")
+    print(
+        "运行完成"
+    )
     print("="*70)
-    print(f"北京时间：{now()}")
+    print(
+        f"北京时间：{now()}"
+    )
 
     print()
-    print("【来源】")
-    print(f"CSV逐行读取：{len(urls)}")
-    print(f"新增：{status_count.get('new',0)}")
-    print(f"变化：{status_count.get('changed',0)}")
-    print(f"304：{status_count.get('not_modified',0)}")
-    print(f"SHA未变化：{status_count.get('unchanged',0)}")
-    print(f"失败：{status_count.get('failed',0)}")
+    print(
+        "【来源】"
+    )
+    print(
+        f"CSV逐行读取：{len(urls):,}"
+    )
+    print(
+        f"新增：{status_count.get('new',0):,}"
+    )
+    print(
+        f"变化：{status_count.get('changed',0):,}"
+    )
+    print(
+        f"304：{status_count.get('not_modified',0):,}"
+    )
+    print(
+        f"SHA未变化：{status_count.get('unchanged',0):,}"
+    )
+    print(
+        f"失败：{status_count.get('failed',0):,}"
+    )
 
     print()
-    print("【实际内容类型】")
+    print(
+        "【实际内容类型】"
+    )
 
-    for k,v in sorted(type_count.items()):
-        print(f"{k:<18}{v}")
-
-    print()
-    print("【最终合并】")
-    print(f"节点：{node_count}")
-    print(f"M3U：{m3u_count}")
-    print(f"TVBox sites：{tv_sites}")
-    print(f"TVBox lives：{tv_lives}")
-    print(f"TVBox parses：{tv_parses}")
+    for k,v in sorted(
+        type_count.items()
+    ):
+        print(
+            f"{k:<18}{v:,}"
+        )
 
     print()
-    print("【输出】")
-    print("output/nodes.yaml")
-    print("output/playlist.m3u")
-    print("output/tvbox.json")
-    print("output/statistics.csv")
-    print("output/failed.csv")
-    print("output/source_state.json")
-    print("output/geo_cache.json")
-    print("output/dns_cache.json")
-    print("output/cache/")
+    print(
+        "【最终合并】"
+    )
+    print(
+        f"节点：{node_count:,}"
+    )
+    print(
+        f"M3U：{m3u_count:,}"
+    )
+    print(
+        f"TVBox sites：{tv_sites:,}"
+    )
+    print(
+        f"TVBox lives：{tv_lives:,}"
+    )
+    print(
+        f"TVBox parses：{tv_parses:,}"
+    )
 
     print()
-    print(f"完成时间：{now()} 北京时间")
+    print(
+        "【输出】"
+    )
+    print(
+        "output/nodes.yaml"
+    )
+    print(
+        "output/playlist.m3u"
+    )
+    print(
+        "output/tvbox.json"
+    )
+    print(
+        "output/statistics.csv"
+    )
+    print(
+        "output/failed.csv"
+    )
+    print(
+        "output/source_state.json"
+    )
+    print(
+        "output/geo_cache.json"
+    )
+    print(
+        "output/dns_cache.json"
+    )
+    print(
+        "output/cache/"
+    )
+
+    print()
+    print(
+        f"完成时间：{now()} 北京时间"
+    )
     print("="*70)
 
 def main():
-    asyncio.run(main_async())
+    asyncio.run(
+        main_async()
+    )
 
 if __name__=="__main__":
     main()
