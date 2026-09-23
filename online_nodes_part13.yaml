@@ -4322,6 +4322,673 @@ proxies:
     path: /
     headers:
       Host: shuma.ccwu.cc
+- name: 🇺🇸US_218|1.4MB/s|A004-260618 01
+  type: vless
+  server: 169.40.42.182
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  tls: true
+  servername: yahoo.com
+  network: raw
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  client-fingerprint: ios
+- name: 🇯🇵 Osaka, JP · Oracle Corporation | 168.138.43.75 :80·vmess·#6
+  type: vmess
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: None
+  network: ws
+  ws-opts:
+    headers:
+      Host: None
+    path: /cctv13.m3u8
+- name: 🇺🇸 美国 | VLESS | 200
+  type: vless
+  server: 172.235.43.210
+  port: 53957
+  uuid: 7ab29f89-6eef-4171-b232-fc4f580ad31b
+  tls: true
+  servername: www.nvidia.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: XUHlbk5VH5z4E2wxZBhlpLZ33qevyQgqU7dheRDgoGQ
+    short-id: 44e82fd7b97b14
+  client-fingerprint: firefox
+- name: 5🥎@oneclickvpnkeys
+  type: vless
+  server: 45.155.169.170
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: '[openproxylist.com] FI 886703'
+  type: vless
+  server: 185.255.179.11
+  port: 9443
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  tls: true
+  servername: hub-fi-02.hanvpn.cc
+  network: grpc
+  grpc-opts:
+    grpc-service-name: fi02-grpc-8e47a
+- name: 🇯🇵JP_1|729KB/s 01
+  type: hysteria2
+  server: 45.88.43.116
+  port: 52454
+  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: Configs by DukeMehdi-754
+  type: vmess
+  server: 47.83.19.148
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  network: ws
+  ws-opts:
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- name: 🇳🇱 @anonymouskeys-84
+  type: vless
+  server: 31.76.76.28
+  port: 8443
+  uuid: de5906f3-df38-4463-aa9d-2b01320cc6ea
+  tls: true
+  servername: neth4.lckdwn.ru
+  network: tcp
+- name: '@SylphNet | 1405-07-01 #420'
+  type: vless
+  server: 66.70.179.124
+  port: 443
+  uuid: c8f9e08d-7d07-4059-9f71-0b014b9e0ec7
+  tls: true
+  servername: www.apple.com
+  network: raw
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: feWlxnxySxB9B9HiuC4NwoTe_6slRqaW-EULPN0yxjY
+    short-id: af7e79b5
+  client-fingerprint: chrome
+- name: NL-87
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 9386fa46-72be-4cc5-ab87-f23f4c0fe9b7
+  tls: true
+  servername: tradingview.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  client-fingerprint: firefox
+- name: ☁ @anonymouskeys-400
+  type: vless
+  server: 104.18.188.234
+  port: 8880
+  uuid: 52fb52b1-82de-4c6f-b7d3-599ce5d57f1c
+  tls: false
+  servername: 104.18.188.234
+  network: ws
+  ws-opts:
+    headers:
+      Host: damp-disk-1ae9.138-c4c.workers.dev
+- name: 🇺🇸 @anonymouskeys-200
+  type: vless
+  server: 172.235.38.85
+  port: 42942
+  uuid: bca46025-bf43-40c0-895b-054a6fbcfd32
+  tls: true
+  servername: www.tesla.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU
+    short-id: a56d7d8da977f860
+  client-fingerprint: firefox
+- name: '2347'
+  type: vless
+  server: 104.18.12.229
+  port: 8880
+  uuid: 35b94b2c-1b46-4209-a04b-32ecf159b632
+  tls: false
+  servername: 104.18.12.229
+  network: ws
+  ws-opts:
+    headers:
+      Host: fragrant-tooth-2180.97-cbb.workers.dev
+- name: 🇸🇬 新加坡 | VLESS | 041
+  type: vless
+  server: 146.235.16.130
+  port: 19825
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+  tls: true
+  servername: sg2-8sb.6121999.dpdns.org
+  network: tcp#5🐲@oneclickvpnkeys
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
+- name: '@FREE2CONFIG - 57'
+  type: vless
+  server: 2.27.17.229
+  port: 46341
+  uuid: cfe85028-dde5-4a3d-890e-f43696a2b5f3
+  tls: true
+  servername: www.sony-europe.com
+  network: grpc
+  reality-opts:
+    public-key: AzPeaqr_BqAdCSN2X9stYwa2iPr5hXvmAcKXpDMK8T4
+    short-id: 2b819e
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc_common2
+- name: vmess-786380056
+  type: vmess
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: broadcastlv.chat.bilibili.com
+  network: tcp
+- name: 🇺🇸US_75|285KB/s|M003-260806
+  type: vmess
+  server: 107.173.254.27
+  port: 15311
+  uuid: ad78d02b-873f-4cff-8d4a-673f53d6ce0f
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: null
+  network: tcp
+- name: hysteria2-928823637
+  type: hysteria2
+  server: hys28.wba-pn.ru
+  port: 443
+  password: BWAFlp8g53
+  sni: hys28.wba-pn.ru
+  skip-cert-verify: true
+- name: 4Jadi-6dc4479bf0
+  type: hysteria2
+  server: 160.187.100.109
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+- name: vless-656230592
+  type: vless
+  server: 3.114.220.22
+  port: 18007
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  tls: true
+  servername: www.apple.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  client-fingerprint: chrome
+- name: 🇹🇼 中国台湾 | VLESS | 021
+  type: vless
+  server: 35.221.158.209
+  port: 32981
+  uuid: 41b96ee9-ee5e-455f-9753-187a9dead97a
+  tls: true
+  servername: www.sony.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: JSn0GPz1WOSTUDBxN_XYnhgb2Jpjc2LpfBTzX1j3V2E
+    short-id: 70f4b7a4c40636
+  client-fingerprint: ios
+- name: US-120
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 3b043a16-99d6-43f4-bc3d-3db1b3f2a052
+  tls: true
+  servername: tradingview.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+  client-fingerprint: firefox
+- name: 𝐂𝐡𝐚𝐧𝐧𝐞𝐥:-8
+  type: vless
+  server: 163.8.195.241
+  port: 2087
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  tls: false
+  servername: 163.8.195.241
+  network: ws
+  ws-opts:
+    path: /29c8fed7ca22
+- name: hamedvpns-16
+  type: vless
+  server: www.ipget.net
+  port: 8880
+  uuid: 34cedc35-a520-4a8f-8cb6-d9afba04751b
+  tls: false
+  servername: www.ipget.net
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: ancient-tooth-af89.500-ba0.workers.dev
+- name: '@Shh_Proxy-New⁷-5'
+  type: vless
+  server: tr3.wba-pn.ru
+  port: 443
+  uuid: af2a0c18-b08c-471f-baa3-259ac2ce3a85
+  tls: true
+  servername: tr3.wba-pn.ru
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇩🇪[openproxylist.com] vmess-DE
+  type: vmess
+  server: kentspark.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: kentspark.org
+  network: ws
+  ws-opts:
+    headers:
+      Host: kentspark.org
+    path: /linkvws
+- name: 🇳🇱 Netherlands | Reality Vision | @anonymouskeys-21
+  type: vless
+  server: 188.225.45.152
+  port: 12096
+  uuid: a95b3155-bc03-4789-b367-944b83be8f86
+  tls: true
+  servername: www.x5.ru
+  network: raw
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: Nq6KRzyjC95-W9JtG13EwPzNccKnZwMzhxEM_3zkdk8
+    short-id: fd5b64ba
+  client-fingerprint: qq
+- name: CA-231
+  type: vless
+  server: 172.64.229.2
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  servername: 172.64.229.2
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: CF中转_0923062224
+  type: vless
+  server: 172.66.132.196
+  port: 8880
+  uuid: d8a7b463-dc98-474d-a87e-8781476aef32
+  tls: false
+  servername: ancient-tree-7dc9.336-5f9.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: ancient-tree-7dc9.336-5f9.workers.dev
+- name: 美国(yudou789.top 玉豆免费节点)-37
+  type: vmess
+  server: 82.198.246.250
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: fra35.chasem2026sud.com
+  network: tcp
+- name: SG-22
+  type: vless
+  server: 54.169.200.246
+  port: 41688
+  uuid: 49c0aac1-5e05-4f04-b624-248fc59e03c4
+  tls: true
+  servername: www.intel.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk
+    short-id: 7f342137c20387
+  client-fingerprint: chrome
+- name: 🇺🇸 美国 | VLESS | 335
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: a4b34b65-d393-410a-b41f-f255300ea053
+  tls: true
+  servername: tradingview.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+  client-fingerprint: firefox
+- name: CF中转_0923063519
+  type: vless
+  server: 104.16.100.66
+  port: 8880
+  uuid: 28201cd6-c2a9-4703-a31b-eaf31ecb18fd
+  tls: false
+  servername: 104.16.100.66
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: summer-butterfly-cbc8.26-971.workers.dev
+- name: 🇭🇰 香港 | HKG-6
+  type: vless
+  server: 34.96.146.210
+  port: 443
+  uuid: 90153538-ef08-4942-b8e1-41e7c523e659
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  reality-opts:
+    public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
+    short-id: 56d4e7ae4f86fa39
+  client-fingerprint: chrome
+- name: '@DeltaKroneckerGithub-4546'
+  type: vless
+  server: 91.193.17.156
+  port: 9460
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  tls: true
+  servername: www.google.com
+  network: grpc
+  reality-opts:
+    public-key: rAHMmpeUJ6uOoGgk31dTF4-1RTtLZFnOEs_li2AYQWc
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: TunService
+- name: '@SylphNet | 1405-07-01 #329'
+  type: vmess
+  server: 172.233.14.17
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: null
+  network: tcp
+- name: '@DeltaKroneckerGithub-4548'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 94f1b60a-7786-4ab4-a1f6-eb5591c3d645
+  tls: true
+  servername: tradingview.com
+  network: raw
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  client-fingerprint: firefox
+- name: 🔒-3894
+  type: vless
+  server: 64.118.158.56
+  port: 443
+  uuid: 8af93649-403b-46d8-9966-923d4c58402c
+  tls: true
+  servername: buckeye-retail-website.amazon.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE
+    short-id: 5c6481cdd4
+  client-fingerprint: chrome
+- name: 香港 18
+  type: hysteria2
+  server: 202.146.222.174
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/wangcai2🇨🇳
+  skip-cert-verify: true
+- name: 🇳🇱 荷兰 | HYSTERIA2 | 023
+  type: hysteria2
+  server: nl01ntrhy01.tcp-reset-club.net
+  port: 443
+  password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: hysteria2-1111846140
+  type: hysteria2
+  server: vpn-in-001.fastervpn.world
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: whatsapp.com
+  skip-cert-verify: true
+- name: NL-88
+  type: vless
+  server: 51.158.206.87
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  tls: true
+  servername: fuck.rkn
+  network: raw
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+- name: 🇳🇱 @anonymouskeys-85
+  type: vless
+  server: 51.158.206.103
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  tls: true
+  servername: fuck.rkn
+  network: raw
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+- name: LT-3
+  type: vless
+  server: lt.aether-runet.top
+  port: 443
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+  tls: true
+  servername: lt.aether-runet.top
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk
+    short-id: 4fa44664f6a566d3
+  client-fingerprint: firefox
+- name: megav.app
+  type: vless
+  server: 31.77.199.147
+  port: 4443
+  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
+  tls: true
+  servername: images.unsplash.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A
+    short-id: 7da2eae792187ab9
+  client-fingerprint: chrome
+- name: US 🇺🇸 | @Raydikalx | ADD49C
+  type: vmess
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: test.api-aws.com
+  network: tcp
+- name: ZZ · VLESS · yudou · 2F1C46FC
+  type: vless
+  server: 141.227.186.38
+  port: 2053
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🌐 Hong Kong | WebSocket | @anonymouskeys-38
+  type: vmess
+  server: ejomsxptp19apygl.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: null
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+- name: 🇫🇷_法国_107
+  type: vless
+  server: 141.227.137.177
+  port: 2053
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: vless-656245170
+  type: vless
+  server: 156.246.88.125
+  port: 26518
+  uuid: e01fcb68-3112-49da-b85d-dffb799cfc9b
+  tls: true
+  servername: github.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 1fa6iCY7vhoQyKu91FeaK04FN-mr1qeHnrtdyLZ79mk
+    short-id: 6caead99
+  client-fingerprint: firefox
+- name: 🇫🇮 芬兰 | HYSTERIA2 | 002
+  type: hysteria2
+  server: iq5ny.pleiades.codes
+  port: 8443
+  password: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  sni: iq5ny.pleiades.codes
+  skip-cert-verify: true
+- name: '@DeltaKroneckerGithub-4557'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 21f56e7a-91cb-4639-b68a-0c96edf82805
+  tls: true
+  servername: tradingview.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  client-fingerprint: firefox
+- name: vmess-2383003
+  type: vmess
+  server: 82.198.246.250
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: t.me%252fripaojiedian
+  network: tcp
+- name: 🌐 Luxembourg | WebSocket | @anonymouskeys-7
+  type: vless
+  server: 107.189.2.206
+  port: 8443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🌐 @anonymouskeys-304
+  type: hysteria2
+  server: hy2.123266.xyz
+  port: 33333
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  sni: hy2.123266.xyz
+- name: 🇮🇳 @anonymouskeys-9
+  type: trojan
+  server: 34.131.228.210
+  port: 443
+  password: M7v%w11Se*
+  sni: hyfuuf6.wsone.icu
+  udp: true
+  skip-cert-verify: false
+- name: hysteria2-650314288
+  type: hysteria2
+  server: 103.115.109.49
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 103.115.109.49
+  skip-cert-verify: true
+- name: hysteria2-1278300107
+  type: hysteria2
+  server: 91.240.86.70
+  port: 24443
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  sni: hy.quattro-tech.ru
+- name: 🇨🇦 Canada | WebSocket | @anonymouskeys-366
+  type: vless
+  server: 104.16.100.66
+  port: 8880
+  uuid: 59a0424b-d36b-4685-bac5-89d50d8969a8
+  tls: false
+  servername: 104.16.100.66
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: billowing-snowflake-f056.63-f14.workers.dev
+  alpn:
+  - http/1.1
+- name: '🇫🇷FR_2|1.8MB/s | 福利姬: https://t.me/fuliji_Arrest'
+  type: vless
+  server: 62.210.91.10
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  tls: true
+  servername: fuck.rkn
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -4702,6 +5369,66 @@ proxy-groups:
   - 🇺🇸 @anonymouskeys-199
   - 🥎71@oneclickvpnkeys
   - FR-9
+  - 🇺🇸US_218|1.4MB/s|A004-260618 01
+  - 🇯🇵 Osaka, JP · Oracle Corporation | 168.138.43.75 :80·vmess·#6
+  - 🇺🇸 美国 | VLESS | 200
+  - 5🥎@oneclickvpnkeys
+  - '[openproxylist.com] FI 886703'
+  - 🇯🇵JP_1|729KB/s 01
+  - Configs by DukeMehdi-754
+  - 🇳🇱 @anonymouskeys-84
+  - '@SylphNet | 1405-07-01 #420'
+  - NL-87
+  - ☁ @anonymouskeys-400
+  - 🇺🇸 @anonymouskeys-200
+  - '2347'
+  - 🇸🇬 新加坡 | VLESS | 041
+  - '@FREE2CONFIG - 57'
+  - vmess-786380056
+  - 🇺🇸US_75|285KB/s|M003-260806
+  - hysteria2-928823637
+  - 4Jadi-6dc4479bf0
+  - vless-656230592
+  - 🇹🇼 中国台湾 | VLESS | 021
+  - US-120
+  - 𝐂𝐡𝐚𝐧𝐧𝐞𝐥:-8
+  - hamedvpns-16
+  - '@Shh_Proxy-New⁷-5'
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇳🇱 Netherlands | Reality Vision | @anonymouskeys-21
+  - CA-231
+  - CF中转_0923062224
+  - 美国(yudou789.top 玉豆免费节点)-37
+  - SG-22
+  - 🇺🇸 美国 | VLESS | 335
+  - CF中转_0923063519
+  - 🇭🇰 香港 | HKG-6
+  - '@DeltaKroneckerGithub-4546'
+  - '@SylphNet | 1405-07-01 #329'
+  - '@DeltaKroneckerGithub-4548'
+  - 🔒-3894
+  - 香港 18
+  - 🇳🇱 荷兰 | HYSTERIA2 | 023
+  - hysteria2-1111846140
+  - NL-88
+  - 🇳🇱 @anonymouskeys-85
+  - LT-3
+  - megav.app
+  - US 🇺🇸 | @Raydikalx | ADD49C
+  - ZZ · VLESS · yudou · 2F1C46FC
+  - 🌐 Hong Kong | WebSocket | @anonymouskeys-38
+  - 🇫🇷_法国_107
+  - vless-656245170
+  - 🇫🇮 芬兰 | HYSTERIA2 | 002
+  - '@DeltaKroneckerGithub-4557'
+  - vmess-2383003
+  - 🌐 Luxembourg | WebSocket | @anonymouskeys-7
+  - 🌐 @anonymouskeys-304
+  - 🇮🇳 @anonymouskeys-9
+  - hysteria2-650314288
+  - hysteria2-1278300107
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-366
+  - '🇫🇷FR_2|1.8MB/s | 福利姬: https://t.me/fuliji_Arrest'
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -5082,6 +5809,66 @@ proxy-groups:
   - 🇺🇸 @anonymouskeys-199
   - 🥎71@oneclickvpnkeys
   - FR-9
+  - 🇺🇸US_218|1.4MB/s|A004-260618 01
+  - 🇯🇵 Osaka, JP · Oracle Corporation | 168.138.43.75 :80·vmess·#6
+  - 🇺🇸 美国 | VLESS | 200
+  - 5🥎@oneclickvpnkeys
+  - '[openproxylist.com] FI 886703'
+  - 🇯🇵JP_1|729KB/s 01
+  - Configs by DukeMehdi-754
+  - 🇳🇱 @anonymouskeys-84
+  - '@SylphNet | 1405-07-01 #420'
+  - NL-87
+  - ☁ @anonymouskeys-400
+  - 🇺🇸 @anonymouskeys-200
+  - '2347'
+  - 🇸🇬 新加坡 | VLESS | 041
+  - '@FREE2CONFIG - 57'
+  - vmess-786380056
+  - 🇺🇸US_75|285KB/s|M003-260806
+  - hysteria2-928823637
+  - 4Jadi-6dc4479bf0
+  - vless-656230592
+  - 🇹🇼 中国台湾 | VLESS | 021
+  - US-120
+  - 𝐂𝐡𝐚𝐧𝐧𝐞𝐥:-8
+  - hamedvpns-16
+  - '@Shh_Proxy-New⁷-5'
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇳🇱 Netherlands | Reality Vision | @anonymouskeys-21
+  - CA-231
+  - CF中转_0923062224
+  - 美国(yudou789.top 玉豆免费节点)-37
+  - SG-22
+  - 🇺🇸 美国 | VLESS | 335
+  - CF中转_0923063519
+  - 🇭🇰 香港 | HKG-6
+  - '@DeltaKroneckerGithub-4546'
+  - '@SylphNet | 1405-07-01 #329'
+  - '@DeltaKroneckerGithub-4548'
+  - 🔒-3894
+  - 香港 18
+  - 🇳🇱 荷兰 | HYSTERIA2 | 023
+  - hysteria2-1111846140
+  - NL-88
+  - 🇳🇱 @anonymouskeys-85
+  - LT-3
+  - megav.app
+  - US 🇺🇸 | @Raydikalx | ADD49C
+  - ZZ · VLESS · yudou · 2F1C46FC
+  - 🌐 Hong Kong | WebSocket | @anonymouskeys-38
+  - 🇫🇷_法国_107
+  - vless-656245170
+  - 🇫🇮 芬兰 | HYSTERIA2 | 002
+  - '@DeltaKroneckerGithub-4557'
+  - vmess-2383003
+  - 🌐 Luxembourg | WebSocket | @anonymouskeys-7
+  - 🌐 @anonymouskeys-304
+  - 🇮🇳 @anonymouskeys-9
+  - hysteria2-650314288
+  - hysteria2-1278300107
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-366
+  - '🇫🇷FR_2|1.8MB/s | 福利姬: https://t.me/fuliji_Arrest'
 - name: 🎯 全球直连
   type: select
   proxies:
