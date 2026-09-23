@@ -5575,6 +5575,304 @@ proxies:
     path: /3cagtz3
     headers:
       Host: cdn-de.skyvora.app
+- name: 🇺🇸_美国_449
+  type: vless
+  server: 167.88.160.144
+  port: 8443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: '@DeltaKroneckerGithub-4181'
+  type: vless
+  server: 185.179.82.201
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: '@DeltaKroneckerGithub-4182'
+  type: vless
+  server: 103.133.1.160
+  port: 80
+  uuid: eaf76557-2219-4799-8171-d7020adfefd0
+  tls: false
+  servername: 103.133.1.160
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: soft-shadow-1e33.xicav73335.workers.dev
+- name: AU-2
+  type: vless
+  server: au1.gsafevpnapi.com
+  port: 20270
+  uuid: 3da32b09-10e5-4ef9-b422-2e476dd72d87
+  tls: true
+  servername: www.yahoo.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE
+    short-id: e6a5a4a9115456de
+  client-fingerprint: chrome
+- name: 🇨🇦 Canada | WebSocket | @anonymouskeys-338
+  type: vless
+  server: 188.114.97.6
+  port: 8880
+  uuid: 9e648bb6-25f7-4b16-9949-55ac0952d66b
+  tls: false
+  servername: 188.114.97.6
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: lingering-grass-6728.131-a78.workers.dev
+- name: CF中转_0922221150
+  type: vless
+  server: 172.67.152.71
+  port: 8880
+  uuid: df26029b-bffe-4ce2-9246-25b52ed2b1c7
+  tls: false
+  servername: 172.67.152.71
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: polished-field-4448.186-705.workers.dev
+- name: VLESS-5323
+  type: vless
+  server: 162.35.96.22
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  tls: false
+  servername: 162.35.96.22
+  network: ws
+  ws-opts:
+    path: /vless-test
+- name: 7-4
+  type: vless
+  server: 51.158.206.26
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  tls: true
+  servername: fuck.rkn
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+- name: CF中转_0923061722
+  type: vless
+  server: 172.64.32.108
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: vmess-98106
+  type: vmess
+  server: 216.106.185.141
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: ''
+  network: tcp
+- name: 🇪🇸_西班牙_109
+  type: vless
+  server: 152.114.195.163
+  port: 8443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: '@DeltaKroneckerGithub-4187'
+  type: vless
+  server: 172.64.32.108
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  servername: 172.64.32.108
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇨🇦 @anonymouskeys-81
+  type: vless
+  server: 23.227.60.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  servername: 23.227.60.30
+  network: ws
+  ws-opts:
+    headers:
+      Host: vms.lifetime18.workers.dev
+- name: 🇺🇸 美国 | VLESS | 612
+  type: vless
+  server: 169.40.42.90
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  tls: true
+  servername: yahoo.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  client-fingerprint: ios
+- name: 🇺🇸 美国 (United States) 218 - tammader
+  type: vmess
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: sni.111000.indevs.in
+  network: tcp
+- name: 🇨🇦 Canada | WebSocket | @anonymouskeys-339
+  type: vless
+  server: 104.18.47.113
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  servername: 104.18.47.113
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸-132
+  type: vless
+  server: 108.162.198.178
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  servername: 108.162.198.178
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 | VLESS | 522
+  type: vless
+  server: 169.40.42.89
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  tls: true
+  servername: yahoo.com
+  network: raw
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  client-fingerprint: chrome
+- name: '@DeltaKroneckerGithub-4189'
+  type: vless
+  server: 35.201.163.218
+  port: 30837
+  uuid: 85a6bd94-83a9-4e80-849f-c06d7011d1a4
+  tls: true
+  servername: www.sony.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: LXPNhrAGxr_QE4YCdJfKE40ebsPNIHnLbydhl6bipCo
+    short-id: 97101ba788915e5a
+  client-fingerprint: firefox
+- name: CF中转_0923063916
+  type: vless
+  server: 162.159.43.187
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  servername: 162.159.43.187
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: '5368'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 2eea435c-8c8f-45e3-8907-956a0c6b0182
+  tls: true
+  servername: tradingview.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  client-fingerprint: firefox
+- name: 🇨🇦 Canada | TCP | @anonymouskeys-10
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: null
+  network: tcp
+- name: '@DeltaKroneckerGithub-4194'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: c5f99eb2-0712-41a8-84d8-4715f0a8a588
+  tls: true
+  servername: tradingview.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+  client-fingerprint: firefox
+- name: vless-522223663
+  type: vless
+  server: 3.0.111.82
+  port: 12972
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  tls: true
+  servername: www.apple.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  client-fingerprint: ios
+- name: REALITY | @PulseConfigs | 47d291
+  type: vless
+  server: moldova.cdn-europe.org
+  port: 4443
+  uuid: d7c94b82-657a-4bb7-9b24-2ae566669835
+  tls: true
+  servername: moldova.cdn-europe.org
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: cYwrRCz_hKgT_JE8WywuLE3XOkAEqCTuBiUvXAaEjn8
+    short-id: 694ee64512cfcbef
+  client-fingerprint: chrome
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -6057,6 +6355,31 @@ proxy-groups:
   - 4Sarina-510c9faa44
   - '4876'
   - https://t.me/ForceRunVPN-🇨🇦-Toronto-500ms-FDCservers.net
+  - 🇺🇸_美国_449
+  - '@DeltaKroneckerGithub-4181'
+  - '@DeltaKroneckerGithub-4182'
+  - AU-2
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-338
+  - CF中转_0922221150
+  - VLESS-5323
+  - 7-4
+  - CF中转_0923061722
+  - vmess-98106
+  - 🇪🇸_西班牙_109
+  - '@DeltaKroneckerGithub-4187'
+  - 🇨🇦 @anonymouskeys-81
+  - 🇺🇸 美国 | VLESS | 612
+  - 🇺🇸 美国 (United States) 218 - tammader
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-339
+  - 🇺🇸-132
+  - 🇺🇸 美国 | VLESS | 522
+  - '@DeltaKroneckerGithub-4189'
+  - CF中转_0923063916
+  - '5368'
+  - 🇨🇦 Canada | TCP | @anonymouskeys-10
+  - '@DeltaKroneckerGithub-4194'
+  - vless-522223663
+  - REALITY | @PulseConfigs | 47d291
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -6539,6 +6862,31 @@ proxy-groups:
   - 4Sarina-510c9faa44
   - '4876'
   - https://t.me/ForceRunVPN-🇨🇦-Toronto-500ms-FDCservers.net
+  - 🇺🇸_美国_449
+  - '@DeltaKroneckerGithub-4181'
+  - '@DeltaKroneckerGithub-4182'
+  - AU-2
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-338
+  - CF中转_0922221150
+  - VLESS-5323
+  - 7-4
+  - CF中转_0923061722
+  - vmess-98106
+  - 🇪🇸_西班牙_109
+  - '@DeltaKroneckerGithub-4187'
+  - 🇨🇦 @anonymouskeys-81
+  - 🇺🇸 美国 | VLESS | 612
+  - 🇺🇸 美国 (United States) 218 - tammader
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-339
+  - 🇺🇸-132
+  - 🇺🇸 美国 | VLESS | 522
+  - '@DeltaKroneckerGithub-4189'
+  - CF中转_0923063916
+  - '5368'
+  - 🇨🇦 Canada | TCP | @anonymouskeys-10
+  - '@DeltaKroneckerGithub-4194'
+  - vless-522223663
+  - REALITY | @PulseConfigs | 47d291
 - name: 🎯 全球直连
   type: select
   proxies:
