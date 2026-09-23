@@ -1,0 +1,383 @@
+{
+  "url": "http://141.11.87.144:9999/playlist.m3u",
+  "type": "m3u",
+  "items": [
+    {
+      "name": "CCTV-1 综合",
+      "url": "http://141.11.87.144:9999/play/65b36335",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",CCTV-1 综合"
+    },
+    {
+      "name": "CCTV-2 财经",
+      "url": "http://141.11.87.144:9999/play/65b5b8f5",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",CCTV-2 财经"
+    },
+    {
+      "name": "CCTV-3 综艺",
+      "url": "http://141.11.87.144:9999/play/65b47a65",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",CCTV-3 综艺"
+    },
+    {
+      "name": "CCTV-4 中文国际",
+      "url": "http://141.11.87.144:9999/play/n4a5d2858",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",CCTV-4 中文国际"
+    },
+    {
+      "name": "CCTV-5 体育",
+      "url": "http://141.11.87.144:9999/play/65af9be4",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",CCTV-5 体育"
+    },
+    {
+      "name": "CCTV-6 电影",
+      "url": "http://141.11.87.144:9999/play/65b48560",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",CCTV-6 电影"
+    },
+    {
+      "name": "CCTV-7 国防军事",
+      "url": "http://141.11.87.144:9999/play/n408755f8",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",CCTV-7 国防军事"
+    },
+    {
+      "name": "CCTV-8 电视剧",
+      "url": "http://141.11.87.144:9999/play/50fdc854",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",CCTV-8 电视剧"
+    },
+    {
+      "name": "CCTV-9 记录",
+      "url": "http://141.11.87.144:9999/play/65b89b46",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",CCTV-9 记录"
+    },
+    {
+      "name": "CCTV-10 科教",
+      "url": "http://141.11.87.144:9999/play/4ee90a2f",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",CCTV-10 科教"
+    },
+    {
+      "name": "CCTV-11 戏曲",
+      "url": "http://141.11.87.144:9999/play/4ee69fa9",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",CCTV-11 戏曲"
+    },
+    {
+      "name": "CCTV-12 社会与法",
+      "url": "http://141.11.87.144:9999/play/3bac7728",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",CCTV-12 社会与法"
+    },
+    {
+      "name": "CCTV-13 新闻",
+      "url": "http://141.11.87.144:9999/play/4ee827ef",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",CCTV-13 新闻"
+    },
+    {
+      "name": "CCTV-14 少儿",
+      "url": "http://141.11.87.144:9999/play/4ee72d51",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",CCTV-14 少儿"
+    },
+    {
+      "name": "CCTV-15 音乐",
+      "url": "http://141.11.87.144:9999/play/4eeedf1f",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",CCTV-15 音乐"
+    },
+    {
+      "name": "CCTV-16 奥林匹克",
+      "url": "http://141.11.87.144:9999/play/34622605",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",CCTV-16 奥林匹克"
+    },
+    {
+      "name": "CCTV-17 农业农村",
+      "url": "http://141.11.87.144:9999/play/322d3cd3",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",CCTV-17 农业农村"
+    },
+    {
+      "name": "CCTV-5+ 体育赛事",
+      "url": "http://141.11.87.144:9999/play/nef8dac1",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",CCTV-5+ 体育赛事"
+    },
+    {
+      "name": "重温经典",
+      "url": "http://141.11.87.144:9999/play/1e1c6a0d",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",重温经典"
+    },
+    {
+      "name": "湖南卫视",
+      "url": "http://141.11.87.144:9999/play/5a53e58d",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",湖南卫视"
+    },
+    {
+      "name": "浙江卫视",
+      "url": "http://141.11.87.144:9999/play/5a3edab2",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",浙江卫视"
+    },
+    {
+      "name": "江苏卫视",
+      "url": "http://141.11.87.144:9999/play/5a21705c",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",江苏卫视"
+    },
+    {
+      "name": "东方卫视",
+      "url": "http://141.11.87.144:9999/play/4bf2a9e9",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",东方卫视"
+    },
+    {
+      "name": "北京卫视",
+      "url": "http://141.11.87.144:9999/play/4ddfb741",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",北京卫视"
+    },
+    {
+      "name": "深圳卫视",
+      "url": "http://141.11.87.144:9999/play/5a3478ee",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",深圳卫视"
+    },
+    {
+      "name": "广东卫视",
+      "url": "http://141.11.87.144:9999/play/530cf649",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",广东卫视"
+    },
+    {
+      "name": "东南卫视",
+      "url": "http://141.11.87.144:9999/play/4bada807",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",东南卫视"
+    },
+    {
+      "name": "广西卫视",
+      "url": "http://141.11.87.144:9999/play/53ebe4ec",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",广西卫视"
+    },
+    {
+      "name": "湖北卫视",
+      "url": "http://141.11.87.144:9999/play/5a52f54d",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",湖北卫视"
+    },
+    {
+      "name": "四川卫视",
+      "url": "http://141.11.87.144:9999/play/4fcef3ee",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",四川卫视"
+    },
+    {
+      "name": "CGTN",
+      "url": "http://141.11.87.144:9999/play/2708082f",
+      "extinf": "#EXTINF:-1 group-title=\"央视卫视\",CGTN"
+    },
+    {
+      "name": "大湾区卫视",
+      "url": "http://141.11.87.144:9999/play/684d0497",
+      "extinf": "#EXTINF:-1 group-title=\"广东\",大湾区卫视"
+    },
+    {
+      "name": "广东珠江",
+      "url": "http://141.11.87.144:9999/play/n6e47401d",
+      "extinf": "#EXTINF:-1 group-title=\"广东\",广东珠江"
+    },
+    {
+      "name": "广东体育",
+      "url": "http://141.11.87.144:9999/play/n2afd3461",
+      "extinf": "#EXTINF:-1 group-title=\"广东\",广东体育"
+    },
+    {
+      "name": "广东体育广电",
+      "url": "http://141.11.87.144:9999/play/7df79575",
+      "extinf": "#EXTINF:-1 group-title=\"广东\",广东体育广电"
+    },
+    {
+      "name": "广东影视",
+      "url": "http://141.11.87.144:9999/play/n2afb37ab",
+      "extinf": "#EXTINF:-1 group-title=\"广东\",广东影视"
+    },
+    {
+      "name": "汕头综合",
+      "url": "http://141.11.87.144:9999/play/n2483dc12",
+      "extinf": "#EXTINF:-1 group-title=\"广东\",汕头综合"
+    },
+    {
+      "name": "汕头经济",
+      "url": "http://141.11.87.144:9999/play/7e5a2477",
+      "extinf": "#EXTINF:-1 group-title=\"广东\",汕头经济"
+    },
+    {
+      "name": "潮州民生",
+      "url": "http://141.11.87.144:9999/play/n230c08ff",
+      "extinf": "#EXTINF:-1 group-title=\"广东\",潮州民生"
+    },
+    {
+      "name": "潮州综合",
+      "url": "http://141.11.87.144:9999/play/n2309dfa1",
+      "extinf": "#EXTINF:-1 group-title=\"广东\",潮州综合"
+    },
+    {
+      "name": "凤凰中文",
+      "url": "http://141.11.87.144:9999/play/n496e6eec",
+      "extinf": "#EXTINF:-1 group-title=\"香港\",凤凰中文"
+    },
+    {
+      "name": "凤凰资讯",
+      "url": "http://141.11.87.144:9999/play/n4966a4fb",
+      "extinf": "#EXTINF:-1 group-title=\"香港\",凤凰资讯"
+    },
+    {
+      "name": "凤凰香港",
+      "url": "http://141.11.87.144:9999/play/n49654430",
+      "extinf": "#EXTINF:-1 group-title=\"香港\",凤凰香港"
+    },
+    {
+      "name": "翡翠台",
+      "url": "http://141.11.87.144:9999/play/n7549189d",
+      "extinf": "#EXTINF:-1 group-title=\"香港\",翡翠台"
+    },
+    {
+      "name": "翡翠台",
+      "url": "http://141.11.87.144:9999/play/n7549189d",
+      "extinf": "#EXTINF:-1 group-title=\"香港\",翡翠台"
+    },
+    {
+      "name": "明珠台",
+      "url": "http://141.11.87.144:9999/play/n75ab7db0",
+      "extinf": "#EXTINF:-1 group-title=\"香港\",明珠台"
+    },
+    {
+      "name": "无线新闻",
+      "url": "http://141.11.87.144:9999/play/n3fad9608",
+      "extinf": "#EXTINF:-1 group-title=\"香港\",无线新闻"
+    },
+    {
+      "name": "now新闻",
+      "url": "http://141.11.87.144:9999/play/n58d2e929",
+      "extinf": "#EXTINF:-1 group-title=\"香港\",now新闻"
+    },
+    {
+      "name": "TVBPLUS",
+      "url": "http://141.11.87.144:9999/play/6429ae4c",
+      "extinf": "#EXTINF:-1 group-title=\"香港\",TVBPLUS"
+    },
+    {
+      "name": "ViuTV",
+      "url": "http://141.11.87.144:9999/play/78204936",
+      "extinf": "#EXTINF:-1 group-title=\"香港\",ViuTV"
+    },
+    {
+      "name": "ViuTV 6",
+      "url": "http://141.11.87.144:9999/play/necd2834",
+      "extinf": "#EXTINF:-1 group-title=\"香港\",ViuTV 6"
+    },
+    {
+      "name": "HOY78",
+      "url": "http://141.11.87.144:9999/play/n4131439",
+      "extinf": "#EXTINF:-1 group-title=\"香港\",HOY78"
+    },
+    {
+      "name": "HOY77",
+      "url": "http://141.11.87.144:9999/play/n413143a",
+      "extinf": "#EXTINF:-1 group-title=\"香港\",HOY77"
+    },
+    {
+      "name": "中天新闻",
+      "url": "http://141.11.87.144:9999/play/41d8a09d",
+      "extinf": "#EXTINF:-1 group-title=\"台湾\",中天新闻"
+    },
+    {
+      "name": "寰宇新闻台",
+      "url": "http://141.11.87.144:9999/play/n43c34be8",
+      "extinf": "#EXTINF:-1 group-title=\"台湾\",寰宇新闻台"
+    },
+    {
+      "name": "东森新闻台",
+      "url": "http://141.11.87.144:9999/play/n88aa83",
+      "extinf": "#EXTINF:-1 group-title=\"台湾\",东森新闻台"
+    },
+    {
+      "name": "东森电影台",
+      "url": "http://141.11.87.144:9999/play/n5502f4",
+      "extinf": "#EXTINF:-1 group-title=\"台湾\",东森电影台"
+    },
+    {
+      "name": "东森洋片台",
+      "url": "http://141.11.87.144:9999/play/n7160b4",
+      "extinf": "#EXTINF:-1 group-title=\"台湾\",东森洋片台"
+    },
+    {
+      "name": "东森幼幼台",
+      "url": "http://141.11.87.144:9999/play/naa6d18",
+      "extinf": "#EXTINF:-1 group-title=\"台湾\",东森幼幼台"
+    },
+    {
+      "name": "TVBS HD",
+      "url": "http://141.11.87.144:9999/play/154f9d73",
+      "extinf": "#EXTINF:-1 group-title=\"台湾\",TVBS HD"
+    },
+    {
+      "name": "TVBS 新闻台",
+      "url": "http://141.11.87.144:9999/play/n69ccce92",
+      "extinf": "#EXTINF:-1 group-title=\"台湾\",TVBS 新闻台"
+    },
+    {
+      "name": "纬来体育",
+      "url": "http://141.11.87.144:9999/play/5816d06e",
+      "extinf": "#EXTINF:-1 group-title=\"台湾\",纬来体育"
+    },
+    {
+      "name": "纬来电影",
+      "url": "http://141.11.87.144:9999/play/581b458b",
+      "extinf": "#EXTINF:-1 group-title=\"台湾\",纬来电影"
+    },
+    {
+      "name": "龙华戏剧",
+      "url": "http://141.11.87.144:9999/play/66c51883",
+      "extinf": "#EXTINF:-1 group-title=\"台湾\",龙华戏剧"
+    },
+    {
+      "name": "龙华偶像",
+      "url": "http://141.11.87.144:9999/play/66c2f564",
+      "extinf": "#EXTINF:-1 group-title=\"台湾\",龙华偶像"
+    },
+    {
+      "name": "龙华电影",
+      "url": "http://141.11.87.144:9999/play/66c77727",
+      "extinf": "#EXTINF:-1 group-title=\"台湾\",龙华电影"
+    },
+    {
+      "name": "龙华洋片",
+      "url": "http://141.11.87.144:9999/play/66c68ce7",
+      "extinf": "#EXTINF:-1 group-title=\"台湾\",龙华洋片"
+    },
+    {
+      "name": "龙华经典",
+      "url": "http://141.11.87.144:9999/play/66c892d4",
+      "extinf": "#EXTINF:-1 group-title=\"台湾\",龙华经典"
+    },
+    {
+      "name": "好萊塢電影台",
+      "url": "http://141.11.87.144:9999/play/n2db95de5",
+      "extinf": "#EXTINF:-1 group-title=\"台湾\",好萊塢電影台"
+    },
+    {
+      "name": "美亚电影",
+      "url": "http://141.11.87.144:9999/play/5824ef5e",
+      "extinf": "#EXTINF:-1 group-title=\"台湾\",美亚电影"
+    },
+    {
+      "name": "中天新聞台",
+      "url": "http://141.11.87.144:9999/play/n3ee59a96",
+      "extinf": "#EXTINF:-1 group-title=\"台灣2\",中天新聞台"
+    },
+    {
+      "name": "寰宇新聞台",
+      "url": "http://141.11.87.144:9999/play/n7be4ad71",
+      "extinf": "#EXTINF:-1 group-title=\"台灣2\",寰宇新聞台"
+    },
+    {
+      "name": "東森新聞台",
+      "url": "http://141.11.87.144:9999/play/2c4f5ac9",
+      "extinf": "#EXTINF:-1 group-title=\"台灣2\",東森新聞台"
+    },
+    {
+      "name": "TVBS新聞",
+      "url": "http://141.11.87.144:9999/play/7713a03d",
+      "extinf": "#EXTINF:-1 group-title=\"台灣2\",TVBS新聞"
+    },
+    {
+      "name": "TVBS",
+      "url": "http://141.11.87.144:9999/play/n5bc98b1",
+      "extinf": "#EXTINF:-1 group-title=\"台灣2\",TVBS"
+    }
+  ],
+  "count": 75,
+  "reason": ""
+}

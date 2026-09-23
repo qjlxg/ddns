@@ -59,10 +59,24 @@
       "server": "cdn.archiesite.abrdns.com",
       "port": 443,
       "uuid": "edf8672d-0c52-45c2-9b8f-a93ba883ab83",
+      "security": "tls",
+      "sni": "cdn.archiesite.abrdns.com",
+      "alpn": "h2,http/1.1",
+      "fp": "random",
       "path": "/stream-7793eccf",
+      "host": "cdn.archiesite.abrdns.com",
       "name": "vless-cdn.archiesite.abrdns.com"
+    },
+    {
+      "type": "xhttp",
+      "server": "archiesite.abrdns.com",
+      "port": 443,
+      "uuid": "edf8672d-0c52-45c2-9b8f-a93ba883ab83",
+      "path": "/stream-7793eccf",
+      "host": "archiesite.abrdns.com",
+      "name": "vless-archiesite.abrdns.com"
     }
   ],
-  "count": 5,
+  "count": 6,
   "reason": ""
 }

@@ -146,33 +146,8 @@
       "name": "[VGA]辽宁卫视",
       "url": "https://epg.pw/stream/4fa75925fb00aa051c6819346628eb0cd8bafd14f8231c9166b8a5209111db07.m3u8",
       "extinf": "#EXTINF:-1 tvg-name=\"辽宁卫视\" tvg-id=\"13877\" tvg-country=\"中国大陆省台\" tvg-language=\"国语\" tvg-logo=\"https://epg.pw/media/images/channel/2022/05/31/large/20220531155536893321_81.jpg\" group-title=\"综合\",[VGA]辽宁卫视"
-    },
-    {
-      "name": "[BD]重庆卫视[ipv6]",
-      "url": "https://epg.pw/stream/ab652effca726310b82c8a321edfa861029f896ef612cbed788dd4c907c075aa.m3u8",
-      "extinf": "#EXTINF:-1 tvg-name=\"重庆卫视\" tvg-id=\"13881\" tvg-country=\"中国大陆省台\" tvg-language=\"国语\" tvg-logo=\"https://epg.pw/media/images/channel/2024/01/20/large/20240120225458682677_11.jpg\" group-title=\"综合\",[BD]重庆卫视[ipv6]"
-    },
-    {
-      "name": "[BD]陕西卫视[ipv6]",
-      "url": "https://epg.pw/stream/eb1d7157459fe4c37bbfad23252b85ab628f4e3d14d81aea7b4a014d2658ae41.m3u8",
-      "extinf": "#EXTINF:-1 tvg-name=\"陕西卫视\" tvg-id=\"13896\" tvg-country=\"中国大陆省台\" tvg-language=\"国语\" tvg-logo=\"https://epg.pw/media/images/channel/2022/05/31/large/20220531150903888489_91.jpg\" group-title=\"综合\",[BD]陕西卫视[ipv6]"
-    },
-    {
-      "name": "[BD]云南卫视",
-      "url": "https://epg.pw/stream/368e59cc43274d4c5380dfd940d1f40ee03a4b9cb5b1648b01c42b47f2516d8b.ctv",
-      "extinf": "#EXTINF:-1 tvg-name=\"云南卫视\" tvg-id=\"13899\" tvg-country=\"中国大陆省台\" tvg-language=\"国语\" tvg-logo=\"https://epg.pw/media/images/channel/2022/05/31/large/20220531145024469645_82.jpg\" group-title=\"其它\",[BD]云南卫视"
-    },
-    {
-      "name": "[BD]青海卫视",
-      "url": "https://epg.pw/stream/baf5e50a17f574f86c96810d5d2eebbbc3570ca5f5a35d953837040845c89726.ctv",
-      "extinf": "#EXTINF:-1 tvg-name=\"青海卫视\" tvg-id=\"13900\" tvg-country=\"中国大陆省台\" tvg-language=\"国语\" tvg-logo=\"https://epg.pw/media/images/channel/2022/05/31/large/20220531153842547224_70.jpg\" group-title=\"综合\",[BD]青海卫视"
-    },
-    {
-      "name": "[BD]黑龙江卫视",
-      "url": "https://epg.pw/stream/bba30e5caaeffff57cecd7e3145d77937bb135028de2be19ffe2f644858124ca.m3u8",
-      "extinf": "#EXTINF:-1 tvg-name=\"黑龙江卫视\" tvg-id=\"13887\" tvg-country=\"中国大陆省台\" tvg-language=\"国语\" tvg-logo=\"https://epg.pw/media/images/channel/2022/05/31/large/20220531154335673922_21.jpg\" group-title=\"综合\",[BD]黑龙江卫视"
     }
   ],
-  "count": 34,
+  "count": 29,
   "reason": ""
 }

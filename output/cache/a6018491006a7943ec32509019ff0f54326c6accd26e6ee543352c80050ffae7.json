@@ -141,48 +141,8 @@
       "name": "CCTV8",
       "url": "http://192.168.102.1/hls/8/index.m3u8",
       "extinf": "#EXTINF:-1 tvg-name=\"CCTV8\" tvg-logo=\"https://ghfast.top/https://raw.githubusercontent.com/Jarrey/iptv_logo/main/tv/CCTV8.png\" group-title=\"IPTV\",CCTV8"
-    },
-    {
-      "name": "CCTV9",
-      "url": "http://192.168.102.1/hls/9/index.m3u8",
-      "extinf": "#EXTINF:-1 tvg-name=\"CCTV9\" tvg-logo=\"https://ghfast.top/https://raw.githubusercontent.com/Jarrey/iptv_logo/main/tv/CCTV9.png\" group-title=\"IPTV\",CCTV9"
-    },
-    {
-      "name": "CCTV9",
-      "url": "http://183.250.156.180:9999/newlive/live/hls/10/live.m3u8",
-      "extinf": "#EXTINF:-1 tvg-name=\"CCTV9\" tvg-logo=\"https://ghfast.top/https://raw.githubusercontent.com/Jarrey/iptv_logo/main/tv/CCTV9.png\" group-title=\"IPTV\",CCTV9"
-    },
-    {
-      "name": "CCTV9",
-      "url": "http://192.168.102.1/hls/9/index.m3u8",
-      "extinf": "#EXTINF:-1 tvg-name=\"CCTV9\" tvg-logo=\"https://ghfast.top/https://raw.githubusercontent.com/Jarrey/iptv_logo/main/tv/CCTV9.png\" group-title=\"IPTV\",CCTV9"
-    },
-    {
-      "name": "CCTV10",
-      "url": "http://192.168.102.1/hls/10/index.m3u8",
-      "extinf": "#EXTINF:-1 tvg-name=\"CCTV10\" tvg-logo=\"https://ghfast.top/https://raw.githubusercontent.com/Jarrey/iptv_logo/main/tv/CCTV10.png\" group-title=\"IPTV\",CCTV10"
-    },
-    {
-      "name": "CCTV10",
-      "url": "http://183.250.156.180:9999/newlive/live/hls/11/live.m3u8",
-      "extinf": "#EXTINF:-1 tvg-name=\"CCTV10\" tvg-logo=\"https://ghfast.top/https://raw.githubusercontent.com/Jarrey/iptv_logo/main/tv/CCTV10.png\" group-title=\"IPTV\",CCTV10"
-    },
-    {
-      "name": "CCTV10",
-      "url": "http://192.168.102.1/hls/10/index.m3u8",
-      "extinf": "#EXTINF:-1 tvg-name=\"CCTV10\" tvg-logo=\"https://ghfast.top/https://raw.githubusercontent.com/Jarrey/iptv_logo/main/tv/CCTV10.png\" group-title=\"IPTV\",CCTV10"
-    },
-    {
-      "name": "CCTV11",
-      "url": "http://183.250.156.180:9999/newlive/live/hls/12/live.m3u8",
-      "extinf": "#EXTINF:-1 tvg-name=\"CCTV11\" tvg-logo=\"https://ghfast.top/https://raw.githubusercontent.com/Jarrey/iptv_logo/main/tv/CCTV11.png\" group-title=\"IPTV\",CCTV11"
-    },
-    {
-      "name": "CCTV12",
-      "url": "http://192.168.102.1/",
-      "extinf": "#EXTINF:-1 tvg-name=\"CCTV12\" tvg-logo=\"https://ghfast.top/https://raw.githubusercontent.com/Jarrey/iptv_logo/main/tv/CCTV12.png\" group-title=\"IPTV\",CCTV12"
     }
   ],
-  "count": 36,
+  "count": 28,
   "reason": ""
 }

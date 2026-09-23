@@ -1,0 +1,29 @@
+{
+  "url": "http://51.250.25.32:8080/4ovt5AbGsdG2p3Yv-ru.txt",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "111.88.150.58",
+      "port": 443,
+      "uuid": "5f70ae82-717d-409f-a231-f4c9a788fbb6",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.microsoft.com",
+      "fp": "chrome",
+      "pbk": "02Eh63d-ZtXOdWMlm2d7F1VWcQhwr6WuB6IbP6Fzq3I",
+      "sid": "18be18240a9be4dd",
+      "spx": "/",
+      "name": "vless-111.88.150.58"
+    },
+    {
+      "type": "hysteria2",
+      "server": "gdeq5sxrjzsgzk28vvbswapzt7k",
+      "port": 443,
+      "password": "",
+      "name": "hysteria2-gdeq5sxrjzsgzk28vvbswapzt7k"
+    }
+  ],
+  "count": 2,
+  "reason": ""
+}

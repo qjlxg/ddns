@@ -49,20 +49,8 @@
       "server": "gosuslugi.ru",
       "port": 443,
       "name": "https-gosuslugi.ru"
-    },
-    {
-      "type": "http",
-      "server": "mail.ru",
-      "port": 443,
-      "name": "https-mail.ru"
-    },
-    {
-      "type": "http",
-      "server": "smolsovet.ru",
-      "port": 443,
-      "name": "https-smolsovet.ru"
     }
   ],
-  "count": 10,
+  "count": 8,
   "reason": ""
 }

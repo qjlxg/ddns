@@ -1,0 +1,69 @@
+{
+  "url": "http://166.88.228.189:2080/sub/clash",
+  "type": "nodes",
+  "items": [
+    {
+      "type": "tcp",
+      "server": "166.88.228.189",
+      "port": 8443,
+      "uuid": "ed81146b-114a-41bc-9e11-639d6113eaf3",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "gateway.icloud.com",
+      "fp": "chrome",
+      "pbk": "CCghTOfulk56KokZ7UY3pdW4Os7fwJL1pVseoM-7ah0",
+      "sid": "e0cee698d183a9a4",
+      "spx": "/",
+      "name": "vless-166.88.228.189"
+    },
+    {
+      "type": "grpc",
+      "server": "166.88.228.189",
+      "port": 8444,
+      "uuid": "ed81146b-114a-41bc-9e11-639d6113eaf3",
+      "security": "reality",
+      "sni": "gateway.icloud.com",
+      "fp": "chrome",
+      "pbk": "CCghTOfulk56KokZ7UY3pdW4Os7fwJL1pVseoM-7ah0",
+      "sid": "e0cee698d183a9a4",
+      "spx": "/",
+      "name": "vless-166.88.228.189"
+    },
+    {
+      "type": "xhttp",
+      "server": "166.88.228.189",
+      "port": 8445,
+      "uuid": "ed81146b-114a-41bc-9e11-639d6113eaf3",
+      "security": "reality",
+      "sni": "gateway.icloud.com",
+      "fp": "chrome",
+      "pbk": "CCghTOfulk56KokZ7UY3pdW4Os7fwJL1pVseoM-7ah0",
+      "sid": "e0cee698d183a9a4",
+      "spx": "/",
+      "path": "/xhttp",
+      "name": "vless-166.88.228.189"
+    },
+    {
+      "type": "hysteria2",
+      "server": "166.88.228.189",
+      "port": 443,
+      "password": "yQxQKkR-I7Za6zNXG-MrlA",
+      "sni": "gateway.icloud.com",
+      "allowInsecure": "1",
+      "insecure": "1",
+      "name": "hysteria2-166.88.228.189"
+    },
+    {
+      "type": "hysteria2",
+      "server": "166.88.228.189",
+      "port": 443,
+      "password": "yQxQKkR-I7Za6zNXG-MrlA",
+      "sni": "gateway.icloud.com",
+      "allowInsecure": "1",
+      "insecure": "1",
+      "name": "hysteria2-166.88.228.189"
+    }
+  ],
+  "count": 5,
+  "reason": ""
+}
