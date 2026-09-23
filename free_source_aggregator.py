@@ -877,6 +877,7 @@ async def fetch(
                     total=TIMEOUT
                 ),
                 allow_redirects=True
+                ssl=False  # <--- 忽略自签名或不信任的 SSL 证书
             ) as r:
 
                 etag=r.headers.get(
