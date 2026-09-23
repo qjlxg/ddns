@@ -5609,6 +5609,159 @@ proxies:
   reality-opts:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   client-fingerprint: chrome
+- name: CF中转_0923061880
+  type: vless
+  server: 104.18.47.113
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇫🇷FR_1998|777KB/s|A004-260618 01
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: 942bdcfc-e522-44f1-b899-3bd8db7c5ae2
+  tls: false
+  servername: winter-leaf-b4da.122-6c9.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: winter-leaf-b4da.122-6c9.workers.dev
+- name: CA - zhuhai.uk 01
+  type: vless
+  server: 147.182.156.112
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: REALITY | @PulseConfigs | 21064f
+  type: vless
+  server: 62.210.91.10
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  tls: true
+  servername: fuck.rkn
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  client-fingerprint: chrome
+- name: '[🛜-19'
+  type: vless
+  server: 47.253.226.114
+  port: 443
+  uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413
+  tls: true
+  servername: www.cloudflare.com
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc
+  client-fingerprint: chrome
+- name: vmess-1443523643
+  type: vmess
+  server: vspeedfast.org
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: vspeedfast.org
+  network: ws
+  ws-opts:
+    headers:
+      Host: vspeedfast.org
+    path: /linkvws
+- name: 🇫🇷FR_1051|725KB/s|M003-260806 01
+  type: vless
+  server: 104.21.89.181
+  port: 8880
+  uuid: 3adac494-0eb1-4d89-a187-b2181691444d
+  tls: false
+  servername: 104.21.89.181
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: tiny-lake-bbf1.369-766.workers.dev
+- name: 🇺🇸 @anonymouskeys-114
+  type: vless
+  server: 172.235.38.85
+  port: 42942
+  uuid: bca46025-bf43-40c0-895b-054a6fbcfd32
+  tls: true
+  servername: www.tesla.com
+  network: raw
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU
+    short-id: a56d7d8da977f860
+  client-fingerprint: chrome
+- name: 🇨🇦 Canada | WebSocket | @anonymouskeys-206
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-48493148ec15
+  tls: true
+  servername: cgzdynepurqs.mercury061.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/48493148ec15
+    headers:
+      Host: cgzdynepurqs.mercury061.workers.dev
+- name: 🇵🇱 @anonymouskeys-16
+  type: vless
+  server: 144.31.2.33
+  port: 443
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  tls: true
+  servername: pl3.moritech.net
+  network: tcp
+  flow: xtls-rprx-vision
+- name: 4Nika-8d84dfb7b4
+  type: hysteria2
+  server: 202.146.222.29
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: "https://t.me/wangcai2ð\x9F\x87ð\x9F\x87"
+  skip-cert-verify: true
+- name: CF中转_0923061044
+  type: vless
+  server: 172.65.90.53
+  port: 8880
+  uuid: 30a2a9a6-6a03-4353-a7fb-63831d64f718
+  tls: false
+  servername: 172.65.90.53
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: orange-lab-896e.365-80b.workers.dev
+- name: 未知 VLESS-970 | free-nodes
+  type: vless
+  server: 193.42.39.10
+  port: 33743
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  tls: true
+  servername: www.google.com
+  network: grpc
+  reality-opts:
+    public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: TunService
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -6102,6 +6255,19 @@ proxy-groups:
   - 🇳🇱 @anonymouskeys-46
   - '2093'
   - '@FREE2CONFIG - 177'
+  - CF中转_0923061880
+  - 🇫🇷FR_1998|777KB/s|A004-260618 01
+  - CA - zhuhai.uk 01
+  - REALITY | @PulseConfigs | 21064f
+  - '[🛜-19'
+  - vmess-1443523643
+  - 🇫🇷FR_1051|725KB/s|M003-260806 01
+  - 🇺🇸 @anonymouskeys-114
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-206
+  - 🇵🇱 @anonymouskeys-16
+  - 4Nika-8d84dfb7b4
+  - CF中转_0923061044
+  - 未知 VLESS-970 | free-nodes
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -6595,6 +6761,19 @@ proxy-groups:
   - 🇳🇱 @anonymouskeys-46
   - '2093'
   - '@FREE2CONFIG - 177'
+  - CF中转_0923061880
+  - 🇫🇷FR_1998|777KB/s|A004-260618 01
+  - CA - zhuhai.uk 01
+  - REALITY | @PulseConfigs | 21064f
+  - '[🛜-19'
+  - vmess-1443523643
+  - 🇫🇷FR_1051|725KB/s|M003-260806 01
+  - 🇺🇸 @anonymouskeys-114
+  - 🇨🇦 Canada | WebSocket | @anonymouskeys-206
+  - 🇵🇱 @anonymouskeys-16
+  - 4Nika-8d84dfb7b4
+  - CF中转_0923061044
+  - 未知 VLESS-970 | free-nodes
 - name: 🎯 全球直连
   type: select
   proxies:
