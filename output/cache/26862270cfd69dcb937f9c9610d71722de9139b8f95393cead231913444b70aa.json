@@ -322,9 +322,171 @@
       "port": 51845,
       "type": "vless",
       "uuid": "49c44885-c6b1-48d0-8bd3-ad0ea86a48df",
-      "tls": true
+      "tls": true,
+      "skip-cert-verify": true,
+      "servername": "xman.vrs.ccwu.cc",
+      "client-fingerprint": "chrome",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "xman.vrs.ccwu.cc"
+        }
+      }
+    },
+    {
+      "name": "🇭🇰 Mine-HK-08 [Mine-HK]",
+      "server": "103.117.101.242",
+      "port": 26237,
+      "type": "vless",
+      "uuid": "49c44885-c6b1-48d0-8bd3-ad0ea86a48df",
+      "tls": true,
+      "skip-cert-verify": true,
+      "servername": "xman.vrs.ccwu.cc",
+      "client-fingerprint": "chrome",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "xman.vrs.ccwu.cc"
+        }
+      }
+    },
+    {
+      "name": "🇭🇰 Mine-HK-09 [Mine-HK]",
+      "server": "103.135.251.137",
+      "port": 51848,
+      "type": "vless",
+      "uuid": "49c44885-c6b1-48d0-8bd3-ad0ea86a48df",
+      "tls": true,
+      "skip-cert-verify": true,
+      "servername": "xman.vrs.ccwu.cc",
+      "client-fingerprint": "chrome",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "xman.vrs.ccwu.cc"
+        }
+      }
+    },
+    {
+      "name": "🇭🇰 Mine-HK-10 [Mine-HK]",
+      "server": "103.73.220.161",
+      "port": 39457,
+      "type": "vless",
+      "uuid": "49c44885-c6b1-48d0-8bd3-ad0ea86a48df",
+      "tls": true,
+      "skip-cert-verify": true,
+      "servername": "xman.vrs.ccwu.cc",
+      "client-fingerprint": "chrome",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "xman.vrs.ccwu.cc"
+        }
+      }
+    },
+    {
+      "name": "官方优选域名 [洛璃]",
+      "server": "icook.tw",
+      "port": 2053,
+      "type": "vless",
+      "uuid": "49c44885-c6b1-48d0-8bd3-ad0ea86a48df",
+      "tls": true,
+      "skip-cert-verify": true,
+      "servername": "xman.vrs.ccwu.cc",
+      "client-fingerprint": "chrome",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "xman.vrs.ccwu.cc"
+        }
+      }
+    },
+    {
+      "name": "🇩🇪 德国 01 [S5公益]",
+      "server": "45.147.48.28",
+      "port": 443,
+      "type": "vless",
+      "uuid": "49c44885-c6b1-48d0-8bd3-ad0ea86a48df",
+      "tls": true,
+      "skip-cert-verify": true,
+      "servername": "xman.vrs.ccwu.cc",
+      "client-fingerprint": "chrome",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "xman.vrs.ccwu.cc"
+        }
+      }
+    },
+    {
+      "name": "🇩🇪 德国 02 [S5公益]",
+      "server": "189.24.114.224",
+      "port": 443,
+      "type": "vless",
+      "uuid": "49c44885-c6b1-48d0-8bd3-ad0ea86a48df",
+      "tls": true,
+      "skip-cert-verify": true,
+      "servername": "xman.vrs.ccwu.cc",
+      "client-fingerprint": "chrome",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "xman.vrs.ccwu.cc"
+        }
+      }
+    },
+    {
+      "name": "🇩🇪 德国 03 [S5公益]",
+      "server": "213.145.87.54",
+      "port": 8443,
+      "type": "vless",
+      "uuid": "49c44885-c6b1-48d0-8bd3-ad0ea86a48df",
+      "tls": true,
+      "skip-cert-verify": true,
+      "servername": "xman.vrs.ccwu.cc",
+      "client-fingerprint": "chrome",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "xman.vrs.ccwu.cc"
+        }
+      }
+    },
+    {
+      "name": "🇩🇪 德国 04 [S5公益]",
+      "server": "64.226.95.244",
+      "port": 2087,
+      "type": "vless",
+      "uuid": "49c44885-c6b1-48d0-8bd3-ad0ea86a48df",
+      "tls": true,
+      "skip-cert-verify": true,
+      "servername": "xman.vrs.ccwu.cc",
+      "client-fingerprint": "chrome",
+      "network": "ws",
+      "ws-opts": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "xman.vrs.ccwu.cc"
+        }
+      }
+    },
+    {
+      "name": "🇩🇪 德国 05 [S5公益]",
+      "server": "130.17.21.173",
+      "port": 8443,
+      "type": "vless",
+      "uuid": "49c44885-c6b1-48d0-8bd3-ad0ea86a48df",
+      "tls": null
     }
   ],
-  "count": 19,
+  "count": 28,
   "reason": ""
 }

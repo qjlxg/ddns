@@ -156,13 +156,26 @@
       "name": "vless-vpn.myvpn.best"
     },
     {
-      "type": "vless",
+      "type": "ws",
       "server": "vpn.myvpn.best",
       "port": 47090,
       "uuid": "22e6917c-ea01-4c2a-b46d-aa0bed611e77",
+      "path": "/ws",
+      "host": "vpn.myvpn.best",
+      "name": "vless-vpn.myvpn.best"
+    },
+    {
+      "type": "tcp",
+      "server": "vpn.myvpn.best",
+      "port": 45989,
+      "uuid": "0a4b6539-ebf6-4944-8635-1a34ca25bd6e",
+      "security": "reality",
+      "sni": "www.cloudflare.com",
+      "pbk": "Me4mY3K4SCYohYLY4vfB63YuKYK4wiKyyteD274Woxo",
+      "sid": "41bd5e27cddc6d21",
       "name": "vless-vpn.myvpn.best"
     }
   ],
-  "count": 18,
+  "count": 19,
   "reason": ""
 }

@@ -321,8 +321,28 @@
       "name": "Rakuten TV - Top Movies",
       "url": "http://38.7.145.93:8880/stream/68",
       "extinf": "#EXTINF:-1  tvg-chno=\"68\" tvg-id=\"RakutenTVTopMovies.es\" tvg-name=\"Rakuten TV - Top Movies\" group-title=\"TV\",Rakuten TV - Top Movies"
+    },
+    {
+      "name": "MovieSphere",
+      "url": "http://38.7.145.93:8880/stream/69",
+      "extinf": "#EXTINF:-1  tvg-chno=\"69\" tvg-id=\"MovieSphere.us\" tvg-name=\"MovieSphere\" group-title=\"TV\",MovieSphere"
+    },
+    {
+      "name": "MyTime Movie Network",
+      "url": "http://38.7.145.93:8880/stream/70",
+      "extinf": "#EXTINF:-1  tvg-chno=\"70\" tvg-id=\"MyTimeMovieNetwork.br\" tvg-name=\"MyTime Movie Network\" group-title=\"TV\",MyTime Movie Network"
+    },
+    {
+      "name": "Porto Canal",
+      "url": "http://38.7.145.93:8880/stream/71",
+      "extinf": "#EXTINF:-1  tvg-chno=\"71\" tvg-id=\"PortoCanal.pt\" tvg-name=\"Porto Canal\" group-title=\"TV\",Porto Canal"
+    },
+    {
+      "name": "CNN",
+      "url": "http://38.7.145.93:8880/stream/72",
+      "extinf": "#EXTINF:-1  tvg-chno=\"72\" tvg-id=\"CNNInternationalEurope.us\" tvg-name=\"CNN\" group-title=\"TV\",CNN"
     }
   ],
-  "count": 64,
+  "count": 68,
   "reason": ""
 }

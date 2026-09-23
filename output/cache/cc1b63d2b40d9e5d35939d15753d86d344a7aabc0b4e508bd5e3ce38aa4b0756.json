@@ -64,75 +64,10 @@
     },
     {
       "name": "Evil Angel TV Online",
-      "url": "http://178.162.241.189:8080/stream/evil-angel-tv-online/playlist.m3u8",
+      "url": "http:/",
       "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Evil Angel TV Online\" tvg-logo=\"http://178.162.241.189:8080/logo/evil-angel-tv-online\" group-title=\"Adult TV\",Evil Angel TV Online"
-    },
-    {
-      "name": "Extasy TV Online",
-      "url": "http://178.162.241.189:8080/stream/extasy-tv-online/playlist.m3u8",
-      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Extasy TV Online\" tvg-logo=\"http://178.162.241.189:8080/logo/extasy-tv-online\" group-title=\"Adult TV\",Extasy TV Online"
-    },
-    {
-      "name": "Exxxotica TV Online",
-      "url": "http://178.162.241.189:8080/stream/exxxotica-tv-online/playlist.m3u8",
-      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Exxxotica TV Online\" tvg-logo=\"http://178.162.241.189:8080/logo/exxxotica-tv-online\" group-title=\"Adult TV\",Exxxotica TV Online"
-    },
-    {
-      "name": "Fap TV Online",
-      "url": "http://178.162.241.189:8080/stream/fap-tv-online/playlist.m3u8",
-      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Fap TV Online\" tvg-logo=\"http://178.162.241.189:8080/logo/fap-tv-online\" group-title=\"Adult TV\",Fap TV Online"
-    },
-    {
-      "name": "Filmon TV",
-      "url": "http://178.162.241.189:8080/stream/filmon-tv/playlist.m3u8",
-      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Filmon TV\" tvg-logo=\"http://178.162.241.189:8080/logo/filmon-tv\" group-title=\"Adult TV\",Filmon TV"
-    },
-    {
-      "name": "FREE X TV Online",
-      "url": "http://178.162.241.189:8080/stream/free-x-tv-online/playlist.m3u8",
-      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"FREE X TV Online\" tvg-logo=\"http://178.162.241.189:8080/logo/free-x-tv-online\" group-title=\"Adult TV\",FREE X TV Online"
-    },
-    {
-      "name": "FrenchLover TV Online",
-      "url": "http://178.162.241.189:8080/stream/frenchlover-tv-online/playlist.m3u8",
-      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"FrenchLover TV Online\" tvg-logo=\"http://178.162.241.189:8080/logo/frenchlover-tv-online\" group-title=\"Adult TV\",FrenchLover TV Online"
-    },
-    {
-      "name": "Gay TV Online",
-      "url": "http://178.162.241.189:8080/stream/gay-tv-online/playlist.m3u8",
-      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Gay TV Online\" tvg-logo=\"http://178.162.241.189:8080/logo/gay-tv-online\" group-title=\"Adult TV\",Gay TV Online"
-    },
-    {
-      "name": "Hustler HD TV Online",
-      "url": "http://178.162.241.189:8080/stream/hustler-hd-tv-online/playlist.m3u8",
-      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Hustler HD TV Online\" tvg-logo=\"http://178.162.241.189:8080/logo/hustler-hd-tv-online\" group-title=\"Adult TV\",Hustler HD TV Online"
-    },
-    {
-      "name": "Hustler TV Online",
-      "url": "http://178.162.241.189:8080/stream/hustler-tv-online/playlist.m3u8",
-      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Hustler TV Online\" tvg-logo=\"http://178.162.241.189:8080/logo/hustler-tv-online\" group-title=\"Adult TV\",Hustler TV Online"
-    },
-    {
-      "name": "Jasmin TV Online",
-      "url": "http://178.162.241.189:8080/stream/jasmin-tv-online/playlist.m3u8",
-      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Jasmin TV Online\" tvg-logo=\"http://178.162.241.189:8080/logo/jasmin-tv-online\" group-title=\"Adult TV\",Jasmin TV Online"
-    },
-    {
-      "name": "KinoXXX TV Online",
-      "url": "http://178.162.241.189:8080/stream/kinoxxx-tv-online/playlist.m3u8",
-      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"KinoXXX TV Online\" tvg-logo=\"http://178.162.241.189:8080/logo/kinoxxx-tv-online\" group-title=\"Adult TV\",KinoXXX TV Online"
-    },
-    {
-      "name": "Meiden Van Holland TV Online",
-      "url": "http://178.162.241.189:8080/stream/meiden-van-holland-tv-online/playlist.m3u8",
-      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Meiden Van Holland TV Online\" tvg-logo=\"http://178.162.241.189:8080/logo/meiden-van-holland-tv-online\" group-title=\"Adult TV\",Meiden Van Holland TV Online"
-    },
-    {
-      "name": "Miami TV Online",
-      "url": "h",
-      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Miami TV Online\" tvg-logo=\"http://178.162.241.189:8080/logo/miami-tv-online\" group-title=\"Adult TV\",Miami TV Online"
     }
   ],
-  "count": 26,
+  "count": 13,
   "reason": ""
 }

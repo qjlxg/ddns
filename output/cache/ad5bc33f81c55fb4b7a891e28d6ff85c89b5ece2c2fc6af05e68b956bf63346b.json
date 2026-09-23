@@ -511,8 +511,2728 @@
       "name": "Fb Tv HD⚽️",
       "url": "http://130.61.114.158/play/live/687.ts",
       "extinf": "#EXTINF:-1 tvg-id=\"fbtv.tr\" tvg-name=\"Fb Tv HD⚽️\" tvg-logo=\"http://logo1010.com/news/fb-hd.png\" group-title=\"TR • ⚽️Spor&Dsmart\",Fb Tv HD⚽️"
+    },
+    {
+      "name": "idman Tv HD",
+      "url": "http://130.61.114.158/play/live/203181.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"idman Tv HD\" tvg-logo=\"http://logo1010.com/cdn/spor/idman.png\" group-title=\"TR • ⚽️Spor&Dsmart\",idman Tv HD"
+    },
+    {
+      "name": "Tay TV HD",
+      "url": "http://130.61.114.158/play/live/695.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tay TV HD\" tvg-logo=\"http://logo1010.com/news/taytv-hd.png\" group-title=\"TR • ⚽️Spor&Dsmart\",Tay TV HD"
+    },
+    {
+      "name": "Fight Screen",
+      "url": "http://130.61.114.158/play/live/312667.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Fight Screen\" tvg-logo=\"http://logo1010.com/ens/stock-vector-versus-banner-vs-game-battle-with-lightning-on-isolated-white-background-vector-illustr.png\" group-title=\"TR • ⚽️Spor&Dsmart\",Fight Screen"
+    },
+    {
+      "name": "W-SPORT HD",
+      "url": "http://130.61.114.158/play/live/319406.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"W-SPORT HD\" tvg-logo=\"http://logo1010.com/ens/w_sport_logo.png\" group-title=\"TR • ⚽️Spor&Dsmart\",W-SPORT HD"
+    },
+    {
+      "name": "MYZENTV HD",
+      "url": "http://130.61.114.158/play/live/329192.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"MYZENTV HD\" tvg-logo=\"http://logo1010.com/ens/61lzpRamxZL.png\" group-title=\"TR • ⚽️Spor&Dsmart\",MYZENTV HD"
+    },
+    {
+      "name": "TRACE SPORT STARS HD",
+      "url": "http://130.61.114.158/play/live/329193.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TRACE SPORT STARS HD\" tvg-logo=\"http://logo1010.com/ens/Tracesportstars2022.png\" group-title=\"TR • ⚽️Spor&Dsmart\",TRACE SPORT STARS HD"
+    },
+    {
+      "name": "------| Haber |------",
+      "url": "http://130.61.114.158/play/live/1890.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"------| Haber |------\" tvg-logo=\"http://logo.cdnlop.com/logotv/plus.png\" group-title=\"TR • Haber\",------| Haber |------"
+    },
+    {
+      "name": "Trt Haber HD",
+      "url": "http://130.61.114.158/play/live/88871.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"trthaber.tr\" tvg-name=\"Trt Haber HD\" tvg-logo=\"http://logo1010.com/news/trthb-hd.png\" group-title=\"TR • Haber\",Trt Haber HD"
+    },
+    {
+      "name": "Cnn Turk HD",
+      "url": "http://130.61.114.158/play/live/88868.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"cnnturk.tr\" tvg-name=\"Cnn Turk HD\" tvg-logo=\"http://logo1010.com/news/cnnturk-hd.png\" group-title=\"TR • Haber\",Cnn Turk HD"
+    },
+    {
+      "name": "A Haber HD",
+      "url": "http://130.61.114.158/play/live/88867.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"ahaber.tr\" tvg-name=\"A Haber HD\" tvg-logo=\"http://logo1010.com/news/ahaber-hd.png\" group-title=\"TR • Haber\",A Haber HD"
+    },
+    {
+      "name": "A HABER FHD",
+      "url": "http://130.61.114.158/play/live/696.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"ahaber.tr\" tvg-name=\"A HABER FHD\" tvg-logo=\"http://logo1010.com/news/ahaber-fhd.png\" group-title=\"TR • Haber\",A HABER FHD"
+    },
+    {
+      "name": "Halk Tv HD",
+      "url": "http://130.61.114.158/play/live/88872.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"halk.tr\" tvg-name=\"Halk Tv HD\" tvg-logo=\"http://logo1010.com/news/halktv-hd.png\" group-title=\"TR • Haber\",Halk Tv HD"
+    },
+    {
+      "name": "HALK TV FHD",
+      "url": "http://130.61.114.158/play/live/772.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"halk.tr\" tvg-name=\"HALK TV FHD\" tvg-logo=\"http://logo1010.com/news/halktv-fhd.png\" group-title=\"TR • Haber\",HALK TV FHD"
+    },
+    {
+      "name": "Sözcü Tv HD",
+      "url": "http://130.61.114.158/play/live/236985.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Sözcü Tv HD\" tvg-logo=\"http://logo1010.com/news/s%C3%B6zc%C3%BChb-hd.png\" group-title=\"TR • Haber\",Sözcü Tv HD"
+    },
+    {
+      "name": "Sözcü Tv FHD",
+      "url": "http://130.61.114.158/play/live/333489.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Sözcü Tv FHD\" tvg-logo=\"http://logo1010.com/news/s%C3%B6zc%C3%BChb-hd.png\" group-title=\"TR • Haber\",Sözcü Tv FHD"
+    },
+    {
+      "name": "Haberturk HD",
+      "url": "http://130.61.114.158/play/live/88870.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"haberturk.tr\" tvg-name=\"Haberturk HD\" tvg-logo=\"http://logo1010.com/news/hbturk-hd.png\" group-title=\"TR • Haber\",Haberturk HD"
+    },
+    {
+      "name": "HABER TURK FHD",
+      "url": "http://130.61.114.158/play/live/683.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"haberturk.tr\" tvg-name=\"HABER TURK FHD\" tvg-logo=\"http://logo1010.com/news/hbturk-fhd.png\" group-title=\"TR • Haber\",HABER TURK FHD"
+    },
+    {
+      "name": "TH Türk Haber",
+      "url": "http://130.61.114.158/play/live/128474.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TH Türk Haber\" tvg-logo=\"http://logo1010.com/ens/36.png\" group-title=\"TR • Haber\",TH Türk Haber"
+    },
+    {
+      "name": "ULUSAL TV",
+      "url": "http://130.61.114.158/play/live/20927.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"ulusalkanal.tr\" tvg-name=\"ULUSAL TV\" tvg-logo=\"http://logo1010.com/news/ulusal-hd.png\" group-title=\"TR • Haber\",ULUSAL TV"
+    },
+    {
+      "name": "Ntv HD",
+      "url": "http://130.61.114.158/play/live/88869.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"ntv.tr\" tvg-name=\"Ntv HD\" tvg-logo=\"http://logo1010.com/news/ntv-hd.png\" group-title=\"TR • Haber\",Ntv HD"
+    },
+    {
+      "name": "NTV FHD",
+      "url": "http://130.61.114.158/play/live/776.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"ntv.tr\" tvg-name=\"NTV FHD\" tvg-logo=\"http://logo1010.com/news/ntv-fhd.png\" group-title=\"TR • Haber\",NTV FHD"
+    },
+    {
+      "name": "Haber Global HD",
+      "url": "http://130.61.114.158/play/live/88874.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"haberglobal.tr\" tvg-name=\"Haber Global HD\" tvg-logo=\"http://logo1010.com/news/hbglobal-hd.png\" group-title=\"TR • Haber\",Haber Global HD"
+    },
+    {
+      "name": "Haber Global FHD",
+      "url": "http://130.61.114.158/play/live/26605.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"haberglobal.tr\" tvg-name=\"Haber Global FHD\" tvg-logo=\"http://logo1010.com/news/hbglobal-fhd.png\" group-title=\"TR • Haber\",Haber Global FHD"
+    },
+    {
+      "name": "TGRT HABER HD",
+      "url": "http://130.61.114.158/play/live/10425.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"tgrthaber.tr\" tvg-name=\"TGRT HABER HD\" tvg-logo=\"http://logo1010.com/news/tgrthb-hd.png\" group-title=\"TR • Haber\",TGRT HABER HD"
+    },
+    {
+      "name": "Ekol Tv HD",
+      "url": "http://130.61.114.158/play/live/319154.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Ekol Tv HD\" tvg-logo=\"http://logo1010.com/news/ekoltv.png\" group-title=\"TR • Haber\",Ekol Tv HD"
+    },
+    {
+      "name": "TELE 1 HD",
+      "url": "http://130.61.114.158/play/live/13268.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"tele1.tr\" tvg-name=\"TELE 1 HD\" tvg-logo=\"http://logo1010.com/news/tele1-hd.png\" group-title=\"TR • Haber\",TELE 1 HD"
+    },
+    {
+      "name": "Haber 24",
+      "url": "http://130.61.114.158/play/live/9449.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Haber 24\" tvg-logo=\"http://logo1010.com/news/24-hd.png\" group-title=\"TR • Haber\",Haber 24"
+    },
+    {
+      "name": "CNBC-e HD",
+      "url": "http://130.61.114.158/play/live/317076.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"CNBC-e HD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/CNBC-e-Logo.png/200px-CNBC-e-Logo.png\" group-title=\"TR • Haber\",CNBC-e HD"
+    },
+    {
+      "name": "Tv 100 HD",
+      "url": "http://130.61.114.158/play/live/35531.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"tv100.tr\" tvg-name=\"Tv 100 HD\" tvg-logo=\"http://logo1010.com/news/tv100-hd.png\" group-title=\"TR • Haber\",Tv 100 HD"
+    },
+    {
+      "name": "A Para Hd",
+      "url": "http://130.61.114.158/play/live/55087.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"apara.tr\" tvg-name=\"A Para Hd\" tvg-logo=\"http://logo1010.com/news/apara-hd.png\" group-title=\"TR • Haber\",A Para Hd"
+    },
+    {
+      "name": "A News",
+      "url": "http://130.61.114.158/play/live/142904.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"anews.tr\" tvg-name=\"A News\" tvg-logo=\"http://logo1010.com/cdn/haber/anewsfhd.png\" group-title=\"TR • Haber\",A News"
+    },
+    {
+      "name": "TV5",
+      "url": "http://130.61.114.158/play/live/35594.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"24.tr\" tvg-name=\"TV5\" tvg-logo=\"https://gbzottvsc01.tvplus.com.tr:33207/CPS/images/universal/film/logo/202405/20240523/64/0749024511585eb88428_op_0_XL.png\" group-title=\"TR • Haber\",TV5"
+    },
+    {
+      "name": "Flash Haber HD",
+      "url": "http://130.61.114.158/play/live/223865.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"flashhaber.tr\" tvg-name=\"Flash Haber HD\" tvg-logo=\"http://logo1010.com/news/flashhaber-hd.png\" group-title=\"TR • Haber\",Flash Haber HD"
+    },
+    {
+      "name": "ILKE TV",
+      "url": "http://130.61.114.158/play/live/333575.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"ILKE TV\" tvg-logo=\"http://logo1010.com/ens/images9.png\" group-title=\"TR • Haber\",ILKE TV"
+    },
+    {
+      "name": "TBM TV",
+      "url": "http://130.61.114.158/play/live/163416.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TBM TV\" tvg-logo=\"http://logo1010.com/lg/tmbtv.png\" group-title=\"TR • Muzik / Radio\",TBM TV"
+    },
+    {
+      "name": "---------SINEMA ----------",
+      "url": "http://130.61.114.158/play/live/1891.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"---------SINEMA ----------\" tvg-logo=\"http://logo.cdnlop.com/logotv/plus.png\" group-title=\"TR • Sinema\",---------SINEMA ----------"
+    },
+    {
+      "name": "Vip Channel",
+      "url": "http://130.61.114.158/play/live/1688.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"2\" tvg-name=\"Vip Channel\" tvg-logo=\"http://logo.cdnlop.com/logotv/vipchannel.png\" group-title=\"TR • Sinema\",Vip Channel"
+    },
+    {
+      "name": "Vip Channel 2",
+      "url": "http://130.61.114.158/play/live/1707.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"3\" tvg-name=\"Vip Channel 2\" tvg-logo=\"http://logo.cdnlop.com/logotv/vipchannel.png\" group-title=\"TR • Sinema\",Vip Channel 2"
+    },
+    {
+      "name": "Vip Channel Premier",
+      "url": "http://130.61.114.158/play/live/387803.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"362\" tvg-name=\"Vip Channel Premier\" tvg-logo=\"http://logo.cdnlop.com/logotv/vipchannel.png\" group-title=\"TR • Sinema\",Vip Channel Premier"
+    },
+    {
+      "name": "Loca 1 Hd",
+      "url": "http://130.61.114.158/play/live/1703.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"4\" tvg-name=\"Loca 1 Hd\" tvg-logo=\"http://logo1010.com/lg/loca1.png\" group-title=\"TR • Sinema\",Loca 1 Hd"
+    },
+    {
+      "name": "Loca 2 Hd",
+      "url": "http://130.61.114.158/play/live/1704.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"5\" tvg-name=\"Loca 2 Hd\" tvg-logo=\"http://logo1010.com/lg/loca2.png\" group-title=\"TR • Sinema\",Loca 2 Hd"
+    },
+    {
+      "name": "Loca 3 Hd",
+      "url": "http://130.61.114.158/play/live/1705.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"6\" tvg-name=\"Loca 3 Hd\" tvg-logo=\"http://logo1010.com/lg/loca3.png\" group-title=\"TR • Sinema\",Loca 3 Hd"
+    },
+    {
+      "name": "Bein Box Office Premier HD",
+      "url": "http://130.61.114.158/play/live/231145.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"24\" tvg-name=\"Bein Box Office Premier HD\" tvg-logo=\"http://logo1010.com/ens/202.png\" group-title=\"TR • Sinema\",Bein Box Office Premier HD"
+    },
+    {
+      "name": "Bein Box Office 1 Hd",
+      "url": "http://130.61.114.158/play/live/1699.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"7\" tvg-name=\"Bein Box Office 1 Hd\" tvg-logo=\"http://logo1010.com/cdn/sinema/b.b.officehd_2.png\" group-title=\"TR • Sinema\",Bein Box Office 1 Hd"
+    },
+    {
+      "name": "Bein Box Office 2 Hd",
+      "url": "http://130.61.114.158/play/live/1700.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"8\" tvg-name=\"Bein Box Office 2 Hd\" tvg-logo=\"http://logo1010.com/cdn/sinema/b.b.officehd_2.png\" group-title=\"TR • Sinema\",Bein Box Office 2 Hd"
+    },
+    {
+      "name": "Bein Box Office 3 Hd",
+      "url": "http://130.61.114.158/play/live/1701.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"9\" tvg-name=\"Bein Box Office 3 Hd\" tvg-logo=\"http://logo1010.com/cdn/sinema/b.b.officehd_2.png\" group-title=\"TR • Sinema\",Bein Box Office 3 Hd"
+    },
+    {
+      "name": "Netflix Aksiyon HD",
+      "url": "http://130.61.114.158/play/live/231128.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"12\" tvg-name=\"Netflix Aksiyon HD\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/aksiyon.png\" group-title=\"TR • Sinema\",Netflix Aksiyon HD"
+    },
+    {
+      "name": "Netflix Komedi HD",
+      "url": "http://130.61.114.158/play/live/231129.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"10\" tvg-name=\"Netflix Komedi HD\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/komedi.png\" group-title=\"TR • Sinema\",Netflix Komedi HD"
+    },
+    {
+      "name": "Netflix Aile HD",
+      "url": "http://130.61.114.158/play/live/231130.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"14\" tvg-name=\"Netflix Aile HD\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/aile.png\" group-title=\"TR • Sinema\",Netflix Aile HD"
+    },
+    {
+      "name": "Netflix Aşk HD",
+      "url": "http://130.61.114.158/play/live/231131.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"15\" tvg-name=\"Netflix Aşk HD\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/ask.png\" group-title=\"TR • Sinema\",Netflix Aşk HD"
+    },
+    {
+      "name": "Netflix Dram HD",
+      "url": "http://130.61.114.158/play/live/231132.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"11\" tvg-name=\"Netflix Dram HD\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/drama.png\" group-title=\"TR • Sinema\",Netflix Dram HD"
+    },
+    {
+      "name": "Netflix Korku HD",
+      "url": "http://130.61.114.158/play/live/231144.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"13\" tvg-name=\"Netflix Korku HD\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/korku.png\" group-title=\"TR • Sinema\",Netflix Korku HD"
+    },
+    {
+      "name": "beIN Movies Türk HD",
+      "url": "http://130.61.114.158/play/live/265914.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"24.tr\" tvg-name=\"beIN Movies Türk HD\" tvg-logo=\"https://mediacms01.digiturkplay.com/channel_logo/w_Bein_Movies_Turk_250x150_2022.png\" group-title=\"TR • Sinema\",beIN Movies Türk HD"
+    },
+    {
+      "name": "beIN Movies Stars HD",
+      "url": "http://130.61.114.158/play/live/265915.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"24.tr\" tvg-name=\"beIN Movies Stars HD\" tvg-logo=\"https://mediacms01.digiturkplay.com/channel_logo/w_Bein_Movies_Stars_250x150_2022.png\" group-title=\"TR • Sinema\",beIN Movies Stars HD"
+    },
+    {
+      "name": "beIN Movies Premiere 1 HD",
+      "url": "http://130.61.114.158/play/live/265916.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"24.tr\" tvg-name=\"beIN Movies Premiere 1 HD\" tvg-logo=\"https://mediacms01.digiturkplay.com/channel_logo/w_Bein_Movies_Premiere_250x150_2022.png\" group-title=\"TR • Sinema\",beIN Movies Premiere 1 HD"
+    },
+    {
+      "name": "beIN Movies Premiere 2 HD",
+      "url": "http://130.61.114.158/play/live/265917.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"24.tr\" tvg-name=\"beIN Movies Premiere 2 HD\" tvg-logo=\"https://mediacms01.digiturkplay.com/channel_logo/w_Bein_Movies_Premiere_250x150_2022.png\" group-title=\"TR • Sinema\",beIN Movies Premiere 2 HD"
+    },
+    {
+      "name": "BBC First HD",
+      "url": "http://130.61.114.158/play/live/310888.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"BBC First HD\" tvg-logo=\"https://logo1010.com/cdn/netfilix-sinema/BBC_First.png\" group-title=\"TR • Belgesel\",BBC First HD"
+    },
+    {
+      "name": "Epic Drama HD",
+      "url": "http://130.61.114.158/play/live/292011.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Epic Drama HD\" tvg-logo=\"http://logo1010.com/ens/188.png\" group-title=\"TR • Sinema\",Epic Drama HD"
+    },
+    {
+      "name": "beIN Series 1 HD",
+      "url": "http://130.61.114.158/play/live/265918.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"beIN Series 1 HD\" tvg-logo=\"http://logo1010.com/ens/189.png\" group-title=\"TR • Sinema\",beIN Series 1 HD"
+    },
+    {
+      "name": "beIN Series 2 HD",
+      "url": "http://130.61.114.158/play/live/265919.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"beIN Series 2 HD\" tvg-logo=\"http://logo1010.com/ens/189.png\" group-title=\"TR • Sinema\",beIN Series 2 HD"
+    },
+    {
+      "name": "beIN Series 3 HD",
+      "url": "http://130.61.114.158/play/live/265920.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"beIN Series 3 HD\" tvg-logo=\"http://logo1010.com/ens/189.png\" group-title=\"TR • Sinema\",beIN Series 3 HD"
+    },
+    {
+      "name": "beIN Series 4 HD",
+      "url": "http://130.61.114.158/play/live/265921.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"beIN Series 4 HD\" tvg-logo=\"http://logo1010.com/ens/189.png\" group-title=\"TR • Sinema\",beIN Series 4 HD"
+    },
+    {
+      "name": "D-Smart Moviesmart Classic",
+      "url": "http://130.61.114.158/play/live/769.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"moviesmartclassic.tr\" tvg-name=\"D-Smart Moviesmart Classic\" tvg-logo=\"http://logo1010.com/cdn/sinema/moviesmartclassichd.png\" group-title=\"TR • Sinema\",D-Smart Moviesmart Classic"
+    },
+    {
+      "name": "D-Smart Moviesmart Turk HD",
+      "url": "http://130.61.114.158/play/live/775.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"moviesmartturk.tr\" tvg-name=\"D-Smart Moviesmart Turk HD\" tvg-logo=\"http://logo1010.com/cdn/sinema/moviesmartturkhd.png\" group-title=\"TR • Sinema\",D-Smart Moviesmart Turk HD"
+    },
+    {
+      "name": "Sinema Komedi 2 Hd",
+      "url": "http://130.61.114.158/play/live/52907.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Sinema Komedi 2 Hd\" tvg-logo=\"http://logo1010.com/cdn/sinema/sinemakomedi2.png\" group-title=\"TR • Sinema\",Sinema Komedi 2 Hd"
+    },
+    {
+      "name": "Sinema Aksiyon 2 Hd",
+      "url": "http://130.61.114.158/play/live/52908.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Sinema Aksiyon 2 Hd\" tvg-logo=\"http://logo1010.com/cdn/sinema/sinemaaksiyon2.png\" group-title=\"TR • Sinema\",Sinema Aksiyon 2 Hd"
+    },
+    {
+      "name": "Sinema 2 HD",
+      "url": "http://130.61.114.158/play/live/28875.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"sinema2hd.tr\" tvg-name=\"Sinema 2 HD\" tvg-logo=\"http://logo1010.com/cdn/sinema/sinematv.png\" group-title=\"TR • Sinema\",Sinema 2 HD"
+    },
+    {
+      "name": "Sinema Yerli Hd",
+      "url": "http://130.61.114.158/play/live/13267.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Sinema Yerli Hd\" tvg-logo=\"http://logo1010.com/cdn/sinema/sinemayerli.png\" group-title=\"TR • Sinema\",Sinema Yerli Hd"
+    },
+    {
+      "name": "SiNEMA YERLi 2",
+      "url": "http://130.61.114.158/play/live/29588.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"sinemayerli2.tr\" tvg-name=\"SiNEMA YERLi 2\" tvg-logo=\"http://logo1010.com/cdn/sinema/sinemayerli2.png\" group-title=\"TR • Sinema\",SiNEMA YERLi 2"
+    },
+    {
+      "name": "Sinema Aile HD",
+      "url": "http://130.61.114.158/play/live/721.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Sinema Aile HD\" tvg-logo=\"http://logo1010.com/cdn/sinema/sinemaaile.png\" group-title=\"TR • Sinema\",Sinema Aile HD"
+    },
+    {
+      "name": "SiNEMA AiLE 2",
+      "url": "http://130.61.114.158/play/live/29587.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"sinemaaile2hd.tr\" tvg-name=\"SiNEMA AiLE 2\" tvg-logo=\"http://logo1010.com/cdn/sinema/sinemaaile.png\" group-title=\"TR • Sinema\",SiNEMA AiLE 2"
+    },
+    {
+      "name": "Sinema TV HD",
+      "url": "http://130.61.114.158/play/live/9842.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Sinema TV HD\" tvg-logo=\"http://logo1010.com/cdn/sinema/sinematv.png\" group-title=\"TR • Sinema\",Sinema TV HD"
+    },
+    {
+      "name": "Sinema  1001 Hd",
+      "url": "http://130.61.114.158/play/live/28586.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"sinema1001hd.tr\" tvg-name=\"Sinema  1001 Hd\" tvg-logo=\"http://logo1010.com/cdn/sinema/sinema1001.png\" group-title=\"TR • Sinema\",Sinema  1001 Hd"
+    },
+    {
+      "name": "Sinema 1002 Hd",
+      "url": "http://130.61.114.158/play/live/28587.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"sinema1002.tr\" tvg-name=\"Sinema 1002 Hd\" tvg-logo=\"http://logo1010.com/cdn/sinema/sinema1002.png\" group-title=\"TR • Sinema\",Sinema 1002 Hd"
+    },
+    {
+      "name": "Sinema Komedi 1 Hd",
+      "url": "http://130.61.114.158/play/live/28588.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"sinemakomedihd.tr\" tvg-name=\"Sinema Komedi 1 Hd\" tvg-logo=\"http://logo1010.com/cdn/sinema/sinemakomedi.png\" group-title=\"TR • Sinema\",Sinema Komedi 1 Hd"
+    },
+    {
+      "name": "Sinema Tv Aksiyon HD",
+      "url": "http://130.61.114.158/play/live/6925.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"sinemaaksiyonhd.tr\" tvg-name=\"Sinema Tv Aksiyon HD\" tvg-logo=\"http://logo1010.com/cdn/sinema/sinemaaksiyon.png\" group-title=\"TR • Sinema\",Sinema Tv Aksiyon HD"
+    },
+    {
+      "name": "4K-Sinema 1",
+      "url": "http://130.61.114.158/play/live/333826.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4K-Sinema 1\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4K-Sinema 1"
+    },
+    {
+      "name": "4K-Transformers Box Set",
+      "url": "http://130.61.114.158/play/live/333847.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4K-Transformers Box Set\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4K-Transformers Box Set"
+    },
+    {
+      "name": "4k-Kaptan Amerika BoxSet",
+      "url": "http://130.61.114.158/play/live/333865.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k-Kaptan Amerika BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k-Kaptan Amerika BoxSet"
+    },
+    {
+      "name": "4k-Yenilmezler BoxSet",
+      "url": "http://130.61.114.158/play/live/333876.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k-Yenilmezler BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k-Yenilmezler BoxSet"
+    },
+    {
+      "name": "4k-Buz Devri-boxset",
+      "url": "http://130.61.114.158/play/live/333888.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k-Buz Devri-boxset\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k-Buz Devri-boxset"
+    },
+    {
+      "name": "4k-Demir Adam BoxSet",
+      "url": "http://130.61.114.158/play/live/333894.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k-Demir Adam BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k-Demir Adam BoxSet"
+    },
+    {
+      "name": "4k-Karınca Adam BoxSet",
+      "url": "http://130.61.114.158/play/live/333901.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k-Karınca Adam BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k-Karınca Adam BoxSet"
+    },
+    {
+      "name": "4k-Galaksinin Koruyucuları BoxSet",
+      "url": "http://130.61.114.158/play/live/333902.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k-Galaksinin Koruyucuları BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k-Galaksinin Koruyucuları BoxSet"
+    },
+    {
+      "name": "4k-Matrix BoxSet",
+      "url": "http://130.61.114.158/play/live/333903.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k-Matrix BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k-Matrix BoxSet"
+    },
+    {
+      "name": "4k-Yüzüklerin Efendisi BoxSet",
+      "url": "http://130.61.114.158/play/live/333904.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k-Yüzüklerin Efendisi BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k-Yüzüklerin Efendisi BoxSet"
+    },
+    {
+      "name": "4k-Sicario BoxSet",
+      "url": "http://130.61.114.158/play/live/333916.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k-Sicario BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k-Sicario BoxSet"
+    },
+    {
+      "name": "4k-Ocean's BoxSet",
+      "url": "http://130.61.114.158/play/live/333917.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k-Ocean's BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k-Ocean's BoxSet"
+    },
+    {
+      "name": "4k-Karayip Korsanları BoxSet",
+      "url": "http://130.61.114.158/play/live/333918.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k-Karayip Korsanları BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k-Karayip Korsanları BoxSet"
+    },
+    {
+      "name": "4k-Indiana Jones BoxSet",
+      "url": "http://130.61.114.158/play/live/333919.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k-Indiana Jones BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k-Indiana Jones BoxSet"
+    },
+    {
+      "name": "4k-Recep İvedik Boxset",
+      "url": "http://130.61.114.158/play/live/334563.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k-Recep İvedik Boxset\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k-Recep İvedik Boxset"
+    },
+    {
+      "name": "4k-Yerli Sinema",
+      "url": "http://130.61.114.158/play/live/334564.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k-Yerli Sinema\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k-Yerli Sinema"
+    },
+    {
+      "name": "4k-Animasyon",
+      "url": "http://130.61.114.158/play/live/333967.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k-Animasyon\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k-Animasyon"
+    },
+    {
+      "name": "4k-Yesilcam-1",
+      "url": "http://130.61.114.158/play/live/333968.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k-Yesilcam-1\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k-Yesilcam-1"
+    },
+    {
+      "name": "4k-Music live",
+      "url": "http://130.61.114.158/play/live/333969.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k-Music live\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k-Music live"
+    },
+    {
+      "name": "4k-yerli-pop-muzik",
+      "url": "http://130.61.114.158/play/live/333979.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k-yerli-pop-muzik\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k-yerli-pop-muzik"
+    },
+    {
+      "name": "4k-Belgesel",
+      "url": "http://130.61.114.158/play/live/334184.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k-Belgesel\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k-Belgesel"
+    },
+    {
+      "name": "---------- ☾☆ Sinema UP ☾☆ ----------",
+      "url": "http://130.61.114.158/play/live/328540.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"---------- ☾☆ Sinema UP ☾☆ ----------\" tvg-logo=\"http://logo.cdnlop.com/logotv/plus.png\" group-title=\"TR • Sinema Up\",---------- ☾☆ Sinema UP ☾☆ ----------"
+    },
+    {
+      "name": "FİLMAX",
+      "url": "http://130.61.114.158/play/live/317302.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"FİLMAX\" tvg-logo=\"http://logo1010.com/ens/266.png\" group-title=\"TR • Sinema Up\",FİLMAX"
+    },
+    {
+      "name": "FİL TV",
+      "url": "http://130.61.114.158/play/live/317303.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"FİL TV\" tvg-logo=\"http://logo1010.com/ens/265.png\" group-title=\"TR • Sinema Up\",FİL TV"
+    },
+    {
+      "name": "FILMBOX ʜᴅ",
+      "url": "http://130.61.114.158/play/live/317304.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"FILMBOX ʜᴅ\" tvg-logo=\"http://logo1010.com/ens/264.png\" group-title=\"TR • Sinema Up\",FILMBOX ʜᴅ"
+    },
+    {
+      "name": "-----| Boxet Sinema |-----",
+      "url": "http://130.61.114.158/play/live/185246.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"-----| Boxet Sinema |-----\" tvg-logo=\"http://logo.cdnlop.com/logotv/plus.png\" group-title=\"TR • Sinema boxset\",-----| Boxet Sinema |-----"
+    },
+    {
+      "name": "------| Dizi |------",
+      "url": "http://130.61.114.158/play/live/3213.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"------| Dizi |------\" tvg-logo=\"http://logo.cdnlop.com/logotv/plus.png\" group-title=\"TR • Dizi\",------| Dizi |------"
+    },
+    {
+      "name": "D-Smart FX",
+      "url": "http://130.61.114.158/play/live/710.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"D-Smart FX\" tvg-logo=\"http://logo1010.com/cdn/sinema/fxhd_2.png\" group-title=\"TR • Dizi\",D-Smart FX"
+    },
+    {
+      "name": "D-Smart Dizi Smart Max Hd",
+      "url": "http://130.61.114.158/play/live/722.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"dizismartmax.tr\" tvg-name=\"D-Smart Dizi Smart Max Hd\" tvg-logo=\"http://logo1010.com/cdn/sinema/dizismartmaxhd.png\" group-title=\"TR • Dizi\",D-Smart Dizi Smart Max Hd"
+    },
+    {
+      "name": "▃ ▅ ▆ █ TURK BELGESEL █ ▆ ▅ ▃",
+      "url": "http://130.61.114.158/play/live/1894.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"▃ ▅ ▆ █ TURK BELGESEL █ ▆ ▅ ▃\" tvg-logo=\"http://logo1010.com/kare/Doplayf.png\" group-title=\"TR • Belgesel\",▃ ▅ ▆ █ TURK BELGESEL █ ▆ ▅ ▃"
+    },
+    {
+      "name": "VİP CHANNEL BELGESEL",
+      "url": "http://130.61.114.158/play/live/328867.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"22\" tvg-name=\"VİP CHANNEL BELGESEL\" tvg-logo=\"http://logo1010.com/ens/40.png\" group-title=\"TR • Belgesel\",VİP CHANNEL BELGESEL"
+    },
+    {
+      "name": "DISCOVERY CHANNEL HD",
+      "url": "http://130.61.114.158/play/live/766.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"discoverychannel.tr\" tvg-name=\"DISCOVERY CHANNEL HD\" tvg-logo=\"http://logo1010.com/news/discoverychannel-hd.png\" group-title=\"TR • Belgesel\",DISCOVERY CHANNEL HD"
+    },
+    {
+      "name": "NAT GEO WILD HD",
+      "url": "http://130.61.114.158/play/live/711.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"natgeowild.tr\" tvg-name=\"NAT GEO WILD HD\" tvg-logo=\"http://logo1010.com/news/natgeow%C4%B1ld-hd.png\" group-title=\"TR • Belgesel\",NAT GEO WILD HD"
+    },
+    {
+      "name": "NATIONAL GEOGRAPHIC HD",
+      "url": "http://130.61.114.158/play/live/758.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"natgeo.tr\" tvg-name=\"NATIONAL GEOGRAPHIC HD\" tvg-logo=\"http://logo1010.com/news/natigeograp-hd.png\" group-title=\"TR • Belgesel\",NATIONAL GEOGRAPHIC HD"
+    },
+    {
+      "name": "Viasat History HD",
+      "url": "http://130.61.114.158/play/live/784.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"viasathistory.tr\" tvg-name=\"Viasat History HD\" tvg-logo=\"http://logo1010.com/news/vaisathistory-hd.png\" group-title=\"TR • Belgesel\",Viasat History HD"
+    },
+    {
+      "name": "VIASAT EXPLORE HD",
+      "url": "http://130.61.114.158/play/live/142740.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"viasathistory.tr\" tvg-name=\"VIASAT EXPLORE HD\" tvg-logo=\"http://logo1010.com/news/visiatex-hd.png\" group-title=\"TR • Belgesel\",VIASAT EXPLORE HD"
+    },
+    {
+      "name": "DAVINCI LEARNING HD",
+      "url": "http://130.61.114.158/play/live/126862.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DAVINCI LEARNING HD\" tvg-logo=\"http://logo1010.com/cdn/haber/davincilearning.png\" group-title=\"TR • Belgesel\",DAVINCI LEARNING HD"
+    },
+    {
+      "name": "BBC EARTH FHD",
+      "url": "http://130.61.114.158/play/live/704.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"bbcearth.tr\" tvg-name=\"BBC EARTH FHD\" tvg-logo=\"http://logo1010.com/news/bbcearth-fhd.png\" group-title=\"TR • Belgesel\",BBC EARTH FHD"
+    },
+    {
+      "name": "LOVE NATURE TV FHD",
+      "url": "http://130.61.114.158/play/live/195533.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"LOVE NATURE TV FHD\" tvg-logo=\"http://logo1010.com/news/lovenature-fhd.png\" group-title=\"TR • Belgesel\",LOVE NATURE TV FHD"
+    },
+    {
+      "name": "ID Xtra HD",
+      "url": "http://130.61.114.158/play/live/126813.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"ID Xtra HD\" tvg-logo=\"http://logo1010.com/news/%C4%B1dbelgesel-hd.png\" group-title=\"TR • Belgesel\",ID Xtra HD"
+    },
+    {
+      "name": "beIN Gurme HD",
+      "url": "http://130.61.114.158/play/live/21749.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"beingurme.tr\" tvg-name=\"beIN Gurme HD\" tvg-logo=\"http://logo1010.com/news/beingurme-hd.png\" group-title=\"TR • Belgesel\",beIN Gurme HD"
+    },
+    {
+      "name": "TGRT BELGESEL HD",
+      "url": "http://130.61.114.158/play/live/150006.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"24.tr\" tvg-name=\"TGRT BELGESEL HD\" tvg-logo=\"http://logo1010.com/news/tgrtbelgesel-hd.png\" group-title=\"TR • Belgesel\",TGRT BELGESEL HD"
+    },
+    {
+      "name": "Tarih Tv HD",
+      "url": "http://130.61.114.158/play/live/247865.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tarih Tv HD\" tvg-logo=\"http://logo1010.com/ens/310.png\" group-title=\"TR • Belgesel\",Tarih Tv HD"
+    },
+    {
+      "name": "Dmax HD",
+      "url": "http://130.61.114.158/play/live/692.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"dmax.tr\" tvg-name=\"Dmax HD\" tvg-logo=\"http://logo1010.com/news/dmax-hd.png\" group-title=\"TR • Belgesel\",Dmax HD"
+    },
+    {
+      "name": "beIN IZ TV HD",
+      "url": "http://130.61.114.158/play/live/20838.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"beiniz.tr\" tvg-name=\"beIN IZ TV HD\" tvg-logo=\"http://logo1010.com/news/beiniz-hd.png\" group-title=\"TR • Belgesel\",beIN IZ TV HD"
+    },
+    {
+      "name": "CIFTCI TV",
+      "url": "http://130.61.114.158/play/live/151240.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"CIFTCI TV\" tvg-logo=\"http://logo1010.com/lg/ciftcitv.png\" group-title=\"TR • Belgesel\",CIFTCI TV"
+    },
+    {
+      "name": "Yaban TV HD",
+      "url": "http://130.61.114.158/play/live/296183.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Yaban TV HD\" tvg-logo=\"http://logo1010.com/news/yaban-hd.png\" group-title=\"TR • Belgesel\",Yaban TV HD"
+    },
+    {
+      "name": "DOCU SCREEN HD",
+      "url": "http://130.61.114.158/play/live/329388.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DOCU SCREEN HD\" tvg-logo=\"http://logo1010.com/ens/39.png\" group-title=\"TR • Belgesel\",DOCU SCREEN HD"
+    },
+    {
+      "name": "----Eğlence---",
+      "url": "http://130.61.114.158/play/live/151317.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"----Eğlence---\" tvg-logo=\"http://logo.cdnlop.com/logotv/plus.png\" group-title=\"TR • Eğlence\",----Eğlence---"
+    },
+    {
+      "name": "------| ÇIZGI FILM |------",
+      "url": "http://130.61.114.158/play/live/1895.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"------| ÇIZGI FILM |------\" tvg-logo=\"http://logo.cdnlop.com/logotv/plus.png\" group-title=\"TR • Cocuk\",------| ÇIZGI FILM |------"
+    },
+    {
+      "name": "Vip Channel Animasyon HD",
+      "url": "http://130.61.114.158/play/live/261849.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"23\" tvg-name=\"Vip Channel Animasyon HD\" tvg-logo=\"http://logo1010.com/ens/5ju7rjc.png\" group-title=\"TR • Cocuk\",Vip Channel Animasyon HD"
+    },
+    {
+      "name": "TRT COCUK HD",
+      "url": "http://130.61.114.158/play/live/786.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"trtcocuk.tr\" tvg-name=\"TRT COCUK HD\" tvg-logo=\"http://logo1010.com/news/trtcocuk-hd.png\" group-title=\"TR • Cocuk\",TRT COCUK HD"
+    },
+    {
+      "name": "Trt Diyanet Çocuk HD",
+      "url": "http://130.61.114.158/play/live/291582.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Trt Diyanet Çocuk HD\" tvg-logo=\"http://logo1010.com/ens/307.png\" group-title=\"TR • Cocuk\",Trt Diyanet Çocuk HD"
+    },
+    {
+      "name": "CARTOON NETWORK",
+      "url": "http://130.61.114.158/play/live/4933.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"cartoonnetwork.tr\" tvg-name=\"CARTOON NETWORK\" tvg-logo=\"http://logo1010.com/news/cn-hd.png\" group-title=\"TR • Cocuk\",CARTOON NETWORK"
+    },
+    {
+      "name": "DISNEY JUNIOR",
+      "url": "http://130.61.114.158/play/live/163413.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"disneyjunior.tr\" tvg-name=\"DISNEY JUNIOR\" tvg-logo=\"http://logo1010.com/news/disneyjunior-hd.png\" group-title=\"TR • Cocuk\",DISNEY JUNIOR"
+    },
+    {
+      "name": "Moonbug Kids HD",
+      "url": "http://130.61.114.158/play/live/332940.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Moonbug Kids HD\" tvg-logo=\"http://logo1010.com/ens/82.png\" group-title=\"TR • Cocuk\",Moonbug Kids HD"
+    },
+    {
+      "name": "Cartoonito HD",
+      "url": "http://130.61.114.158/play/live/701.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"boomerang.tr\" tvg-name=\"Cartoonito HD\" tvg-logo=\"http://logo1010.com/news/bomerangcocuk-hd.png\" group-title=\"TR • Cocuk\",Cartoonito HD"
+    },
+    {
+      "name": "COCUK SMART HD",
+      "url": "http://130.61.114.158/play/live/723.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"smartcocuk.tr\" tvg-name=\"COCUK SMART HD\" tvg-logo=\"http://logo1010.com/news/smartcocuk-hd.png\" group-title=\"TR • Cocuk\",COCUK SMART HD"
+    },
+    {
+      "name": "BABY TV",
+      "url": "http://130.61.114.158/play/live/151244.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"babytv.tr\" tvg-name=\"BABY TV\" tvg-logo=\"http://logo1010.com/news/babytv-hd.png\" group-title=\"TR • Cocuk\",BABY TV"
+    },
+    {
+      "name": "NICKELODEON HD",
+      "url": "http://130.61.114.158/play/live/118709.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"nickelodeonhd.tr\" tvg-name=\"NICKELODEON HD\" tvg-logo=\"http://logo1010.com/news/nickeledon-hd.png\" group-title=\"TR • Cocuk\",NICKELODEON HD"
+    },
+    {
+      "name": "Duck Tv HD",
+      "url": "http://130.61.114.158/play/live/236984.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Duck Tv HD\" tvg-logo=\"https://gbzottvsc01.tvplus.com.tr:33207/CPS/images/universal/film/logo/202001/20200127/20200127170319748y7q_op_0_XL.png\" group-title=\"TR • Cocuk\",Duck Tv HD"
+    },
+    {
+      "name": "Nick Jr. (Türkiye)",
+      "url": "http://130.61.114.158/play/live/312472.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Nick Jr. (Türkiye)\" tvg-logo=\"https://gbzottvsc01.tvplus.com.tr:33207/CPS/images/universal/film/logo/202402/20240229/28/2226394237355eb88428_op_0_XL.png\" group-title=\"TR • Cocuk\",Nick Jr. (Türkiye)"
+    },
+    {
+      "name": "NICKELODEON",
+      "url": "http://130.61.114.158/play/live/369579.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"NICKELODEON\" tvg-logo=\"\" group-title=\"TR • Cocuk\",NICKELODEON"
+    },
+    {
+      "name": "ZAROK TV",
+      "url": "http://130.61.114.158/play/live/319407.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"ZAROK TV\" tvg-logo=\"http://logo1010.com/ens/83.png\" group-title=\"TR • Cocuk\",ZAROK TV"
+    },
+    {
+      "name": "--------------TURK YEREL------------",
+      "url": "http://130.61.114.158/play/live/185244.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"--------------TURK YEREL------------\" tvg-logo=\"http://logo.cdnlop.com/logotv/plus.png\" group-title=\"TR • Yerel Kanallar\",--------------TURK YEREL------------"
+    },
+    {
+      "name": "Güneydoğu TV",
+      "url": "http://130.61.114.158/play/live/150008.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Güneydoğu TV\" tvg-logo=\"http://logo1010.com/cdn/yoresel/guneydogu.png\" group-title=\"TR • Yerel Kanallar\",Güneydoğu TV"
+    },
+    {
+      "name": "Es TV",
+      "url": "http://130.61.114.158/play/live/150009.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Es TV\" tvg-logo=\"http://logo1010.com/lg/estv.png\" group-title=\"TR • Yerel Kanallar\",Es TV"
+    },
+    {
+      "name": "Edessa Tv",
+      "url": "http://130.61.114.158/play/live/55088.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Edessa Tv\" tvg-logo=\"http://logo1010.com/cdn/yoresel/edessa.png\" group-title=\"TR • Yerel Kanallar\",Edessa Tv"
+    },
+    {
+      "name": "Fm Tv",
+      "url": "http://130.61.114.158/play/live/55089.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Fm Tv\" tvg-logo=\"http://logo1010.com/lg/fmtv.png\" group-title=\"TR • Yerel Kanallar\",Fm Tv"
+    },
+    {
+      "name": "Kanal V",
+      "url": "http://130.61.114.158/play/live/55090.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal V\" tvg-logo=\"http://logo1010.com/cdn/yoresel/kanalv.png\" group-title=\"TR • Yerel Kanallar\",Kanal V"
+    },
+    {
+      "name": "Mavi Karadeniz Tv",
+      "url": "http://130.61.114.158/play/live/56085.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Mavi Karadeniz Tv\" tvg-logo=\"http://logo1010.com/cdn/yoresel/mavikaradeniz.png\" group-title=\"TR • Yerel Kanallar\",Mavi Karadeniz Tv"
+    },
+    {
+      "name": "Kanal 42 Sd",
+      "url": "http://130.61.114.158/play/live/88501.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal 42 Sd\" tvg-logo=\"http://logo1010.com/lg/kanal42.png\" group-title=\"TR • Yerel Kanallar\",Kanal 42 Sd"
+    },
+    {
+      "name": "Ulusal Tv HD",
+      "url": "http://130.61.114.158/play/live/88873.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"ulusalkanal.tr\" tvg-name=\"Ulusal Tv HD\" tvg-logo=\"http://logo1010.com/news/ulusal-hd.png\" group-title=\"TR • Haber\",Ulusal Tv HD"
+    },
+    {
+      "name": "Benguturk",
+      "url": "http://130.61.114.158/play/live/802.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"benguturk.tr\" tvg-name=\"Benguturk\" tvg-logo=\"http://logo1010.com/cdn/ulusal/benguturk.png\" group-title=\"TR • Ulusal\",Benguturk"
+    },
+    {
+      "name": "Cay TV",
+      "url": "http://130.61.114.158/play/live/801.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Cay TV\" tvg-logo=\"http://logo1010.com/cdn/yoresel/Caytv.png\" group-title=\"TR • Yerel Kanallar\",Cay TV"
+    },
+    {
+      "name": "EKOTURK HD",
+      "url": "http://130.61.114.158/play/live/691.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"ekoturk.tr\" tvg-name=\"EKOTURK HD\" tvg-logo=\"http://logo1010.com/news/ekoturk-hd.png\" group-title=\"TR • Haber\",EKOTURK HD"
+    },
+    {
+      "name": "TV 264",
+      "url": "http://130.61.114.158/play/live/163414.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TV 264\" tvg-logo=\"http://logo1010.com/cdn/yoresel/tv264.png\" group-title=\"TR • Yerel Kanallar\",TV 264"
+    },
+    {
+      "name": "ORDU ALTAS TV",
+      "url": "http://130.61.114.158/play/live/163417.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"ORDU ALTAS TV\" tvg-logo=\"http://logo1010.com/lg/ordualtastv.png\" group-title=\"TR • Yerel Kanallar\",ORDU ALTAS TV"
+    },
+    {
+      "name": "ER TV",
+      "url": "http://130.61.114.158/play/live/163420.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"ER TV\" tvg-logo=\"http://logo1010.com/cdn/yoresel/ertv.png\" group-title=\"TR • Yerel Kanallar\",ER TV"
+    },
+    {
+      "name": "TV KAYSERI",
+      "url": "http://130.61.114.158/play/live/163423.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TV KAYSERI\" tvg-logo=\"http://logo1010.com/cdn/yoresel/tvkayseri.png\" group-title=\"TR • Yerel Kanallar\",TV KAYSERI"
+    },
+    {
+      "name": "KANAL FIRAT",
+      "url": "http://130.61.114.158/play/live/163424.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"KANAL FIRAT\" tvg-logo=\"http://logo1010.com/cdn/yoresel/kanalfirat.png\" group-title=\"TR • Yerel Kanallar\",KANAL FIRAT"
+    },
+    {
+      "name": "YENİ KOCAELİ TV",
+      "url": "http://130.61.114.158/play/live/163426.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"YENİ KOCAELİ TV\" tvg-logo=\"http://logo1010.com/ens/31.png\" group-title=\"TR • Yerel Kanallar\",YENİ KOCAELİ TV"
+    },
+    {
+      "name": "Aksu Tv SD",
+      "url": "http://130.61.114.158/play/live/175890.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Aksu Tv SD\" tvg-logo=\"http://logo1010.com/lg/aksutv.png\" group-title=\"TR • Yerel Kanallar\",Aksu Tv SD"
+    },
+    {
+      "name": "Ekintürk Tv SD",
+      "url": "http://130.61.114.158/play/live/175893.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Ekintürk Tv SD\" tvg-logo=\"http://logo1010.com/ens/38.png\" group-title=\"TR • Yerel Kanallar\",Ekintürk Tv SD"
+    },
+    {
+      "name": "Kanal 15 SD",
+      "url": "http://130.61.114.158/play/live/175897.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal 15 SD\" tvg-logo=\"http://logo1010.com/lg/kanal15.png\" group-title=\"TR • Yerel Kanallar\",Kanal 15 SD"
+    },
+    {
+      "name": "Kanal 32 SD",
+      "url": "http://130.61.114.158/play/live/175898.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal 32 SD\" tvg-logo=\"http://logo1010.com/ens/27.png\" group-title=\"TR • Yerel Kanallar\",Kanal 32 SD"
+    },
+    {
+      "name": "Kanal 33 SD",
+      "url": "http://130.61.114.158/play/live/175899.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal 33 SD\" tvg-logo=\"http://logo1010.com/lg/kanal33.png\" group-title=\"TR • Yerel Kanallar\",Kanal 33 SD"
+    },
+    {
+      "name": "Mercan Tv SD",
+      "url": "http://130.61.114.158/play/live/175902.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Mercan Tv SD\" tvg-logo=\"http://logo1010.com/lg/mercantv.png\" group-title=\"TR • Yerel Kanallar\",Mercan Tv SD"
+    },
+    {
+      "name": "Kanal Avrupa",
+      "url": "http://130.61.114.158/play/live/163429.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal Avrupa\" tvg-logo=\"http://logo1010.com/cdn/yoresel/kanalavrupa.png\" group-title=\"TR • Yerel Kanallar\",Kanal Avrupa"
+    },
+    {
+      "name": "TEMPO TV",
+      "url": "http://130.61.114.158/play/live/163431.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TEMPO TV\" tvg-logo=\"http://logo1010.com/cdn/yoresel/tempotv.png\" group-title=\"TR • Yerel Kanallar\",TEMPO TV"
+    },
+    {
+      "name": "TV 52",
+      "url": "http://130.61.114.158/play/live/163433.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TV 52\" tvg-logo=\"http://logo1010.com/cdn/yoresel/tv52-yeni.png\" group-title=\"TR • Yerel Kanallar\",TV 52"
+    },
+    {
+      "name": "KANAL URFA",
+      "url": "http://130.61.114.158/play/live/163434.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"KANAL URFA\" tvg-logo=\"http://logo1010.com/cdn/yoresel/kanalurfa.png\" group-title=\"TR • Yerel Kanallar\",KANAL URFA"
+    },
+    {
+      "name": "LINE TV",
+      "url": "http://130.61.114.158/play/live/163436.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"LINE TV\" tvg-logo=\"http://logo1010.com/cdn/yoresel/linetv.png\" group-title=\"TR • Yerel Kanallar\",LINE TV"
+    },
+    {
+      "name": "KANAL 3",
+      "url": "http://130.61.114.158/play/live/163437.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"24.tr\" tvg-name=\"KANAL 3\" tvg-logo=\"http://logo1010.com/ens/30.png\" group-title=\"TR • Yerel Kanallar\",KANAL 3"
+    },
+    {
+      "name": "KOY TV",
+      "url": "http://130.61.114.158/play/live/163438.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"KOY TV\" tvg-logo=\"http://logo1010.com/lg/koytv.png\" group-title=\"TR • Yerel Kanallar\",KOY TV"
+    },
+    {
+      "name": "Rumeli TV",
+      "url": "http://130.61.114.158/play/live/126815.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Rumeli TV\" tvg-logo=\"http://logo1010.com/lg/rumelitv.png\" group-title=\"TR • Yerel Kanallar\",Rumeli TV"
+    },
+    {
+      "name": "Anadolu Dernek TV",
+      "url": "http://130.61.114.158/play/live/126817.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Anadolu Dernek TV\" tvg-logo=\"http://logo1010.com/ens/29.png\" group-title=\"TR • Yerel Kanallar\",Anadolu Dernek TV"
+    },
+    {
+      "name": "Meltem tv SD+",
+      "url": "http://130.61.114.158/play/live/175990.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Meltem tv SD+\" tvg-logo=\"http://logo1010.com/ens/26.png\" group-title=\"TR • Yerel Kanallar\",Meltem tv SD+"
+    },
+    {
+      "name": "Kardelen TV",
+      "url": "http://130.61.114.158/play/live/126816.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kardelen TV\" tvg-logo=\"http://logo1010.com/cdn/yoresel/kardelentv.png\" group-title=\"TR • Yerel Kanallar\",Kardelen TV"
+    },
+    {
+      "name": "Kon Tv",
+      "url": "http://130.61.114.158/play/live/4938.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"kontv.tr\" tvg-name=\"Kon Tv\" tvg-logo=\"http://logo1010.com/lg/kontv.png\" group-title=\"TR • Yerel Kanallar\",Kon Tv"
+    },
+    {
+      "name": "360 HD",
+      "url": "http://130.61.114.158/play/live/7107.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"360.tr\" tvg-name=\"360 HD\" tvg-logo=\"http://logo1010.com/news/360-hd.png\" group-title=\"TR • Ulusal\",360 HD"
+    },
+    {
+      "name": "EGEMAX TV",
+      "url": "http://130.61.114.158/play/live/337331.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"EGEMAX TV\" tvg-logo=\"http://logo1010.com/news/egemax.png\" group-title=\"TR • Yerel Kanallar\",EGEMAX TV"
+    },
+    {
+      "name": "Kadırga TV",
+      "url": "http://130.61.114.158/play/live/337229.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kadırga TV\" tvg-logo=\"http://logo1010.com/news/kadirga.png\" group-title=\"TR • Yerel Kanallar\",Kadırga TV"
+    },
+    {
+      "name": "Haber 61",
+      "url": "http://130.61.114.158/play/live/35330.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Haber 61\" tvg-logo=\"http://logo1010.com/ens/32.png\" group-title=\"TR • Yerel Kanallar\",Haber 61"
+    },
+    {
+      "name": "TRT Avaz",
+      "url": "http://130.61.114.158/play/live/126818.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TRT Avaz\" tvg-logo=\"http://logo1010.com/cdn/yoresel/trtavaz.png\" group-title=\"TR • Yerel Kanallar\",TRT Avaz"
+    },
+    {
+      "name": "Krt Tv HD",
+      "url": "http://130.61.114.158/play/live/38461.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"krt.tr\" tvg-name=\"Krt Tv HD\" tvg-logo=\"http://logo1010.com/news/krt-hd.png\" group-title=\"TR • Haber\",Krt Tv HD"
+    },
+    {
+      "name": "Grt Tv HD",
+      "url": "http://130.61.114.158/play/live/236957.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Grt Tv HD\" tvg-logo=\"http://logo1010.com/lg/grttv.png\" group-title=\"TR • Yerel Kanallar\",Grt Tv HD"
+    },
+    {
+      "name": "Kanal B HD",
+      "url": "http://130.61.114.158/play/live/236969.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal B HD\" tvg-logo=\"http://logo1010.com/lg/kanalb.png\" group-title=\"TR • Yerel Kanallar\",Kanal B HD"
+    },
+    {
+      "name": "Tivi 6 HD",
+      "url": "http://130.61.114.158/play/live/236972.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tivi 6 HD\" tvg-logo=\"http://logo1010.com/lg/tivi6.png\" group-title=\"TR • Yerel Kanallar\",Tivi 6 HD"
+    },
+    {
+      "name": "Tv 1 HD",
+      "url": "http://130.61.114.158/play/live/236974.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tv 1 HD\" tvg-logo=\"http://logo1010.com/lg/tv1.png\" group-title=\"TR • Yerel Kanallar\",Tv 1 HD"
+    },
+    {
+      "name": "Lider Haber SD",
+      "url": "http://130.61.114.158/play/live/263619.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"liderhaber.tv\" tvg-name=\"Lider Haber SD\" tvg-logo=\"http://logo1010.com/lg/liderhaber.png\" group-title=\"TR • Haber\",Lider Haber SD"
+    },
+    {
+      "name": "Tv Den",
+      "url": "http://130.61.114.158/play/live/263627.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tv Den\" tvg-logo=\"http://logo1010.com/lg/tvden.png\" group-title=\"TR • Yerel Kanallar\",Tv Den"
+    },
+    {
+      "name": "Malatya Vuslat Tv SD",
+      "url": "http://130.61.114.158/play/live/263629.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Malatya Vuslat Tv SD\" tvg-logo=\"http://logo1010.com/lg/malatyavuslat.png\" group-title=\"TR • Yerel Kanallar\",Malatya Vuslat Tv SD"
+    },
+    {
+      "name": "Br Tv Anadolu SD",
+      "url": "http://130.61.114.158/play/live/263630.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Br Tv Anadolu SD\" tvg-logo=\"http://logo1010.com/ens/19.png\" group-title=\"TR • Yerel Kanallar\",Br Tv Anadolu SD"
+    },
+    {
+      "name": "Brtv Karadeniz HD",
+      "url": "http://130.61.114.158/play/live/236976.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Brtv Karadeniz HD\" tvg-logo=\"http://logo1010.com/ens/22.png\" group-title=\"TR • Yerel Kanallar\",Brtv Karadeniz HD"
+    },
+    {
+      "name": "Kanal 58 HD",
+      "url": "http://130.61.114.158/play/live/236979.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal 58 HD\" tvg-logo=\"http://logo1010.com/ens/21.png\" group-title=\"TR • Yerel Kanallar\",Kanal 58 HD"
+    },
+    {
+      "name": "Sunr Tv HD",
+      "url": "http://130.61.114.158/play/live/236980.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Sunr Tv HD\" tvg-logo=\"http://logo1010.com/lg/sunrtv.png\" group-title=\"TR • Yerel Kanallar\",Sunr Tv HD"
+    },
+    {
+      "name": "Yıldız Tv HD",
+      "url": "http://130.61.114.158/play/live/236981.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Yıldız Tv HD\" tvg-logo=\"http://logo1010.com/lg/yildiztv.png\" group-title=\"TR • Yerel Kanallar\",Yıldız Tv HD"
+    },
+    {
+      "name": "Diyar Tv HD",
+      "url": "http://130.61.114.158/play/live/236983.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Diyar Tv HD\" tvg-logo=\"http://logo1010.com/lg/diyartv.png\" group-title=\"TR • Yerel Kanallar\",Diyar Tv HD"
+    },
+    {
+      "name": "Freedom",
+      "url": "http://130.61.114.158/play/live/333569.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Freedom\" tvg-logo=\"http://logo1010.com/ens/11.png\" group-title=\"TR • Yerel Kanallar\",Freedom"
+    },
+    {
+      "name": "Bir TV",
+      "url": "http://130.61.114.158/play/live/333570.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Bir TV\" tvg-logo=\"http://logo1010.com/ens/10.png\" group-title=\"TR • Yerel Kanallar\",Bir TV"
+    },
+    {
+      "name": "Koza TV",
+      "url": "http://130.61.114.158/play/live/333572.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Koza TV\" tvg-logo=\"http://logo1010.com/ens/8.png\" group-title=\"TR • Yerel Kanallar\",Koza TV"
+    },
+    {
+      "name": "TARIM ORMAN EKRANI HD",
+      "url": "http://130.61.114.158/play/live/332942.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TARIM ORMAN EKRANI HD\" tvg-logo=\"http://logo1010.com/ens/17.png\" group-title=\"TR • Yerel Kanallar\",TARIM ORMAN EKRANI HD"
+    },
+    {
+      "name": "AS TV BURSA",
+      "url": "http://130.61.114.158/play/live/332944.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"AS TV BURSA\" tvg-logo=\"http://logo1010.com/ens/15.png\" group-title=\"TR • Yerel Kanallar\",AS TV BURSA"
+    },
+    {
+      "name": "TEK RUMELI TV",
+      "url": "http://130.61.114.158/play/live/332945.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TEK RUMELI TV\" tvg-logo=\"http://logo1010.com/ens/14.png\" group-title=\"TR • Yerel Kanallar\",TEK RUMELI TV"
+    },
+    {
+      "name": "GZT HD",
+      "url": "http://130.61.114.158/play/live/332946.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"GZT HD\" tvg-logo=\"http://logo1010.com/ens/13.png\" group-title=\"TR • Yerel Kanallar\",GZT HD"
+    },
+    {
+      "name": "AGRO TV",
+      "url": "http://130.61.114.158/play/live/332947.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"AGRO TV\" tvg-logo=\"http://logo1010.com/ens/12.png\" group-title=\"TR • Yerel Kanallar\",AGRO TV"
+    },
+    {
+      "name": "▃ ▅ ▆ █ TURK DINI █ ▆ ▅ ▃",
+      "url": "http://130.61.114.158/play/live/185245.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"▃ ▅ ▆ █ TURK DINI █ ▆ ▅ ▃\" tvg-logo=\"http://logo1010.com/kare/Doplayf.png\" group-title=\"TR • Dini\",▃ ▅ ▆ █ TURK DINI █ ▆ ▅ ▃"
+    },
+    {
+      "name": "Lalegül Tv",
+      "url": "http://130.61.114.158/play/live/35325.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Lalegül Tv\" tvg-logo=\"http://logo1010.com/lg/lalegultv.png\" group-title=\"TR • Dini\",Lalegül Tv"
+    },
+    {
+      "name": "Dost Tv",
+      "url": "http://130.61.114.158/play/live/35326.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Dost Tv\" tvg-logo=\"http://logo1010.com/ens/306.png\" group-title=\"TR • Dini\",Dost Tv"
+    },
+    {
+      "name": "Vav Tv HD",
+      "url": "http://130.61.114.158/play/live/182527.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Vav Tv HD\" tvg-logo=\"http://logo1010.com/ens/303.png\" group-title=\"TR • Dini\",Vav Tv HD"
+    },
+    {
+      "name": "Saudi Sunnah SD",
+      "url": "http://130.61.114.158/play/live/182731.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Saudi Sunnah SD\" tvg-logo=\"http://logo1010.com/ens/302.png\" group-title=\"TR • Dini\",Saudi Sunnah SD"
+    },
+    {
+      "name": "KABE(Canlı) AL Quran SD",
+      "url": "http://130.61.114.158/play/live/182732.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"KABE(Canlı) AL Quran SD\" tvg-logo=\"http://logo1010.com/lg/kabetv.png\" group-title=\"TR • Dini\",KABE(Canlı) AL Quran SD"
+    },
+    {
+      "name": "Rehber Tv SD",
+      "url": "http://130.61.114.158/play/live/175905.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Rehber Tv SD\" tvg-logo=\"http://logo1010.com/ens/304.png\" group-title=\"TR • Dini\",Rehber Tv SD"
+    },
+    {
+      "name": "AL Zahra TV",
+      "url": "http://130.61.114.158/play/live/337228.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"AL Zahra TV\" tvg-logo=\"http://logo1010.com/news/alzahra.png\" group-title=\"TR • Dini\",AL Zahra TV"
+    },
+    {
+      "name": "Akit Tv HD",
+      "url": "http://130.61.114.158/play/live/126810.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Akit Tv HD\" tvg-logo=\"http://logo1010.com/news/akittv-hd.png\" group-title=\"TR • Dini\",Akit Tv HD"
+    },
+    {
+      "name": "On 4 Tv",
+      "url": "http://130.61.114.158/play/live/88391.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"On 4 Tv\" tvg-logo=\"http://logo1010.com/ens/305.png\" group-title=\"TR • Dini\",On 4 Tv"
+    },
+    {
+      "name": "Trt Diyanet",
+      "url": "http://130.61.114.158/play/live/12772.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"trtdiyanet.tr\" tvg-name=\"Trt Diyanet\" tvg-logo=\"http://logo1010.com/logo/trt_diyanet_tr_risalet_radyo.png\" group-title=\"TR • Dini\",Trt Diyanet"
+    },
+    {
+      "name": "------| Muzik |------",
+      "url": "http://130.61.114.158/play/live/1892.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"------| Muzik |------\" tvg-logo=\"http://logo.cdnlop.com/logotv/plus.png\" group-title=\"TR • Muzik / Radio\",------| Muzik |------"
+    },
+    {
+      "name": "Power Tv HD",
+      "url": "http://130.61.114.158/play/live/4552.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"powertv.tr\" tvg-name=\"Power Tv HD\" tvg-logo=\"http://logo1010.com/cdn/haber/powerturk.png\" group-title=\"TR • Muzik / Radio\",Power Tv HD"
+    },
+    {
+      "name": "Number One Turk",
+      "url": "http://130.61.114.158/play/live/777.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"numberoneturk.tr\" tvg-name=\"Number One Turk\" tvg-logo=\"http://logo1010.com/cdn/haber/nr1turkhd.png\" group-title=\"TR • Muzik / Radio\",Number One Turk"
+    },
+    {
+      "name": "Dream Turk",
+      "url": "http://130.61.114.158/play/live/12755.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"dreamturk.tr\" tvg-name=\"Dream Turk\" tvg-logo=\"http://logo1010.com/cdn/haber/dreamturk.png\" group-title=\"TR • Muzik / Radio\",Dream Turk"
+    },
+    {
+      "name": "Trace Urban HD",
+      "url": "http://130.61.114.158/play/live/190975.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Trace Urban HD\" tvg-logo=\"http://logo1010.com/lg/traceurban.png\" group-title=\"TR • Muzik / Radio\",Trace Urban HD"
+    },
+    {
+      "name": "Bein Mezzo",
+      "url": "http://130.61.114.158/play/live/190976.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Bein Mezzo\" tvg-logo=\"http://logo1010.com/lg/beinmezzo.png\" group-title=\"TR • Muzik / Radio\",Bein Mezzo"
+    },
+    {
+      "name": "Tv 2020 SD",
+      "url": "http://130.61.114.158/play/live/263616.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tv 2020 SD\" tvg-logo=\"http://logo1010.com/lg/tv2020.png\" group-title=\"TR • Yerel Kanallar\",Tv 2020 SD"
+    },
+    {
+      "name": "Luys Tv SD",
+      "url": "http://130.61.114.158/play/live/263618.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Luys Tv SD\" tvg-logo=\"http://logo1010.com/ens/20.png\" group-title=\"TR • Yerel Kanallar\",Luys Tv SD"
+    },
+    {
+      "name": "----------|  Filme |----------",
+      "url": "http://130.61.114.158/play/live/309038.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"----------|  Filme |----------\" tvg-logo=\"http://logo.cdnlop.com/logotv/plus.png\" group-title=\"DE • Filme\",----------|  Filme |----------"
+    },
+    {
+      "name": "TR: Can TV",
+      "url": "http://130.61.114.158/play/live/324359.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TR: Can TV\" tvg-logo=\"http://logo1010.com/ens/34.png\" group-title=\"TR • Haber\",TR: Can TV"
+    },
+    {
+      "name": "FX ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/337669.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"FX ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/fx.png\" group-title=\"TR • Ulusal Raw | Android\",FX ʳᵃʷ"
+    },
+    {
+      "name": "Tabii Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336776.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tabii Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tabiitv.png\" group-title=\"TR • Ulusal Raw | Android\",Tabii Tv ʳᵃʷ"
+    },
+    {
+      "name": "TRT 1 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336871.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TRT 1 ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/trt1.png\" group-title=\"TR • Ulusal Raw | Android\",TRT 1 ʳᵃʷ"
+    },
+    {
+      "name": "Atv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336777.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Atv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/atv.png\" group-title=\"TR • Ulusal Raw | Android\",Atv ʳᵃʷ"
+    },
+    {
+      "name": "Show Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336778.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Show Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/show.png\" group-title=\"TR • Ulusal Raw | Android\",Show Tv ʳᵃʷ"
+    },
+    {
+      "name": "Now Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336779.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Now Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/now.png\" group-title=\"TR • Ulusal Raw | Android\",Now Tv ʳᵃʷ"
+    },
+    {
+      "name": "Star Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336780.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Star Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/star.png\" group-title=\"TR • Ulusal Raw | Android\",Star Tv ʳᵃʷ"
+    },
+    {
+      "name": "Kanal D ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336781.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal D ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/kanald.png\" group-title=\"TR • Ulusal Raw | Android\",Kanal D ʳᵃʷ"
+    },
+    {
+      "name": "Tv 8 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336782.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tv 8 ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tv8.png\" group-title=\"TR • Ulusal Raw | Android\",Tv 8 ʳᵃʷ"
+    },
+    {
+      "name": "Kanal 7 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336783.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal 7 ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/kanal7.png\" group-title=\"TR • Ulusal Raw | Android\",Kanal 7 ʳᵃʷ"
+    },
+    {
+      "name": "Beyaz Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/337000.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Beyaz Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/beyaz.png\" group-title=\"TR • Ulusal Raw | Android\",Beyaz Tv ʳᵃʷ"
+    },
+    {
+      "name": "360 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336785.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"360 ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/360.png\" group-title=\"TR • Ulusal Raw | Android\",360 ʳᵃʷ"
+    },
+    {
+      "name": "Teve 2 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336784.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Teve 2 ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/teve2.png\" group-title=\"TR • Ulusal Raw | Android\",Teve 2 ʳᵃʷ"
+    },
+    {
+      "name": "Bi Kanal ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/351853.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Bi Kanal ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/logo_293.png\" group-title=\"TR • Ulusal Raw | Android\",Bi Kanal ʳᵃʷ"
+    },
+    {
+      "name": "TLC ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336998.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TLC ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tlc.png\" group-title=\"TR • Ulusal Raw | Android\",TLC ʳᵃʷ"
+    },
+    {
+      "name": "DMAX ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336999.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DMAX ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/dmax.png\" group-title=\"TR • Ulusal Raw | Android\",DMAX ʳᵃʷ"
+    },
+    {
+      "name": "Tv 100 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336787.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tv 100 ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tv100.png\" group-title=\"TR • Ulusal Raw | Android\",Tv 100 ʳᵃʷ"
+    },
+    {
+      "name": "CNBC-e ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/337001.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"CNBC-e ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/cnbc.png\" group-title=\"TR • Ulusal Raw | Android\",CNBC-e ʳᵃʷ"
+    },
+    {
+      "name": "NTV ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336788.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"NTV ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/ntv.png\" group-title=\"TR • Ulusal Raw | Android\",NTV ʳᵃʷ"
+    },
+    {
+      "name": "Halk Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336790.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Halk Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/halk.png\" group-title=\"TR • Ulusal Raw | Android\",Halk Tv ʳᵃʷ"
+    },
+    {
+      "name": "Haber Türk ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336789.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Haber Türk ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/haberturk.png\" group-title=\"TR • Ulusal Raw | Android\",Haber Türk ʳᵃʷ"
+    },
+    {
+      "name": "A Haber ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/337003.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"A Haber ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/ahaber.png\" group-title=\"TR • Ulusal Raw | Android\",A Haber ʳᵃʷ"
+    },
+    {
+      "name": "Tele1 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/337674.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tele1 ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tele1.png\" group-title=\"TR • Ulusal Raw | Android\",Tele1 ʳᵃʷ"
+    },
+    {
+      "name": "CNN Türk ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/337673.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"CNN Türk ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/cnn.png\" group-title=\"TR • Ulusal Raw | Android\",CNN Türk ʳᵃʷ"
+    },
+    {
+      "name": "Ekol Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/337672.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Ekol Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/ekol.png\" group-title=\"TR • Ulusal Raw | Android\",Ekol Tv ʳᵃʷ"
+    },
+    {
+      "name": "Haber Global ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336997.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Haber Global ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/global.png\" group-title=\"TR • Ulusal Raw | Android\",Haber Global ʳᵃʷ"
+    },
+    {
+      "name": "Bloomberg HT ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336996.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Bloomberg HT ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/ht.png\" group-title=\"TR • Ulusal Raw | Android\",Bloomberg HT ʳᵃʷ"
+    },
+    {
+      "name": "TV 24 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336791.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TV 24 ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/24.png\" group-title=\"TR • Ulusal Raw | Android\",TV 24 ʳᵃʷ"
+    },
+    {
+      "name": "TVNET ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336792.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TVNET ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tvnet.png\" group-title=\"TR • Ulusal Raw | Android\",TVNET ʳᵃʷ"
+    },
+    {
+      "name": "TRT Haber ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336793.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TRT Haber ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/trthaber.png\" group-title=\"TR • Ulusal Raw | Android\",TRT Haber ʳᵃʷ"
+    },
+    {
+      "name": "TGRT Haber ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336794.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TGRT Haber ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tgrthaber.png\" group-title=\"TR • Ulusal Raw | Android\",TGRT Haber ʳᵃʷ"
+    },
+    {
+      "name": "Türk Haber ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336795.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Türk Haber ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/trthaber.png\" group-title=\"TR • Ulusal Raw | Android\",Türk Haber ʳᵃʷ"
+    },
+    {
+      "name": "GZT Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336796.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"GZT Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/gzt.png\" group-title=\"TR • Ulusal Raw | Android\",GZT Tv ʳᵃʷ"
+    },
+    {
+      "name": "TRT 2 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336797.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TRT 2 ʳᵃʷ\" tvg-logo=\"http://logo1010.com/cdn/ulusal/trt2.png\" group-title=\"TR • Ulusal Raw | Android\",TRT 2 ʳᵃʷ"
+    },
+    {
+      "name": "Disney Jr. ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/337667.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Disney Jr. ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/disney.png\" group-title=\"TR • Ulusal Raw | Android\",Disney Jr. ʳᵃʷ"
+    },
+    {
+      "name": "TRT Çocuk ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336798.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TRT Çocuk ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/trtcocuk.png\" group-title=\"TR • Ulusal Raw | Android\",TRT Çocuk ʳᵃʷ"
+    },
+    {
+      "name": "TRT Diyanet Çocuk ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336799.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TRT Diyanet Çocuk ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/diyanetcocuk.png\" group-title=\"TR • Ulusal Raw | Android\",TRT Diyanet Çocuk ʳᵃʷ"
+    },
+    {
+      "name": "TRT Eba ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336802.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TRT Eba ʳᵃʷ\" tvg-logo=\"http://logo1010.com/ens/images1.png\" group-title=\"TR • Ulusal Raw | Android\",TRT Eba ʳᵃʷ"
+    },
+    {
+      "name": "A Spor ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/337006.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"A Spor ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/aspor.png\" group-title=\"TR • Ulusal Raw | Android\",A Spor ʳᵃʷ"
+    },
+    {
+      "name": "TRT Spor ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336803.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TRT Spor ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/trtspor.png\" group-title=\"TR • Ulusal Raw | Android\",TRT Spor ʳᵃʷ"
+    },
+    {
+      "name": "HT Spor ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/337005.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"HT Spor ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/htspor.png\" group-title=\"TR • Ulusal Raw | Android\",HT Spor ʳᵃʷ"
+    },
+    {
+      "name": "TRT Spor Yıldız ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336804.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TRT Spor Yıldız ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/trtyildiz.png\" group-title=\"TR • Ulusal Raw | Android\",TRT Spor Yıldız ʳᵃʷ"
+    },
+    {
+      "name": "TJK Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336805.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TJK Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tjk.png\" group-title=\"TR • Ulusal Raw | Android\",TJK Tv ʳᵃʷ"
+    },
+    {
+      "name": "Tabii Spor ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336806.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tabii Spor ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tabiispor.png\" group-title=\"TR • Ulusal Raw | Android\",Tabii Spor ʳᵃʷ"
+    },
+    {
+      "name": "Tabii Spor 1 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336807.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tabii Spor 1 ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tabiispor.png\" group-title=\"TR • Ulusal Raw | Android\",Tabii Spor 1 ʳᵃʷ"
+    },
+    {
+      "name": "Tabii Spor 2 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336808.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tabii Spor 2 ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tabiispor.png\" group-title=\"TR • Ulusal Raw | Android\",Tabii Spor 2 ʳᵃʷ"
+    },
+    {
+      "name": "Tabii Spor 3 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336809.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tabii Spor 3 ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tabiispor.png\" group-title=\"TR • Ulusal Raw | Android\",Tabii Spor 3 ʳᵃʷ"
+    },
+    {
+      "name": "Tabii Spor 4 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336810.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tabii Spor 4 ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tabiispor.png\" group-title=\"TR • Ulusal Raw | Android\",Tabii Spor 4 ʳᵃʷ"
+    },
+    {
+      "name": "Tabii Spor 5 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336811.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tabii Spor 5 ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tabiispor.png\" group-title=\"TR • Ulusal Raw | Android\",Tabii Spor 5 ʳᵃʷ"
+    },
+    {
+      "name": "Tabii Spor 6 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336812.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tabii Spor 6 ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tabiispor.png\" group-title=\"TR • Ulusal Raw | Android\",Tabii Spor 6 ʳᵃʷ"
+    },
+    {
+      "name": "Tabii Spor 7 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/337675.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tabii Spor 7 ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tabiispor.png\" group-title=\"TR • Ulusal Raw | Android\",Tabii Spor 7 ʳᵃʷ"
+    },
+    {
+      "name": "TRT Belgesel ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336813.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TRT Belgesel ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/trtbelgesel.png\" group-title=\"TR • Ulusal Raw | Android\",TRT Belgesel ʳᵃʷ"
+    },
+    {
+      "name": "National Geo ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/337670.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"National Geo ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/natgeo.png\" group-title=\"TR • Ulusal Raw | Android\",National Geo ʳᵃʷ"
+    },
+    {
+      "name": "Çiftçi Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336814.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Çiftçi Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/ciftci.png\" group-title=\"TR • Ulusal Raw | Android\",Çiftçi Tv ʳᵃʷ"
+    },
+    {
+      "name": "Power Türk Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336815.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Power Türk Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/power.png\" group-title=\"TR • Ulusal Raw | Android\",Power Türk Tv ʳᵃʷ"
+    },
+    {
+      "name": "Power Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336816.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Power Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/power.png\" group-title=\"TR • Ulusal Raw | Android\",Power Tv ʳᵃʷ"
+    },
+    {
+      "name": "Kral Pop Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336817.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kral Pop Tv ʳᵃʷ\" tvg-logo=\"http://logo1010.com/ens/kral.png\" group-title=\"TR • Ulusal Raw | Android\",Kral Pop Tv ʳᵃʷ"
+    },
+    {
+      "name": "Power Türk Dance ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336818.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Power Türk Dance ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/power.png\" group-title=\"TR • Ulusal Raw | Android\",Power Türk Dance ʳᵃʷ"
+    },
+    {
+      "name": "Power Türk Love ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336819.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Power Türk Love ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/power.png\" group-title=\"TR • Ulusal Raw | Android\",Power Türk Love ʳᵃʷ"
+    },
+    {
+      "name": "Power Türk Slow ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336820.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Power Türk Slow ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/power.png\" group-title=\"TR • Ulusal Raw | Android\",Power Türk Slow ʳᵃʷ"
+    },
+    {
+      "name": "Power Türk Akustik ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336821.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Power Türk Akustik ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/power.png\" group-title=\"TR • Ulusal Raw | Android\",Power Türk Akustik ʳᵃʷ"
+    },
+    {
+      "name": "Power Türk Taptaze ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336822.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Power Türk Taptaze ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/power.png\" group-title=\"TR • Ulusal Raw | Android\",Power Türk Taptaze ʳᵃʷ"
+    },
+    {
+      "name": "TRT Müzik ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336823.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TRT Müzik ʳᵃʷ\" tvg-logo=\"http://logo1010.com/logo/trt_muzik.png\" group-title=\"TR • Ulusal Raw | Android\",TRT Müzik ʳᵃʷ"
+    },
+    {
+      "name": "TRT Türk ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336824.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TRT Türk ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/trtturk.png\" group-title=\"TR • Ulusal Raw | Android\",TRT Türk ʳᵃʷ"
+    },
+    {
+      "name": "TRT Avaz ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336825.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TRT Avaz ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/trtavaz.png\" group-title=\"TR • Ulusal Raw | Android\",TRT Avaz ʳᵃʷ"
+    },
+    {
+      "name": "TRT Kurdi ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336826.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TRT Kurdi ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/kurdi.png\" group-title=\"TR • Ulusal Raw | Android\",TRT Kurdi ʳᵃʷ"
+    },
+    {
+      "name": "TRT Arabi ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336827.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TRT Arabi ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/arabi.png\" group-title=\"TR • Ulusal Raw | Android\",TRT Arabi ʳᵃʷ"
+    },
+    {
+      "name": "TRT World ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336828.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TRT World ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/trtworld.png\" group-title=\"TR • Ulusal Raw | Android\",TRT World ʳᵃʷ"
+    },
+    {
+      "name": "Aksu Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336829.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Aksu Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/aksu.png\" group-title=\"TR • Ulusal Raw | Android\",Aksu Tv ʳᵃʷ"
+    },
+    {
+      "name": "Anadolu Net Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336830.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Anadolu Net Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/anadolu.png\" group-title=\"TR • Ulusal Raw | Android\",Anadolu Net Tv ʳᵃʷ"
+    },
+    {
+      "name": "AS Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336831.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"AS Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/as.png\" group-title=\"TR • Ulusal Raw | Android\",AS Tv ʳᵃʷ"
+    },
+    {
+      "name": "BRT Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336832.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"BRT Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/brt.png\" group-title=\"TR • Ulusal Raw | Android\",BRT Tv ʳᵃʷ"
+    },
+    {
+      "name": "Cine 1 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336833.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Cine 1 ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/cine1.png\" group-title=\"TR • Ulusal Raw | Android\",Cine 1 ʳᵃʷ"
+    },
+    {
+      "name": "Deha Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336834.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Deha Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/deha.png\" group-title=\"TR • Ulusal Raw | Android\",Deha Tv ʳᵃʷ"
+    },
+    {
+      "name": "Deniz Postası ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336835.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Deniz Postası ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/deniz.png\" group-title=\"TR • Ulusal Raw | Android\",Deniz Postası ʳᵃʷ"
+    },
+    {
+      "name": "Dim Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336836.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Dim Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/dim.png\" group-title=\"TR • Ulusal Raw | Android\",Dim Tv ʳᵃʷ"
+    },
+    {
+      "name": "ER Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336837.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"ER Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/er.png\" group-title=\"TR • Ulusal Raw | Android\",ER Tv ʳᵃʷ"
+    },
+    {
+      "name": "Erciyes Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336838.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Erciyes Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/erciyes.png\" group-title=\"TR • Ulusal Raw | Android\",Erciyes Tv ʳᵃʷ"
+    },
+    {
+      "name": "ES Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336839.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"ES Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/es.png\" group-title=\"TR • Ulusal Raw | Android\",ES Tv ʳᵃʷ"
+    },
+    {
+      "name": "GRT Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336840.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"GRT Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/grt.png\" group-title=\"TR • Ulusal Raw | Android\",GRT Tv ʳᵃʷ"
+    },
+    {
+      "name": "Hunat Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336841.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Hunat Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/hunat.png\" group-title=\"TR • Ulusal Raw | Android\",Hunat Tv ʳᵃʷ"
+    },
+    {
+      "name": "İkra Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336842.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"İkra Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/ikra.png\" group-title=\"TR • Ulusal Raw | Android\",İkra Tv ʳᵃʷ"
+    },
+    {
+      "name": "Kanal 12 Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336843.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal 12 Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/12.png\" group-title=\"TR • Ulusal Raw | Android\",Kanal 12 Tv ʳᵃʷ"
+    },
+    {
+      "name": "Kanal 15 Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336844.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal 15 Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/15.png\" group-title=\"TR • Ulusal Raw | Android\",Kanal 15 Tv ʳᵃʷ"
+    },
+    {
+      "name": "Kanal 23 Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336845.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal 23 Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/23.png\" group-title=\"TR • Ulusal Raw | Android\",Kanal 23 Tv ʳᵃʷ"
+    },
+    {
+      "name": "Kanal 26 Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336846.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal 26 Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/26.png\" group-title=\"TR • Ulusal Raw | Android\",Kanal 26 Tv ʳᵃʷ"
+    },
+    {
+      "name": "Kanal 3 Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336847.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal 3 Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/3.png\" group-title=\"TR • Ulusal Raw | Android\",Kanal 3 Tv ʳᵃʷ"
+    },
+    {
+      "name": "Kanal 58 Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336848.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal 58 Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/58.png\" group-title=\"TR • Ulusal Raw | Android\",Kanal 58 Tv ʳᵃʷ"
+    },
+    {
+      "name": "Kanal Fırat ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336849.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal Fırat ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/firat.png\" group-title=\"TR • Ulusal Raw | Android\",Kanal Fırat ʳᵃʷ"
+    },
+    {
+      "name": "Kanal Plus ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336850.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal Plus ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/plus.png\" group-title=\"TR • Ulusal Raw | Android\",Kanal Plus ʳᵃʷ"
+    },
+    {
+      "name": "Kanal V ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336851.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal V ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/v.png\" group-title=\"TR • Ulusal Raw | Android\",Kanal V ʳᵃʷ"
+    },
+    {
+      "name": "Kanal Z ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336852.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kanal Z ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/z.png\" group-title=\"TR • Ulusal Raw | Android\",Kanal Z ʳᵃʷ"
+    },
+    {
+      "name": "KAY Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336853.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"KAY Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/kay.png\" group-title=\"TR • Ulusal Raw | Android\",KAY Tv ʳᵃʷ"
+    },
+    {
+      "name": "Kent Türk Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336854.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Kent Türk Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/kent.png\" group-title=\"TR • Ulusal Raw | Android\",Kent Türk Tv ʳᵃʷ"
+    },
+    {
+      "name": "Konya Olay Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336855.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Konya Olay Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/konya.png\" group-title=\"TR • Ulusal Raw | Android\",Konya Olay Tv ʳᵃʷ"
+    },
+    {
+      "name": "Life Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336856.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Life Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/life.png\" group-title=\"TR • Ulusal Raw | Android\",Life Tv ʳᵃʷ"
+    },
+    {
+      "name": "Mercan Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336857.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Mercan Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/mercan.png\" group-title=\"TR • Ulusal Raw | Android\",Mercan Tv ʳᵃʷ"
+    },
+    {
+      "name": "Mavi Karadeniz ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336858.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Mavi Karadeniz ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/mk.png\" group-title=\"TR • Ulusal Raw | Android\",Mavi Karadeniz ʳᵃʷ"
+    },
+    {
+      "name": "Nora Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336859.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Nora Tv ʳᵃʷ\" tvg-logo=\"http://logo1010.com/ens/nora.png\" group-title=\"TR • Ulusal Raw | Android\",Nora Tv ʳᵃʷ"
+    },
+    {
+      "name": "Olay Türk ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336860.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Olay Türk ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/olay.png\" group-title=\"TR • Ulusal Raw | Android\",Olay Türk ʳᵃʷ"
+    },
+    {
+      "name": "ON6 Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336861.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"ON6 Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/on6.png\" group-title=\"TR • Ulusal Raw | Android\",ON6 Tv ʳᵃʷ"
+    },
+    {
+      "name": "SAT7 Türk ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336862.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"SAT7 Türk ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/sat7.png\" group-title=\"TR • Ulusal Raw | Android\",SAT7 Türk ʳᵃʷ"
+    },
+    {
+      "name": "SUN RTV ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336863.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"SUN RTV ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/sun.png\" group-title=\"TR • Ulusal Raw | Android\",SUN RTV ʳᵃʷ"
+    },
+    {
+      "name": "Tempo Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336864.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tempo Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tempo.png\" group-title=\"TR • Ulusal Raw | Android\",Tempo Tv ʳᵃʷ"
+    },
+    {
+      "name": "Tivi 6 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336865.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tivi 6 ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tv6.png\" group-title=\"TR • Ulusal Raw | Android\",Tivi 6 ʳᵃʷ"
+    },
+    {
+      "name": "Ton Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336866.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Ton Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/ton.png\" group-title=\"TR • Ulusal Raw | Android\",Ton Tv ʳᵃʷ"
+    },
+    {
+      "name": "Trakya Türk Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336867.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Trakya Türk Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/trakya.png\" group-title=\"TR • Ulusal Raw | Android\",Trakya Türk Tv ʳᵃʷ"
+    },
+    {
+      "name": "Tv 41 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336868.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tv 41 ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tv41.png\" group-title=\"TR • Ulusal Raw | Android\",Tv 41 ʳᵃʷ"
+    },
+    {
+      "name": "Tv A ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336869.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tv A ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tva.png\" group-title=\"TR • Ulusal Raw | Android\",Tv A ʳᵃʷ"
+    },
+    {
+      "name": "Urfanatik Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336870.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Urfanatik Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/urfa.png\" group-title=\"TR • Ulusal Raw | Android\",Urfanatik Tv ʳᵃʷ"
+    },
+    {
+      "name": "Ons Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/336995.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Ons Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/ons.png\" group-title=\"TR • Ulusal Raw | Android\",Ons Tv ʳᵃʷ"
+    },
+    {
+      "name": "Tv52 ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/337004.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tv52 ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/tv52.png\" group-title=\"TR • Ulusal Raw | Android\",Tv52 ʳᵃʷ"
+    },
+    {
+      "name": "Altaş Tv ʳᵃʷ",
+      "url": "http://130.61.114.158/play/live/337007.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Altaş Tv ʳᵃʷ\" tvg-logo=\"https://logo1010.com/pictures/altas.png\" group-title=\"TR • Ulusal Raw | Android\",Altaş Tv ʳᵃʷ"
+    },
+    {
+      "name": "COSMOSPORTS",
+      "url": "http://130.61.114.158/play/live/339878.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"COSMOSPORTS\" tvg-logo=\"http://logo1010.com/news/cosmo.png\" group-title=\"TR • ⚽️Spor&Dsmart\",COSMOSPORTS"
+    },
+    {
+      "name": "TYT-TuRK",
+      "url": "http://130.61.114.158/play/live/339879.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TYT-TuRK\" tvg-logo=\"http://logo1010.com/news/tytturk.png\" group-title=\"TR • Ulusal\",TYT-TuRK"
+    },
+    {
+      "name": "SPACETOON",
+      "url": "http://130.61.114.158/play/live/339880.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"SPACETOON\" tvg-logo=\"http://logo1010.com/news/space.png\" group-title=\"TR • Cocuk\",SPACETOON"
+    },
+    {
+      "name": "BI KANAL",
+      "url": "http://130.61.114.158/play/live/351858.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"BI KANAL\" tvg-logo=\"http://logo1010.com/news/bikanal.png\" group-title=\"TR • ⚽️Spor&Dsmart\",BI KANAL"
+    },
+    {
+      "name": "Tv 4 Hd",
+      "url": "http://130.61.114.158/play/live/352727.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Tv 4 Hd\" tvg-logo=\"http://logo1010.com/news/tv4hd.png\" group-title=\"TR • Ulusal\",Tv 4 Hd"
+    },
+    {
+      "name": "STOON TV",
+      "url": "http://130.61.114.158/play/live/357834.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"STOON TV\" tvg-logo=\"\" group-title=\"TR • Cocuk\",STOON TV"
+    },
+    {
+      "name": "SIFIR TV",
+      "url": "http://130.61.114.158/play/live/357995.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"SIFIR TV\" tvg-logo=\"http://logo1010.com/yutube/sifirtv.png\" group-title=\"TR • ⚽️Spor&Dsmart\",SIFIR TV"
+    },
+    {
+      "name": "SUN-RTV",
+      "url": "http://130.61.114.158/play/live/368115.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"SUN-RTV\" tvg-logo=\"\" group-title=\"TR • Yerel Kanallar\",SUN-RTV"
+    },
+    {
+      "name": "MK TV",
+      "url": "http://130.61.114.158/play/live/368116.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"MK TV\" tvg-logo=\"http://logo1010.com/yutube/mktv.jpg\" group-title=\"TR • Haber\",MK TV"
+    },
+    {
+      "name": "CAN TEMPO TV",
+      "url": "http://130.61.114.158/play/live/368117.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"CAN TEMPO TV\" tvg-logo=\"\" group-title=\"TR • Muzik / Radio\",CAN TEMPO TV"
+    },
+    {
+      "name": "ASFTV",
+      "url": "http://130.61.114.158/play/live/368118.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"ASFTV\" tvg-logo=\"\" group-title=\"TR • Dini\",ASFTV"
+    },
+    {
+      "name": "íKRA  TV",
+      "url": "http://130.61.114.158/play/live/368119.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"íKRA  TV\" tvg-logo=\"\" group-title=\"TR • Dini\",íKRA  TV"
+    },
+    {
+      "name": "Neo Haber",
+      "url": "http://130.61.114.158/play/live/368253.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Neo Haber\" tvg-logo=\"http://logo1010.com/yutube/nehaber.jpeg\" group-title=\"TR • Haber\",Neo Haber"
+    },
+    {
+      "name": "Gonca TV",
+      "url": "http://130.61.114.158/play/live/368258.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Gonca TV\" tvg-logo=\"\" group-title=\"TR • Dini\",Gonca TV"
+    },
+    {
+      "name": "AD ❤ Adult Box 1",
+      "url": "http://130.61.114.158/play/live/368840.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"AD ❤ Adult Box 1\" tvg-logo=\"http://185.138.166.251:80/images/DSHo3KyPasnlR8GF3xoI9PEoj3LT51lbuosicTlioabNx08sduVMlHYhHJvGGRLX.png\" group-title=\"► XXX + 18 Adult\",AD ❤ Adult Box 1"
+    },
+    {
+      "name": "AD ❤ Adult Box 2",
+      "url": "http://130.61.114.158/play/live/368841.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"AD ❤ Adult Box 2\" tvg-logo=\"http://185.138.166.251:80/images/DSHo3KyPasnlR8GF3xoI9PEoj3LT51lbuosicTlioabNx08sduVMlHYhHJvGGRLX.png\" group-title=\"► XXX + 18 Adult\",AD ❤ Adult Box 2"
+    },
+    {
+      "name": "AD ❤ Adult Box 3",
+      "url": "http://130.61.114.158/play/live/368842.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"AD ❤ Adult Box 3\" tvg-logo=\"http://185.138.166.251:80/images/DSHo3KyPasnlR8GF3xoI9PEoj3LT51lbuosicTlioabNx08sduVMlHYhHJvGGRLX.png\" group-title=\"► XXX + 18 Adult\",AD ❤ Adult Box 3"
+    },
+    {
+      "name": "AD ❤ Adult Box 4",
+      "url": "http://130.61.114.158/play/live/368843.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"AD ❤ Adult Box 4\" tvg-logo=\"http://185.138.166.251:80/images/DSHo3KyPasnlR8GF3xoI9PEoj3LT51lbuosicTlioabNx08sduVMlHYhHJvGGRLX.png\" group-title=\"► XXX + 18 Adult\",AD ❤ Adult Box 4"
+    },
+    {
+      "name": "AD ❤ Adult Box 5",
+      "url": "http://130.61.114.158/play/live/368844.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"AD ❤ Adult Box 5\" tvg-logo=\"http://185.138.166.251:80/images/DSHo3KyPasnlR8GF3xoI9PEoj3LT51lbuosicTlioabNx08sduVMlHYhHJvGGRLX.png\" group-title=\"► XXX + 18 Adult\",AD ❤ Adult Box 5"
+    },
+    {
+      "name": "AD ❤ Adult Box 6",
+      "url": "http://130.61.114.158/play/live/368845.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"AD ❤ Adult Box 6\" tvg-logo=\"http://185.138.166.251:80/images/DSHo3KyPasnlR8GF3xoI9PEoj3LT51lbuosicTlioabNx08sduVMlHYhHJvGGRLX.png\" group-title=\"► XXX + 18 Adult\",AD ❤ Adult Box 6"
+    },
+    {
+      "name": "TR ❤ Proturk Yetişkin + 18",
+      "url": "http://130.61.114.158/play/live/368846.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"TR ❤ Proturk Yetişkin + 18\" tvg-logo=\"http://185.138.166.251:80/images/DSHo3KyPasnlR8GF3xoI9FIv3ssa7YddUBZnohdpvPT5Rv545tydSTX6plI7TxjF.png\" group-title=\"► XXX + 18 Adult\",TR ❤ Proturk Yetişkin + 18"
+    },
+    {
+      "name": "4K John Wick BoxSet",
+      "url": "http://130.61.114.158/play/live/371722.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4K John Wick BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4K John Wick BoxSet"
+    },
+    {
+      "name": "4K Rambo BoxSet",
+      "url": "http://130.61.114.158/play/live/371723.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4K Rambo BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4K Rambo BoxSet"
+    },
+    {
+      "name": "4K Rocky BoxSet",
+      "url": "http://130.61.114.158/play/live/371724.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4K Rocky BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4K Rocky BoxSet"
+    },
+    {
+      "name": "4k Aquaman BoxSet",
+      "url": "http://130.61.114.158/play/live/371738.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k Aquaman BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k Aquaman BoxSet"
+    },
+    {
+      "name": "4k Cehennem Melekleri BoxSet",
+      "url": "http://130.61.114.158/play/live/371739.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k Cehennem Melekleri BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k Cehennem Melekleri BoxSet"
+    },
+    {
+      "name": "4k Dan Brown BoxSet",
+      "url": "http://130.61.114.158/play/live/371740.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k Dan Brown BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k Dan Brown BoxSet"
+    },
+    {
+      "name": "4k Doctor Strange BoxSet",
+      "url": "http://130.61.114.158/play/live/371741.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k Doctor Strange BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k Doctor Strange BoxSet"
+    },
+    {
+      "name": "4k Dune Çöl Gezegeni BoxSet",
+      "url": "http://130.61.114.158/play/live/371742.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k Dune Çöl Gezegeni BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k Dune Çöl Gezegeni BoxSet"
+    },
+    {
+      "name": "4k Gladyatör BoxSet",
+      "url": "http://130.61.114.158/play/live/371743.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k Gladyatör BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k Gladyatör BoxSet"
+    },
+    {
+      "name": "4k Avatar BoxSet",
+      "url": "http://130.61.114.158/play/live/371744.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"4k Avatar BoxSet\" tvg-logo=\"http://logo1010.com/cdn/netfilix-sinema/4k.png\" group-title=\"TR • 4K Premium\",4k Avatar BoxSet"
+    },
+    {
+      "name": "Hustler HD",
+      "url": "http://130.61.114.158/play/live/371927.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Hustler HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Hustler HD"
+    },
+    {
+      "name": "Redlight HD",
+      "url": "http://130.61.114.158/play/live/371928.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Redlight HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Redlight HD"
+    },
+    {
+      "name": "Prıvate TV HD",
+      "url": "http://130.61.114.158/play/live/371929.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Prıvate TV HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Prıvate TV HD"
+    },
+    {
+      "name": "Dorcel HD",
+      "url": "http://130.61.114.158/play/live/371930.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Dorcel HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Dorcel HD"
+    },
+    {
+      "name": "Dorcel XxX HD",
+      "url": "http://130.61.114.158/play/live/371931.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Dorcel XxX HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Dorcel XxX HD"
+    },
+    {
+      "name": "Vixen HD",
+      "url": "http://130.61.114.158/play/live/371932.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Vixen HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Vixen HD"
+    },
+    {
+      "name": "Vivid Red HD",
+      "url": "http://130.61.114.158/play/live/371933.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Vivid Red HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Vivid Red HD"
+    },
+    {
+      "name": "Babes TV HD",
+      "url": "http://130.61.114.158/play/live/371934.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Babes TV HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Babes TV HD"
+    },
+    {
+      "name": "Dusk! Deluxe HD",
+      "url": "http://130.61.114.158/play/live/371935.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Dusk! Deluxe HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Dusk! Deluxe HD"
+    },
+    {
+      "name": "EroX HD",
+      "url": "http://130.61.114.158/play/live/371936.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"EroX HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",EroX HD"
+    },
+    {
+      "name": "Penthouse Gold HD",
+      "url": "http://130.61.114.158/play/live/371937.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Penthouse Gold HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Penthouse Gold HD"
+    },
+    {
+      "name": "Penthouse Reality TV HD",
+      "url": "http://130.61.114.158/play/live/371938.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Penthouse Reality TV HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Penthouse Reality TV HD"
+    },
+    {
+      "name": "Penthouse Passion HD",
+      "url": "http://130.61.114.158/play/live/371939.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Penthouse Passion HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Penthouse Passion HD"
+    },
+    {
+      "name": "XY Plus HD",
+      "url": "http://130.61.114.158/play/live/371940.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"XY Plus HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",XY Plus HD"
+    },
+    {
+      "name": "XY Max HD",
+      "url": "http://130.61.114.158/play/live/371941.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"XY Max HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",XY Max HD"
+    },
+    {
+      "name": "XY Mix HD",
+      "url": "http://130.61.114.158/play/live/371942.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"XY Mix HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",XY Mix HD"
+    },
+    {
+      "name": "Reality Kings TV HD",
+      "url": "http://130.61.114.158/play/live/371943.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Reality Kings TV HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Reality Kings TV HD"
+    },
+    {
+      "name": "Hustler TV",
+      "url": "http://130.61.114.158/play/live/371944.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Hustler TV\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Hustler TV"
+    },
+    {
+      "name": "XXL",
+      "url": "http://130.61.114.158/play/live/371945.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"XXL\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",XXL"
+    },
+    {
+      "name": "Passie XxX",
+      "url": "http://130.61.114.158/play/live/371946.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Passie XxX\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Passie XxX"
+    },
+    {
+      "name": "Passion XxX",
+      "url": "http://130.61.114.158/play/live/371947.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Passion XxX\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Passion XxX"
+    },
+    {
+      "name": "Passion XxX Europe",
+      "url": "http://130.61.114.158/play/live/371948.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Passion XxX Europe\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Passion XxX Europe"
+    },
+    {
+      "name": "Brazzers TV Europe",
+      "url": "http://130.61.114.158/play/live/371949.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Brazzers TV Europe\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Brazzers TV Europe"
+    },
+    {
+      "name": "Brazzers TV Europe (Россия)",
+      "url": "http://130.61.114.158/play/live/371950.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Brazzers TV Europe (Россия)\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Brazzers TV Europe (Россия)"
+    },
+    {
+      "name": "Meiden Van Holland Hard",
+      "url": "http://130.61.114.158/play/live/371951.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Meiden Van Holland Hard\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Meiden Van Holland Hard"
+    },
+    {
+      "name": "Erota HD",
+      "url": "http://130.61.114.158/play/live/371952.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Erota HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Erota HD"
+    },
+    {
+      "name": "Erotic",
+      "url": "http://130.61.114.158/play/live/371953.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Erotic\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Erotic"
+    },
+    {
+      "name": "Erotic 2",
+      "url": "http://130.61.114.158/play/live/371954.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Erotic 2\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Erotic 2"
+    },
+    {
+      "name": "Erotic 3",
+      "url": "http://130.61.114.158/play/live/371955.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Erotic 3\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Erotic 3"
+    },
+    {
+      "name": "Erotic 4",
+      "url": "http://130.61.114.158/play/live/371956.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Erotic 4\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Erotic 4"
+    },
+    {
+      "name": "Erotic 5",
+      "url": "http://130.61.114.158/play/live/371957.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Erotic 5\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Erotic 5"
+    },
+    {
+      "name": "Erotic 6",
+      "url": "http://130.61.114.158/play/live/371958.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Erotic 6\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Erotic 6"
+    },
+    {
+      "name": "Erotic 7",
+      "url": "http://130.61.114.158/play/live/371959.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Erotic 7\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Erotic 7"
+    },
+    {
+      "name": "Erotic 8",
+      "url": "http://130.61.114.158/play/live/371960.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Erotic 8\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Erotic 8"
+    },
+    {
+      "name": "Bang U HD",
+      "url": "http://130.61.114.158/play/live/371961.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Bang U HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Bang U HD"
+    },
+    {
+      "name": "Шёлк TV (Россия)",
+      "url": "http://130.61.114.158/play/live/371962.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Шёлк TV (Россия)\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Шёлк TV (Россия)"
+    },
+    {
+      "name": "Playboy HD",
+      "url": "http://130.61.114.158/play/live/371963.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Playboy HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Playboy HD"
+    },
+    {
+      "name": "Playboy Europe HD",
+      "url": "http://130.61.114.158/play/live/371964.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Playboy Europe HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Playboy Europe HD"
+    },
+    {
+      "name": "Playboy Europe (Россия)",
+      "url": "http://130.61.114.158/play/live/371965.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Playboy Europe (Россия)\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Playboy Europe (Россия)"
+    },
+    {
+      "name": "Blue Hustler (Россия)",
+      "url": "http://130.61.114.158/play/live/371966.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Blue Hustler (Россия)\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Blue Hustler (Россия)"
+    },
+    {
+      "name": "Blue Hustler Europe",
+      "url": "http://130.61.114.158/play/live/371967.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Blue Hustler Europe\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Blue Hustler Europe"
+    },
+    {
+      "name": "Russian Night (Россия)",
+      "url": "http://130.61.114.158/play/live/371968.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Russian Night (Россия)\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Russian Night (Россия)"
+    },
+    {
+      "name": "Barely Legal TV",
+      "url": "http://130.61.114.158/play/live/371969.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Barely Legal TV\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Barely Legal TV"
+    },
+    {
+      "name": "Babes TV (Россия)",
+      "url": "http://130.61.114.158/play/live/371970.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Babes TV (Россия)\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Babes TV (Россия)"
+    },
+    {
+      "name": "ФЛ Kiss (Россия)",
+      "url": "http://130.61.114.158/play/live/371971.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"ФЛ Kiss (Россия)\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",ФЛ Kiss (Россия)"
+    },
+    {
+      "name": "Nuart TV (Россия)",
+      "url": "http://130.61.114.158/play/live/371972.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Nuart TV (Россия)\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Nuart TV (Россия)"
+    },
+    {
+      "name": "Exxxotica TV (Россия)",
+      "url": "http://130.61.114.158/play/live/371973.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Exxxotica TV (Россия)\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Exxxotica TV (Россия)"
+    },
+    {
+      "name": "Red Lıps (Россия)",
+      "url": "http://130.61.114.158/play/live/371974.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Red Lıps (Россия)\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Red Lıps (Россия)"
+    },
+    {
+      "name": "Dream Porn TV (Россия)",
+      "url": "http://130.61.114.158/play/live/371975.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Dream Porn TV (Россия)\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Dream Porn TV (Россия)"
+    },
+    {
+      "name": "Leo TV HD",
+      "url": "http://130.61.114.158/play/live/371976.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Leo TV HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Leo TV HD"
+    },
+    {
+      "name": "Leo Gold TV HD",
+      "url": "http://130.61.114.158/play/live/371977.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Leo Gold TV HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Leo Gold TV HD"
+    },
+    {
+      "name": "Extasy HD",
+      "url": "http://130.61.114.158/play/live/371978.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Extasy HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Extasy HD"
+    },
+    {
+      "name": "Extasy 4K Platinum",
+      "url": "http://130.61.114.158/play/live/371979.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Extasy 4K Platinum\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Extasy 4K Platinum"
+    },
+    {
+      "name": "Desire TV HD",
+      "url": "http://130.61.114.158/play/live/371980.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Desire TV HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Desire TV HD"
+    },
+    {
+      "name": "Pure Babes HD",
+      "url": "http://130.61.114.158/play/live/371981.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Pure Babes HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Pure Babes HD"
+    },
+    {
+      "name": "Secret Circle TV HD",
+      "url": "http://130.61.114.158/play/live/371982.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Secret Circle TV HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Secret Circle TV HD"
+    },
+    {
+      "name": "Beate-Uhse.TV HD",
+      "url": "http://130.61.114.158/play/live/371983.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Beate-Uhse.TV HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Beate-Uhse.TV HD"
+    },
+    {
+      "name": "Lust Pur TV",
+      "url": "http://130.61.114.158/play/live/371984.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Lust Pur TV\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Lust Pur TV"
+    },
+    {
+      "name": "Cento X Cento",
+      "url": "http://130.61.114.158/play/live/371985.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Cento X Cento\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Cento X Cento"
+    },
+    {
+      "name": "Balkan Erotic HD",
+      "url": "http://130.61.114.158/play/live/371986.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Balkan Erotic HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Balkan Erotic HD"
+    },
+    {
+      "name": "Net XxX",
+      "url": "http://130.61.114.158/play/live/371987.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Net XxX\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Net XxX"
+    },
+    {
+      "name": "Playhouse HD",
+      "url": "http://130.61.114.158/play/live/371988.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Playhouse HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Playhouse HD"
+    },
+    {
+      "name": "Hot Pleasure HD",
+      "url": "http://130.61.114.158/play/live/371989.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Hot Pleasure HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Hot Pleasure HD"
+    },
+    {
+      "name": "Milf TV HD",
+      "url": "http://130.61.114.158/play/live/371990.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Milf TV HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Milf TV HD"
+    },
+    {
+      "name": "Red XxX HD",
+      "url": "http://130.61.114.158/play/live/371991.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Red XxX HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Red XxX HD"
+    },
+    {
+      "name": "Adult Channel 1",
+      "url": "http://130.61.114.158/play/live/371992.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Adult Channel 1\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Adult Channel 1"
+    },
+    {
+      "name": "Adult Channel 2",
+      "url": "http://130.61.114.158/play/live/371993.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Adult Channel 2\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Adult Channel 2"
+    },
+    {
+      "name": "Adult Channel 3",
+      "url": "http://130.61.114.158/play/live/371994.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Adult Channel 3\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Adult Channel 3"
+    },
+    {
+      "name": "Adult Channel 4",
+      "url": "http://130.61.114.158/play/live/371995.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Adult Channel 4\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Adult Channel 4"
+    },
+    {
+      "name": "Adult Channel 5",
+      "url": "http://130.61.114.158/play/live/371996.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Adult Channel 5\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Adult Channel 5"
+    },
+    {
+      "name": "Adult Channel 6",
+      "url": "http://130.61.114.158/play/live/371997.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Adult Channel 6\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Adult Channel 6"
+    },
+    {
+      "name": "Adult Channel 7",
+      "url": "http://130.61.114.158/play/live/371998.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Adult Channel 7\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Adult Channel 7"
+    },
+    {
+      "name": "Vivid TV Europe",
+      "url": "http://130.61.114.158/play/live/371999.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Vivid TV Europe\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Vivid TV Europe"
+    },
+    {
+      "name": "Vivid Touch Europe",
+      "url": "http://130.61.114.158/play/live/372000.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Vivid Touch Europe\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Vivid Touch Europe"
+    },
+    {
+      "name": "Venus TV",
+      "url": "http://130.61.114.158/play/live/372001.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Venus TV\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Venus TV"
+    },
+    {
+      "name": "Sextreme TV",
+      "url": "http://130.61.114.158/play/live/372002.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Sextreme TV\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Sextreme TV"
+    },
+    {
+      "name": "Sexy HOT",
+      "url": "http://130.61.114.158/play/live/372003.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Sexy HOT\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Sexy HOT"
+    },
+    {
+      "name": "Hot TV",
+      "url": "http://130.61.114.158/play/live/372004.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Hot TV\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Hot TV"
+    },
+    {
+      "name": "HOT Europe",
+      "url": "http://130.61.114.158/play/live/372005.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"HOT Europe\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",HOT Europe"
+    },
+    {
+      "name": "HOT Taboo",
+      "url": "http://130.61.114.158/play/live/372006.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"HOT Taboo\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",HOT Taboo"
+    },
+    {
+      "name": "HOT Man",
+      "url": "http://130.61.114.158/play/live/372007.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"HOT Man\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",HOT Man"
+    },
+    {
+      "name": "Penthouse Gold USA HD",
+      "url": "http://130.61.114.158/play/live/372008.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Penthouse Gold USA HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Penthouse Gold USA HD"
+    },
+    {
+      "name": "True Amateurs HD",
+      "url": "http://130.61.114.158/play/live/372009.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"True Amateurs HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",True Amateurs HD"
+    },
+    {
+      "name": "Gasscore HD",
+      "url": "http://130.61.114.158/play/live/372010.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Gasscore HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Gasscore HD"
+    },
+    {
+      "name": "Dorcel TV Africa HD",
+      "url": "http://130.61.114.158/play/live/372011.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Dorcel TV Africa HD\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Dorcel TV Africa HD"
+    },
+    {
+      "name": "Angels",
+      "url": "http://130.61.114.158/play/live/372012.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Angels\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Angels"
+    },
+    {
+      "name": "BooB",
+      "url": "http://130.61.114.158/play/live/372013.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"BooB\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",BooB"
+    },
+    {
+      "name": "Glam",
+      "url": "http://130.61.114.158/play/live/372014.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Glam\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Glam"
+    },
+    {
+      "name": "Foxy Dolls",
+      "url": "http://130.61.114.158/play/live/372015.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Foxy Dolls\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Foxy Dolls"
+    },
+    {
+      "name": "Capable Hole",
+      "url": "http://130.61.114.158/play/live/372016.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Capable Hole\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Capable Hole"
+    },
+    {
+      "name": "Devils Home",
+      "url": "http://130.61.114.158/play/live/372017.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Devils Home\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Devils Home"
+    },
+    {
+      "name": "XxX Tazy",
+      "url": "http://130.61.114.158/play/live/372018.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"XxX Tazy\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",XxX Tazy"
+    },
+    {
+      "name": "Mixxx Interracıal",
+      "url": "http://130.61.114.158/play/live/372019.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Mixxx Interracıal\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Mixxx Interracıal"
+    },
+    {
+      "name": "Dajmedol Pride",
+      "url": "http://130.61.114.158/play/live/372020.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Dajmedol Pride\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Dajmedol Pride"
+    },
+    {
+      "name": "Dajmedol Fantazije",
+      "url": "http://130.61.114.158/play/live/372021.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Dajmedol Fantazije\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Dajmedol Fantazije"
+    },
+    {
+      "name": "Dajmedol Pohotnice",
+      "url": "http://130.61.114.158/play/live/372022.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Dajmedol Pohotnice\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Dajmedol Pohotnice"
+    },
+    {
+      "name": "Dajmedol Fetiš",
+      "url": "http://130.61.114.158/play/live/372023.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Dajmedol Fetiš\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Dajmedol Fetiš"
+    },
+    {
+      "name": "Dajmedol Mature",
+      "url": "http://130.61.114.158/play/live/372024.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Dajmedol Mature\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Dajmedol Mature"
+    },
+    {
+      "name": "Dajmedol Ekstrem",
+      "url": "http://130.61.114.158/play/live/372025.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Dajmedol Ekstrem\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Dajmedol Ekstrem"
+    },
+    {
+      "name": "Dajmedol XxX 4K",
+      "url": "http://130.61.114.158/play/live/372026.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Dajmedol XxX 4K\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Dajmedol XxX 4K"
+    },
+    {
+      "name": "Hot XXL",
+      "url": "http://130.61.114.158/play/live/372027.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Hot XXL\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Hot XXL"
+    },
+    {
+      "name": "Legal",
+      "url": "http://130.61.114.158/play/live/372028.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Legal\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Legal"
+    },
+    {
+      "name": "Naughty",
+      "url": "http://130.61.114.158/play/live/372029.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Naughty\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Naughty"
+    },
+    {
+      "name": "Oldtimer",
+      "url": "http://130.61.114.158/play/live/372030.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Oldtimer\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Oldtimer"
+    },
+    {
+      "name": "Bangerz",
+      "url": "http://130.61.114.158/play/live/372031.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Bangerz\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Bangerz"
+    },
+    {
+      "name": "Penthouse TV",
+      "url": "http://130.61.114.158/play/live/372032.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Penthouse TV\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Penthouse TV"
+    },
+    {
+      "name": "Penthouse After Midnight",
+      "url": "http://130.61.114.158/play/live/372033.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Penthouse After Midnight\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Penthouse After Midnight"
+    },
+    {
+      "name": "Penthouse Naughty Nights",
+      "url": "http://130.61.114.158/play/live/372034.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Penthouse Naughty Nights\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Penthouse Naughty Nights"
+    },
+    {
+      "name": "Penthouse Passion",
+      "url": "http://130.61.114.158/play/live/372035.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Penthouse Passion\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Penthouse Passion"
+    },
+    {
+      "name": "Penthouse Gold",
+      "url": "http://130.61.114.158/play/live/372036.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Penthouse Gold\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Penthouse Gold"
+    },
+    {
+      "name": "Penthouse Quickies",
+      "url": "http://130.61.114.158/play/live/372037.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Penthouse Quickies\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Penthouse Quickies"
+    },
+    {
+      "name": "Penthouse Black",
+      "url": "http://130.61.114.158/play/live/372038.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Penthouse Black\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Penthouse Black"
+    },
+    {
+      "name": "Free-X TV",
+      "url": "http://130.61.114.158/play/live/372039.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Free-X TV\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Free-X TV"
+    },
+    {
+      "name": "Free-X TV 2",
+      "url": "http://130.61.114.158/play/live/372040.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Free-X TV 2\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Free-X TV 2"
+    },
+    {
+      "name": "Free-X TV Black",
+      "url": "http://130.61.114.158/play/live/372041.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Free-X TV Black\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Free-X TV Black"
+    },
+    {
+      "name": "Free-X TV 2 Black",
+      "url": "http://130.61.114.158/play/live/372042.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Free-X TV 2 Black\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Free-X TV 2 Black"
+    },
+    {
+      "name": "X-Dream TV",
+      "url": "http://130.61.114.158/play/live/372043.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"X-Dream TV\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",X-Dream TV"
+    },
+    {
+      "name": "Television-X",
+      "url": "http://130.61.114.158/play/live/372044.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Television-X\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Television-X"
+    },
+    {
+      "name": "Daring! TV",
+      "url": "http://130.61.114.158/play/live/372045.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Daring! TV\" tvg-logo=\"\" group-title=\"► XXX + 18 Adult\",Daring! TV"
+    },
+    {
+      "name": "DE➤ Germany Besondere 1",
+      "url": "http://130.61.114.158/play/live/372047.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Besondere 1\" tvg-logo=\"https://i.hizliresim.com/7kshd4x.png\" group-title=\"DE • Filme\",DE➤ Germany Besondere 1"
+    },
+    {
+      "name": "DE➤ Germany Besondere 2",
+      "url": "http://130.61.114.158/play/live/372048.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Besondere 2\" tvg-logo=\"https://i.hizliresim.com/7kshd4x.png\" group-title=\"DE • Filme\",DE➤ Germany Besondere 2"
+    },
+    {
+      "name": "DE➤ Germany Besondere 3",
+      "url": "http://130.61.114.158/play/live/372049.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Besondere 3\" tvg-logo=\"https://i.hizliresim.com/7kshd4x.png\" group-title=\"DE • Filme\",DE➤ Germany Besondere 3"
+    },
+    {
+      "name": "DE➤ Germany Besondere 4",
+      "url": "http://130.61.114.158/play/live/372050.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Besondere 4\" tvg-logo=\"https://i.hizliresim.com/7kshd4x.png\" group-title=\"DE • Filme\",DE➤ Germany Besondere 4"
+    },
+    {
+      "name": "DE➤ Germany Besondere 5",
+      "url": "http://130.61.114.158/play/live/372051.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Besondere 5\" tvg-logo=\"https://i.hizliresim.com/7kshd4x.png\" group-title=\"DE • Filme\",DE➤ Germany Besondere 5"
+    },
+    {
+      "name": "DE➤ Germany Besondere 6",
+      "url": "http://130.61.114.158/play/live/372052.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Besondere 6\" tvg-logo=\"https://i.hizliresim.com/7kshd4x.png\" group-title=\"DE • Filme\",DE➤ Germany Besondere 6"
+    },
+    {
+      "name": "DE➤ Germany Besondere 7",
+      "url": "http://130.61.114.158/play/live/372053.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Besondere 7\" tvg-logo=\"https://i.hizliresim.com/7kshd4x.png\" group-title=\"DE • Filme\",DE➤ Germany Besondere 7"
+    },
+    {
+      "name": "DE➤ Germany Besondere 8",
+      "url": "http://130.61.114.158/play/live/372054.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Besondere 8\" tvg-logo=\"https://i.hizliresim.com/7kshd4x.png\" group-title=\"DE • Filme\",DE➤ Germany Besondere 8"
+    },
+    {
+      "name": "DE➤ Germany Besondere 9",
+      "url": "http://130.61.114.158/play/live/372055.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Besondere 9\" tvg-logo=\"https://i.hizliresim.com/7kshd4x.png\" group-title=\"DE • Filme\",DE➤ Germany Besondere 9"
+    },
+    {
+      "name": "DE➤ Germany Besondere 10",
+      "url": "http://130.61.114.158/play/live/372056.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Besondere 10\" tvg-logo=\"https://i.hizliresim.com/7kshd4x.png\" group-title=\"DE • Filme\",DE➤ Germany Besondere 10"
+    },
+    {
+      "name": "DE➤ Germany Besondere 11",
+      "url": "http://130.61.114.158/play/live/372057.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Besondere 11\" tvg-logo=\"https://i.hizliresim.com/7kshd4x.png\" group-title=\"DE • Filme\",DE➤ Germany Besondere 11"
+    },
+    {
+      "name": "DE➤ Germany Besondere 12",
+      "url": "http://130.61.114.158/play/live/372058.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Besondere 12\" tvg-logo=\"https://i.hizliresim.com/7kshd4x.png\" group-title=\"DE • Filme\",DE➤ Germany Besondere 12"
+    },
+    {
+      "name": "DE➤ Germany Besondere 13",
+      "url": "http://130.61.114.158/play/live/372059.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Besondere 13\" tvg-logo=\"https://i.hizliresim.com/7kshd4x.png\" group-title=\"DE • Filme\",DE➤ Germany Besondere 13"
+    },
+    {
+      "name": "DE➤ Germany Gute Filme 1",
+      "url": "http://130.61.114.158/play/live/372060.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Gute Filme 1\" tvg-logo=\"https://i.hizliresim.com/awwwhe6.png\" group-title=\"DE • Filme\",DE➤ Germany Gute Filme 1"
+    },
+    {
+      "name": "DE➤ Germany Gute Filme 2",
+      "url": "http://130.61.114.158/play/live/372061.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Gute Filme 2\" tvg-logo=\"https://i.hizliresim.com/awwwhe6.png\" group-title=\"DE • Filme\",DE➤ Germany Gute Filme 2"
+    },
+    {
+      "name": "DE➤ Germany Gute Filme 3",
+      "url": "http://130.61.114.158/play/live/372062.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Gute Filme 3\" tvg-logo=\"https://i.hizliresim.com/awwwhe6.png\" group-title=\"DE • Filme\",DE➤ Germany Gute Filme 3"
+    },
+    {
+      "name": "DE➤ Germany Gute Filme 4",
+      "url": "http://130.61.114.158/play/live/372063.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Gute Filme 4\" tvg-logo=\"https://i.hizliresim.com/awwwhe6.png\" group-title=\"DE • Filme\",DE➤ Germany Gute Filme 4"
+    },
+    {
+      "name": "DE➤ Germany Gute Filme 5",
+      "url": "http://130.61.114.158/play/live/372064.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Gute Filme 5\" tvg-logo=\"https://i.hizliresim.com/awwwhe6.png\" group-title=\"DE • Filme\",DE➤ Germany Gute Filme 5"
+    },
+    {
+      "name": "DE➤ Germany Gute Filme 6",
+      "url": "http://130.61.114.158/play/live/372065.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Gute Filme 6\" tvg-logo=\"https://i.hizliresim.com/awwwhe6.png\" group-title=\"DE • Filme\",DE➤ Germany Gute Filme 6"
+    },
+    {
+      "name": "DE➤ Germany Gute Filme 7",
+      "url": "http://130.61.114.158/play/live/372066.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Gute Filme 7\" tvg-logo=\"https://i.hizliresim.com/awwwhe6.png\" group-title=\"DE • Filme\",DE➤ Germany Gute Filme 7"
+    },
+    {
+      "name": "DE➤ Germany Gute Filme 8",
+      "url": "http://130.61.114.158/play/live/372067.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Gute Filme 8\" tvg-logo=\"https://i.hizliresim.com/awwwhe6.png\" group-title=\"DE • Filme\",DE➤ Germany Gute Filme 8"
+    },
+    {
+      "name": "DE➤ Germany Gute Filme 9",
+      "url": "http://130.61.114.158/play/live/372068.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Gute Filme 9\" tvg-logo=\"https://i.hizliresim.com/awwwhe6.png\" group-title=\"DE • Filme\",DE➤ Germany Gute Filme 9"
+    },
+    {
+      "name": "DE➤ Germany Gute Filme 10",
+      "url": "http://130.61.114.158/play/live/372069.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Gute Filme 10\" tvg-logo=\"https://i.hizliresim.com/awwwhe6.png\" group-title=\"DE • Filme\",DE➤ Germany Gute Filme 10"
+    },
+    {
+      "name": "DE➤ Germany Konig Filme 1",
+      "url": "http://130.61.114.158/play/live/372070.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Konig Filme 1\" tvg-logo=\"https://i.hizliresim.com/7rrrmf8.png\" group-title=\"DE • Filme\",DE➤ Germany Konig Filme 1"
+    },
+    {
+      "name": "DE➤ Germany Konig Filme 2",
+      "url": "http://130.61.114.158/play/live/372071.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Konig Filme 2\" tvg-logo=\"https://i.hizliresim.com/7rrrmf8.png\" group-title=\"DE • Filme\",DE➤ Germany Konig Filme 2"
+    },
+    {
+      "name": "DE➤ Germany Konig Filme 3",
+      "url": "http://130.61.114.158/play/live/372072.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Konig Filme 3\" tvg-logo=\"https://i.hizliresim.com/7rrrmf8.png\" group-title=\"DE • Filme\",DE➤ Germany Konig Filme 3"
+    },
+    {
+      "name": "DE➤ Germany Konig Filme 4",
+      "url": "http://130.61.114.158/play/live/372073.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Konig Filme 4\" tvg-logo=\"https://i.hizliresim.com/7rrrmf8.png\" group-title=\"DE • Filme\",DE➤ Germany Konig Filme 4"
+    },
+    {
+      "name": "DE➤ Germany Konig Filme 5",
+      "url": "http://130.61.114.158/play/live/372074.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Konig Filme 5\" tvg-logo=\"https://i.hizliresim.com/7rrrmf8.png\" group-title=\"DE • Filme\",DE➤ Germany Konig Filme 5"
+    },
+    {
+      "name": "DE➤ Germany Konig Filme 6",
+      "url": "http://130.61.114.158/play/live/372075.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Konig Filme 6\" tvg-logo=\"https://i.hizliresim.com/7rrrmf8.png\" group-title=\"DE • Filme\",DE➤ Germany Konig Filme 6"
+    },
+    {
+      "name": "DE➤ Germany Kids Filme 1",
+      "url": "http://130.61.114.158/play/live/372076.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Kids Filme 1\" tvg-logo=\"https://i.hizliresim.com/76ycz7j.png\" group-title=\"DE • Filme\",DE➤ Germany Kids Filme 1"
+    },
+    {
+      "name": "DE➤ Germany Kids Filme 2",
+      "url": "http://130.61.114.158/play/live/372077.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Kids Filme 2\" tvg-logo=\"https://i.hizliresim.com/76ycz7j.png\" group-title=\"DE • Filme\",DE➤ Germany Kids Filme 2"
+    },
+    {
+      "name": "DE➤ Germany Kids Filme 3",
+      "url": "http://130.61.114.158/play/live/372078.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Kids Filme 3\" tvg-logo=\"https://i.hizliresim.com/76ycz7j.png\" group-title=\"DE • Filme\",DE➤ Germany Kids Filme 3"
+    },
+    {
+      "name": "DE➤ Germany Kids Filme 4",
+      "url": "http://130.61.114.158/play/live/372079.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Kids Filme 4\" tvg-logo=\"https://i.hizliresim.com/76ycz7j.png\" group-title=\"DE • Filme\",DE➤ Germany Kids Filme 4"
+    },
+    {
+      "name": "DE➤ Germany Kids Filme 5",
+      "url": "http://130.61.114.158/play/live/372080.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Kids Filme 5\" tvg-logo=\"https://i.hizliresim.com/76ycz7j.png\" group-title=\"DE • Filme\",DE➤ Germany Kids Filme 5"
+    },
+    {
+      "name": "DE➤ Germany Kids Filme 6",
+      "url": "http://130.61.114.158/play/live/372081.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Kids Filme 6\" tvg-logo=\"https://i.hizliresim.com/76ycz7j.png\" group-title=\"DE • Filme\",DE➤ Germany Kids Filme 6"
+    },
+    {
+      "name": "DE➤ Germany Kids Filme 7",
+      "url": "http://130.61.114.158/play/live/372082.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Kids Filme 7\" tvg-logo=\"https://i.hizliresim.com/76ycz7j.png\" group-title=\"DE • Filme\",DE➤ Germany Kids Filme 7"
+    },
+    {
+      "name": "DE➤ Germany Kids Filme 8",
+      "url": "http://130.61.114.158/play/live/372083.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Kids Filme 8\" tvg-logo=\"https://i.hizliresim.com/76ycz7j.png\" group-title=\"DE • Filme\",DE➤ Germany Kids Filme 8"
+    },
+    {
+      "name": "DE➤ Germany Kids Filme 9",
+      "url": "http://130.61.114.158/play/live/372084.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Kids Filme 9\" tvg-logo=\"https://i.hizliresim.com/76ycz7j.png\" group-title=\"DE • Filme\",DE➤ Germany Kids Filme 9"
+    },
+    {
+      "name": "DE➤ Germany Kids Filme 10",
+      "url": "http://130.61.114.158/play/live/372085.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Kids Filme 10\" tvg-logo=\"https://i.hizliresim.com/76ycz7j.png\" group-title=\"DE • Filme\",DE➤ Germany Kids Filme 10"
+    },
+    {
+      "name": "DE➤ Germany Nostalgie 1",
+      "url": "http://130.61.114.158/play/live/372086.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Nostalgie 1\" tvg-logo=\"https://i.hizliresim.com/clh1yk2.png\" group-title=\"DE • Filme\",DE➤ Germany Nostalgie 1"
+    },
+    {
+      "name": "DE➤ Germany Nostalgie 2",
+      "url": "http://130.61.114.158/play/live/372087.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Nostalgie 2\" tvg-logo=\"https://i.hizliresim.com/clh1yk2.png\" group-title=\"DE • Filme\",DE➤ Germany Nostalgie 2"
+    },
+    {
+      "name": "DE➤ Germany Stern Filme 1",
+      "url": "http://130.61.114.158/play/live/372088.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Stern Filme 1\" tvg-logo=\"https://i.hizliresim.com/bje0aq7.png\" group-title=\"DE • Filme\",DE➤ Germany Stern Filme 1"
+    },
+    {
+      "name": "DE➤ Germany Stern Filme 2",
+      "url": "http://130.61.114.158/play/live/372089.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Stern Filme 2\" tvg-logo=\"https://i.hizliresim.com/bje0aq7.png\" group-title=\"DE • Filme\",DE➤ Germany Stern Filme 2"
+    },
+    {
+      "name": "DE➤ Germany Stern Filme 3",
+      "url": "http://130.61.114.158/play/live/372090.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Stern Filme 3\" tvg-logo=\"https://i.hizliresim.com/bje0aq7.png\" group-title=\"DE • Filme\",DE➤ Germany Stern Filme 3"
+    },
+    {
+      "name": "DE➤ Germany Stern Filme 4",
+      "url": "http://130.61.114.158/play/live/372091.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Stern Filme 4\" tvg-logo=\"https://i.hizliresim.com/bje0aq7.png\" group-title=\"DE • Filme\",DE➤ Germany Stern Filme 4"
+    },
+    {
+      "name": "DE➤ Germany Stern Filme 5",
+      "url": "http://130.61.114.158/play/live/372092.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Stern Filme 5\" tvg-logo=\"https://i.hizliresim.com/bje0aq7.png\" group-title=\"DE • Filme\",DE➤ Germany Stern Filme 5"
+    },
+    {
+      "name": "DE➤ Germany Stern Filme 6",
+      "url": "http://130.61.114.158/play/live/372093.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Stern Filme 6\" tvg-logo=\"https://i.hizliresim.com/bje0aq7.png\" group-title=\"DE • Filme\",DE➤ Germany Stern Filme 6"
+    },
+    {
+      "name": "DE➤ Germany Stern Filme 7",
+      "url": "http://130.61.114.158/play/live/372094.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Stern Filme 7\" tvg-logo=\"https://i.hizliresim.com/bje0aq7.png\" group-title=\"DE • Filme\",DE➤ Germany Stern Filme 7"
+    },
+    {
+      "name": "DE➤ Germany Stern Filme 8",
+      "url": "http://130.61.114.158/play/live/372095.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Stern Filme 8\" tvg-logo=\"https://i.hizliresim.com/bje0aq7.png\" group-title=\"DE • Filme\",DE➤ Germany Stern Filme 8"
+    },
+    {
+      "name": "DE➤ Germany Stern Filme 9",
+      "url": "http://130.61.114.158/play/live/372096.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Stern Filme 9\" tvg-logo=\"https://i.hizliresim.com/bje0aq7.png\" group-title=\"DE • Filme\",DE➤ Germany Stern Filme 9"
+    },
+    {
+      "name": "DE➤ Germany Stern Filme 10",
+      "url": "http://130.61.114.158/play/live/372097.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Stern Filme 10\" tvg-logo=\"https://i.hizliresim.com/bje0aq7.png\" group-title=\"DE • Filme\",DE➤ Germany Stern Filme 10"
+    },
+    {
+      "name": "DE➤ Germany Box Action",
+      "url": "http://130.61.114.158/play/live/372098.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Box Action\" tvg-logo=\"https://i.hizliresim.com/hi6uaka.png\" group-title=\"DE • Filme\",DE➤ Germany Box Action"
+    },
+    {
+      "name": "DE➤ Germany Box Comedy",
+      "url": "http://130.61.114.158/play/live/372099.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Box Comedy\" tvg-logo=\"https://i.hizliresim.com/hi6uaka.png\" group-title=\"DE • Filme\",DE➤ Germany Box Comedy"
+    },
+    {
+      "name": "DE➤ Germany Box Documentary",
+      "url": "http://130.61.114.158/play/live/372100.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Box Documentary\" tvg-logo=\"https://i.hizliresim.com/hi6uaka.png\" group-title=\"DE • Filme\",DE➤ Germany Box Documentary"
+    },
+    {
+      "name": "DE➤ Germany Box Family",
+      "url": "http://130.61.114.158/play/live/372101.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Box Family\" tvg-logo=\"https://i.hizliresim.com/hi6uaka.png\" group-title=\"DE • Filme\",DE➤ Germany Box Family"
+    },
+    {
+      "name": "DE➤ Germany Box Horror",
+      "url": "http://130.61.114.158/play/live/372102.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Box Horror\" tvg-logo=\"https://i.hizliresim.com/hi6uaka.png\" group-title=\"DE • Filme\",DE➤ Germany Box Horror"
+    },
+    {
+      "name": "DE➤ Germany Box Libies",
+      "url": "http://130.61.114.158/play/live/372103.ts",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"DE➤ Germany Box Libies\" tvg-logo=\"https://i.hizliresim.com/hi6uaka.png\" group-title=\"DE • Filme\",DE➤ Germany Box Libies"
     }
   ],
-  "count": 102,
+  "count": 646,
   "reason": ""
 }

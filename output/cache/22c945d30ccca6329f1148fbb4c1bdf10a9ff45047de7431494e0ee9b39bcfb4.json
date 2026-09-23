@@ -196,88 +196,8 @@
       "name": "江西卫视",
       "url": "http://121.24.98.21:8090/hls/55/index.m3u8",
       "extinf": "#EXTINF:-1 group-title=\"卫视台\" tvg-id=\"江西卫视\" tvg-logo=\"https://live.fanmingming.com/tv/江西卫视.png\",江西卫视"
-    },
-    {
-      "name": "江苏卫视",
-      "url": "http://110.241.188.219:808/hls/20/index.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"卫视台\" tvg-id=\"江苏卫视\" tvg-logo=\"https://live.fanmingming.com/tv/江苏卫视.png\",江苏卫视"
-    },
-    {
-      "name": "浙江卫视",
-      "url": "http://110.241.188.219:808/hls/26/index.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"卫视台\" tvg-id=\"浙江卫视\" tvg-logo=\"https://live.fanmingming.com/tv/浙江卫视.png\",浙江卫视"
-    },
-    {
-      "name": "东南卫视",
-      "url": "http://121.24.98.21:8090/hls/36/index.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"卫视台\" tvg-id=\"东南卫视\" tvg-logo=\"https://live.fanmingming.com/tv/东南卫视.png\",东南卫视"
-    },
-    {
-      "name": "厦门卫视",
-      "url": "http://124.128.73.58:9901/tsfile/live/0129_1.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"卫视台\" tvg-id=\"厦门卫视\" tvg-logo=\"https://live.fanmingming.com/tv/厦门卫视.png\",厦门卫视"
-    },
-    {
-      "name": "广东卫视",
-      "url": "http://110.241.188.219:808/hls/25/index.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"卫视台\" tvg-id=\"广东卫视\" tvg-logo=\"https://live.fanmingming.com/tv/广东卫视.png\",广东卫视"
-    },
-    {
-      "name": "深圳卫视",
-      "url": "http://121.24.98.21:8090/hls/84/index.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"卫视台\" tvg-id=\"深圳卫视\" tvg-logo=\"https://live.fanmingming.com/tv/深圳卫视.png\",深圳卫视"
-    },
-    {
-      "name": "广西卫视",
-      "url": "http://121.24.98.21:8090/hls/85/index.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"卫视台\" tvg-id=\"广西卫视\" tvg-logo=\"https://live.fanmingming.com/tv/广西卫视.png\",广西卫视"
-    },
-    {
-      "name": "云南卫视",
-      "url": "http://124.128.73.58:9901/tsfile/live/0119_1.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"卫视台\" tvg-id=\"云南卫视\" tvg-logo=\"https://live.fanmingming.com/tv/云南卫视.png\",云南卫视"
-    },
-    {
-      "name": "贵州卫视",
-      "url": "http://121.24.98.21:8090/hls/40/index.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"卫视台\" tvg-id=\"贵州卫视\" tvg-logo=\"https://live.fanmingming.com/tv/贵州卫视.png\",贵州卫视"
-    },
-    {
-      "name": "四川卫视",
-      "url": "http://121.24.98.21:8090/hls/58/index.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"卫视台\" tvg-id=\"四川卫视\" tvg-logo=\"https://live.fanmingming.com/tv/四川卫视.png\",四川卫视"
-    },
-    {
-      "name": "新疆卫视",
-      "url": "http://110.241.188.219:808/hls/43/index.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"卫视台\" tvg-id=\"新疆卫视\" tvg-logo=\"https://live.fanmingming.com/tv/新疆卫视.png\",新疆卫视"
-    },
-    {
-      "name": "兵团卫视",
-      "url": "https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"卫视台\" tvg-id=\"兵团卫视\" tvg-logo=\"https://live.fanmingming.com/tv/兵团卫视.png\",兵团卫视"
-    },
-    {
-      "name": "西藏卫视",
-      "url": "https://tv.vtibet.cn/live/vuXz3cg3TmRUYg.m3u8?secret=c2b73a871f8a062dce01042b284753df&time=66bef378",
-      "extinf": "#EXTINF:-1 group-title=\"卫视台\" tvg-id=\"西藏卫视\" tvg-logo=\"https://live.fanmingming.com/tv/西藏卫视.png\",西藏卫视"
-    },
-    {
-      "name": "海南卫视",
-      "url": "http://125.93.74.27:9002/tsfile/live/0109_1.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"卫视台\" tvg-id=\"海南卫视\" tvg-logo=\"https://live.fanmingming.com/tv/海南卫视.png\",海南卫视"
-    },
-    {
-      "name": "三沙卫视",
-      "url": "https://live2.hnntv.cn/srs/tv/ssws.m3u8?_upt=af64f0cf1723795879",
-      "extinf": "#EXTINF:-1 group-title=\"卫视台\" tvg-id=\"三沙卫视\" tvg-logo=\"https://live.fanmingming.com/tv/三沙卫视.png\",三沙卫视"
-    },
-    {
-      "name": "CHC动作电影频道",
-      "url": "http://58.19.38.162:9901/tsfile/live/1037_1.m3u8",
-      "extinf": "#EXTINF:-1 group-title=\"电影\" tvg-id=\"CHC动作电影频道\" tvg-logo=\"https://live.fanmingming.com/tv/CHC动作电影.png\",CHC动作电影频道"
     }
   ],
-  "count": 55,
+  "count": 39,
   "reason": ""
 }

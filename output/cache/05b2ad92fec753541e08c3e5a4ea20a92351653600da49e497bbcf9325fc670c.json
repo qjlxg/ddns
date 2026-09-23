@@ -96,13 +96,8 @@
       "name": "History TV",
       "url": "http://23.95.68.159:8080/stream/history-tv.m3u8",
       "extinf": "#EXTINF:-1 tvg-id=\"history-tv\" tvg-name=\"History TV\" group-title=\"Documentary\",History TV"
-    },
-    {
-      "name": "Science TV",
-      "url": "http://23.95.68.159:8080/stream/science-tv.m3u8",
-      "extinf": "#EXTINF:-1 tvg-id=\"science-tv\" tvg-name=\"Science TV\" group-title=\"Documentary\",Science TV"
     }
   ],
-  "count": 20,
+  "count": 19,
   "reason": ""
 }

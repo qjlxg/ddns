@@ -71,8 +71,48 @@
       "name": "Ava TV",
       "url": "http://178.162.241.189:8080/stream/ava-tv/playlist.m3u8",
       "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Ava TV\" tvg-logo=\"http://178.162.241.189:8080/logo/ava-tv\" group-title=\"KURTCH\",Ava TV"
+    },
+    {
+      "name": "Avar TV",
+      "url": "http://178.162.241.189:8080/stream/avar-tv/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Avar TV\" tvg-logo=\"http://178.162.241.189:8080/logo/avar-tv\" group-title=\"KURTCH\",Avar TV"
+    },
+    {
+      "name": "Bangawaz TV",
+      "url": "http://178.162.241.189:8080/stream/bangawaz-tv/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Bangawaz TV\" tvg-logo=\"http://178.162.241.189:8080/logo/bangawaz-tv\" group-title=\"KURTCH\",Bangawaz TV"
+    },
+    {
+      "name": "Bangxwazen Badinan TV",
+      "url": "http://178.162.241.189:8080/stream/bangxwazen-badinan-tv/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Bangxwazen Badinan TV\" tvg-logo=\"http://178.162.241.189:8080/logo/bangxwazen-badinan-tv\" group-title=\"KURTCH\",Bangxwazen Badinan TV"
+    },
+    {
+      "name": "Barin Family",
+      "url": "http://178.162.241.189:8080/stream/barin-family/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Barin Family\" tvg-logo=\"http://178.162.241.189:8080/logo/barin-family\" group-title=\"KURTCH\",Barin Family"
+    },
+    {
+      "name": "Barin movies",
+      "url": "http://178.162.241.189:8080/stream/barin-movies/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Barin movies\" tvg-logo=\"http://178.162.241.189:8080/logo/barin-movies\" group-title=\"KURTCH\",Barin movies"
+    },
+    {
+      "name": "Barin Quran",
+      "url": "http://178.162.241.189:8080/stream/barin-quran/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Barin Quran\" tvg-logo=\"http://178.162.241.189:8080/logo/barin-quran\" group-title=\"KURTCH\",Barin Quran"
+    },
+    {
+      "name": "BASK TV",
+      "url": "http://178.162.241.189:8080/stream/bask-tv/playlist.m3u8",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"BASK TV\" tvg-logo=\"http://178.162.241.189:8080/logo/bask-tv\" group-title=\"KURTCH\",BASK TV"
+    },
+    {
+      "name": "Befrin TV",
+      "url": "http://178.162.241.189:8080/str",
+      "extinf": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Befrin TV\" tvg-logo=\"http://178.162.241.189:8080/logo/befrin-tv\" group-title=\"KURTCH\",Befrin TV"
     }
   ],
-  "count": 14,
+  "count": 22,
   "reason": ""
 }

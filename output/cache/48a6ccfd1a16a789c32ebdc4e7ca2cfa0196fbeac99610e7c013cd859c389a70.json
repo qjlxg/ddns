@@ -154,10 +154,110 @@
     },
     {
       "name": "Мама",
-      "url": "http://45.84.222.14",
+      "url": "http://45.84.222.142:9999/channel/0JzQsNC80LA/mama",
       "extinf": "#EXTINF:-1 tvg-id=\"mama\" tvg-logo=\"https://epg.iptvx.one/picons/mama.png\" group-title=\"ТВ-каналы\",Мама"
+    },
+    {
+      "name": "Мультимузыка",
+      "url": "http://45.84.222.142:9999/channel/0JzRg9C70YzRgtC40LzRg9C30YvQutCw/multimuzyka",
+      "extinf": "#EXTINF:-1 tvg-id=\"multimuzyka\" tvg-logo=\"https://epg.iptvx.one/picons/multimuzyka.png\" group-title=\"ТВ-каналы\",Мультимузыка"
+    },
+    {
+      "name": "Gulli Girl",
+      "url": "http://45.84.222.142:9999/channel/R3VsbGkgR2lybA/gulli-girl",
+      "extinf": "#EXTINF:-1 tvg-id=\"gulli-girl\" tvg-logo=\"https://epg.iptvx.one/picons/gulli-girl.png\" group-title=\"ТВ-каналы\",Gulli Girl"
+    },
+    {
+      "name": "Baby Time",
+      "url": "http://45.84.222.142:9999/channel/QmFieSBUaW1l/baby-time",
+      "extinf": "#EXTINF:-1 tvg-id=\"baby-time\" tvg-logo=\"https://epg.iptvx.one/picons/baby-time.png\" group-title=\"ТВ-каналы\",Baby Time"
+    },
+    {
+      "name": "Fresh Kids",
+      "url": "http://45.84.222.142:9999/channel/RnJlc2ggS2lkcw/fresh-kids",
+      "extinf": "#EXTINF:-1 tvg-id=\"fresh-kids\" tvg-logo=\"https://epg.iptvx.one/picons/fresh-kids.png\" group-title=\"ТВ-каналы\",Fresh Kids"
+    },
+    {
+      "name": "Cartoon Network",
+      "url": "http://45.84.222.142:9999/channel/Q2FydG9vbiBOZXR3b3Jr/cartoon-network",
+      "extinf": "#EXTINF:-1 tvg-id=\"cartoon-network\" tvg-logo=\"https://epg.iptvx.one/picons/cartoon-network.png\" group-title=\"ТВ-каналы\",Cartoon Network"
+    },
+    {
+      "name": "VF Disney Cartoon",
+      "url": "http://45.84.222.142:9999/channel/VkYgRGlzbmV5IENhcnRvb24/vf-disney-cartoon",
+      "extinf": "#EXTINF:-1 tvg-id=\"vf-disney-cartoon\" tvg-logo=\"https://epg.iptvx.one/picons/vf-disney-cartoon.png\" group-title=\"ТВ-каналы\",VF Disney Cartoon"
+    },
+    {
+      "name": "Kernel TV Чип и Дейл",
+      "url": "http://45.84.222.142:9999/channel/S2VybmVsIFRWINCn0LjQvyDQuCDQlNC10LnQuw/kernel-chipndale",
+      "extinf": "#EXTINF:-1 tvg-id=\"kernel-chipndale\" tvg-logo=\"https://epg.iptvx.one/picons/kernel-chipndale.png\" group-title=\"ТВ-каналы\",Kernel TV Чип и Дейл"
+    },
+    {
+      "name": "Лёва",
+      "url": "http://45.84.222.142:9999/channel/0JvRkdCy0LA/liova",
+      "extinf": "#EXTINF:-1 tvg-id=\"liova\" tvg-logo=\"https://epg.iptvx.one/picons/liova.png\" group-title=\"ТВ-каналы\",Лёва"
+    },
+    {
+      "name": "Смайлик ТВ",
+      "url": "http://45.84.222.142:9999/channel/0KHQvNCw0LnQu9C40Log0KLQkg/smaylik-tv",
+      "extinf": "#EXTINF:-1 tvg-id=\"smaylik-tv\" tvg-logo=\"https://epg.iptvx.one/picons/smaylik-tv.png\" group-title=\"ТВ-каналы\",Смайлик ТВ"
+    },
+    {
+      "name": "Супергерои",
+      "url": "http://45.84.222.142:9999/channel/0KHRg9C_0LXRgNCz0LXRgNC-0Lg/malysh",
+      "extinf": "#EXTINF:-1 tvg-id=\"malysh\" tvg-logo=\"https://epg.iptvx.one/picons/malysh.png\" group-title=\"ТВ-каналы\",Супергерои"
+    },
+    {
+      "name": "Детский мир",
+      "url": "http://45.84.222.142:9999/channel/0JTQtdGC0YHQutC40Lkg0LzQuNGA/detsky-mir",
+      "extinf": "#EXTINF:-1 tvg-id=\"detsky-mir\" tvg-logo=\"https://epg.iptvx.one/picons/detsky-mir.png\" group-title=\"ТВ-каналы\",Детский мир"
+    },
+    {
+      "name": "О!",
+      "url": "http://45.84.222.142:9999/channel/0J4h/o_",
+      "extinf": "#EXTINF:-1 tvg-id=\"o_\" tvg-logo=\"https://epg.iptvx.one/picons/o_.png\" group-title=\"ТВ-каналы\",О!"
+    },
+    {
+      "name": "В Гостях у Сказки",
+      "url": "http://45.84.222.142:9999/channel/0JIg0JPQvtGB0YLRj9GFINGDINCh0LrQsNC30LrQuA/v-gostiax-u-skazki",
+      "extinf": "#EXTINF:-1 tvg-id=\"v-gostiax-u-skazki\" tvg-logo=\"https://epg.iptvx.one/picons/v-gostiax-u-skazki.png\" group-title=\"ТВ-каналы\",В Гостях у Сказки"
+    },
+    {
+      "name": "Da Vinci",
+      "url": "http://45.84.222.142:9999/channel/RGEgVmluY2k/da-vinci",
+      "extinf": "#EXTINF:-1 tvg-id=\"da-vinci\" tvg-logo=\"https://epg.iptvx.one/picons/da-vinci.png\" group-title=\"ТВ-каналы\",Da Vinci"
+    },
+    {
+      "name": "СТС Kids",
+      "url": "http://45.84.222.142:9999/channel/0KHQotChIEtpZHM/sts-kids-hd",
+      "extinf": "#EXTINF:-1 tvg-id=\"sts-kids-hd\" tvg-logo=\"https://epg.iptvx.one/picons/sts-kids-hd.png\" group-title=\"ТВ-каналы\",СТС Kids"
+    },
+    {
+      "name": "Мультиландия",
+      "url": "http://45.84.222.142:9999/channel/0JzRg9C70YzRgtC40LvQsNC90LTQuNGP/multimania",
+      "extinf": "#EXTINF:-1 tvg-id=\"multimania\" tvg-logo=\"https://epg.iptvx.one/picons/multimania.png\" group-title=\"ТВ-каналы\",Мультиландия"
+    },
+    {
+      "name": "Мосфильм. Золотая коллекция",
+      "url": "http://45.84.222.142:9999/channel/0JzQvtGB0YTQuNC70YzQvC4g0JfQvtC70L7RgtCw0Y8g0LrQvtC70LvQtdC60YbQuNGP/mosfilm",
+      "extinf": "#EXTINF:-1 tvg-id=\"mosfilm\" tvg-logo=\"https://epg.iptvx.one/picons/mosfilm.png\" group-title=\"ТВ-каналы\",Мосфильм. Золотая коллекция"
+    },
+    {
+      "name": "viju TV1000",
+      "url": "http://45.84.222.142:9999/channel/dmlqdSBUVjEwMDA/tv1000",
+      "extinf": "#EXTINF:-1 tvg-id=\"tv1000\" tvg-logo=\"https://epg.iptvx.one/picons/tv1000.png\" group-title=\"ТВ-каналы\",viju TV1000"
+    },
+    {
+      "name": "viju TV1000 Action",
+      "url": "http://45.84.222.142:9999/channel/dmlqdSBUVjEwMDAgQWN0aW9u/tv1000-action",
+      "extinf": "#EXTINF:-1 tvg-id=\"tv1000-action\" tvg-logo=\"https://epg.iptvx.one/picons/tv1000-action.png\" group-title=\"ТВ-каналы\",viju TV1000 Action"
+    },
+    {
+      "name": "viju TV1000 Русское",
+      "url": "http://45.84.222.142:9999/channel/dmlqdSBUVj",
+      "extinf": "#EXTINF:-1 tvg-id=\"tv1000-russkoe-kino\" tvg-logo=\"https://epg.iptvx.one/picons/tv1000-russkoe-kino.png\" group-title=\"ТВ-каналы\",viju TV1000 Русское"
     }
   ],
-  "count": 31,
+  "count": 51,
   "reason": ""
 }

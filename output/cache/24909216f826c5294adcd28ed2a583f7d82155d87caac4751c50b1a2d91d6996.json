@@ -45,13 +45,97 @@
       "name": "vless-teu2.gamestreams.top"
     },
     {
-      "type": "vless",
-      "server": "10075eb5-54b5-4ecb-9fe7-7227937fa8ad",
+      "type": "xhttp",
+      "server": "teu2.gamestreams.top",
       "port": 443,
-      "uuid": "",
-      "name": "vless-10075eb5-54b5-4ecb-9fe7-7227937fa8ad"
+      "uuid": "10075eb5-54b5-4ecb-9fe7-7227937fa8ad",
+      "security": "reality",
+      "sni": "teu2.gamestreams.top",
+      "fp": "firefox",
+      "pbk": "F6q4UcGtVnMhKhU75H16EdBaqWNNkpYGJBxC0Ecw_Qw",
+      "sid": "ba7ef300fffd7080",
+      "spx": "/",
+      "path": "/mfvfkh",
+      "name": "vless-teu2.gamestreams.top"
+    },
+    {
+      "type": "tcp",
+      "server": "teu3.gamestreams.top",
+      "port": 443,
+      "uuid": "10075eb5-54b5-4ecb-9fe7-7227937fa8ad",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "teu3.gamestreams.top",
+      "fp": "edge",
+      "pbk": "1qo9qG6QowMWI4A-z0VuZfmtkpW9tseYpl0PPKnVtR8",
+      "sid": "326370e2d33132e8",
+      "spx": "/",
+      "name": "vless-teu3.gamestreams.top"
+    },
+    {
+      "type": "xhttp",
+      "server": "teu3.gamestreams.top",
+      "port": 443,
+      "uuid": "10075eb5-54b5-4ecb-9fe7-7227937fa8ad",
+      "security": "reality",
+      "sni": "teu3.gamestreams.top",
+      "fp": "firefox",
+      "pbk": "1qo9qG6QowMWI4A-z0VuZfmtkpW9tseYpl0PPKnVtR8",
+      "sid": "326370e2d33132e8",
+      "spx": "/",
+      "path": "/ee8nrl",
+      "name": "vless-teu3.gamestreams.top"
+    },
+    {
+      "type": "tcp",
+      "server": "teu4.gamestreams.top",
+      "port": 443,
+      "uuid": "10075eb5-54b5-4ecb-9fe7-7227937fa8ad",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "teu4.gamestreams.top",
+      "fp": "edge",
+      "pbk": "eee17edZffpRgt7xFeR5CfRLo-fgcLddHTIOC3WQZz8",
+      "sid": "5791fe9460df8bd4",
+      "spx": "/",
+      "name": "vless-teu4.gamestreams.top"
+    },
+    {
+      "type": "xhttp",
+      "server": "teu4.gamestreams.top",
+      "port": 443,
+      "uuid": "10075eb5-54b5-4ecb-9fe7-7227937fa8ad",
+      "security": "reality",
+      "sni": "teu4.gamestreams.top",
+      "fp": "firefox",
+      "pbk": "eee17edZffpRgt7xFeR5CfRLo-fgcLddHTIOC3WQZz8",
+      "sid": "5791fe9460df8bd4",
+      "spx": "/",
+      "path": "/eed975",
+      "name": "vless-teu4.gamestreams.top"
+    },
+    {
+      "type": "tcp",
+      "server": "teu5.gamestreams.top",
+      "port": 443,
+      "uuid": "10075eb5-54b5-4ecb-9fe7-7227937fa8ad",
+      "security": "reality",
+      "flow": "xtls-rprx-vision",
+      "sni": "teu5.gamestreams.top",
+      "fp": "edge",
+      "pbk": "O6dQ11WpoAIjGlPrYB8WfOa8uNXCx_VY2zOTt57egRk",
+      "sid": "86430a535f538653",
+      "spx": "/",
+      "name": "vless-teu5.gamestreams.top"
+    },
+    {
+      "type": "vless",
+      "server": "teu5.gamestreams.top",
+      "port": 443,
+      "uuid": "10075eb5-54b5-4ecb-9fe7-7227937fa8ad",
+      "name": "vless-teu5.gamestreams.top"
     }
   ],
-  "count": 4,
+  "count": 10,
   "reason": ""
 }

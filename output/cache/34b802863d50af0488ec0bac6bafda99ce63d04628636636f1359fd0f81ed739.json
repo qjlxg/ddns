@@ -17,19 +17,6 @@
     },
     {
       "type": "tcp",
-      "server": "31.76.7.154",
-      "port": 7443,
-      "uuid": "d7cad038-0c3f-4cce-8f8a-36464aaf66c0",
-      "security": "reality",
-      "flow": "xtls-rprx-vision",
-      "sni": "ya.ru",
-      "fp": "firefox",
-      "pbk": "1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ",
-      "sid": "d2061bb1",
-      "name": "vless-31.76.7.154"
-    },
-    {
-      "type": "tcp",
       "server": "64.188.79.106",
       "port": 443,
       "uuid": "94006a20-6cd6-4751-a14d-c5a0bacb68bb",
@@ -40,19 +27,6 @@
       "pbk": "dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg",
       "sid": "992e5a9a",
       "name": "vless-64.188.79.106"
-    },
-    {
-      "type": "raw",
-      "server": "87.199.205.28",
-      "port": 443,
-      "uuid": "501a2da5-cb22-4a3f-915e-e3b821d1d62d",
-      "security": "reality",
-      "flow": "xtls-rprx-vision",
-      "sni": "vkvd754.okcdn.ru",
-      "fp": "chrome",
-      "pbk": "W-9zyiOq287RtXVTZlTFbSDJ0Mx8joyBLJoA7ZE7eBw",
-      "sid": "ef1d3554c652a436",
-      "name": "vless-87.199.205.28"
     },
     {
       "type": "grpc",
@@ -68,18 +42,6 @@
     },
     {
       "type": "grpc",
-      "server": "150.40.126.19",
-      "port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-      "security": "reality",
-      "sni": "rs2.univesalsrv.com",
-      "fp": "firefox",
-      "pbk": "tL16MVY08r-7YDXb1_gxuBBWInpSFp97ZLJ_ax3R2iE",
-      "sid": "1469af2040b7c323",
-      "name": "vless-150.40.126.19"
-    },
-    {
-      "type": "grpc",
       "server": "150.40.126.22",
       "port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
@@ -91,76 +53,38 @@
       "name": "vless-150.40.126.22"
     },
     {
-      "type": "raw",
-      "server": "94.183.224.45",
-      "port": 443,
-      "uuid": "d72f05b0-b182-4783-a6f2-21cecc7d841a",
-      "security": "reality",
-      "flow": "xtls-rprx-vision",
-      "sni": "dzen.ru",
-      "fp": "chrome",
-      "pbk": "SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js",
-      "sid": "a1b2c3d4e5f67890",
-      "name": "vless-94.183.224.45"
-    },
-    {
       "type": "grpc",
-      "server": "rs3.univesalsrv.com",
+      "server": "150.40.126.19",
       "port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "security": "reality",
-      "sni": "rs3.univesalsrv.com",
+      "sni": "rs2.univesalsrv.com",
       "fp": "firefox",
-      "pbk": "gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ",
-      "sid": "35d05b666e2c6cdf",
-      "name": "vless-rs3.univesalsrv.com"
-    },
-    {
-      "type": "raw",
-      "server": "185.33.24.85",
-      "port": 443,
-      "uuid": "933eb45b-0e97-4ed1-bfb9-e34bd0b4342c",
-      "security": "reality",
-      "sni": "a.wb.ru",
-      "fp": "chrome",
-      "pbk": "M7fn-U9PikoH_WXu6HbDE5bi9ej5cFN8bgWy8qF14WU",
-      "sid": "76f547961a8ca082",
-      "name": "vless-185.33.24.85"
+      "pbk": "tL16MVY08r-7YDXb1_gxuBBWInpSFp97ZLJ_ax3R2iE",
+      "sid": "1469af2040b7c323",
+      "name": "vless-150.40.126.19"
     },
     {
       "type": "tcp",
-      "server": "144.31.243.240",
+      "server": "179.254.111.0",
       "port": 443,
-      "uuid": "d72f05b0-b182-4783-a6f2-21cecc7d841a",
+      "uuid": "94006a20-6cd6-4751-a14d-c5a0bacb68bb",
       "security": "reality",
       "flow": "xtls-rprx-vision",
-      "sni": "dzen.ru",
+      "sni": "yandex.ru",
       "fp": "firefox",
-      "pbk": "SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js",
-      "sid": "a1b2c3d4e5f67890",
-      "name": "vless-144.31.243.240"
+      "pbk": "dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg",
+      "sid": "992e5a9a",
+      "name": "vless-179.254.111.0"
     },
     {
-      "type": "tcp",
-      "server": "31.128.39.89",
+      "type": "vless",
+      "server": "d72f05b",
       "port": 443,
-      "uuid": "fc47db0c-c6f2-4665-bdb2-8f717822ce9d",
-      "security": "reality",
-      "flow": "xtls-rprx-vision",
-      "sni": "waw4427j8an5w5a90j.datahubfiles.com",
-      "fp": "firefox",
-      "pbk": "4nly47ThhozNi9819yFtSuDTjC-R1DvrJqi1hOhOGSE",
-      "sid": "219fae13a1ff7bfa",
-      "name": "vless-31.128.39.89"
-    },
-    {
-      "type": "tcp",
-      "server": "188.225.25.142",
-      "port": 443,
-      "uuid": "7cde4592-4758-415f-8b97-c188faa4d1c9",
-      "name": "vless-188.225.25.142"
+      "uuid": "",
+      "name": "vless-d72f05b"
     }
   ],
-  "count": 13,
+  "count": 7,
   "reason": ""
 }

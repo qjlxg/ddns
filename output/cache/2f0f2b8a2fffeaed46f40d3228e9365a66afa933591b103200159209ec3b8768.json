@@ -4,15 +4,16 @@
   "items": [
     {
       "type": "tcp",
-      "server": "45.39.84.182",
+      "server": "95.182.80.17",
       "port": 443,
       "uuid": "a555a658-f414-43bd-89e6-c35730b824c4",
       "security": "reality",
       "sni": "github.com",
       "fp": "chrome",
       "pbk": "_l3TSR4wjVt8vXSqhxbzylziZDI2Gv4SCGyfynb9bAk",
+      "sid": "2f78ac7c9baf613b",
       "host": "github.com",
-      "name": "vless-45.39.84.182"
+      "name": "vless-95.182.80.17"
     }
   ],
   "count": 1,
