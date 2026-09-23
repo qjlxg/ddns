@@ -1,0 +1,61 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 0.0.0.0:9090
+proxies:
+- name: JP-31
+  type: vless
+  server: 216.23.84.115
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+proxy-groups:
+- name: 🚀 节点选择
+  type: select
+  proxies:
+  - ♻️ 自动选择
+  - 🎯 全球直连
+  - JP-31
+- name: ♻️ 自动选择
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+  - JP-31
+- name: 🎯 全球直连
+  type: select
+  proxies:
+  - DIRECT
+rule-providers:
+  adsblock:
+    type: http
+    behavior: domain
+    url: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geo/geosite/category-ads-all.yaml
+    path: ./rules/adsblock.yaml
+    interval: 86400
+  cn_domain:
+    type: http
+    behavior: domain
+    url: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geo/geosite/cn.yaml
+    path: ./rules/cn_domain.yaml
+    interval: 86400
+  cn_ip:
+    type: http
+    behavior: ipcidr
+    url: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geo/geoip/cn.yaml
+    path: ./rules/cn_ip.yaml
+    interval: 86400
+rules:
+- RULE-SET,adsblock,REJECT
+- RULE-SET,cn_domain,🎯 全球直连
+- RULE-SET,cn_ip,🎯 全球直连
+- GEOIP,CN,🎯 全球直连
+- MATCH,🚀 节点选择
