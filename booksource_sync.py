@@ -247,7 +247,7 @@ async def main():
 
     print(f"[+] 准备异步下载和解析 {len(candidates)} 个候选地址...")
     
-    async with httpx.AsyncClient(headers=HEADERS, http2=True) as client:
+    async with httpx.AsyncClient(headers=HEADERS) as client:
         semaphore = asyncio.Semaphore(WORKERS)
         
         # 步骤 1：并发拉取与解析所有候选文件中的书源
