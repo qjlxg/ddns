@@ -55,7 +55,7 @@ jobs:
           
           # 检查是否有文件变动
           git status
-          git add exportBookSource.json
+          git add exportBookSource.json search_stats.csv
           
           # 如果没有变动则跳过提交
           git diff --quiet && git diff --cached --quiet || (git commit -m "Auto-update valid booksources [skip ci]" && git push)
