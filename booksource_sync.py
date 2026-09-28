@@ -173,7 +173,17 @@ SEED_SOURCE_URLS = [
     "https://cdn.jsdelivr.net/gh/entr0pia/MyLegadoSource@master/bookSource.json",
 ]
 
-SEARCH_KEYWORDS = [
+# ============================================================
+# 扩展 2：更广泛、多维度的书源搜索关键词矩阵
+# 目标：
+# 1. 尽可能发现新的 Legado / 阅读3.0 书源
+# 2. 不局限 GitHub
+# 3. 同时搜索 JSON / TXT / RAW / 仓库 / 分享页
+# 4. 允许发现老源，后续再由验证器判断
+# ============================================================
+
+SEARCH_QUERIES = [
+
     # ========================================================
     # A. Legado / 阅读 基础关键词
     # ========================================================
@@ -379,6 +389,7 @@ SEARCH_KEYWORDS = [
     "site:gitcode.com bookSource.json",
     "site:gitcode.com booksource",
     "site:gitcode.com yuedu 书源",
+
     "site:gitlink.org.cn Legado",
     "site:gitlink.org.cn 阅读 书源",
     "site:gitlink.org.cn bookSource.json",
@@ -522,22 +533,22 @@ SEARCH_KEYWORDS = [
     # ========================================================
     # S. 书源规则特征
     # ========================================================
-    '"bookSourceUrl": "http',
-    '"bookSourceName":',
-    '"bookSourceType": 0',
-    '"ruleSearch": {',
-    '"ruleBookInfo": {',
-    '"ruleToc": {',
-    '"ruleContent": {',
-    '"searchUrl":',
-    '"exploreUrl":',
-    '"bookUrlPattern":',
-    '"chapterList":',
-    '"chapterName":',
-    '"chapterUrl":',
-    '"content":',
-    '"bookList":',
-    '"bookUrl":',
+    "\"bookSourceUrl\": \"http",
+    "\"bookSourceName\":",
+    "\"bookSourceType\": 0",
+    "\"ruleSearch\": {",
+    "\"ruleBookInfo\": {",
+    "\"ruleToc\": {",
+    "\"ruleContent\": {",
+    "\"searchUrl\":",
+    "\"exploreUrl\":",
+    "\"bookUrlPattern\":",
+    "\"chapterList\":",
+    "\"chapterName\":",
+    "\"chapterUrl\":",
+    "\"content\":",
+    "\"bookList\":",
+    "\"bookUrl\":",
 
     # ========================================================
     # T. Legado JS 书源
@@ -613,8 +624,8 @@ SEARCH_KEYWORDS = [
     # ========================================================
     # Y. 直接 URL / JSON / TXT
     # ========================================================
-    'Legado "https://" "bookSource"',
-    '阅读 "https://" "bookSourceUrl"',
+    "Legado \"https://\" \"bookSource\"",
+    "阅读 \"https://\" \"bookSourceUrl\"",
     "Legado txt 书源",
     "阅读 txt 书源",
     "Legado json 书源",
