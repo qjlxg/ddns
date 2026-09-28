@@ -3,43 +3,53 @@ import json
 import httpx
 import re
 import hashlib
-from urllib.parse import urlparse, urljoin, quote
+from urllib.parse import urlparse, urljoin, quote, unquote
 from bs4 import BeautifulSoup
 
 # =========================
 # 配置项
 # =========================
 OUTPUT_FILENAME = "exportBookSource.json"
-WORKERS = 30
-TIMEOUT = 12
-MAX_DOWNLOAD = 3 * 1024 * 1024
+WORKERS = 40          # 提高异步并发数
+TIMEOUT = 15          # 适当放宽超时时间
+MAX_DOWNLOAD = 5 * 1024 * 1024
 
-# 预设的基础种子源（你可以保留或添加自己收集的稳定订阅源）
+# 【扩展 1】预设社区长期维护、更新频繁的高质量种子源 / 聚合仓库直链
 SEED_SOURCE_URLS = [
-    # "https://raw.githubusercontent.com/example/legado/master/bookSource.json",
+    "https://jsdelivr.onmicrosoft.cn/gh/XIU2/Yuedu@master/shuyuan",
+    "https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
+    "https://gitee.com/YiJieSS/Yuedu/raw/master/bookSource.json",
+    "https://gitee.com/zoeybai/read/raw/Xiaobai/bangdan.json",
+    "https://raw.githubusercontent.com/jiwangyihao/source-j-legado/main/bilinovel.json", # 轻小说源
 ]
 
-# 搜索关键词（用于自动从全网和 GitHub 挖掘书源文件）
+# 【扩展 2】更广泛、多维度的搜索关键词矩阵（覆盖全网分享平台与 GitHub 仓库）
 SEARCH_QUERIES = [
     'Legado 书源 json',
-    '阅读 书源 json',
-    'Legado booksource json',
-    '阅读书源 bookSourceUrl',
-    'site:github.com Legado 书源 json',
-    'site:github.com 阅读 书源 json',
+    '阅读 书源合集 json',
+    'Legado booksource raw',
+    '阅读 APP 优质书源',
+    'site:github.com Legado 书源',
+    'site:github.com 阅读 书源',
     'site:raw.githubusercontent.com bookSourceUrl',
+    'site:gitee.com bookSource.json',
+    'site:codeberg.org bookSource',
 ]
+
+# 黑名单关键字（过滤广告、无效或诱导跳转的垃圾源域名/名称）
+BLACKLIST_DOMANS = ['baidu.com', 'qq.com', 'bilibili.com', 'zhihu.com', 'so.com']
+BLACKLIST_KEYWORDS = ['点此广告', '加群', '淘宝', '返利', 'APP下载']
 
 FILE_RE = re.compile(r'\.(json|txt|js|yaml|yml)$', re.I)
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/131 Safari/537.36",
-    "Accept": "*/*",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
     "Accept-Language": "zh-CN,zh;q=0.9",
 }
 
 # =========================
-# 第一阶段：自动发现阶段 (同步/阻塞部分)
+# 第一阶段：自动发现阶段 (扩展多引擎与智能提取)
 # =========================
 def clean_url(u):
     if not isinstance(u, str):
@@ -52,10 +62,21 @@ def clean_url(u):
 def is_http_url(u):
     return u.startswith("http://") or u.startswith("https://")
 
-def ddg_search(client, query):
+def is_blacklisted(url, name=""):
+    parsed = urlparse(url)
+    netloc = parsed.netloc.lower()
+    for bd in BLACKLIST_DOMANS:
+        if bd in netloc:
+            return True
+    for kw in BLACKLIST_KEYWORDS:
+        if kw in name:
+            return True
+    return False
+
+def search_duckduckgo(client, query):
     url = "https://html.duckduckgo.com/html/"
     try:
-        r = client.get(url, params={"q": query}, timeout=TIMEOUT)
+        r = client.post(url, data={"q": query}, timeout=TIMEOUT)
         if r.status_code != 200:
             return []
         soup = BeautifulSoup(r.text, "lxml")
@@ -65,18 +86,17 @@ def ddg_search(client, query):
             if "uddg=" in href:
                 m = re.search(r"uddg=([^&]+)", href)
                 if m:
-                    from urllib.parse import unquote
                     href = unquote(m.group(1))
-            if is_http_url(href):
+            if is_http_url(href) and not is_blacklisted(href):
                 out.append(href)
         return list(dict.fromkeys(out))
     except Exception:
         return []
 
-def github_api_repositories(client, query):
+def search_github_repos(client, query):
     url = "https://api.github.com/search/repositories"
     try:
-        r = client.get(url, params={"q": query, "per_page": 20, "sort": "updated"}, timeout=TIMEOUT)
+        r = client.get(url, params={"q": query, "per_page": 15, "sort": "updated"}, timeout=TIMEOUT)
         if r.status_code != 200:
             return []
         data = r.json()
@@ -90,30 +110,33 @@ def extract_file_links(page_url, html):
     for a in soup.find_all("a", href=True):
         href = a["href"]
         full = urljoin(page_url, href)
-        if not is_http_url(full):
+        if not is_http_url(full) or is_blacklisted(full):
             continue
-        if FILE_RE.search(full.split("?")[0]) or "raw.githubusercontent.com" in full:
+        
+        if FILE_RE.search(full.split("?")[0]) or any(k in full for k in ["raw.githubusercontent.com", "gitee.com", "jsdelivr.net", "bitbucket.org"]):
             result.add(full)
+            
         if "github.com" in full and "/blob/" in full:
             raw = full.replace("https://github.com/", "https://raw.githubusercontent.com/", 1).replace("/blob/", "/", 1)
             result.add(raw)
+            
     return result
 
 def discover_candidate_urls(client):
-    print("[*] 开始全网自动发现书源线索...")
+    print("[*] 开始多路全网自动发现书源线索...")
     candidate_urls = set(SEED_SOURCE_URLS)
     
-    # 1. 搜索引擎检索
     for q in SEARCH_QUERIES:
-        for u in ddg_search(client, q):
+        print(f"[-] 正在检索关键词: {q}")
+        for u in search_duckduckgo(client, q):
             candidate_urls.add(clean_url(u))
             
-    # 2. GitHub 仓库检索与文件提取
     github_repos = set()
-    for q in ["Legado booksource", "阅读书源"]:
-        for u in github_api_repositories(client, q):
+    for q in ["Legado booksource", "阅读书源合集", "yuedu shuyuan"]:
+        for u in search_github_repos(client, q):
             github_repos.add(u)
             
+    print(f"[+] 命中 GitHub 仓库数: {len(github_repos)}，开始深度提取文件...")
     for repo_url in github_repos:
         try:
             r = client.get(repo_url, timeout=TIMEOUT)
@@ -123,7 +146,7 @@ def discover_candidate_urls(client):
         except Exception:
             pass
             
-    print(f"[+] 发现候选链接总数: {len(candidate_urls)}")
+    print(f"[+] 发现候选资源链接总数: {len(candidate_urls)}")
     return list(candidate_urls)
 
 # =========================
@@ -150,10 +173,14 @@ def looks_like_booksource(x):
         return False
     url = x.get("bookSourceUrl")
     name = x.get("bookSourceName")
-    if not isinstance(url, str) or not url.strip():
+    if not isinstance(url, str) or not url.strip() or not is_http_url(url.strip()):
         return False
     if not isinstance(name, str) or not name.strip():
         return False
+    
+    if is_blacklisted(url, name):
+        return False
+
     rules = ["searchUrl", "ruleSearch", "ruleBookInfo", "ruleToc", "ruleContent"]
     score = sum(1 for k in rules if k in x)
     return score >= 1
@@ -172,6 +199,9 @@ def extract_booksources(obj):
                 for x in v:
                     if looks_like_booksource(x):
                         result.append(x)
+            elif isinstance(v, dict):
+                if looks_like_booksource(v):
+                    result.append(v)
     return result
 
 def normalize_source(src):
@@ -202,7 +232,7 @@ def normalize_source(src):
 
 def source_hash(src):
     x = dict(src)
-    for k in ["lastUpdateTime", "customOrder", "weight", "enabled", "enabledExplore"]:
+    for k in ["lastUpdateTime", "customOrder", "weight", "enabled", "enabledExplore", "bookSourceGroup"]:
         x.pop(k, None)
     raw = json.dumps(x, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
     return hashlib.sha256(raw.encode()).hexdigest()
@@ -217,6 +247,7 @@ async def fetch_and_parse(client, url, semaphore):
             content = response.text
             obj = json_loads_loose(content)
             found = extract_booksources(obj)
+            
             if not found and isinstance(obj, str):
                 obj2 = json_loads_loose(obj)
                 found = extract_booksources(obj2)
@@ -229,8 +260,21 @@ async def test_source_validity(client, source, semaphore):
     async with semaphore:
         book_url = source.get("bookSourceUrl")
         try:
-            response = await client.get(book_url, timeout=5.0, follow_redirects=True)
-            if response.status_code < 400:
+            parsed = urlparse(book_url)
+            base_url = f"{parsed.scheme}://{parsed.netloc}"
+            
+            probe_headers = {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "zh-CN,zh;q=0.9",
+            }
+            
+            response = await client.get(base_url, headers=probe_headers, timeout=6.0, follow_redirects=True)
+            
+            # 【防误杀容错优化】：
+            # 1. 正常的成功响应 (< 400)
+            # 2. 常见的防御/人机/权限状态码 (401, 403, 405, 412, 503) -> 服务器真实在线且有响应，判定为活源
+            if response.status_code < 400 or response.status_code in [401, 403, 405, 412, 503]:
                 return True
         except Exception:
             pass
@@ -240,17 +284,16 @@ async def test_source_validity(client, source, semaphore):
 # 主流程控制
 # =========================
 async def main():
-    print("[*] 启动异步网络客户端...")
-    # 使用标准同步客户端先抓取候选链接
+    print("[*] 启动异步网络采集引擎...")
     with httpx.Client(headers=HEADERS) as sync_client:
         candidates = discover_candidate_urls(sync_client)
 
-    print(f"[+] 准备异步下载和解析 {len(candidates)} 个候选地址...")
+    print(f"[+] 准备异步并发下载与解析 {len(candidates)} 个候选地址...")
     
+    # 移除了 http2=True，使用默认稳定可靠的 HTTP/1.1，避免缺少 h2 库报错
     async with httpx.AsyncClient(headers=HEADERS) as client:
         semaphore = asyncio.Semaphore(WORKERS)
         
-        # 步骤 1：并发拉取与解析所有候选文件中的书源
         tasks = [fetch_and_parse(client, url, semaphore) for url in candidates]
         results = await asyncio.gather(*tasks)
         
@@ -259,9 +302,8 @@ async def main():
             if res:
                 raw_sources.extend(res)
                 
-        print(f"[+] 原始提取书源总数: {len(raw_sources)}")
+        print(f"[+] 原始解析提取出的书源总数: {len(raw_sources)}")
         
-        # 步骤 2：结构清洗与去重
         unique_sources = {}
         hash_seen = set()
         
@@ -284,16 +326,14 @@ async def main():
             if domain_key not in unique_sources:
                 unique_sources[domain_key] = norm
             else:
-                # 覆盖规则更丰富的源
                 existing = unique_sources[domain_key]
                 if not existing.get("searchUrl") and norm.get("searchUrl"):
                     unique_sources[domain_key] = norm
 
         cleaned_sources = list(unique_sources.values())
-        print(f"[+] 去重及基础清洗后数量: {len(cleaned_sources)}")
+        print(f"[+] 去重及基础结构清洗后剩余: {len(cleaned_sources)}")
         
-        # 步骤 3：可用性连通性过滤
-        print("[*] 开始进行后端存活可用性过滤...")
+        print("[*] 开始进行后端站点存活可用性验证...")
         test_tasks = [test_source_validity(client, src, semaphore) for src in cleaned_sources]
         test_results = await asyncio.gather(*test_tasks)
         
@@ -302,18 +342,16 @@ async def main():
             if is_valid
         ]
         
-        # 如果连通性过滤由于目标网站防爬导致误杀过多，可兜底退回到 cleaned_sources
-        if len(valid_sources) < 10 and len(cleaned_sources) > 0:
-            print("[!] 提示：存活验证通过较少，采用清洗后全量书源保障可用性。")
+        if len(valid_sources) < 20 and len(cleaned_sources) > 0:
+            print("[!] 提示：因网络波动存活验证过滤较多，自动切换回清洗后全量书源保障丰富度。")
             valid_sources = cleaned_sources
         else:
-            print(f"[+] 有效存活书源留存数量: {len(valid_sources)}")
+            print(f"[+] 有效存活且通过校验的书源数量: {len(valid_sources)}")
             
-        # 步骤 4：保存标准格式 JSON 供客户端导入
         with open(OUTPUT_FILENAME, "w", encoding="utf-8") as f:
             json.dump(valid_sources, f, ensure_ascii=False, indent=2)
             
-        print(f"[+] 已成功输出至客户端导入文件: {OUTPUT_FILENAME}")
+        print(f"[+] 优化完毕！已成功输出可直接导入阅读APP的文件: {OUTPUT_FILENAME}")
 
 if __name__ == "__main__":
     asyncio.run(main())
