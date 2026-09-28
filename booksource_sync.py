@@ -63,13 +63,41 @@ SEED_SOURCE_URLS = [
     "https://www.yckceo.com/yuedu/shuyuan/index.html",
 ]
 
-# GitHub 代码检索关键词（精准匹配文件/仓库）
+# GitHub 代码与仓库检索关键词
 GITHUB_QUERIES = [
+    # 文件精准匹配
     "filename:bookSource.json",
+    "filename:booksource.json",
     "filename:shuyuan.json",
+    "filename:source.json",
+    "filename:sources.json",
+    "filename:bookSource",
+    "filename:shuyuan",
+    # 路径与特定组合
+    "filename:full.json path:legado",
+    "filename:*.json \"bookSourceUrl\"",
+    # 结构特征检索
+    "bookSourceUrl ruleSearch",
+    "bookSourceName ruleContent",
+    "bookSourceUrl ruleToc",
+    "searchUrl ruleSearch ruleBookInfo",
+    "ruleSearch ruleBookInfo ruleToc ruleContent",
+    # 中文生态与别名搜索
     "Legado bookSource",
+    "Legado booksource",
+    "Legado source",
+    "Legado sources",
+    "Legado 书源",
+    "LegadoConfig",
+    "阅读 书源",
     "阅读 书源 json",
-    "Legado 书源"
+    "阅读APP 书源",
+    "阅读 app 书源",
+    "开源 阅读 书源",
+    "yuedu shuyuan",
+    "yuedu booksource",
+    "yuedu 书源",
+    "legado 书源 json",
 ]
 
 BLACKLIST_DOMANS = ['baidu.com', 'qq.com', 'bilibili.com', 'zhihu.com', 'so.com']
@@ -77,6 +105,7 @@ BLACKLIST_KEYWORDS = ['点此广告', '加群', '淘宝', '返利', 'APP下载']
 
 FILE_RE = re.compile(r'\.(json|txt|js|yaml|yml)$', re.I)
 
+# 融合前辈专属 Edge 浏览器 UA 及真实语言偏好的请求头
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
     "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
@@ -115,7 +144,7 @@ def search_github_api(client, query):
     github_token = os.environ.get("bot", "").strip()
     api_headers = {
         "Accept": "application/vnd.github+json",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+        "User-Agent": HEADERS["User-Agent"]
     }
     if github_token:
         api_headers["Authorization"] = f"Bearer {github_token}"
@@ -129,7 +158,6 @@ def search_github_api(client, query):
         if r.status_code == 200:
             data = r.json()
             for item in data.get("items", []):
-                # 将 GitHub 网页/api 链接转换为 raw 直链
                 html_url = item.get("html_url", "")
                 if html_url:
                     raw_url = html_url.replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/")
@@ -151,7 +179,6 @@ def search_github_api(client, query):
                 default_branch = item.get("default_branch", "master")
                 clone_url = item.get("html_url")
                 if clone_url:
-                    # 常见的标准路径推测
                     owner_repo = clone_url.replace("https://github.com/", "")
                     discovered_urls.add(f"https://raw.githubusercontent.com/{owner_repo}/{default_branch}/bookSource.json")
                     discovered_urls.add(f"https://raw.githubusercontent.com/{owner_repo}/{default_branch}/shuyuan.json")
@@ -282,9 +309,8 @@ async def test_source_validity(client, source, semaphore):
             parsed = urlparse(book_url)
             base_url = f"{parsed.scheme}://{parsed.netloc}"
             probe_headers = {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
-                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-                "Accept-Language": "zh-CN,zh;q=0.9",
+                "User-Agent": HEADERS["User-Agent"],
+                "Accept-Language": HEADERS["Accept-Language"],
             }
             response = await client.get(base_url, headers=probe_headers, timeout=6.0, follow_redirects=True)
             if response.status_code < 400:
@@ -299,7 +325,6 @@ async def test_source_validity(client, source, semaphore):
 async def main():
     print("[*] 启动 GitHub API 异步书源同步引擎...")
     
-    # 建立客户端并传入 Token（若环境变量存在）
     github_token = os.environ.get("bot", "").strip()
     client_headers = dict(HEADERS)
     if github_token:
