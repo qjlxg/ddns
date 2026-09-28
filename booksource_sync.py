@@ -16,12 +16,31 @@ MAX_DOWNLOAD = 5 * 1024 * 1024
 
 # 【扩展 1】预设社区长期维护、更新频繁的高质量种子源 / 聚合仓库直链
 SEED_SOURCE_URLS = [
+    # XIU2 精品/全量书源 (含多线路 CDN / 备用分流)
     "https://jsdelivr.onmicrosoft.cn/gh/XIU2/Yuedu@master/shuyuan",
     "https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
-    "https://gitee.com/YiJieSS/Yuedu/raw/master/bookSource.json",
-    "https://gitee.com/zoeybai/read/raw/Xiaobai/bangdan.json",
-    "https://raw.githubusercontent.com/jiwangyihao/source-j-legado/main/bilinovel.json", # 轻小说源
+    "https://jsd.onmicrosoft.cn/gh/XIU2/Yuedu/shuyuan",
+    "https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan",
+    "https://cdn.jsdmirror.com/gh/XIU2/Yuedu/shuyuan",
+    "https://ghfast.top/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
+
+    # AOAOSTAR 聚合仓库
+    "https://legado.aoaostar.com/sources/b778fe6b.json",  # 全量书源
+    "https://legado.aoaostar.com/sources/71e56d4f.json",  # XIU2 精品书源
+    "https://legado.aoaostar.com/sources/4dc410d1.json",  # 破冰书源
+    "https://legado.aoaostar.com/sources/e3e5d620.json",  # shidahuilang 书源
+    "https://legado.aoaostar.com/sources/2a1f129b.json",  # 三舞校检书源
+
+    # Gitee 及国内托管源
+    "https://gitee.com/YiJieSS/Yuedu/raw/master/bookSource.json",  # 一介书生源
+    "https://gitee.com/zoeybai/read/raw/Xiaobai/bangdan.json",      # 小白榜单源
+    "https://www.gitlink.org.cn/api/yi-c/yd/raw?filepath=sy.json",   # 一程书源
+
+    # 其它第三方精选及专用源
+    "https://cdn.jsdelivr.net/gh/tickmao/Novel@master/sources/legado/full.json",
+    "https://raw.githubusercontent.com/jiwangyihao/source-j-legado/main/bilinovel.json",  # 轻小说源
 ]
+
 
 # 【扩展 2】更广泛、多维度的搜索关键词矩阵（覆盖全网分享平台与 GitHub 仓库）
 SEARCH_QUERIES = [
