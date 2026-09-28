@@ -25,6 +25,7 @@ SEED_SOURCE_URLS = [
     "https://jsdelivr.onmicrosoft.cn/gh/XIU2/Yuedu@master/shuyuan",
     "https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
     "https://jsd.onmicrosoft.cn/gh/XIU2/Yuedu/shuyuan",
+    "https://raw.githubusercontent.com/aoaostar/legado/refs/heads/release/sources/2a1f129b.json",
     "https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan",
     "https://cdn.jsdmirror.com/gh/XIU2/Yuedu/shuyuan",
     "https://ghfast.top/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
