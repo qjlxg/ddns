@@ -50,7 +50,7 @@ SEED_SOURCE_URLS = [
     "https://www.yckceo.com/yuedu/shuyuans/json/id/1271.json",#合并优选书源,
     "https://www.yckceo.com/yuedu/shuyuans/json/id/1244.json",#筛选去木马·专注读书
     "https://www.yckceo.com/yuedu/shuyuans/json/id/1297.json",#自用小合集
-    "https://www.yckceo.com/yuedu/shuyuans/json/id/1285.json",精品书源
+    "https://www.yckceo.com/yuedu/shuyuans/json/id/1285.json",#精品书源
 ]
 
 # yckceo 书源合集 JSON 模板（由爬虫动态填充 ID）
