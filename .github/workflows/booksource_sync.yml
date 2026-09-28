@@ -7,15 +7,13 @@ on:
     branches:
       - main
     paths:
-      - 'booksource_sync.py'                # 当 Python 脚本变动时
+      - 'booksource_sync.py'                        # 当 Python 脚本变动时
       - '.github/workflows/booksource_sync.yml' # 或者工作流本身变动时
 
   # 2. 定时触发（支持北京时间）
   schedule:
     # GitHub Actions 的 cron 表达式使用 UTC 时间。
-    # 如果你想设定为每天 **北京时间早上 8:00** 运行，
-    # 北京时间 (UTC+8) 减去 8 小时即为 UTC 时间 00:00。
-    # 表达式：分钟 小时 日 月 星期
+    # 北京时间早上 8:00 即为 UTC 时间 00:00。
     - cron: '0 0 * * *'
 
   # 3. 允许你在 GitHub 网页端手动点击按钮触发
@@ -35,16 +33,17 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-        
+          
       # 安装依赖
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install "httpx[http2]" beautifulsoup4 lxml
 
-      # 运行你的书源清洗与去重脚本
-     
+   
       - name: Run Booksource Cleaning Script
+        env:
+          bot: ${{ secrets.bot }}
         run: |
           python booksource_sync.py
 
