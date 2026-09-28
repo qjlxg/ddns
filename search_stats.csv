@@ -1,0 +1,379 @@
+﻿query,hit_count
+Legado 书源,8
+Legado 书源 json,9
+Legado 书源合集,0
+Legado 书源大全,0
+Legado 书源分享,0
+Legado 书源下载,0
+Legado 最新书源,0
+Legado 精品书源,0
+Legado 免费书源,0
+Legado 小说书源,0
+Legado 小说源,0
+Legado source,0
+Legado sources,0
+Legado booksource,0
+Legado book source,0
+Legado bookSource.json,0
+Legado booksource.json,0
+Legado json source,0
+Legado source.json,0
+阅读APP 书源,0
+阅读APP 书源合集,0
+阅读APP 书源大全,0
+阅读APP 最新书源,0
+阅读APP 精品书源,0
+阅读APP 小说书源,0
+阅读APP 源,0
+阅读 书源,0
+阅读 书源合集,0
+阅读 书源大全,0
+阅读 最新书源,0
+阅读 精品书源,0
+阅读 免费书源,0
+阅读 小说书源,0
+阅读 小说源,0
+阅读3.0 书源,0
+阅读3.0 书源合集,0
+阅读3.0 最新书源,0
+阅读3.0 精品书源,0
+阅读3.0 bookSource,0
+阅读3.0 booksource,0
+阅读3.0 json,0
+bookSource.json,0
+booksource.json,0
+BookSource.json,0
+bookSource,0
+booksource,0
+source.json Legado,0
+sources.json Legado,0
+sources.json 阅读,0
+source.json 阅读,0
+bookSourceUrl,0
+bookSourceName,0
+bookSourceType,0
+ruleSearch,0
+ruleBookInfo,0
+ruleToc,0
+ruleContent,0
+searchUrl,0
+exploreUrl,0
+bookUrlPattern,0
+bookSourceUrl bookSourceName,0
+bookSourceUrl ruleSearch,0
+bookSourceUrl ruleToc,0
+bookSourceUrl ruleContent,0
+site:github.com Legado 书源,0
+site:github.com Legado 书源 json,0
+site:github.com Legado booksource,0
+site:github.com Legado bookSource.json,0
+site:github.com 阅读 书源,0
+site:github.com 阅读APP 书源,0
+site:github.com 阅读3.0 书源,0
+site:github.com 小说 书源 Legado,0
+site:github.com 小说源 阅读,0
+site:github.com bookSource.json,0
+site:github.com booksource.json,0
+site:github.com source.json Legado,0
+site:github.com sources.json Legado,0
+site:github.com bookSourceUrl,0
+site:github.com bookSourceName,0
+site:github.com ruleSearch ruleToc,0
+site:github.com ruleBookInfo ruleContent,0
+site:github.com Legado sources,0
+site:github.com Legado source,0
+site:github.com legado-source,0
+site:github.com legado-booksource,0
+site:github.com yuedu source,0
+site:github.com yuedu booksource,0
+site:github.com yuedu 书源,0
+site:github.com 阅读 source,0
+site:raw.githubusercontent.com bookSource.json,0
+site:raw.githubusercontent.com booksource.json,0
+site:raw.githubusercontent.com BookSource.json,0
+site:raw.githubusercontent.com source.json Legado,0
+site:raw.githubusercontent.com sources.json Legado,0
+site:raw.githubusercontent.com bookSourceUrl,0
+site:raw.githubusercontent.com bookSourceName,0
+site:raw.githubusercontent.com ruleSearch,0
+site:raw.githubusercontent.com ruleToc,0
+site:raw.githubusercontent.com ruleContent,0
+site:raw.githubusercontent.com 阅读 书源,0
+site:raw.githubusercontent.com Legado 书源,0
+site:raw.githubusercontent.com yuedu 书源,0
+site:raw.githubusercontent.com yuedu source,0
+site:github.com/*/tree/*/sources Legado,0
+site:github.com/*/tree/*/source Legado,0
+site:github.com/*/tree/*/shuyuan 阅读,0
+site:github.com/*/tree/*/书源 阅读,0
+site:github.com/*/blob/*/bookSource.json,0
+site:github.com/*/blob/*/booksource.json,0
+site:github.com/*/blob/*/source.json,0
+site:github.com/*/blob/*/sources.json,0
+site:github.com/*/blob/*/shuyuan.json,0
+site:gitee.com Legado 书源,0
+site:gitee.com Legado 书源 json,0
+site:gitee.com Legado booksource,0
+site:gitee.com 阅读 书源,0
+site:gitee.com 阅读APP 书源,0
+site:gitee.com 阅读3.0 书源,0
+site:gitee.com 小说 书源,0
+site:gitee.com 小说源,0
+site:gitee.com bookSource.json,0
+site:gitee.com booksource.json,0
+site:gitee.com BookSource.json,0
+site:gitee.com source.json Legado,0
+site:gitee.com sources.json Legado,0
+site:gitee.com bookSourceUrl,0
+site:gitee.com bookSourceName,0
+site:gitee.com ruleSearch,0
+site:gitee.com ruleToc,0
+site:gitee.com yuedu 书源,0
+site:gitee.com yuedu source,0
+site:gitee.com/*/raw/* bookSource.json,0
+site:gitee.com/*/raw/* booksource.json,0
+site:gitee.com/*/raw/* source.json,0
+site:gitee.com/*/raw/* shuyuan.json,0
+site:gitee.com/*/raw/* 阅读 书源,0
+site:gitlab.com Legado 书源,0
+site:gitlab.com Legado booksource,0
+site:gitlab.com 阅读 书源,0
+site:gitlab.com 阅读APP 书源,0
+site:gitlab.com bookSource.json,0
+site:gitlab.com booksource.json,0
+site:gitlab.com source.json Legado,0
+site:gitlab.com bookSourceUrl,0
+site:gitlab.com yuedu 书源,0
+site:gitlab.com legado source,0
+site:codeberg.org Legado,0
+site:codeberg.org legado 书源,0
+site:codeberg.org booksource,0
+site:codeberg.org bookSource,0
+site:codeberg.org yuedu,0
+site:codeberg.org 阅读 书源,0
+site:sourcehut.org Legado,0
+site:bitbucket.org Legado 书源,0
+site:bitbucket.org yuedu 书源,0
+site:gitcode.com Legado,0
+site:gitcode.com Legado 书源,0
+site:gitcode.com 阅读 书源,0
+site:gitcode.com 阅读APP 书源,0
+site:gitcode.com bookSource.json,0
+site:gitcode.com booksource,0
+site:gitcode.com yuedu 书源,0
+site:gitlink.org.cn Legado,0
+site:gitlink.org.cn 阅读 书源,0
+site:gitlink.org.cn bookSource.json,0
+site:gitlink.org.cn yuedu 书源,0
+Legado 书源 百度网盘,0
+阅读 书源 百度网盘,0
+阅读APP 书源 百度网盘,0
+Legado 书源 夸克网盘,0
+阅读 书源 夸克网盘,0
+Legado 书源 阿里云盘,0
+阅读 书源 阿里云盘,0
+Legado 书源 迅雷云盘,0
+阅读 书源 迅雷云盘,0
+Legado 书源 分享,0
+阅读 书源 分享,0
+Legado 书源 博客,0
+阅读 书源 博客,0
+Legado 书源 教程,0
+阅读 书源 教程,0
+全网搜书 Legado,0
+全网小说书源,0
+小说书源合集,0
+小说书源大全,0
+小说源合集,0
+小说源大全,0
+免费小说书源,0
+免费小说源,0
+网络小说书源,0
+网络小说源,0
+小说网站 书源,0
+小说网站 Legado,0
+小说网站 阅读3.0,0
+小说网站 bookSource,0
+小说采集源 阅读,0
+小说聚合源 阅读,0
+小说搜索源 阅读,0
+笔趣阁 Legado 书源,0
+顶点小说 Legado 书源,0
+起点小说 Legado 书源,0
+纵横小说 Legado 书源,0
+晋江文学城 Legado 书源,0
+潇湘书院 Legado 书源,0
+17K小说 Legado 书源,0
+番茄小说 Legado 书源,0
+飞卢小说 Legado 书源,0
+刺猬猫 Legado 书源,0
+长佩文学 Legado 书源,0
+晋江 书源 json,0
+番茄 书源 json,0
+起点 书源 json,0
+纵横 书源 json,0
+17K 书源 json,0
+小说站 书源 json,0
+女频小说 书源 Legado,0
+男频小说 书源 Legado,0
+言情小说 书源 Legado,0
+都市小说 书源 Legado,0
+玄幻小说 书源 Legado,0
+仙侠小说 书源 Legado,0
+武侠小说 书源 Legado,0
+历史小说 书源 Legado,0
+科幻小说 书源 Legado,0
+悬疑小说 书源 Legado,0
+灵异小说 书源 Legado,0
+同人小说 书源 Legado,0
+轻小说 书源 Legado,0
+耽美小说 书源 Legado,0
+短篇小说 书源 Legado,0
+轻小说书源合集,0
+日轻 书源 Legado,0
+日轻小说 书源,0
+轻小说文库 书源,0
+哔哩轻小说 书源,0
+真白萌 书源,0
+ESJZone 书源,0
+Pixiv 小说 Legado,0
+Pixiv 小说书源,0
+LNMTL Legado,0
+NovelUpdates Legado source,0
+light novel Legado source,0
+lightnovel booksource,0
+Japanese novel Legado source,0
+Legado book sources,0
+Legado book source collection,0
+Legado novel sources,0
+Legado novel source,0
+Legado sources json,0
+Legado source json,0
+Legado booksource json,0
+Legado bookSourceUrl,0
+Legado novel scraper,0
+Legado novel scraper source,0
+Yuedu book source,0
+Yuedu booksource,0
+Yuedu sources,0
+Yuedu novel source,0
+Yuedu source json,0
+Android novel book source,0
+novel source json Legado,0
+Chinese novel source Legado,0
+GitHub Legado repositories,0
+GitHub Legado source repositories,0
+GitHub Yuedu source,0
+GitHub Yuedu book source,0
+GitHub Chinese novel source,0
+GitHub novel scraper Chinese,0
+GitHub bookSource,0
+GitHub booksource,0
+GitHub book source collection,0
+GitHub novel sources json,0
+"""bookSourceUrl"": ""http",0
+"""bookSourceName"":",0
+"""bookSourceType"": 0",0
+"""ruleSearch"": {",0
+"""ruleBookInfo"": {",0
+"""ruleToc"": {",0
+"""ruleContent"": {",0
+"""searchUrl"":",0
+"""exploreUrl"":",0
+"""bookUrlPattern"":",0
+"""chapterList"":",0
+"""chapterName"":",0
+"""chapterUrl"":",0
+"""content"":",0
+"""bookList"":",0
+"""bookUrl"":",0
+Legado JS 书源,0
+Legado js书源,0
+Legado javascript booksource,0
+Legado JS source,0
+阅读 JS 书源,0
+阅读3.0 JS 书源,0
+Legado mainJs,0
+Legado loginCheckJs,0
+Legado @js:,0
+Legado java.getString,0
+Legado java.ajax,0
+Legado Jsoup,0
+Legado JS source github,0
+Legado 订阅源,0
+阅读 订阅源,0
+阅读3.0 订阅源,0
+Legado RSS 小说,0
+阅读 RSS 小说,0
+Legado rssSource,0
+Legado rss source json,0
+Legado subscribe source,0
+阅读 订阅书源,0
+小说 RSS Legado,0
+Legado 净化规则 书源,0
+阅读 净化规则 书源,0
+Legado replaceRule source,0
+Legado replaceRule booksource,0
+阅读 replaceRule 书源,0
+Legado config booksource,0
+Legado repository booksource,0
+aoaostar legado fork,0
+aoaostar legado mirror,0
+XIU2 Yuedu fork,0
+XIU2 Yuedu mirror,0
+Legado source fork,0
+Legado booksource fork,0
+Yuedu source fork,0
+Yuedu booksource fork,0
+阅读书源 fork,0
+阅读书源 mirror,0
+Legado 书源 backup,0
+Legado 书源 mirror,0
+Legado source backup,0
+jsdelivr Legado 书源,0
+jsdelivr Yuedu 书源,0
+jsdelivr booksource,0
+jsdelivr bookSource.json,0
+ghproxy Legado 书源,0
+github proxy Legado source,0
+raw github Legado source,0
+githubusercontent Legado booksource,0
+"Legado ""https://"" ""bookSource""",0
+"阅读 ""https://"" ""bookSourceUrl""",0
+Legado txt 书源,0
+阅读 txt 书源,0
+Legado json 书源,0
+阅读 json 书源,0
+Legado yaml 书源,0
+阅读 yaml 书源,0
+Legado source txt,0
+Yuedu source txt,0
+酷安 阅读 书源,0
+酷安 Legado 书源,0
+酷安 阅读3.0 书源,0
+贴吧 阅读 书源,0
+百度贴吧 Legado 书源,0
+知乎 阅读 书源,0
+知乎 Legado 书源,0
+CSDN 阅读 书源,0
+博客园 Legado 书源,0
+掘金 Legado 书源,0
+吾爱破解 阅读 书源,0
+恩山 阅读 书源,0
+V2EX Legado 书源,0
+Telegram Legado 书源,0
+Telegram 阅读 书源,0
+2026 Legado 书源,0
+2026 阅读 书源,0
+2026 阅读3.0 书源,0
+2026 Legado booksource,0
+2026 Legado source,0
+2026 Yuedu 书源,0
+2026 小说书源,0
+2026 小说源,0
+2026 书源合集,0
+2026 最新阅读书源,0
+2026 最新Legado书源,0
+2026 9月 Legado 书源,0
+2026 09 Legado 书源,0
+2026-09 Legado source,0
