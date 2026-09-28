@@ -5,127 +5,71 @@ import re
 import hashlib
 import os
 import csv
-from urllib.parse import urlparse, urljoin, quote, unquote
+from urllib.parse import urlparse, urljoin, unquote
 from bs4 import BeautifulSoup
 
 # =========================
 # 配置项
 # =========================
 OUTPUT_FILENAME = "exportBookSource.json"
-STATS_FILENAME = "search_stats.csv"  # 关键词搜索统计 CSV
-WORKERS = 40          # 提高异步并发数
-TIMEOUT = 15          # 适当放宽超时时间
+STATS_FILENAME = "search_stats.csv"
+WORKERS = 40          # 异步并发数
+TIMEOUT = 15          # 超时时间
 MAX_DOWNLOAD = 5 * 1024 * 1024
 
-# 【扩展 1】预设社区长期维护、更新频繁的高质量种子源 / 聚合仓库直链
+# 预设的高质量种子源 / 聚合仓库直链（作为冷启动补充）
 SEED_SOURCE_URLS = [
-    # ============================================================
     # 1. XIU2 / Yuedu
-    # ============================================================
     "https://jsdelivr.onmicrosoft.cn/gh/XIU2/Yuedu@master/shuyuan",
     "https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
     "https://jsd.onmicrosoft.cn/gh/XIU2/Yuedu/shuyuan",
     "https://raw.githubusercontent.com/aoaostar/legado/refs/heads/release/sources/2a1f129b.json",
-    "https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan",
-    "https://cdn.jsdmirror.com/gh/XIU2/Yuedu/shuyuan",
-    "https://ghfast.top/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
-    "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
-
-    # ============================================================
+    
     # 2. AOAOSTAR / legado 聚合
-    # ============================================================
     "https://legado.aoaostar.com/sources/b778fe6b.json",
     "https://legado.aoaostar.com/sources/71e56d4f.json",
     "https://legado.aoaostar.com/sources/4dc410d1.json",
     "https://legado.aoaostar.com/sources/e3e5d620.json",
-    "https://legado.aoaostar.com/sources/e29e19ee.json",
-    "https://legado.aoaostar.com/sources/2a1f129b.json",
-    "https://legado.aoaostar.com/sources/3bb7b751.json",
-
-    # ============================================================
+    
     # 3. Gitee / 国内代码托管
-    # ============================================================
     "https://gitee.com/YiJieSS/Yuedu/raw/master/bookSource.json",
     "https://gitee.com/zoeybai/read/raw/Xiaobai/bangdan.json",
     "https://www.gitlink.org.cn/api/yi-c/yd/raw?filepath=sy.json",
     "https://gitee.com/fjhy2021/yuedu/raw/master/shuyuan.json",
-    "https://gitee.com/qishui/yuedu/raw/master/bookSource.json",
-    "https://gitee.com/namofree/yuedu/raw/legado3booksource/legado3_booksource_by_Namo.json",
-    "https://gitee.com/no-mystery/bushixuanqi-quanwangsoushu/raw/master/全网搜书(百度、谷歌、夸克).json",
-
-    # ============================================================
+    
     # 4. Tickmao / Novel
-    # ============================================================
     "https://cdn.jsdelivr.net/gh/tickmao/Novel@master/sources/legado/full.json",
     "https://raw.githubusercontent.com/tickmao/Novel/master/sources/legado/full.json",
-    "https://cdn.jsdelivr.net/gh/tickmao/Novel@main/sources/legado/full.json",
-
-    # ============================================================
+    
     # 5. 轻小说 / 日轻专项
-    # ============================================================
     "https://raw.githubusercontent.com/jiwangyihao/source-j-legado/main/bilinovel.json",
-    "https://raw.githubusercontent.com/jiwangyihao/source-j-legado/main/bilinovel-like.json",
     "https://raw.githubusercontent.com/jiwangyihao/source-j-legado/main/wenku.json",
     "https://raw.githubusercontent.com/jiwangyihao/source-j-legado/main/fishhawk.json",
-    "https://raw.githubusercontent.com/jiwangyihao/source-j-legado/main/masiro.json",
-    "https://raw.githubusercontent.com/jiwangyihao/source-j-legado/main/esjzone.json",
-
-    # ============================================================
+    
     # 6. 其他 GitHub 综合书源
-    # ============================================================
     "https://raw.githubusercontent.com/MoGu123456/yuedu/main/shuyuan.json",
     "https://raw.githubusercontent.com/ywdblog/legado/master/shuyuan.json",
     "https://raw.githubusercontent.com/DesperadoJ/LegadoConfig/master/source.json",
-    "https://raw.githubusercontent.com/astrology-1/legado/main/source.json",
     "https://raw.githubusercontent.com/shidahuilang/shuyuan/shuyuan/good.json",
-    "https://raw.githubusercontent.com/yc-sy/yd/refs/heads/master/sy.json",
-
-    # ============================================================
+    
     # 7. DowneyRem / PixivSource
-    # ============================================================
     "https://raw.githubusercontent.com/DowneyRem/PixivSource/main/pixiv.json",
-    "https://raw.githubusercontent.com/DowneyRem/PixivSource/main/linpx.json",
     "https://raw.githubusercontent.com/DowneyRem/PixivSource/main/normal.json",
     "https://raw.githubusercontent.com/DowneyRem/PixivSource/main/books.json",
-    "https://raw.githubusercontent.com/DowneyRem/PixivSource/main/import.json",
-    "https://raw.githubusercontent.com/DowneyRem/PixivSource/main/btsrk.json",
 
-    # CDN 备用
-    "https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/pixiv.json",
-    "https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/linpx.json",
-    "https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/normal.json",
-    "https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/books.json",
-    "https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/import.json",
-    "https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/btsrk.json",
-
-    # ============================================================
-    # 8. Luoyacheng / 阅读3.0
-    # ============================================================
-    "https://cdn.jsdelivr.net/gh/Luoyacheng/yuedu@main/%E4%B9%A6%E6%BA%90/pixiv%E5%B0%8F%E8%AF%B4/pixiv.json",
-
-    # ============================================================
-    # 9. 外部书源仓库 / 书源管理站
-    # ============================================================
-    "https://shuyuan.yiove.com/",
+    # 8. 外部书源管理站
     "https://shuyuan.yiove.com/sub.json",
     "https://yuedu.miaogongzi.net/gx.html",
     "https://www.yckceo.com/yuedu/shuyuan/index.html",
-
-    # ============================================================
-    # 10. qiupo / Legado Tauri 新结构
-    # ============================================================
-    "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/repository.json",
 ]
 
-# ============================================================
-# 精简后的核心高效搜索关键词矩阵（仅保留高命中、高价值词）
-# ============================================================
-SEARCH_QUERIES = [
-    "Legado 书源",
-    "Legado 书源 json",
-    "Legado booksource",
-    "阅读 书源",
-    "阅读3.0 书源",
+# GitHub 代码检索关键词（精准匹配文件/仓库）
+GITHUB_QUERIES = [
+    "filename:bookSource.json",
+    "filename:shuyuan.json",
+    "Legado bookSource",
+    "阅读 书源 json",
+    "Legado 书源"
 ]
 
 BLACKLIST_DOMANS = ['baidu.com', 'qq.com', 'bilibili.com', 'zhihu.com', 'so.com']
@@ -140,39 +84,7 @@ HEADERS = {
 }
 
 # =========================
-# CSV 统计管理函数
-# =========================
-def load_search_stats():
-    """读取历史搜索统计 CSV，返回 dict: {query: hit_count}"""
-    stats = {}
-    if os.path.exists(STATS_FILENAME):
-        try:
-            with open(STATS_FILENAME, mode="r", encoding="utf-8-sig") as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    q = row.get("query", "").strip()
-                    hits = int(row.get("hit_count", 0))
-                    if q:
-                        stats[q] = hits
-            print(f"[*] 已加载历史搜索统计，共 {len(stats)} 条记录。")
-        except Exception as e:
-            print(f"[!] 读取统计 CSV 失败: {e}")
-    return stats
-
-def save_search_stats(stats_dict):
-    """将本次搜索统计结果写入 CSV"""
-    try:
-        with open(STATS_FILENAME, mode="w", encoding="utf-8-sig", newline="") as f:
-            writer = csv.writer(f)
-            writer.writerow(["query", "hit_count"])
-            for q, hits in stats_dict.items():
-                writer.writerow([q, hits])
-        print(f"[*] 搜索统计已更新并保存至: {STATS_FILENAME}")
-    except Exception as e:
-        print(f"[!] 保存统计 CSV 失败: {e}")
-
-# =========================
-# 第一阶段：自动发现阶段
+# 辅助函数
 # =========================
 def clean_url(u):
     if not isinstance(u, str):
@@ -196,29 +108,11 @@ def is_blacklisted(url, name=""):
             return True
     return False
 
-def search_duckduckgo(client, query):
-    url = "https://html.duckduckgo.com/html/"
-    try:
-        r = client.post(url, data={"q": query}, timeout=TIMEOUT)
-        if r.status_code != 200:
-            return []
-        soup = BeautifulSoup(r.text, "lxml")
-        out = []
-        for a in soup.select("a.result__a"):
-            href = a.get("href", "")
-            if "uddg=" in href:
-                m = re.search(r"uddg=([^&]+)", href)
-                if m:
-                    href = unquote(m.group(1))
-            if is_http_url(href) and not is_blacklisted(href):
-                out.append(href)
-        return list(dict.fromkeys(out))
-    except Exception:
-        return []
-
-def search_github_repos(client, query):
-    url = "https://api.github.com/search/repositories"
-    
+# =========================
+# 第一阶段：GitHub Search API 驱动的自动发现
+# =========================
+def search_github_api(client, query):
+    """通过 GitHub Search API 搜索代码或仓库"""
     github_token = os.environ.get("bot", "").strip()
     api_headers = {
         "Accept": "application/vnd.github+json",
@@ -226,74 +120,59 @@ def search_github_repos(client, query):
     }
     if github_token:
         api_headers["Authorization"] = f"Bearer {github_token}"
-        
+    
+    discovered_urls = set()
+    
+    # 1. 搜索代码文件 (Code Search)
+    code_url = "https://api.github.com/search/code"
     try:
-        r = client.get(url, params={"q": query, "per_page": 10, "sort": "updated"}, headers=api_headers, timeout=TIMEOUT)
-        if r.status_code != 200:
-            print(f"[!] GitHub API 搜索返回状态码: {r.status_code}")
-            return []
-        data = r.json()
-        return [x.get("html_url") for x in data.get("items", []) if x.get("html_url")]
+        r = client.get(code_url, params={"q": query, "per_page": 20}, headers=api_headers, timeout=TIMEOUT)
+        if r.status_code == 200:
+            data = r.json()
+            for item in data.get("items", []):
+                # 将 GitHub 网页/api 链接转换为 raw 直链
+                html_url = item.get("html_url", "")
+                if html_url:
+                    raw_url = html_url.replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/")
+                    discovered_urls.add(clean_url(raw_url))
+        elif r.status_code == 403:
+            print(f"[!] GitHub API 触发限频或 Token 权限不足 (403): {query}")
+        else:
+            print(f"[!] GitHub Code API 返回状态码 {r.status_code}，关键词: {query}")
     except Exception as e:
-        print(f"[!] GitHub 搜索异常: {e}")
-        return []
+        print(f"[!] GitHub Code 搜索异常: {e}")
 
-def extract_file_links(page_url, html):
-    soup = BeautifulSoup(html, "lxml")
-    result = set()
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-        full = urljoin(page_url, href)
-        if not is_http_url(full) or is_blacklisted(full):
-            continue
-        if FILE_RE.search(full.split("?")[0]) or any(k in full for k in ["raw.githubusercontent.com", "gitee.com", "jsdelivr.net"]):
-            result.add(full)
-        if "github.com" in full and "/blob/" in full:
-            raw = full.replace("https://github.com/", "https://raw.githubusercontent.com/", 1).replace("/blob/", "/", 1)
-            result.add(raw)
-    return result
+    # 2. 搜索仓库 (Repository Search)
+    repo_url = "https://api.github.com/search/repositories"
+    try:
+        r = client.get(repo_url, params={"q": query, "per_page": 10, "sort": "updated"}, headers=api_headers, timeout=TIMEOUT)
+        if r.status_code == 200:
+            data = r.json()
+            for item in data.get("items", []):
+                default_branch = item.get("default_branch", "master")
+                clone_url = item.get("html_url")
+                if clone_url:
+                    # 常见的标准路径推测
+                    owner_repo = clone_url.replace("https://github.com/", "")
+                    discovered_urls.add(f"https://raw.githubusercontent.com/{owner_repo}/{default_branch}/bookSource.json")
+                    discovered_urls.add(f"https://raw.githubusercontent.com/{owner_repo}/{default_branch}/shuyuan.json")
+    except Exception as e:
+        print(f"[!] GitHub Repo 搜索异常: {e}")
+
+    return list(discovered_urls)
 
 def discover_candidate_urls(client):
-    print("[*] 开始多路全网自动发现书源线索...")
+    print("[*] 开始通过 GitHub Search API 深度发掘书源线索...")
     candidate_urls = set(SEED_SOURCE_URLS)
     
-    history_stats = load_search_stats()
-    current_stats = {}
-    
-    for q in SEARCH_QUERIES:
-        if history_stats.get(q, -1) == 0:
-            print(f"[-] 跳过历史零命中关键词: {q}")
-            current_stats[q] = 0
-            continue
-            
-        print(f"[-] 正在检索关键词: {q}", end="", flush=True)
-        urls = search_duckduckgo(client, q)
-        hit_count = len(urls)
-        current_stats[q] = hit_count
-        
-        print(f" -> 命中有效链接: {hit_count} 个")
-        
+    for q in GITHUB_QUERIES:
+        print(f"[-] 正在通过 GitHub API 检索: {q}", end="", flush=True)
+        urls = search_github_api(client, q)
+        print(f" -> 发现线索: {len(urls)} 条")
         for u in urls:
-            candidate_urls.add(clean_url(u))
+            candidate_urls.add(u)
             
-    save_search_stats(current_stats)
-    
-    github_repos = set()
-    for q in ["Legado booksource", "阅读书源合集"]:
-        for u in search_github_repos(client, q):
-            github_repos.add(u)
-            
-    print(f"[+] 命中 GitHub 仓库数: {len(github_repos)}，开始深度提取文件...")
-    for repo_url in github_repos:
-        try:
-            r = client.get(repo_url, timeout=TIMEOUT)
-            if r.status_code == 200:
-                for link in extract_file_links(repo_url, r.text):
-                    candidate_urls.add(clean_url(link))
-        except Exception:
-            pass
-            
-    print(f"[+] 发现候选资源链接总数: {len(candidate_urls)}")
+    print(f"[+] 候选资源链接总数 (含种子源): {len(candidate_urls)}")
     return list(candidate_urls)
 
 # =========================
@@ -419,13 +298,20 @@ async def test_source_validity(client, source, semaphore):
 # 主流程控制
 # =========================
 async def main():
-    print("[*] 启动异步网络采集引擎...")
-    with httpx.Client(headers=HEADERS) as sync_client:
+    print("[*] 启动 GitHub API 异步书源同步引擎...")
+    
+    # 建立客户端并传入 Token（若环境变量存在）
+    github_token = os.environ.get("bot", "").strip()
+    client_headers = dict(HEADERS)
+    if github_token:
+        client_headers["Authorization"] = f"Bearer {github_token}"
+
+    with httpx.Client(headers=client_headers) as sync_client:
         candidates = discover_candidate_urls(sync_client)
 
     print(f"[+] 准备异步并发下载与解析 {len(candidates)} 个候选地址...")
     
-    async with httpx.AsyncClient(headers=HEADERS) as client:
+    async with httpx.AsyncClient(headers=client_headers) as client:
         semaphore = asyncio.Semaphore(WORKERS)
         tasks = [fetch_and_parse(client, url, semaphore) for url in candidates]
         results = await asyncio.gather(*tasks)
