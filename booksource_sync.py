@@ -64,7 +64,7 @@ HEADERS = {
 }
 
 # =========================
-# CSV 统计管理函数
+# CSV 统计管理函数（已还原）
 # =========================
 def load_search_stats():
     """读取历史搜索统计 CSV，返回 dict: {query: hit_count}"""
@@ -182,12 +182,12 @@ def discover_candidate_urls(client):
     print("[*] 开始多路全网自动发现书源线索...")
     candidate_urls = set(SEED_SOURCE_URLS)
     
-    # 加载历史统计，自动剔除历史命中为 0 的无效关键词
+    # 【已还原】加载历史统计，自动剔除历史命中为 0 的无效关键词
     history_stats = load_search_stats()
     current_stats = {}
     
     for q in SEARCH_QUERIES:
-        # 如果历史记录中明确为 0 且存在记录，则跳过以节省时间
+        # 如果历史记录中明确为 0，则直接跳过以节省时间
         if history_stats.get(q, -1) == 0:
             print(f"[-] 跳过历史零命中关键词: {q}")
             current_stats[q] = 0
@@ -201,7 +201,7 @@ def discover_candidate_urls(client):
         for u in urls:
             candidate_urls.add(clean_url(u))
             
-    # 将本次统计结果写回 CSV
+    # 【已还原】将本次统计结果写回 CSV
     save_search_stats(current_stats)
     
     github_repos = set()
