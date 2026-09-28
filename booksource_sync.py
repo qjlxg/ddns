@@ -16,9 +16,9 @@ MAX_DOWNLOAD = 5 * 1024 * 1024
 
 # 【扩展 1】预设社区长期维护、更新频繁的高质量种子源 / 聚合仓库直链
 SEED_SOURCE_URLS = [
-    # =========================
-    # 1. XIU2 精品/全量书源 (多CDN线路及备用分流)
-    # =========================
+    # ============================================================
+    # 1. XIU2 / Yuedu
+    # ============================================================
     "https://jsdelivr.onmicrosoft.cn/gh/XIU2/Yuedu@master/shuyuan",
     "https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
     "https://jsd.onmicrosoft.cn/gh/XIU2/Yuedu/shuyuan",
@@ -27,64 +27,644 @@ SEED_SOURCE_URLS = [
     "https://ghfast.top/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
     "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
 
-    # =========================
-    # 2. AOAOSTAR 聚合仓库系列（2026-09-28 仍同步成功）
-    # =========================
-    "https://legado.aoaostar.com/sources/b778fe6b.json",   # 全量书源 (~3907条)
-    "https://legado.aoaostar.com/sources/71e56d4f.json",   # XIU2 精品书源
-    "https://legado.aoaostar.com/sources/4dc410d1.json",   # 破冰书源
-    "https://legado.aoaostar.com/sources/e3e5d620.json",   # 关耳女频
-    "https://legado.aoaostar.com/sources/e29e19ee.json",   # shidahuilang书源
-    "https://legado.aoaostar.com/sources/2a1f129b.json",   # 酷安@三舞313书源 (~1554条)
-    "https://legado.aoaostar.com/sources/3bb7b751.json",   # 酷安@开源阅读软件 (~2117条)
+    # ============================================================
+    # 2. AOAOSTAR / legado 聚合
+    # 2026-09 仍有同步记录
+    # ============================================================
+    "https://legado.aoaostar.com/sources/b778fe6b.json",
+    "https://legado.aoaostar.com/sources/71e56d4f.json",
+    "https://legado.aoaostar.com/sources/4dc410d1.json",
+    "https://legado.aoaostar.com/sources/e3e5d620.json",
+    "https://legado.aoaostar.com/sources/e29e19ee.json",
+    "https://legado.aoaostar.com/sources/2a1f129b.json",
+    "https://legado.aoaostar.com/sources/3bb7b751.json",
 
-    # =========================
-    # 3. Gitee / 国内开源平台托管源
-    # =========================
-    "https://gitee.com/YiJieSS/Yuedu/raw/master/bookSource.json",  # 一介书生源
-    "https://gitee.com/zoeybai/read/raw/Xiaobai/bangdan.json",     # 小白榜单源
-    "https://www.gitlink.org.cn/api/yi-c/yd/raw?filepath=sy.json",  # 一程书源
-    "https://gitee.com/fjhy2021/yuedu/raw/master/shuyuan.json",    # 优质维护源
-    "https://gitee.com/qishui/yuedu/raw/master/bookSource.json",   # 汽水精选源
-    "https://gitee.com/namofree/yuedu3/raw/legado3booksource/legado3_booksource_by_Namo.json",  # Namo精简带净化源
-    "https://gitee.com/no-mystery/bushixuanqi-quanwangsoushu/raw/master/全网搜书(百度、谷歌、夸克).json",  # 全网搜索引擎源
+    # ============================================================
+    # 3. Gitee / 国内代码托管
+    # ============================================================
+    "https://gitee.com/YiJieSS/Yuedu/raw/master/bookSource.json",
+    "https://gitee.com/zoeybai/read/raw/Xiaobai/bangdan.json",
+    "https://www.gitlink.org.cn/api/yi-c/yd/raw?filepath=sy.json",
+    "https://gitee.com/fjhy2021/yuedu/raw/master/shuyuan.json",
+    "https://gitee.com/qishui/yuedu/raw/master/bookSource.json",
+    "https://gitee.com/namofree/yuedu/raw/legado3booksource/legado3_booksource_by_Namo.json",
+    "https://gitee.com/no-mystery/bushixuanqi-quanwangsoushu/raw/master/全网搜书(百度、谷歌、夸克).json",
 
-    # =========================
-    # 4. GitHub 热门自用及分类专项精选源
-    # =========================
-    "https://cdn.jsdelivr.net/gh/tickmao/Novel@master/sources/legado/full.json",  # tickmao全量
-    "https://raw.githubusercontent.com/jiwangyihao/source-j-legado/main/bilinovel.json",  # 轻小说源
-    "https://raw.githubusercontent.com/MoGu123456/yuedu/main/shuyuan.json",      # 蘑菇书源
-    "https://raw.githubusercontent.com/ywdblog/legado/master/shuyuan.json",      # ywdblog经典综合源
-    "https://raw.githubusercontent.com/DesperadoJ/LegadoConfig/master/source.json",  # DesperadoJ精选源
-    "https://raw.githubusercontent.com/astrology-1/legado/main/source.json",     # 综合书源合集
-    "https://raw.githubusercontent.com/shidahuilang/shuyuan/shuyuan/good.json",  # 识大体狼精选源
-    "https://raw.githubusercontent.com/yc-sy/yd/refs/heads/master/sy.json",      # yc聚合备用源
-    "https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/pixiv.json",         # Pixiv小说源
-    "https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/linpx.json",         # Linpx/兽人控源
-    "https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/normal.json",        # 通用搜索引擎源
+    # ============================================================
+    # 4. Tickmao / Novel
+    # 2026-09 仍活跃
+    # ============================================================
+    "https://cdn.jsdelivr.net/gh/tickmao/Novel@master/sources/legado/full.json",
+    "https://raw.githubusercontent.com/tickmao/Novel/master/sources/legado/full.json",
+    "https://cdn.jsdelivr.net/gh/tickmao/Novel@main/sources/legado/full.json",
 
-    # =========================
-    # 5. 综合/漫画/有声听书跨界源
-    # =========================
-    "https://raw.githubusercontent.com/guot55/Yuedu/master/source.json",        # 听书与小说混合源
-    "https://raw.githubusercontent.com/mage520/yuedu/master/bookSource.json",   # 综合动漫/小说源
-    "http://yuedu.miaogongzi.net/shuyuan/miaogongziDY.json",                    # 喵公子有声/动漫综合源
+    # ============================================================
+    # 5. 轻小说 / 日轻专项
+    # ============================================================
+    "https://raw.githubusercontent.com/jiwangyihao/source-j-legado/main/bilinovel.json",
+    "https://raw.githubusercontent.com/jiwangyihao/source-j-legado/main/bilinovel-like.json",
+    "https://raw.githubusercontent.com/jiwangyihao/source-j-legado/main/wenku.json",
+    "https://raw.githubusercontent.com/jiwangyihao/source-j-legado/main/fishhawk.json",
+    "https://raw.githubusercontent.com/jiwangyihao/source-j-legado/main/masiro.json",
+    "https://raw.githubusercontent.com/jiwangyihao/source-j-legado/main/esjzone.json",
+
+    # ============================================================
+    # 6. 其他 GitHub 综合书源
+    # ============================================================
+    "https://raw.githubusercontent.com/MoGu123456/yuedu/main/shuyuan.json",
+    "https://raw.githubusercontent.com/ywdblog/legado/master/shuyuan.json",
+    "https://raw.githubusercontent.com/DesperadoJ/LegadoConfig/master/source.json",
+    "https://raw.githubusercontent.com/astrology-1/legado/main/source.json",
+    "https://raw.githubusercontent.com/shidahuilang/shuyuan/shuyuan/good.json",
+    "https://raw.githubusercontent.com/yc-sy/yd/refs/heads/master/sy.json",
+
+    # ============================================================
+    # 7. DowneyRem / PixivSource
+    # 2026-09 仍有更新
+    # ============================================================
+    "https://raw.githubusercontent.com/DowneyRem/PixivSource/main/pixiv.json",
+    "https://raw.githubusercontent.com/DowneyRem/PixivSource/main/linpx.json",
+    "https://raw.githubusercontent.com/DowneyRem/PixivSource/main/normal.json",
+    "https://raw.githubusercontent.com/DowneyRem/PixivSource/main/books.json",
+    "https://raw.githubusercontent.com/DowneyRem/PixivSource/main/import.json",
+    "https://raw.githubusercontent.com/DowneyRem/PixivSource/main/btsrk.json",
+
+    # CDN 备用
+    "https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/pixiv.json",
+    "https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/linpx.json",
+    "https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/normal.json",
+    "https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/books.json",
+    "https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/import.json",
+    "https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/btsrk.json",
+
+    # ============================================================
+    # 8. Luoyacheng / 阅读3.0
+    # 2026-09-14 仍有更新
+    # ============================================================
+    "https://cdn.jsdelivr.net/gh/Luoyacheng/yuedu@main/%E4%B9%A6%E6%BA%90/pixiv%E5%B0%8F%E8%AF%B4/pixiv.json",
+
+    # ============================================================
+    # 9. MyLegadoSource
+    # 已归档，但保留作为历史源池
+    # ============================================================
+    "https://raw.githubusercontent.com/entr0pia/MyLegadoSource/master/bookSource.json",
+
+    # ============================================================
+    # 10. 综合 / 跨界
+    # ============================================================
+    "https://raw.githubusercontent.com/guot55/Yuedu/master/source.json",
+    "https://raw.githubusercontent.com/mage520/yuedu/master/bookSource.json",
+    "http://yuedu.miaogongzi.net/shuyuan/miaogongziDY.json",
+
+    # ============================================================
+    # 11. 外部书源仓库 / 书源管理站
+    # 这些不是单纯 JSON，交给 V1 自己解析页面中的 JSON/TXT/订阅链接
+    # ============================================================
+    "https://shuyuan.yiove.com/",
+    "https://shuyuan.yiove.com/sub.json",
+    "https://yuedu.miaogongzi.net/gx.html",
+    "https://www.yckceo.com/yuedu/shuyuan/index.html",
+
+    # ============================================================
+    # 12. 一程相关
+    # ============================================================
+    "https://www.gitlink.org.cn/api/yi-c/yd/raw?filepath=sy.json",
+    "https://flowus.cn/ycheng/share/923f5a35-6dcf-47d1-b8eb-b9c5ef3ed39b",
+
+    # ============================================================
+    # 13. free-share-app 历史超大合集
+    # 旧，但用于“不限来源”历史池
+    # ============================================================
+    "https://raw.githubusercontent.com/free-share-app/legado-source/master/data.json",
+
+    # ============================================================
+    # 14. Legado-booksource 历史仓库
+    # ============================================================
+    "https://raw.githubusercontent.com/liruohrh/legado-booksource/master/booksources/",
+
+    # ============================================================
+    # 15. qiupo / Legado Tauri 新结构
+    # 2026-04 更新
+    # ============================================================
+    "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/repository.json",
+
+    # ============================================================
+    # 16. 其他公开 Legado 仓库
+    # ============================================================
+    "https://github.com/liruohrh/legado-booksource",
+    "https://github.com/qiupo/bookSource",
+    "https://github.com/Luoyacheng/yuedu",
+    "https://github.com/ZGQ-inc/source",
+
+    # ============================================================
+    # 17. AI / 自动生成书源相关
+    # 不是书源本身，但可以作为发现/生成候选站点的入口
+    # ============================================================
+    "https://github.com/Narylr350/book-source-creator-skill",
+
+    # ============================================================
+    # 18. 番茄专项
+    # ============================================================
+    "https://github.com/gs1147/fanqie-booksource",
+
+    # ============================================================
+    # 19. 备用历史 / 老牌聚合
+    # ============================================================
+    "https://cdn.jsdelivr.net/gh/entr0pia/MyLegadoSource@master/bookSource.json",
+]
+
+SEARCH_KEYWORDS = [
+    # ========================================================
+    # A. Legado / 阅读 基础关键词
+    # ========================================================
+    "Legado 书源",
+    "Legado 书源 json",
+    "Legado 书源合集",
+    "Legado 书源大全",
+    "Legado 书源分享",
+    "Legado 书源下载",
+    "Legado 最新书源",
+    "Legado 精品书源",
+    "Legado 免费书源",
+    "Legado 小说书源",
+    "Legado 小说源",
+    "Legado source",
+    "Legado sources",
+    "Legado booksource",
+    "Legado book source",
+    "Legado bookSource.json",
+    "Legado booksource.json",
+    "Legado json source",
+    "Legado source.json",
+
+    # ========================================================
+    # B. 阅读 APP / 阅读3.0
+    # ========================================================
+    "阅读APP 书源",
+    "阅读APP 书源合集",
+    "阅读APP 书源大全",
+    "阅读APP 最新书源",
+    "阅读APP 精品书源",
+    "阅读APP 小说书源",
+    "阅读APP 源",
+    "阅读 书源",
+    "阅读 书源合集",
+    "阅读 书源大全",
+    "阅读 最新书源",
+    "阅读 精品书源",
+    "阅读 免费书源",
+    "阅读 小说书源",
+    "阅读 小说源",
+    "阅读3.0 书源",
+    "阅读3.0 书源合集",
+    "阅读3.0 最新书源",
+    "阅读3.0 精品书源",
+    "阅读3.0 bookSource",
+    "阅读3.0 booksource",
+    "阅读3.0 json",
+
+    # ========================================================
+    # C. 文件名 / 字段特征反向搜索
+    # ========================================================
+    "bookSource.json",
+    "booksource.json",
+    "BookSource.json",
+    "bookSource",
+    "booksource",
+    "source.json Legado",
+    "sources.json Legado",
+    "sources.json 阅读",
+    "source.json 阅读",
+    "bookSourceUrl",
+    "bookSourceName",
+    "bookSourceType",
+    "ruleSearch",
+    "ruleBookInfo",
+    "ruleToc",
+    "ruleContent",
+    "searchUrl",
+    "exploreUrl",
+    "bookUrlPattern",
+    "bookSourceUrl bookSourceName",
+    "bookSourceUrl ruleSearch",
+    "bookSourceUrl ruleToc",
+    "bookSourceUrl ruleContent",
+
+    # ========================================================
+    # D. GitHub 仓库搜索
+    # ========================================================
+    "site:github.com Legado 书源",
+    "site:github.com Legado 书源 json",
+    "site:github.com Legado booksource",
+    "site:github.com Legado bookSource.json",
+    "site:github.com 阅读 书源",
+    "site:github.com 阅读APP 书源",
+    "site:github.com 阅读3.0 书源",
+    "site:github.com 小说 书源 Legado",
+    "site:github.com 小说源 阅读",
+    "site:github.com bookSource.json",
+    "site:github.com booksource.json",
+    "site:github.com source.json Legado",
+    "site:github.com sources.json Legado",
+    "site:github.com bookSourceUrl",
+    "site:github.com bookSourceName",
+    "site:github.com ruleSearch ruleToc",
+    "site:github.com ruleBookInfo ruleContent",
+    "site:github.com Legado sources",
+    "site:github.com Legado source",
+    "site:github.com legado-source",
+    "site:github.com legado-booksource",
+    "site:github.com yuedu source",
+    "site:github.com yuedu booksource",
+    "site:github.com yuedu 书源",
+    "site:github.com 阅读 source",
+
+    # ========================================================
+    # E. GitHub RAW 文件
+    # ========================================================
+    "site:raw.githubusercontent.com bookSource.json",
+    "site:raw.githubusercontent.com booksource.json",
+    "site:raw.githubusercontent.com BookSource.json",
+    "site:raw.githubusercontent.com source.json Legado",
+    "site:raw.githubusercontent.com sources.json Legado",
+    "site:raw.githubusercontent.com bookSourceUrl",
+    "site:raw.githubusercontent.com bookSourceName",
+    "site:raw.githubusercontent.com ruleSearch",
+    "site:raw.githubusercontent.com ruleToc",
+    "site:raw.githubusercontent.com ruleContent",
+    "site:raw.githubusercontent.com 阅读 书源",
+    "site:raw.githubusercontent.com Legado 书源",
+    "site:raw.githubusercontent.com yuedu 书源",
+    "site:raw.githubusercontent.com yuedu source",
+
+    # ========================================================
+    # F. GitHub 常见仓库目录 / 文件路径
+    # ========================================================
+    "site:github.com/*/tree/*/sources Legado",
+    "site:github.com/*/tree/*/source Legado",
+    "site:github.com/*/tree/*/shuyuan 阅读",
+    "site:github.com/*/tree/*/书源 阅读",
+    "site:github.com/*/blob/*/bookSource.json",
+    "site:github.com/*/blob/*/booksource.json",
+    "site:github.com/*/blob/*/source.json",
+    "site:github.com/*/blob/*/sources.json",
+    "site:github.com/*/blob/*/shuyuan.json",
+
+    # ========================================================
+    # G. Gitee
+    # ========================================================
+    "site:gitee.com Legado 书源",
+    "site:gitee.com Legado 书源 json",
+    "site:gitee.com Legado booksource",
+    "site:gitee.com 阅读 书源",
+    "site:gitee.com 阅读APP 书源",
+    "site:gitee.com 阅读3.0 书源",
+    "site:gitee.com 小说 书源",
+    "site:gitee.com 小说源",
+    "site:gitee.com bookSource.json",
+    "site:gitee.com booksource.json",
+    "site:gitee.com BookSource.json",
+    "site:gitee.com source.json Legado",
+    "site:gitee.com sources.json Legado",
+    "site:gitee.com bookSourceUrl",
+    "site:gitee.com bookSourceName",
+    "site:gitee.com ruleSearch",
+    "site:gitee.com ruleToc",
+    "site:gitee.com yuedu 书源",
+    "site:gitee.com yuedu source",
+
+    # ========================================================
+    # H. Gitee RAW
+    # ========================================================
+    "site:gitee.com/*/raw/* bookSource.json",
+    "site:gitee.com/*/raw/* booksource.json",
+    "site:gitee.com/*/raw/* source.json",
+    "site:gitee.com/*/raw/* shuyuan.json",
+    "site:gitee.com/*/raw/* 阅读 书源",
+
+    # ========================================================
+    # I. GitLab
+    # ========================================================
+    "site:gitlab.com Legado 书源",
+    "site:gitlab.com Legado booksource",
+    "site:gitlab.com 阅读 书源",
+    "site:gitlab.com 阅读APP 书源",
+    "site:gitlab.com bookSource.json",
+    "site:gitlab.com booksource.json",
+    "site:gitlab.com source.json Legado",
+    "site:gitlab.com bookSourceUrl",
+    "site:gitlab.com yuedu 书源",
+    "site:gitlab.com legado source",
+
+    # ========================================================
+    # J. Codeberg / 其他代码托管
+    # ========================================================
+    "site:codeberg.org Legado",
+    "site:codeberg.org legado 书源",
+    "site:codeberg.org booksource",
+    "site:codeberg.org bookSource",
+    "site:codeberg.org yuedu",
+    "site:codeberg.org 阅读 书源",
+    "site:sourcehut.org Legado",
+    "site:bitbucket.org Legado 书源",
+    "site:bitbucket.org yuedu 书源",
+
+    # ========================================================
+    # K. 国内代码平台扩展
+    # ========================================================
+    "site:gitcode.com Legado",
+    "site:gitcode.com Legado 书源",
+    "site:gitcode.com 阅读 书源",
+    "site:gitcode.com 阅读APP 书源",
+    "site:gitcode.com bookSource.json",
+    "site:gitcode.com booksource",
+    "site:gitcode.com yuedu 书源",
+    "site:gitlink.org.cn Legado",
+    "site:gitlink.org.cn 阅读 书源",
+    "site:gitlink.org.cn bookSource.json",
+    "site:gitlink.org.cn yuedu 书源",
+
+    # ========================================================
+    # L. 网盘 / 博客 / 分享页
+    # ========================================================
+    "Legado 书源 百度网盘",
+    "阅读 书源 百度网盘",
+    "阅读APP 书源 百度网盘",
+    "Legado 书源 夸克网盘",
+    "阅读 书源 夸克网盘",
+    "Legado 书源 阿里云盘",
+    "阅读 书源 阿里云盘",
+    "Legado 书源 迅雷云盘",
+    "阅读 书源 迅雷云盘",
+    "Legado 书源 分享",
+    "阅读 书源 分享",
+    "Legado 书源 博客",
+    "阅读 书源 博客",
+    "Legado 书源 教程",
+    "阅读 书源 教程",
+
+    # ========================================================
+    # M. 中文搜索引擎 / 聚合站
+    # ========================================================
+    "全网搜书 Legado",
+    "全网小说书源",
+    "小说书源合集",
+    "小说书源大全",
+    "小说源合集",
+    "小说源大全",
+    "免费小说书源",
+    "免费小说源",
+    "网络小说书源",
+    "网络小说源",
+    "小说网站 书源",
+    "小说网站 Legado",
+    "小说网站 阅读3.0",
+    "小说网站 bookSource",
+    "小说采集源 阅读",
+    "小说聚合源 阅读",
+    "小说搜索源 阅读",
+
+    # ========================================================
+    # N. 小说站点反向发现
+    # ========================================================
+    "笔趣阁 Legado 书源",
+    "顶点小说 Legado 书源",
+    "起点小说 Legado 书源",
+    "纵横小说 Legado 书源",
+    "晋江文学城 Legado 书源",
+    "潇湘书院 Legado 书源",
+    "17K小说 Legado 书源",
+    "番茄小说 Legado 书源",
+    "飞卢小说 Legado 书源",
+    "刺猬猫 Legado 书源",
+    "长佩文学 Legado 书源",
+    "晋江 书源 json",
+    "番茄 书源 json",
+    "起点 书源 json",
+    "纵横 书源 json",
+    "17K 书源 json",
+    "小说站 书源 json",
+
+    # ========================================================
+    # O. 女频 / 男频 / 分类专项
+    # ========================================================
+    "女频小说 书源 Legado",
+    "男频小说 书源 Legado",
+    "言情小说 书源 Legado",
+    "都市小说 书源 Legado",
+    "玄幻小说 书源 Legado",
+    "仙侠小说 书源 Legado",
+    "武侠小说 书源 Legado",
+    "历史小说 书源 Legado",
+    "科幻小说 书源 Legado",
+    "悬疑小说 书源 Legado",
+    "灵异小说 书源 Legado",
+    "同人小说 书源 Legado",
+    "轻小说 书源 Legado",
+    "耽美小说 书源 Legado",
+    "短篇小说 书源 Legado",
+
+    # ========================================================
+    # P. 轻小说 / 日文 / 英文专项
+    # ========================================================
+    "轻小说 书源 Legado",
+    "轻小说书源合集",
+    "日轻 书源 Legado",
+    "日轻小说 书源",
+    "轻小说文库 书源",
+    "哔哩轻小说 书源",
+    "真白萌 书源",
+    "ESJZone 书源",
+    "Pixiv 小说 Legado",
+    "Pixiv 小说书源",
+    "LNMTL Legado",
+    "NovelUpdates Legado source",
+    "light novel Legado source",
+    "lightnovel booksource",
+    "Japanese novel Legado source",
+
+    # ========================================================
+    # Q. 英文关键词
+    # ========================================================
+    "Legado book sources",
+    "Legado book source collection",
+    "Legado novel sources",
+    "Legado novel source",
+    "Legado sources json",
+    "Legado source json",
+    "Legado booksource json",
+    "Legado bookSourceUrl",
+    "Legado novel scraper",
+    "Legado novel scraper source",
+    "Yuedu book source",
+    "Yuedu booksource",
+    "Yuedu sources",
+    "Yuedu novel source",
+    "Yuedu source json",
+    "Android novel book source",
+    "novel source json Legado",
+    "Chinese novel source Legado",
+
+    # ========================================================
+    # R. GitHub 专题 / 仓库发现
+    # ========================================================
+    "GitHub Legado repositories",
+    "GitHub Legado source repositories",
+    "GitHub Yuedu source",
+    "GitHub Yuedu book source",
+    "GitHub Chinese novel source",
+    "GitHub novel scraper Chinese",
+    "GitHub bookSource",
+    "GitHub booksource",
+    "GitHub book source collection",
+    "GitHub novel sources json",
+
+    # ========================================================
+    # S. 书源规则特征
+    # ========================================================
+    '"bookSourceUrl": "http',
+    '"bookSourceName":',
+    '"bookSourceType": 0',
+    '"ruleSearch": {',
+    '"ruleBookInfo": {',
+    '"ruleToc": {',
+    '"ruleContent": {',
+    '"searchUrl":',
+    '"exploreUrl":',
+    '"bookUrlPattern":',
+    '"chapterList":',
+    '"chapterName":',
+    '"chapterUrl":',
+    '"content":',
+    '"bookList":',
+    '"bookUrl":',
+
+    # ========================================================
+    # T. Legado JS 书源
+    # ========================================================
+    "Legado JS 书源",
+    "Legado js书源",
+    "Legado javascript booksource",
+    "Legado JS source",
+    "阅读 JS 书源",
+    "阅读3.0 JS 书源",
+    "Legado mainJs",
+    "Legado loginCheckJs",
+    "Legado @js:",
+    "Legado java.getString",
+    "Legado java.ajax",
+    "Legado Jsoup",
+    "Legado JS source github",
+
+    # ========================================================
+    # U. RSS / 订阅 / 聚合源
+    # ========================================================
+    "Legado 订阅源",
+    "阅读 订阅源",
+    "阅读3.0 订阅源",
+    "Legado RSS 小说",
+    "阅读 RSS 小说",
+    "Legado rssSource",
+    "Legado rss source json",
+    "Legado subscribe source",
+    "阅读 订阅书源",
+    "小说 RSS Legado",
+
+    # ========================================================
+    # V. 净化 / 规则仓库顺带发现书源
+    # ========================================================
+    "Legado 净化规则 书源",
+    "阅读 净化规则 书源",
+    "Legado replaceRule source",
+    "Legado replaceRule booksource",
+    "阅读 replaceRule 书源",
+    "Legado config booksource",
+    "Legado repository booksource",
+
+    # ========================================================
+    # W. Fork / Mirror / Backup
+    # ========================================================
+    "aoaostar legado fork",
+    "aoaostar legado mirror",
+    "XIU2 Yuedu fork",
+    "XIU2 Yuedu mirror",
+    "Legado source fork",
+    "Legado booksource fork",
+    "Yuedu source fork",
+    "Yuedu booksource fork",
+    "阅读书源 fork",
+    "阅读书源 mirror",
+    "Legado 书源 backup",
+    "Legado 书源 mirror",
+    "Legado source backup",
+
+    # ========================================================
+    # X. CDN / 镜像反向搜索
+    # ========================================================
+    "jsdelivr Legado 书源",
+    "jsdelivr Yuedu 书源",
+    "jsdelivr booksource",
+    "jsdelivr bookSource.json",
+    "ghproxy Legado 书源",
+    "github proxy Legado source",
+    "raw github Legado source",
+    "githubusercontent Legado booksource",
+
+    # ========================================================
+    # Y. 直接 URL / JSON / TXT
+    # ========================================================
+    'Legado "https://" "bookSource"',
+    '阅读 "https://" "bookSourceUrl"',
+    "Legado txt 书源",
+    "阅读 txt 书源",
+    "Legado json 书源",
+    "阅读 json 书源",
+    "Legado yaml 书源",
+    "阅读 yaml 书源",
+    "Legado source txt",
+    "Legado source json",
+    "Yuedu source txt",
+    "Yuedu source json",
+
+    # ========================================================
+    # Z. 中文社区 / 论坛 / 社交平台
+    # ========================================================
+    "酷安 阅读 书源",
+    "酷安 Legado 书源",
+    "酷安 阅读3.0 书源",
+    "贴吧 阅读 书源",
+    "百度贴吧 Legado 书源",
+    "知乎 阅读 书源",
+    "知乎 Legado 书源",
+    "CSDN 阅读 书源",
+    "博客园 Legado 书源",
+    "掘金 Legado 书源",
+    "吾爱破解 阅读 书源",
+    "恩山 阅读 书源",
+    "V2EX Legado 书源",
+    "Telegram Legado 书源",
+    "Telegram 阅读 书源",
+
+    # ========================================================
+    # AA. 时间限定搜索
+    # ========================================================
+    "2026 Legado 书源",
+    "2026 阅读 书源",
+    "2026 阅读3.0 书源",
+    "2026 Legado booksource",
+    "2026 Legado source",
+    "2026 Yuedu 书源",
+    "2026 小说书源",
+    "2026 小说源",
+    "2026 书源合集",
+    "2026 最新阅读书源",
+    "2026 最新Legado书源",
+    "2026 9月 Legado 书源",
+    "2026 09 Legado 书源",
+    "2026-09 Legado source",
 ]
 
 
-# 【扩展 2】更广泛、多维度的搜索关键词矩阵（覆盖全网分享平台与 GitHub 仓库）
-SEARCH_QUERIES = [
-    'Legado 书源 json',
-    '阅读 书源合集 json',
-    'Legado booksource raw',
-    '阅读 APP 优质书源',
-    'site:github.com Legado 书源',
-    'site:github.com 阅读 书源',
-    'site:raw.githubusercontent.com bookSourceUrl',
-    'site:gitee.com bookSource.json',
-    'site:codeberg.org bookSource',
-]
 
 # 黑名单关键字（过滤广告、无效或诱导跳转的垃圾源域名/名称）
 BLACKLIST_DOMANS = ['baidu.com', 'qq.com', 'bilibili.com', 'zhihu.com', 'so.com']
