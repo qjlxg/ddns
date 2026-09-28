@@ -4,6 +4,7 @@ import httpx
 import re
 import hashlib
 import os
+import time
 from urllib.parse import urlparse, urljoin
 from bs4 import BeautifulSoup
 
@@ -22,28 +23,23 @@ SEED_SOURCE_URLS = [
     "https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan",
     "https://ghfast.top/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
     "https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
-
     # 2. AOAOSTAR 聚合
     "https://legado.aoaostar.com/sources/b778fe6b.json",
     "https://legado.aoaostar.com/sources/71e56d4f.json",
     "https://legado.aoaostar.com/sources/4dc410d1.json",
     "https://legado.aoaostar.com/sources/e3e5d620.json",
-
     # 3. Tickmao / Novel 全量
     "https://cdn.jsdelivr.net/gh/tickmao/Novel@master/sources/legado/full.json",
     "https://raw.githubusercontent.com/tickmao/Novel/master/sources/legado/full.json",
-
     # 4. 轻小说 / 日轻专项
     "https://raw.githubusercontent.com/jiwangyihao/source-j-legado/main/bilinovel.json",
     "https://raw.githubusercontent.com/jiwangyihao/source-j-legado/main/wenku.json",
     "https://fastly.jsdelivr.net/gh/jiwangyihao/source-j-legado@main/bilinovel.json",
-
     # 5. Pixiv / 特殊源
     "https://raw.githubusercontent.com/DowneyRem/PixivSource/main/pixiv.json",
     "https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/pixiv.json",
     "https://raw.githubusercontent.com/DowneyRem/PixivSource/main/normal.json",
     "https://raw.githubusercontent.com/DowneyRem/PixivSource/main/books.json",
-
     # 6. 其他综合源
     "https://raw.githubusercontent.com/shidahuilang/shuyuan/shuyuan/good.json",
     "https://shuyuan.yiove.com/sub.json",
@@ -53,7 +49,7 @@ SEED_SOURCE_URLS = [
 YCKCEO_JSON_TMPL = "https://www.yckceo.com/yuedu/shuyuans/json/id/{id}.json"
 YCKCEO_COLLECTIONS_URL = "https://www.yckceo.com/yuedu/shuyuans/index.html"
 # 最多抓取多少个合集（按页面出现顺序，一般越新越靠前）
-YCKCEO_MAX_COLLECTIONS = 30
+YCKCEO_MAX_COLLECTIONS = 50
 
 GITHUB_QUERIES = [
     "filename:bookSource.json",
@@ -90,15 +86,12 @@ GITHUB_QUERIES = [
 BLACKLIST_DOMAINS = ["baidu.com", "qq.com", "bilibili.com", "zhihu.com", "so.com"]
 BLACKLIST_KEYWORDS = ["点此广告", "加群", "淘宝", "返利", "APP下载"]
 
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0"
-    ),
-    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-}
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+     "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",}          
+  
+
+   
+
 
 # =========================
 # 辅助函数
@@ -111,10 +104,8 @@ def clean_url(u):
         u = "https:" + u
     return u.replace("&amp;", "&")
 
-
 def is_http_url(u):
     return isinstance(u, str) and (u.startswith("http://") or u.startswith("https://"))
-
 
 def is_blacklisted(url, name=""):
     parsed = urlparse(url)
@@ -127,21 +118,22 @@ def is_blacklisted(url, name=""):
             return True
     return False
 
-
 # =========================
 # 第一阶段：GitHub Search API
 # =========================
 def search_github_api(client, query):
-    github_token = os.environ.get("bot", "").strip()
+    github_token = os.environ.get("bot", "").strip() or os.environ.get("GITHUB_TOKEN", "").strip()
     api_headers = {
         "Accept": "application/vnd.github+json",
         "User-Agent": HEADERS["User-Agent"],
     }
     if github_token:
-        api_headers["Authorization"] = f"Bearer {github_token}"
+        if github_token.startswith("Bearer ") or github_token.startswith("token "):
+            api_headers["Authorization"] = github_token
+        else:
+            api_headers["Authorization"] = f"Bearer {github_token}"
 
     discovered_urls = set()
-
     # Code Search
     try:
         r = client.get(
@@ -186,22 +178,19 @@ def search_github_api(client, query):
     except Exception as e:
         print(f"[!] GitHub Repo 搜索异常: {e}")
 
+    time.sleep(1.5)
     return list(discovered_urls)
-
 
 def discover_candidate_urls(client):
     print("[*] 开始通过 GitHub Search API 深度发掘书源线索...")
     candidate_urls = set(SEED_SOURCE_URLS)
-
     for q in GITHUB_QUERIES:
         print(f"[-] 正在通过 GitHub API 检索: {q}", end="", flush=True)
         urls = search_github_api(client, q)
         print(f" -> 发现线索: {len(urls)} 条")
         candidate_urls.update(urls)
-
     print(f"[+] 候选资源链接总数 (含种子源): {len(candidate_urls)}")
     return list(candidate_urls)
-
 
 # =========================
 # yckceo 源仓库合集抓取（核心改进）
@@ -215,7 +204,6 @@ async def fetch_yckceo_collection_ids(client, max_collections=YCKCEO_MAX_COLLECT
     print("[*] 开始从 yckceo.com 抓取书源合集 ID...")
     ids = []
     seen = set()
-
     # 合集列表可能分页，先抓前几页
     for page in range(1, 6):
         url = YCKCEO_COLLECTIONS_URL if page == 1 else f"{YCKCEO_COLLECTIONS_URL}?page={page}"
@@ -224,10 +212,8 @@ async def fetch_yckceo_collection_ids(client, max_collections=YCKCEO_MAX_COLLECT
             if r.status_code != 200:
                 print(f"[!] yckceo 合集页 HTTP {r.status_code}: {url}")
                 break
-
             soup = BeautifulSoup(r.text, "html.parser")
             page_new = 0
-
             # 匹配 /yuedu/shuyuans/content/id/数字
             for a in soup.find_all("a", href=True):
                 href = a["href"]
@@ -242,7 +228,6 @@ async def fetch_yckceo_collection_ids(client, max_collections=YCKCEO_MAX_COLLECT
                 page_new += 1
                 if len(ids) >= max_collections:
                     break
-
             # 正则兜底（页面 JS/文本里也可能出现）
             if len(ids) < max_collections:
                 for m in re.finditer(r"/yuedu/shuyuans/content/id/(\d+)", r.text):
@@ -253,17 +238,14 @@ async def fetch_yckceo_collection_ids(client, max_collections=YCKCEO_MAX_COLLECT
                         page_new += 1
                         if len(ids) >= max_collections:
                             break
-
             print(f"[-] yckceo 合集第 {page} 页: 新增 {page_new} 个 ID，累计 {len(ids)}")
             if page_new == 0 or len(ids) >= max_collections:
                 break
         except Exception as e:
             print(f"[!] 抓取 yckceo 合集页异常 ({url}): {e}")
             break
-
     print(f"[+] 从 yckceo 共提取合集 ID: {len(ids)} 个")
     return ids[:max_collections]
-
 
 async def fetch_yckceo_sources(client, max_collections=YCKCEO_MAX_COLLECTIONS):
     """
@@ -273,7 +255,6 @@ async def fetch_yckceo_sources(client, max_collections=YCKCEO_MAX_COLLECTIONS):
     links = [YCKCEO_JSON_TMPL.format(id=cid) for cid in ids]
     print(f"[+] yckceo JSON 直链: {len(links)} 条")
     return links
-
 
 # =========================
 # 解析 / 清洗 / 测活
@@ -294,7 +275,6 @@ def json_loads_loose(text):
                 pass
     return None
 
-
 def looks_like_booksource(x):
     if not isinstance(x, dict):
         return False
@@ -309,7 +289,6 @@ def looks_like_booksource(x):
     rules = ["searchUrl", "ruleSearch", "ruleBookInfo", "ruleToc", "ruleContent"]
     score = sum(1 for k in rules if k in x)
     return score >= 1
-
 
 def extract_booksources(obj):
     result = []
@@ -329,7 +308,6 @@ def extract_booksources(obj):
                 result.append(v)
     return result
 
-
 def normalize_source(src):
     if not isinstance(src, dict):
         return None
@@ -340,7 +318,6 @@ def normalize_source(src):
         return None
     if "bookSourceType" not in s:
         s["bookSourceType"] = 0
-
     defaults = {
         "bookSourceGroup": "",
         "bookUrlPattern": "",
@@ -367,14 +344,12 @@ def normalize_source(src):
             s[k] = json.dumps(s[k], ensure_ascii=False, separators=(",", ":"))
     return s
 
-
 def source_hash(src):
     x = dict(src)
     for k in ["lastUpdateTime", "customOrder", "weight", "enabled", "enabledExplore", "bookSourceGroup"]:
         x.pop(k, None)
     raw = json.dumps(x, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
     return hashlib.sha256(raw.encode()).hexdigest()
-
 
 async def fetch_and_parse(client, url, semaphore):
     async with semaphore:
@@ -393,7 +368,6 @@ async def fetch_and_parse(client, url, semaphore):
             return found
         except Exception:
             return []
-
 
 async def test_source_validity(client, source, semaphore):
     """
@@ -420,17 +394,18 @@ async def test_source_validity(client, source, semaphore):
         except Exception:
             return False
 
-
 # =========================
 # 主流程
 # =========================
 async def main():
     print("[*] 启动书源同步引擎 (GitHub + yckceo 合集)...")
-
-    github_token = os.environ.get("bot", "").strip()
+    github_token = os.environ.get("bot", "").strip() or os.environ.get("GITHUB_TOKEN", "").strip()
     client_headers = dict(HEADERS)
     if github_token:
-        client_headers["Authorization"] = f"Bearer {github_token}"
+        if github_token.startswith("Bearer ") or github_token.startswith("token "):
+            client_headers["Authorization"] = github_token
+        else:
+            client_headers["Authorization"] = f"Bearer {github_token}"
 
     # 同步阶段：GitHub 发现
     with httpx.Client(headers=client_headers) as sync_client:
@@ -439,7 +414,6 @@ async def main():
     async with httpx.AsyncClient(headers=client_headers, follow_redirects=True) as client:
         # 1) yckceo 书源合集 JSON 直链
         yckceo_links = await fetch_yckceo_sources(client, max_collections=YCKCEO_MAX_COLLECTIONS)
-
         # 2) 合并候选
         candidates = list(set(candidates_github + yckceo_links))
         print(f"[+] 含 yckceo 在内，候选资源链接总数: {len(candidates)}")
@@ -470,7 +444,6 @@ async def main():
             if sh in hash_seen:
                 continue
             hash_seen.add(sh)
-
             if domain_key not in unique_sources:
                 unique_sources[domain_key] = norm
             else:
@@ -486,7 +459,6 @@ async def main():
         print("[*] 开始后端站点存活验证...")
         test_tasks = [test_source_validity(client, src, semaphore) for src in cleaned_sources]
         test_results = await asyncio.gather(*test_tasks)
-
         valid_sources = [src for src, ok in zip(cleaned_sources, test_results) if ok]
 
         if len(valid_sources) < 20 and cleaned_sources:
@@ -497,9 +469,7 @@ async def main():
 
         with open(OUTPUT_FILENAME, "w", encoding="utf-8") as f:
             json.dump(valid_sources, f, ensure_ascii=False, indent=2)
-
         print(f"[+] 完成！输出文件: {OUTPUT_FILENAME}")
-
 
 if __name__ == "__main__":
     asyncio.run(main())
