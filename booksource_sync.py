@@ -25,42 +25,51 @@ SEED_SOURCE_URLS = [
     "https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan",
     "https://cdn.jsdmirror.com/gh/XIU2/Yuedu/shuyuan",
     "https://ghfast.top/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
+    "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
 
     # =========================
-    # 2. AOAOSTAR 聚合仓库系列
+    # 2. AOAOSTAR 聚合仓库系列（2026-09-28 仍同步成功）
     # =========================
-    "https://legado.aoaostar.com/sources/b778fe6b.json",  # 全量书源
-    "https://legado.aoaostar.com/sources/71e56d4f.json",  # XIU2 精品书源
-    "https://legado.aoaostar.com/sources/4dc410d1.json",  # 破冰书源
-    "https://legado.aoaostar.com/sources/e3e5d620.json",  # shidahuilang 书源
-    "https://legado.aoaostar.com/sources/2a1f129b.json",  # 三舞校检书源
-    "https://legado.aoaostar.com/sources/bdfbc84b.json",  # 优质综合书源合集
-    "https://legado.aoaostar.com/sources/91a3b53c.json",  # 精选稳定书源
+    "https://legado.aoaostar.com/sources/b778fe6b.json",   # 全量书源 (~3907条)
+    "https://legado.aoaostar.com/sources/71e56d4f.json",   # XIU2 精品书源
+    "https://legado.aoaostar.com/sources/4dc410d1.json",   # 破冰书源
+    "https://legado.aoaostar.com/sources/e3e5d620.json",   # 关耳女频
+    "https://legado.aoaostar.com/sources/e29e19ee.json",   # shidahuilang书源
+    "https://legado.aoaostar.com/sources/2a1f129b.json",   # 酷安@三舞313书源 (~1554条)
+    "https://legado.aoaostar.com/sources/3bb7b751.json",   # 酷安@开源阅读软件 (~2117条)
 
     # =========================
-    # 3. Gitee 及国内开源平台托管源
+    # 3. Gitee / 国内开源平台托管源
     # =========================
     "https://gitee.com/YiJieSS/Yuedu/raw/master/bookSource.json",  # 一介书生源
-    "https://gitee.com/zoeybai/read/raw/Xiaobai/bangdan.json",      # 小白榜单源
-    "https://www.gitlink.org.cn/api/yi-c/yd/raw?filepath=sy.json",   # 一程书源
-    "https://gitee.com/fjhy2021/yuedu/raw/master/shuyuan.json",     # 优质维护源
-    "https://gitee.com/qishui/yuedu/raw/master/bookSource.json",     # 汽水精选源
+    "https://gitee.com/zoeybai/read/raw/Xiaobai/bangdan.json",     # 小白榜单源
+    "https://www.gitlink.org.cn/api/yi-c/yd/raw?filepath=sy.json",  # 一程书源
+    "https://gitee.com/fjhy2021/yuedu/raw/master/shuyuan.json",    # 优质维护源
+    "https://gitee.com/qishui/yuedu/raw/master/bookSource.json",   # 汽水精选源
+    "https://gitee.com/namofree/yuedu3/raw/legado3booksource/legado3_booksource_by_Namo.json",  # Namo精简带净化源
+    "https://gitee.com/no-mystery/bushixuanqi-quanwangsoushu/raw/master/全网搜书(百度、谷歌、夸克).json",  # 全网搜索引擎源
 
     # =========================
     # 4. GitHub 热门自用及分类专项精选源
     # =========================
-    "https://cdn.jsdelivr.net/gh/tickmao/Novel@master/sources/legado/full.json",
+    "https://cdn.jsdelivr.net/gh/tickmao/Novel@master/sources/legado/full.json",  # tickmao全量
     "https://raw.githubusercontent.com/jiwangyihao/source-j-legado/main/bilinovel.json",  # 轻小说源
-    "https://raw.githubusercontent.com/MoGu123456/yuedu/main/shuyuan.json",               # 蘑菇书源
-    "https://raw.githubusercontent.com/ywdblog/legado/master/shuyuan.json",               # ywdblog 经典综合源
-    "https://raw.githubusercontent.com/DesperadoJ/LegadoConfig/master/source.json",     # DesperadoJ 精选源
-    "https://raw.githubusercontent.com/astrology-1/legado/main/source.json",            # 综合书源合集
-    
+    "https://raw.githubusercontent.com/MoGu123456/yuedu/main/shuyuan.json",      # 蘑菇书源
+    "https://raw.githubusercontent.com/ywdblog/legado/master/shuyuan.json",      # ywdblog经典综合源
+    "https://raw.githubusercontent.com/DesperadoJ/LegadoConfig/master/source.json",  # DesperadoJ精选源
+    "https://raw.githubusercontent.com/astrology-1/legado/main/source.json",     # 综合书源合集
+    "https://raw.githubusercontent.com/shidahuilang/shuyuan/shuyuan/good.json",  # 识大体狼精选源
+    "https://raw.githubusercontent.com/yc-sy/yd/refs/heads/master/sy.json",      # yc聚合备用源
+    "https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/pixiv.json",         # Pixiv小说源
+    "https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/linpx.json",         # Linpx/兽人控源
+    "https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/normal.json",        # 通用搜索引擎源
+
     # =========================
     # 5. 综合/漫画/有声听书跨界源
     # =========================
-    "https://raw.githubusercontent.com/guot55/Yuedu/master/source.json",               # 听书与小说混合源
-    "https://raw.githubusercontent.com/mage520/yuedu/master/bookSource.json",           # 综合动漫/小说源
+    "https://raw.githubusercontent.com/guot55/Yuedu/master/source.json",        # 听书与小说混合源
+    "https://raw.githubusercontent.com/mage520/yuedu/master/bookSource.json",   # 综合动漫/小说源
+    "http://yuedu.miaogongzi.net/shuyuan/miaogongziDY.json",                    # 喵公子有声/动漫综合源
 ]
 
 
