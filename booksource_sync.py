@@ -43,6 +43,14 @@ SEED_SOURCE_URLS = [
     # 6. 其他综合源
     "https://raw.githubusercontent.com/shidahuilang/shuyuan/shuyuan/good.json",
     "https://shuyuan.yiove.com/sub.json",
+    "https://www.yckceo.com/yuedu/shuyuans/json/id/1298.json",#阿豪书源（精品筛选）
+    "https://www.yckceo.com/yuedu/shuyuans/json/id/1296.json",#夏鈴·再校验合并
+    "https://www.yckceo.com/yuedu/shuyuans/json/id/1290.json",#校验大合集
+    "https://www.yckceo.com/yuedu/shuyuans/json/id/1279.json",#精选 senhora
+    "https://www.yckceo.com/yuedu/shuyuans/json/id/1271.json",#合并优选书源,
+    "https://www.yckceo.com/yuedu/shuyuans/json/id/1244.json",#筛选去木马·专注读书
+    "https://www.yckceo.com/yuedu/shuyuans/json/id/1297.json",#自用小合集
+    "https://www.yckceo.com/yuedu/shuyuans/json/id/1285.json",精品书源
 ]
 
 # yckceo 书源合集 JSON 模板（由爬虫动态填充 ID）
