@@ -9,38 +9,35 @@ import configparser
 from urllib.parse import urlparse, urljoin, quote, unquote
 from bs4 import BeautifulSoup
 
+# =========================
+# 直接读取本地同目录下的 config.ini
+# =========================
 CONFIG_FILENAME = "config.ini"
 
-def load_config():
-    """加载配置文件（若不存在则直接抛出异常）"""
-    if not os.path.exists(CONFIG_FILENAME):
-        raise FileNotFoundError(f"[!] 错误：未检测到配置文件 {CONFIG_FILENAME}，请先在同级目录下创建该文件！")
+if not os.path.exists(CONFIG_FILENAME):
+    raise FileNotFoundError(f"[!] 找不到配置文件 {CONFIG_FILENAME}，请确保它与脚本在同目录下。")
 
-    config = configparser.ConfigParser(converters={
-        'list': lambda v: [line.strip() for line in v.splitlines() if line.strip()]
-    })
-    config.read(CONFIG_FILENAME, encoding="utf-8")
-    
-    settings = {
-        "WORKERS": config.getint("Settings", "workers", fallback=40),
-        "TIMEOUT": config.getint("Settings", "timeout", fallback=15),
-        "OUTPUT_FILENAME": config.get("Settings", "output_filename", fallback="exportBookSource.json"),
-        "STATS_FILENAME": config.get("Settings", "stats_filename", fallback="search_stats.csv"),
-        "SEED_SOURCE_URLS": config.getlist("Seeds", "urls", fallback=[]),
-        "SEARCH_QUERIES": config.getlist("Queries", "keywords", fallback=[])
-    }
-    return settings
+config = configparser.ConfigParser()
+config.read(CONFIG_FILENAME, encoding="utf-8")
 
-# 加载配置
-CFG = load_config()
-WORKERS = CFG["WORKERS"]
-TIMEOUT = CFG["TIMEOUT"]
-OUTPUT_FILENAME = CFG["OUTPUT_FILENAME"]
-STATS_FILENAME = CFG["STATS_FILENAME"]
-SEED_SOURCE_URLS = CFG["SEED_SOURCE_URLS"]
-SEARCH_QUERIES = CFG["SEARCH_QUERIES"]
+OUTPUT_FILENAME = config.get("Settings", "output_filename", fallback="exportBookSource.json")
+STATS_FILENAME = config.get("Settings", "stats_filename", fallback="search_stats.csv")
+WORKERS = config.getint("Settings", "workers", fallback=40)
+TIMEOUT = config.getint("Settings", "timeout", fallback=15)
 
-MAX_DOWNLOAD = 5 * 1024 * 1024
+# 从 ini 中读取种子源并按逗号或换行切分
+raw_seed_urls = config.get("Seeds", "urls", fallback="")
+SEED_SOURCE_URLS = [u.strip() for u in re.split(r'[,\n]+', raw_seed_urls) if u.strip()]
+
+# 搜索关键词矩阵
+SEARCH_QUERIES = [
+    "Legado 书源", "Legado 书源 json", "Legado 书源合集", "Legado 书源大全",
+    "Legado 最新书源", "Legado 精品书源", "Legado 免费书源", "Legado 小说书源",
+    "Legado booksource", "Legado book source.json", "阅读APP 书源合集",
+    "阅读 书源", "阅读3.0 书源", "bookSource.json", "booksource.json",
+    "site:github.com Legado 书源", "site:github.com bookSource.json",
+    "site:gitee.com Legado 书源", "2026 Legado 书源", "2026 阅读 书源"
+]
 
 BLACKLIST_DOMANS = ['baidu.com', 'qq.com', 'bilibili.com', 'zhihu.com', 'so.com']
 BLACKLIST_KEYWORDS = ['点此广告', '加群', '淘宝', '返利', 'APP下载']
@@ -141,10 +138,12 @@ def search_github_repos(client, query):
     try:
         r = client.get(url, params={"q": query, "per_page": 10, "sort": "updated"}, headers=api_headers, timeout=TIMEOUT)
         if r.status_code != 200:
+            print(f"[!] GitHub API 搜索返回状态码: {r.status_code}")
             return []
         data = r.json()
         return [x.get("html_url") for x in data.get("items", []) if x.get("html_url")]
-    except Exception:
+    except Exception as e:
+        print(f"[!] GitHub 搜索异常: {e}")
         return []
 
 def extract_file_links(page_url, html):
@@ -163,7 +162,6 @@ def extract_file_links(page_url, html):
     return result
 
 def discover_candidate_urls(client):
-    print(f"[*] 配置文件加载完毕：种子源 {len(SEED_SOURCE_URLS)} 个，搜索关键词 {len(SEARCH_QUERIES)} 个。")
     print("[*] 开始多路全网自动发现书源线索...")
     candidate_urls = set(SEED_SOURCE_URLS)
     
@@ -176,11 +174,10 @@ def discover_candidate_urls(client):
             current_stats[q] = 0
             continue
             
-        print(f"[-] 正在检索关键词: {q}", end="", flush=True)
+        print(f"[-] 正在检索关键词: {q}")
         urls = search_duckduckgo(client, q)
         hit_count = len(urls)
         current_stats[q] = hit_count
-        print(f" -> 命中有效链接: {hit_count} 个")
         
         for u in urls:
             candidate_urls.add(clean_url(u))
@@ -192,6 +189,7 @@ def discover_candidate_urls(client):
         for u in search_github_repos(client, q):
             github_repos.add(u)
             
+    print(f"[+] 命中 GitHub 仓库数: {len(github_repos)}，开始深度提取文件...")
     for repo_url in github_repos:
         try:
             r = client.get(repo_url, timeout=TIMEOUT)
