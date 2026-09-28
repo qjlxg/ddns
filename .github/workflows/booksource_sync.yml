@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'booksource_sync.py'
+      - 'config.ini'
       - '.github/workflows/booksource_sync.yml'
   schedule:
     - cron: '0 0 * * *'
@@ -42,9 +43,17 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          git pull --rebase origin main
+          # 1. 先暂存脚本运行产生的新文件/改动，避免 pull 冲突
+          git stash
+          
+          # 2. 安全拉取远端更新
+          git pull --rebase origin main || git stash drop
+          
+          # 3. 恢复本地暂存的修改
+          git stash pop || true
           
           git status
           git add exportBookSource.json search_stats.csv
           
+          # 4. 判断是否有改动，有则提交推送
           git diff --quiet && git diff --cached --quiet || (git commit -m "Auto-update valid booksources [skip ci]" && git push)
