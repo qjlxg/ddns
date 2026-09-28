@@ -59,46 +59,14 @@ YCKCEO_COLLECTIONS_URL = "https://www.yckceo.com/yuedu/shuyuans/index.html"
 # 最多抓取多少个合集（按页面出现顺序，一般越新越靠前）
 YCKCEO_MAX_COLLECTIONS = 50
 
-GITHUB_QUERIES = [
-    "filename:bookSource.json",
-    "filename:booksource.json",
-    "filename:shuyuan.json",
-    "filename:source.json",
-    "filename:sources.json",
-    "filename:bookSource",
-    "filename:shuyuan",
-    "filename:full.json path:legado",
-    "filename:*.json \"bookSourceUrl\"",
-    "bookSourceUrl ruleSearch",
-    "bookSourceName ruleContent",
-    "bookSourceUrl ruleToc",
-    "searchUrl ruleSearch ruleBookInfo",
-    "ruleSearch ruleBookInfo ruleToc ruleContent",
-    "Legado bookSource",
-    "Legado booksource",
-    "Legado source",
-    "Legado sources",
-    "Legado 书源",
-    "LegadoConfig",
-    "阅读 书源",
-    "阅读 书源 json",
-    "阅读APP 书源",
-    "阅读 app 书源",
-    "开源 阅读 书源",
-    "yuedu shuyuan",
-    "yuedu booksource",
-    "yuedu 书源",
-    "legado 书源 json",
-]
+GITHUB_QUERIES = ["Legado 书源","legado 书源 json",]
 
 BLACKLIST_DOMAINS = ["baidu.com", "qq.com", "bilibili.com", "zhihu.com", "so.com"]
 BLACKLIST_KEYWORDS = ["点此广告", "加群", "淘宝", "返利", "APP下载"]
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
      "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",}          
-  
 
-   
 
 
 # =========================
