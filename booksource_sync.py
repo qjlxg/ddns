@@ -43,7 +43,7 @@ BLACKLIST_KEYWORDS = ['点此广告', '加群', '淘宝', '返利', 'APP下载']
 FILE_RE = re.compile(r'\.(json|txt|js|yaml|yml)$', re.I)
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
     "Accept-Language": "zh-CN,zh;q=0.9",
 }
@@ -271,10 +271,8 @@ async def test_source_validity(client, source, semaphore):
             
             response = await client.get(base_url, headers=probe_headers, timeout=6.0, follow_redirects=True)
             
-            # 【防误杀容错优化】：
-            # 1. 正常的成功响应 (< 400)
-            # 2. 常见的防御/人机/权限状态码 (401, 403, 405, 412, 503) -> 服务器真实在线且有响应，判定为活源
-            if response.status_code < 400 or response.status_code in [401, 403, 405, 412, 503]:
+            # 【已清理人机验证容错】：仅认可正常成功的响应 (< 400)
+            if response.status_code < 400:
                 return True
         except Exception:
             pass
@@ -290,7 +288,6 @@ async def main():
 
     print(f"[+] 准备异步并发下载与解析 {len(candidates)} 个候选地址...")
     
-    # 移除了 http2=True，使用默认稳定可靠的 HTTP/1.1，避免缺少 h2 库报错
     async with httpx.AsyncClient(headers=HEADERS) as client:
         semaphore = asyncio.Semaphore(WORKERS)
         
