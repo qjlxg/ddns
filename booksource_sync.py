@@ -366,7 +366,7 @@ async def fetch_and_parse(client, url, semaphore):
             if response.status_code != 200:
                 return []
             # yckceo 部分合集体积较大，限制过大响应
-            if len(response.content) > 20 * 1024 * 1024:
+            if len(response.content) > 30 * 1024 * 1024:
                 print(f"[!] 跳过过大文件: {url} ({len(response.content)} bytes)")
                 return []
             obj = json_loads_loose(response.text)
