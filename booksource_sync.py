@@ -15,6 +15,15 @@ OUTPUT_FILENAME = "exportBookSource.json"
 WORKERS = 40
 TIMEOUT = 15
 
+# 搜索测活配置（任意一个关键词成功即可保留）
+TEST_KEYWORDS = [
+    "我的",
+    "斗破苍穹",
+    "完美世界",
+]
+SEARCH_TIMEOUT = 10.0
+MIN_VALID_RESULTS = 1
+
 # 预设的高质量种子源 / 聚合仓库直链（冷启动补充）
 SEED_SOURCE_URLS = [
     # 1. XIU2 精品书源（多 CDN）
@@ -43,14 +52,14 @@ SEED_SOURCE_URLS = [
     # 6. 其他综合源
     "https://raw.githubusercontent.com/shidahuilang/shuyuan/shuyuan/good.json",
     "https://shuyuan.yiove.com/sub.json",
-    "https://www.yckceo.com/yuedu/shuyuans/json/id/1298.json",#阿豪书源（精品筛选）
-    "https://www.yckceo.com/yuedu/shuyuans/json/id/1296.json",#夏鈴·再校验合并
-    "https://www.yckceo.com/yuedu/shuyuans/json/id/1290.json",#校验大合集
-    "https://www.yckceo.com/yuedu/shuyuans/json/id/1279.json",#精选 senhora
-    "https://www.yckceo.com/yuedu/shuyuans/json/id/1271.json",#合并优选书源,
-    "https://www.yckceo.com/yuedu/shuyuans/json/id/1244.json",#筛选去木马·专注读书
-    "https://www.yckceo.com/yuedu/shuyuans/json/id/1297.json",#自用小合集
-    "https://www.yckceo.com/yuedu/shuyuans/json/id/1285.json",#精品书源
+    "https://www.yckceo.com/yuedu/shuyuans/json/id/1298.json",  # 阿豪书源（精品筛选）
+    "https://www.yckceo.com/yuedu/shuyuans/json/id/1296.json",  # 夏鈴·再校验合并
+    "https://www.yckceo.com/yuedu/shuyuans/json/id/1290.json",  # 校验大合集
+    "https://www.yckceo.com/yuedu/shuyuans/json/id/1279.json",  # 精选 senhora
+    "https://www.yckceo.com/yuedu/shuyuans/json/id/1271.json",  # 合并优选书源
+    "https://www.yckceo.com/yuedu/shuyuans/json/id/1244.json",  # 筛选去木马·专注读书
+    "https://www.yckceo.com/yuedu/shuyuans/json/id/1297.json",  # 自用小合集
+    "https://www.yckceo.com/yuedu/shuyuans/json/id/1285.json",  # 精品书源
 ]
 
 # yckceo 书源合集 JSON 模板（由爬虫动态填充 ID）
@@ -59,14 +68,15 @@ YCKCEO_COLLECTIONS_URL = "https://www.yckceo.com/yuedu/shuyuans/index.html"
 # 最多抓取多少个合集（按页面出现顺序，一般越新越靠前）
 YCKCEO_MAX_COLLECTIONS = 50
 
-GITHUB_QUERIES = ["Legado 书源","legado 书源 json",]
+GITHUB_QUERIES = ["Legado 书源", "legado 书源 json"]
 
 BLACKLIST_DOMAINS = ["baidu.com", "qq.com", "bilibili.com", "zhihu.com", "so.com"]
 BLACKLIST_KEYWORDS = ["点此广告", "加群", "淘宝", "返利", "APP下载"]
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
-     "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",}          
-
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+}
 
 
 # =========================
@@ -80,8 +90,10 @@ def clean_url(u):
         u = "https:" + u
     return u.replace("&amp;", "&")
 
+
 def is_http_url(u):
     return isinstance(u, str) and (u.startswith("http://") or u.startswith("https://"))
+
 
 def is_blacklisted(url, name=""):
     parsed = urlparse(url)
@@ -93,6 +105,7 @@ def is_blacklisted(url, name=""):
         if kw in (name or ""):
             return True
     return False
+
 
 # =========================
 # 第一阶段：GitHub Search API
@@ -157,6 +170,7 @@ def search_github_api(client, query):
     time.sleep(1.5)
     return list(discovered_urls)
 
+
 def discover_candidate_urls(client):
     print("[*] 开始通过 GitHub Search API 深度发掘书源线索...")
     candidate_urls = set(SEED_SOURCE_URLS)
@@ -168,8 +182,9 @@ def discover_candidate_urls(client):
     print(f"[+] 候选资源链接总数 (含种子源): {len(candidate_urls)}")
     return list(candidate_urls)
 
+
 # =========================
-# yckceo 源仓库合集抓取（核心改进）
+# yckceo 源仓库合集抓取
 # =========================
 async def fetch_yckceo_collection_ids(client, max_collections=YCKCEO_MAX_COLLECTIONS):
     """
@@ -223,6 +238,7 @@ async def fetch_yckceo_collection_ids(client, max_collections=YCKCEO_MAX_COLLECT
     print(f"[+] 从 yckceo 共提取合集 ID: {len(ids)} 个")
     return ids[:max_collections]
 
+
 async def fetch_yckceo_sources(client, max_collections=YCKCEO_MAX_COLLECTIONS):
     """
     返回可直接下载的 yckceo 合集 JSON 直链列表。
@@ -232,8 +248,9 @@ async def fetch_yckceo_sources(client, max_collections=YCKCEO_MAX_COLLECTIONS):
     print(f"[+] yckceo JSON 直链: {len(links)} 条")
     return links
 
+
 # =========================
-# 解析 / 清洗 / 测活
+# 解析 / 清洗
 # =========================
 def json_loads_loose(text):
     text = (text or "").strip().lstrip("\ufeff")
@@ -251,6 +268,7 @@ def json_loads_loose(text):
                 pass
     return None
 
+
 def looks_like_booksource(x):
     if not isinstance(x, dict):
         return False
@@ -265,6 +283,7 @@ def looks_like_booksource(x):
     rules = ["searchUrl", "ruleSearch", "ruleBookInfo", "ruleToc", "ruleContent"]
     score = sum(1 for k in rules if k in x)
     return score >= 1
+
 
 def extract_booksources(obj):
     result = []
@@ -283,6 +302,7 @@ def extract_booksources(obj):
             elif isinstance(v, dict) and looks_like_booksource(v):
                 result.append(v)
     return result
+
 
 def normalize_source(src):
     if not isinstance(src, dict):
@@ -320,12 +340,14 @@ def normalize_source(src):
             s[k] = json.dumps(s[k], ensure_ascii=False, separators=(",", ":"))
     return s
 
+
 def source_hash(src):
     x = dict(src)
     for k in ["lastUpdateTime", "customOrder", "weight", "enabled", "enabledExplore", "bookSourceGroup"]:
         x.pop(k, None)
     raw = json.dumps(x, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
     return hashlib.sha256(raw.encode()).hexdigest()
+
 
 async def fetch_and_parse(client, url, semaphore):
     async with semaphore:
@@ -345,36 +367,190 @@ async def fetch_and_parse(client, url, semaphore):
         except Exception:
             return []
 
-async def test_source_validity(client, source, semaphore):
+
+# =========================
+# 真实搜索测活（中间方案，不完整模拟 Legado）
+# =========================
+def _safe_json(obj):
+    if isinstance(obj, str):
+        try:
+            return json.loads(obj)
+        except Exception:
+            return {}
+    return obj if isinstance(obj, dict) else {}
+
+
+def build_search_request(source, keyword):
     """
-    轻量测活：优先探测根域名可达性。
-    注意：根路径 403/404 但搜索可用的源会被误杀，故主流程有兜底。
+    尽量根据 searchUrl 构造一个可发送的请求。
+    支持：
+    - {{key}} / {key}
+    - 相对路径补全
+    - 简单 POST（如果 searchUrl 里带有 method 或 body 提示）
+    返回: (method, url, data, headers) 或 None
+    """
+    search_url = (source.get("searchUrl") or "").strip()
+    if not search_url:
+        return None
+
+    # 处理常见占位符
+    url = search_url
+    for ph in ["{{key}}", "{key}", "{{keyword}}", "{keyword}", "{{searchKey}}"]:
+        if ph in url:
+            url = url.replace(ph, keyword)
+            break
+    else:
+        # 没有占位符时尝试追加
+        if "?" in url:
+            url += f"&key={keyword}" if not url.endswith(("&", "?")) else f"key={keyword}"
+        else:
+            url += f"?key={keyword}"
+
+    # 相对路径补全
+    base = (source.get("bookSourceUrl") or "").rstrip("/")
+    if url.startswith("//"):
+        url = "https:" + url
+    elif url.startswith("/"):
+        url = urljoin(base + "/", url.lstrip("/"))
+    elif not url.startswith("http"):
+        url = urljoin(base + "/", url)
+
+    url = clean_url(url)
+
+    # 处理 header
+    headers = {
+        "User-Agent": HEADERS["User-Agent"],
+        "Accept-Language": HEADERS["Accept-Language"],
+        "Referer": source.get("bookSourceUrl", ""),
+    }
+    extra = source.get("header")
+    if isinstance(extra, str) and extra.strip():
+        try:
+            extra_h = json.loads(extra)
+            if isinstance(extra_h, dict):
+                headers.update({str(k): str(v) for k, v in extra_h.items()})
+        except Exception:
+            pass
+
+    # 简单判断是否 POST
+    method = "GET"
+    data = None
+    if ",{" in search_url or "method" in search_url.lower() or "@post" in search_url.lower():
+        method = "POST"
+        data = {"key": keyword, "searchkey": keyword, "keyword": keyword}
+
+    return method, url, data, headers
+
+
+def is_bad_page(text: str) -> bool:
+    """快速判断是否验证码 / Cloudflare / 广告 / 无关页"""
+    if not text or len(text) < 80:
+        return True
+
+    bad_signals = [
+        "验证码", "captcha", "滑动验证", "人机验证", "安全验证",
+        "访问频率过快", "请稍后再试", "请求过于频繁",
+        "cloudflare", "just a moment", "checking your browser",
+        "请开启javascript", "enable javascript",
+        "网站维护", "站点维护", "正在维护",
+        "广告", "点击下载", "立即下载app", "加群",
+        "淘宝", "返利", "优惠券",
+    ]
+    lower = text.lower()
+    return any(s in text or s in lower for s in bad_signals)
+
+
+def try_extract_books(text: str, rule_search: dict) -> list:
+    """
+    极简结果提取（不做完整 CSS/XPath/JSONPath 引擎）
+    目标：只要能拿到至少一本「看起来像小说」的结果即可。
+    返回 [{"name": ..., "url": ...}, ...]
+    """
+    results = []
+
+    # 1. 规则提示
+    book_list_sel = rule_search.get("bookList") or rule_search.get("list") or ""
+    name_sel = rule_search.get("name") or rule_search.get("bookName") or ""
+
+    # 2. 启发式：找包含中文书名 + href 的模式
+    pattern = re.compile(
+        r'<a[^>]+href=["\']([^"\']+)["\'][^>]*>\s*([^<]*[\u4e00-\u9fff]{2,20}[^<]*)\s*</a>',
+        re.I
+    )
+    for m in pattern.finditer(text):
+        href, title = m.group(1).strip(), m.group(2).strip()
+        title = re.sub(r'\s+', ' ', title)
+        if len(title) < 2 or len(title) > 40:
+            continue
+        # 过滤明显不是书名的
+        if any(x in title for x in ["首页", "登录", "注册", "排行", "分类", "搜索", "下一页", "上一页"]):
+            continue
+        results.append({"name": title, "url": href})
+        if len(results) >= 8:
+            break
+
+    # 3. 如果规则里明确有 name 选择器，且页面里出现了这些选择器字符串，也加分
+    if book_list_sel and book_list_sel in text and name_sel:
+        if not results:
+            results.append({"name": "规则匹配到列表", "url": ""})
+
+    return results
+
+
+async def test_source_by_search(client, source, semaphore):
+    """
+    真实搜索测活：
+    - 真实发起搜索
+    - 判断是否验证码/无关页
+    - 尝试提取到至少一本像样的书
+    任意一个 TEST_KEYWORDS 成功即可返回 True
     """
     async with semaphore:
-        book_url = source.get("bookSourceUrl") or ""
-        try:
-            parsed = urlparse(book_url)
-            if not parsed.scheme or not parsed.netloc:
-                return False
-            base_url = f"{parsed.scheme}://{parsed.netloc}"
-            response = await client.get(
-                base_url,
-                headers={
-                    "User-Agent": HEADERS["User-Agent"],
-                    "Accept-Language": HEADERS["Accept-Language"],
-                },
-                timeout=6.0,
-                follow_redirects=True,
-            )
-            return response.status_code < 400
-        except Exception:
+        if not (source.get("searchUrl") or "").strip():
             return False
+
+        for keyword in TEST_KEYWORDS:
+            req = build_search_request(source, keyword)
+            if not req:
+                continue
+
+            method, url, data, headers = req
+            try:
+                if method == "POST":
+                    r = await client.post(
+                        url, data=data, headers=headers,
+                        timeout=SEARCH_TIMEOUT, follow_redirects=True
+                    )
+                else:
+                    r = await client.get(
+                        url, headers=headers,
+                        timeout=SEARCH_TIMEOUT, follow_redirects=True
+                    )
+
+                if r.status_code >= 400:
+                    continue
+
+                text = r.text
+                if is_bad_page(text):
+                    continue
+
+                rule = _safe_json(source.get("ruleSearch", "{}"))
+                books = try_extract_books(text, rule)
+
+                if len(books) >= MIN_VALID_RESULTS:
+                    return True
+
+            except Exception:
+                continue
+
+        return False
+
 
 # =========================
 # 主流程
 # =========================
 async def main():
-    print("[*] 启动书源同步引擎 (GitHub + yckceo 合集)...")
+    print("[*] 启动书源同步引擎 (GitHub + yckceo 合集 + 真实搜索测活)...")
     github_token = os.environ.get("bot", "").strip() or os.environ.get("GITHUB_TOKEN", "").strip()
     client_headers = dict(HEADERS)
     if github_token:
@@ -404,7 +580,7 @@ async def main():
                 raw_sources.extend(res)
         print(f"[+] 原始解析提取出的书源总数: {len(raw_sources)}")
 
-        # 去重
+        # 去重 + 结构清洗
         unique_sources = {}
         hash_seen = set()
         for item in raw_sources:
@@ -431,21 +607,28 @@ async def main():
         cleaned_sources = list(unique_sources.values())
         print(f"[+] 去重及基础结构清洗后剩余: {len(cleaned_sources)}")
 
-        # 测活
-        print("[*] 开始后端站点存活验证...")
-        test_tasks = [test_source_validity(client, src, semaphore) for src in cleaned_sources]
+        # ========== 真实搜索测活 ==========
+        print(f"[*] 开始真实搜索验证（关键词: {TEST_KEYWORDS}）...")
+        test_tasks = [
+            test_source_by_search(client, src, semaphore)
+            for src in cleaned_sources
+        ]
         test_results = await asyncio.gather(*test_tasks)
-        valid_sources = [src for src, ok in zip(cleaned_sources, test_results) if ok]
+        valid_sources = [
+            src for src, ok in zip(cleaned_sources, test_results) if ok
+        ]
 
-        if len(valid_sources) < 20 and cleaned_sources:
-            print("[!] 存活验证过滤较多，自动回退到清洗后全量书源。")
+        print(f"[+] 搜索验证通过的书源数量: {len(valid_sources)}")
+
+        # 可选：如果过滤太狠，回退到结构清洗后的全量（方便调试）
+        if len(valid_sources) < 10 and cleaned_sources:
+            print("[!] 搜索验证过严，自动回退到结构清洗后的全量书源（仅用于调试）")
             valid_sources = cleaned_sources
-        else:
-            print(f"[+] 有效存活书源数量: {len(valid_sources)}")
 
         with open(OUTPUT_FILENAME, "w", encoding="utf-8") as f:
             json.dump(valid_sources, f, ensure_ascii=False, indent=2)
         print(f"[+] 完成！输出文件: {OUTPUT_FILENAME}")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
